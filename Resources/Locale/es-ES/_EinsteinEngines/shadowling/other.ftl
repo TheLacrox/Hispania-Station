@@ -13,7 +13,7 @@ shadowling-dead = You strangely regain your mind.
 shadowling-thrall-examined = This is your Thrall.
 shadowling-thrall-other-examined = {CAPITALIZE(POSS-ADJ($target))} eyes seem to gaze into another reality...
 
-guide-entry-shadowlings = Shadowlings
+guide-entry-shadowlings = Sombrío
 
 reagent-effect-guidebook-blind-non-sling =
     { $chance ->
