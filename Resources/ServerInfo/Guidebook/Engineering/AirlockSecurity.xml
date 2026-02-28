@@ -10,78 +10,78 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Airlock Upgrades
-  It is not uncommon for plucky individuals to try and bypass an airlock by meddling with its internal wiring.
+  # Mejoras de Esclusas
+  No es raro que individuos ingeniosos intenten eludir una esclusa manipulando su cableado interno.
 
-  Fortunately, certain countermeasures can be installed into airlocks to inconvenience any would-be trespassers.
+  Afortunadamente, se pueden instalar ciertas contramedidas en las esclusas para dificultar la tarea a cualquier posible intruso.
 
-  ## Medium security airlocks
-  The most basic form of intrusion deterrence is to install a secured steel plating that will prevent access to internal wiring of the airlock.
+  ## Esclusas de seguridad media
+  La forma más básica de disuasión contra intrusiones es instalar un revestimiento de acero asegurado que impida el acceso al cableado interno de la esclusa.
 
-  To upgrade a basic airlock to a medium security airlock, you will require the following materials:
+  Para mejorar una esclusa básica a una esclusa de seguridad media, necesitarás los siguientes materiales:
   <Box HorizontalAlignment="Stretch">
 	  <Box>
-		  <GuideEntityEmbed Entity="SheetSteel" Caption="2 steel sheets"/>
+		  <GuideEntityEmbed Entity="SheetSteel" Caption="2 láminas de acero"/>
 	  </Box>
 	  <Box>
-		  <GuideEntityEmbed Entity="Screwdriver" Caption="Screwdriver"/>
+		  <GuideEntityEmbed Entity="Screwdriver" Caption="Destornillador"/>
 	  </Box>
 	  <Box>
-		  <GuideEntityEmbed Entity="Welder" Caption="Welder"/>
+		  <GuideEntityEmbed Entity="Welder" Caption="Soldadora"/>
 	  </Box>
   </Box>
 
-  To upgrade a basic airlock:
-  -	Use the screwdriver to open the airlock maintenance panel.
-  -	Add the steel sheets to the airlock.
-  -	Weld the steel sheets into place.
-  -	Close the maintenance panel using the screwdriver.
+  Para mejorar una esclusa básica:
+  -	Usa el destornillador para abrir el panel de mantenimiento de la esclusa.
+  -	Añade las láminas de acero a la esclusa.
+  -	Suelda las láminas de acero en su lugar.
+  -	Cierra el panel de mantenimiento usando el destornillador.
 
-  ## High security airlocks
-  For airlocks leading to the more sensitive areas of the space station, the use of stronger deterrents are advised. High security airlocks have improved armor plating to protect its internal wiring.
+  ## Esclusas de alta seguridad
+  Para esclusas que conducen a las áreas más sensibles de la estación espacial, se aconseja el uso de medidas disuasorias más fuertes. Las esclusas de alta seguridad tienen un blindaje mejorado para proteger su cableado interno.
 
-  To upgrade a medium security airlock to a high security airlock, you will require the following materials:
+  Para mejorar una esclusa de seguridad media a una esclusa de alta seguridad, necesitarás los siguientes materiales:
   <Box HorizontalAlignment="Stretch">
 	  <Box>
-		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 plasteel sheets"/>
+		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 láminas de plastiacero"/>
 	  </Box>
 	  <Box>
-		  <GuideEntityEmbed Entity="Screwdriver" Caption="Screwdriver"/>
+		  <GuideEntityEmbed Entity="Screwdriver" Caption="Destornillador"/>
 	  </Box>
 	  <Box>
-		  <GuideEntityEmbed Entity="Welder" Caption="Welder"/>
+		  <GuideEntityEmbed Entity="Welder" Caption="Soldadora"/>
 	  </Box>
   </Box>
 
-  To upgrade a medium security airlock:
-  - Use the screwdriver to open the airlock maintenance panel.
-  - Add the plasteel sheets to the airlock.
-  - Weld the plasteel sheets into place.
-  - Close the maintenance panel using the screwdriver.
+  Para mejorar una esclusa de seguridad media:
+  - Usa el destornillador para abrir el panel de mantenimiento de la esclusa.
+  - Añade las láminas de plastiacero a la esclusa.
+  - Suelda las láminas de plastiacero en su lugar.
+  - Cierra el panel de mantenimiento usando el destornillador.
 
-  ## Maximum security airlocks
-  You can optionally upgrade a high security airlock to a maximum security airlock. Maximum security airlocks possess an additional layer of electrified wire mesh on top of its other protections, which can shock any unauthorized personnel attempting to tamper with the airlock.
+  ## Esclusas de máxima seguridad
+  Opcionalmente puedes mejorar una esclusa de alta seguridad a una esclusa de máxima seguridad. Las esclusas de máxima seguridad poseen una capa adicional de malla de cable electrificada sobre sus otras protecciones, que puede electrocutar a cualquier personal no autorizado que intente manipular la esclusa.
 
-  To upgrade a high security airlock to a maximum security airlock, you will require the following materials:
+  Para mejorar una esclusa de alta seguridad a una esclusa de máxima seguridad, necesitarás los siguientes materiales:
   <Box HorizontalAlignment="Stretch">
 	  <Box>
-		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 plasteel sheets"/>
+		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 láminas de plastiacero"/>
 	  </Box>
     <Box>
-      <GuideEntityEmbed Entity="PartRodMetal" Caption="2 metal rods"/>
+      <GuideEntityEmbed Entity="PartRodMetal" Caption="2 varillas metálicas"/>
     </Box>
 	  <Box>
-		  <GuideEntityEmbed Entity="Screwdriver" Caption="Screwdriver"/>
+		  <GuideEntityEmbed Entity="Screwdriver" Caption="Destornillador"/>
 	  </Box>
 	  <Box>
-		  <GuideEntityEmbed Entity="Welder" Caption="Welder"/>
+		  <GuideEntityEmbed Entity="Welder" Caption="Soldadora"/>
 	  </Box>
   </Box>
 
-  To upgrade a high security airlock:
-  -	Use the screwdriver to open the airlock maintenance panel.
-  -	Add the plasteel sheets to the airlock.
-  -	Weld the plasteel sheets into place.
-  - Add the metal rods to the airlock.
-  -	Close the maintenance panel using the screwdriver.
+  Para mejorar una esclusa de alta seguridad:
+  -	Usa el destornillador para abrir el panel de mantenimiento de la esclusa.
+  -	Añade las láminas de plastiacero a la esclusa.
+  -	Suelda las láminas de plastiacero en su lugar.
+  - Añade las varillas metálicas a la esclusa.
+  -	Cierra el panel de mantenimiento usando el destornillador.
 </Document>

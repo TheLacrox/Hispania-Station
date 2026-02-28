@@ -1,29 +1,29 @@
-﻿<Document>
+<Document>
 
-  # Plastic Sheet Production
+  # Producción de Láminas de Plástico
 
   <GuideEntityEmbed Entity="SheetPlastic"/>
 
-  Plastic sheets are versatile synthetic materials used in a wide variety of recipes. While not inherently complex to produce, they require high temperatures and multiple reagents to synthesize correctly.
+  Las láminas de plástico son materiales sintéticos versátiles utilizados en una amplia variedad de recetas. Aunque no son inherentemente complejas de producir, requieren altas temperaturas y múltiples reactivos para sintetizarse correctamente.
 
-  ## Recipe
+  ## Receta
 
-  To produce [bold]10 Plastic Sheets[/bold], combine the following in a chemical mixer and heat to at least [bold]374 Kelvin[/bold]:
+  Para producir [bold]10 Láminas de Plástico[/bold], combina lo siguiente en un mezclador químico y calienta a al menos [bold]374 Kelvin[/bold]:
 
-  — 10 units of [bold]Oil[/bold]
+  — 10 unidades de [bold]Aceite[/bold]
 
-  — 6 units of [bold]Ash[/bold]
+  — 6 unidades de [bold]Ceniza[/bold]
 
-  — 4 units of [bold]Sulfuric Acid[/bold]
+  — 4 unidades de [bold]Ácido Sulfúrico[/bold]
 
-  ## Components
+  ## Componentes
 
   <GuideReagentEmbed Reagent="Oil"/>
   <GuideReagentEmbed Reagent="Ash"/>
   <GuideReagentEmbed Reagent="SulfuricAcid"/>
 
-  ## Output
+  ## Resultado
 
-  Once complete, Plastic will appear on top of the beaker or ChemMaster. Transfer it to storage or fabrication systems as needed.
+  Una vez completado, el Plástico aparecerá encima del vaso de precipitados o del ChemMaster. Transfiérelo a los sistemas de almacenamiento o fabricación según sea necesario.
 
 </Document>

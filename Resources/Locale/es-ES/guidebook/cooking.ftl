@@ -4,13 +4,13 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-guidebook-microwave-ingredients-header = Ingredients
-guidebook-microwave-cook-time-header = Cooking Time
+guidebook-microwave-ingredients-header = Ingredientes
+guidebook-microwave-cook-time-header = Tiempo de Cocción
 guidebook-microwave-cook-time =
     { $time ->
-        [0] Instant
-        [1] [bold]1[/bold] second
-       *[other] [bold]{$time}[/bold] seconds
+        [0] Instantáneo
+        [1] [bold]1[/bold] segundo
+       *[other] [bold]{$time}[/bold] segundos
     }
 
 guidebook-microwave-reagent-color-display = [color={$color}]■[/color]

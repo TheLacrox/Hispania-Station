@@ -6,23 +6,23 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Core Rule 6 - In-game administration rulings are final
+  # Regla Principal 6 - Las decisiones de administración dentro del juego son definitivas
 
-  Incidences of admin abuse, negligence or disputed rulings can be taken to the Discord server. If an admin says something was 'looked into, handled, resolved' etc, regarding an issue, it is unlikely an admin will provide any further information. Admins are under no obligation to reveal IC information. Deliberately lying or misrepresenting facts in adminhelps will be dealt with harshly.
+  Los incidentes de abuso de admins, negligencia o decisiones disputadas pueden llevarse al servidor de Discord. Si un admin dice que algo fue 'investigado, manejado, resuelto' etc, respecto a un asunto, es poco probable que un admin proporcione más información. Los admins no tienen obligación de revelar información IC. Mentir deliberadamente o tergiversar hechos en los adminhelps será tratado con dureza.
 
-  Almost all bans may be appealed on our forums at discord.gg/goobstation in the ban appeals section. This is generally the only acceptable way to contact the administration team to discuss your ban and revise it if inappropriate, including mistaken bans.
+  Casi todos los bans pueden ser apelados en nuestros foros en discord.gg/goobstation en la sección de apelaciones de ban. Esta es generalmente la única forma aceptable de contactar al equipo de administración para discutir tu ban y revisarlo si es inapropiado, incluyendo bans por error.
 
-  Any attempt to circumvent or bypass a game ban will result in a voucher ban. Attempting to evade role bans by gaining access to or working in the capacity of a job you are banned from will result in a game ban. These bans are applied even if the evasion attempt is unsuccessful.
+  Cualquier intento de eludir o evadir un ban de juego resultará en un ban con aval. Intentar evadir bans de rol obteniendo acceso a o trabajando en la capacidad de un trabajo del que estás baneado resultará en un ban de juego. Estos bans se aplican incluso si el intento de evasión no tiene éxito.
 
-  ## Exceptions
-  There are no exemptions for evading or attempting to evade game bans. Antagonists who impersonate or take over a role which they are banned from to aid in their goals are not considered to be evading their role ban.
+  ## Excepciones
+  No hay exenciones para evadir o intentar evadir bans de juego. Los antagonistas que se hacen pasar por o toman un rol del cual están baneados para ayudar en sus objetivos no se consideran evadiendo su ban de rol.
 
-  ## Additional Information
-  - [textlink="Ban Types" link="BanTypes"]
-  - [textlink="Ban Durations" link="BanDurations"]
+  ## Información Adicional
+  - [textlink="Tipos de Ban" link="BanTypes"]
+  - [textlink="Duraciones de Ban" link="BanDurations"]
 
-  ## Precedents
-  - Incidents of admin abuse or negligence should be reported along with a date and time, along with details to pinpoint the incident in the logs, to any full admin via forum PM or posted on the admin complaints sub-forum located at https://discord.gg/goobstation. Incidents of poorly conducted admin events may also be taken to https://discord.gg/goobstation in their respective feedback threads, for less serious complaints.
-  - Lying in adminhelps, misrepresenting facts deliberately, or logging off when an admin has asked a question may result in permabans. Admins will not automatically place bans for players logging off however, and will generally wait a while in case real life situations caused a player to disconnect or go AFK.
+  ## Precedentes
+  - Los incidentes de abuso o negligencia de admins deben ser reportados junto con una fecha y hora, junto con detalles para identificar el incidente en los registros, a cualquier admin completo vía PM del foro o publicado en el subforo de quejas de admins ubicado en https://discord.gg/goobstation. Los incidentes de eventos de admins mal conducidos también pueden llevarse a https://discord.gg/goobstation en sus respectivos hilos de retroalimentación, para quejas menos serias.
+  - Mentir en los adminhelps, tergiversar hechos deliberadamente, o desconectarse cuando un admin ha hecho una pregunta puede resultar en bans permanentes. Los admins no colocarán bans automáticamente por jugadores que se desconectan sin embargo, y generalmente esperarán un tiempo en caso de que situaciones de la vida real hayan causado que un jugador se desconecte o esté AFK.
 
 </Document>

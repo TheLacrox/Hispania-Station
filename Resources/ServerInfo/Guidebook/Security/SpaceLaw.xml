@@ -8,284 +8,284 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Space Law
-  Goob Station operates under abbreviated space law. All crew, passengers, and visitors aboard the station are expected to know and follow these laws.
+  # Ley Espacial
+  Goob Station opera bajo una ley espacial abreviada. Se espera que toda la tripulacion, pasajeros y visitantes a bordo de la estacion conozcan y sigan estas leyes.
 
-  - [color=red][bold]Head of Security[/bold][/color] and especially [color=red][bold]Warden[/bold][/color] should be very familiar with space law.
-  - Security players should strive to fully comprehend Space Law.
-  - [bold]Ignoring or misuse of Space Law may be subject to punishment under incompetence. Do not play security if you do not plan to follow the rules[/bold]
-  
-  ## Treatment Of Prisoners
+  - El [color=red][bold]Jefe de Seguridad[/bold][/color] y especialmente el [color=red][bold]Guardian[/bold][/color] deben estar muy familiarizados con la ley espacial.
+  - Los jugadores de Seguridad deben esforzarse por comprender completamente la Ley Espacial.
+  - [bold]Ignorar o hacer mal uso de la Ley Espacial puede ser sujeto a castigo por incompetencia. No juegues de seguridad si no planeas seguir las reglas[/bold]
 
-  Prisoners still have rights that must be upheld by law enforcement:
+  ## Trato a los Prisioneros
 
-  - Prisoners must be granted adequate medical care. They should also be provided psychiatric and spiritual counselling if requested.
-  - Prisoners must be allowed access to communications equipment (Radios) so long as they are not abused.
-  - Prisoners must be granted clothing, food, water, shelter and safety. If the brig is no longer safe, confinement must be established in another location.
-  - Prisoners must be given access to legal counsel during an interrogation if requested and available.
-  - Prisoners must be given their shift mandated PDA during confinement. Unless there is solid proof of PDA tampering, in which case the PDA is to be secured and replaced with a fresh one
-  - Prisoners must be granted freedom of movement, and should not be restrained with handcuffs or other devices after incarceration unless there is an undue risk to life and limb. Similarly, any prisoners held for extended or permanent confinement should be held in the communal brig, and should not be confined to a solitary cell unless they pose a risk to life and limb.
+  Los prisioneros aun tienen derechos que deben ser respetados por las fuerzas del orden:
 
-  ## Searches
+  - Los prisioneros deben recibir atencion medica adecuada. Tambien deben recibir asesoria psiquiatrica y espiritual si la solicitan.
+  - Los prisioneros deben tener acceso permitido a equipos de comunicacion (Radios) siempre que no se abuse de ellos.
+  - Los prisioneros deben recibir ropa, comida, agua, refugio y seguridad. Si la brigada ya no es segura, el confinamiento debe establecerse en otra ubicacion.
+  - Los prisioneros deben tener acceso a asesoria legal durante un interrogatorio si la solicitan y esta disponible.
+  - Los prisioneros deben recibir su PDA mandatorio del turno durante el confinamiento. A menos que haya pruebas solidas de manipulacion del PDA, en cuyo caso el PDA debe ser asegurado y reemplazado por uno nuevo.
+  - Los prisioneros deben tener libertad de movimiento, y no deben ser restringidos con esposas u otros dispositivos despues del encarcelamiento a menos que haya un riesgo indebido para la vida e integridad fisica. Del mismo modo, cualquier prisionero retenido por confinamiento prolongado o permanente debe ser mantenido en la brigada comunal, y no debe ser confinado en una celda solitaria a menos que represente un riesgo para la vida e integridad fisica.
 
-  - A personnel search is a seizure of the objects in a person's backpack, hands, coat, belt, pockets, and hat. If any contraband is found during a search the officer may choose to further the search into a detainment or simply confiscate the restricted items. After the search is conducted all legal items are to be returned to the person.
+  ## Registros
 
-  - A crewmate may legally decline any search conducted without a warrant while the alert level is green. Should be noted that if the alert level is blue or above all personnel searches are legal and no longer require a warrant.
+  - Un registro personal es una confiscacion de los objetos en la mochila, manos, abrigo, cinturon, bolsillos y sombrero de una persona. Si se encuentra contrabando durante un registro, el oficial puede optar por extender el registro a una detencion o simplemente confiscar los articulos restringidos. Despues de que se realice el registro, todos los articulos legales deben ser devueltos a la persona.
 
-  ## Implantation
+  - Un tripulante puede negarse legalmente a cualquier registro realizado sin una orden mientras el nivel de alerta sea verde. Cabe senalar que si el nivel de alerta es azul o superior, todos los registros personales son legales y ya no requieren una orden.
 
-  - Any prisoner in custody can be subjected to implantation or implant removal procedures, so long as there's proof, or reasonable suspicion of an implant. The process of removing an implant should be done quickly, not holding the detainee for longer than their stated sentence. A prisoner can still be subject to receive an implant/removal if there has been clear permission given.
+  ## Implantacion
 
-  - [bold]Mind Shields[/bold]: Shields can be administered to any inmate who has been clearly mind controlled, lost control of themselves, or a suspect charged with unlawful control. Unlike standard implantation you may hold a prisoner until you finish issuing Mind Shields, so long as it's done in a timely fashion. If a suspect refuses cooperate or the implant fails to function they can be charged with Refusal of Mental Shielding.
+  - Cualquier prisionero bajo custodia puede ser sometido a procedimientos de implantacion o remocion de implantes, siempre que haya pruebas o sospechas razonables de un implante. El proceso de remover un implante debe hacerse rapidamente, sin retener al detenido mas tiempo del indicado en su sentencia. Un prisionero aun puede ser sujeto a recibir un implante/remocion si se ha dado permiso claro.
 
-  # Removal
+  - [bold]Escudos Mentales[/bold]: Los escudos pueden ser administrados a cualquier recluso que haya sido claramente controlado mentalmente, haya perdido el control de si mismo, o un sospechoso acusado de control ilicito. A diferencia de la implantacion estandar, puedes retener a un prisionero hasta que termines de administrar Escudos Mentales, siempre que se haga de manera oportuna. Si un sospechoso se niega a cooperar o el implante no funciona, puede ser acusado de Rechazo de Escudo Mental.
 
-  - A suspect can be forced to receive implant removal if there is strong reasonable proof that they have been implanted, such as an officer seeing them use one or their prints being on a discarded injector. Unlike implantation procedure a prisoner can have their sentence entirely delayed or extended until they comply with the procedure, as long as security are actively making attempts to preform it. Akin to implanting, if an inmate gives their clear permission, implant removal can proceed without proof.
+  # Remocion
 
-  ## Sentencing
-  - All sentencing is to be handled by the Warden, if no Warden is available the HoS is to take over that duty, if there's no HoS it falls onto the highest ranking security member.
+  - Un sospechoso puede ser obligado a recibir remocion de implante si hay pruebas razonables solidas de que ha sido implantado, como un oficial viendolo usarlo o sus huellas en un inyector descartado. A diferencia del procedimiento de implantacion, se puede retrasar o extender completamente la sentencia de un prisionero hasta que cumpla con el procedimiento, siempre que seguridad este haciendo intentos activos de realizarlo. Al igual que con la implantacion, si un recluso da su permiso claro, la remocion de implante puede proceder sin pruebas.
 
-  - Use common sense and humanity when issuing punishments. You should not always seek out the highest punishment you can, you don't have to always give the maximum time or always look to demote someone. Always take in account the severity and only charge for what is needed for someone to learn their lesson.
+  ## Sentencias
+  - Todas las sentencias deben ser manejadas por el Guardian. Si no hay Guardian disponible, el JdS debe asumir esa funcion. Si no hay JdS, recae en el miembro de seguridad de mayor rango.
 
-  - [bold]Accessory, Attempting, And Intention:[/bold] If someone intentionally, knowingly and substantially assists someone in enacting a crime they can be charged with the relevant crimes, such as an engineer giving someone tools, who says they are going to break into an area. Same goes for a clear and solid attempt at a crime, or a person who shows clear intent to act out a crime, such as a syndicate nuclear operative arming a nuke but getting arrested before it goes off, they can still be charged with terrorism. Does not apply to crimes that have an attempted listing already, like attempted murder.
+  - Usa el sentido comun y la humanidad al emitir castigos. No siempre debes buscar el castigo mas alto posible, no tienes que dar siempre el tiempo maximo ni siempre buscar degradar a alguien. Siempre ten en cuenta la gravedad y solo acusa por lo necesario para que alguien aprenda la leccion.
 
-  - [bold]Stackable Crimes:[/bold] Crimes are to be considered 'stackable' in the sense that if you charge someone with two or more different crimes, you should combine the times you would give them for each crime.
+  - [bold]Complicidad, Intento e Intencion:[/bold] Si alguien asiste intencional, consciente y sustancialmente a otra persona en cometer un crimen, puede ser acusado de los crimenes relevantes, como un ingeniero dando herramientas a alguien que dice que va a irrumpir en un area. Lo mismo aplica para un intento claro y solido de un crimen, o una persona que muestra clara intencion de cometer un crimen, como un operativo nuclear del sindicato armando una bomba pero siendo arrestado antes de que explote, aun puede ser acusado de terrorismo. No aplica a crimenes que ya tienen una clasificacion de intento, como intento de asesinato.
 
-  # [color=red][bold]"YOU MAY NOT EXCEED 10 MINUTES AS A BRIG TIME"[/bold][/color]
+  - [bold]Crimenes Acumulables:[/bold] Los crimenes deben considerarse 'acumulables' en el sentido de que si acusas a alguien de dos o mas crimenes diferentes, debes combinar los tiempos que le darias por cada crimen.
 
-  # Any total brig time that adds up to above 10 minutes will be shortened to meet this limit.
+  # [color=red][bold]"NO PUEDES EXCEDER 10 MINUTOS COMO TIEMPO DE BRIGADA"[/bold][/color]
 
-  # If it goes above 20 minutes, you may perma the person.
+  # Cualquier tiempo total de brigada que sume mas de 10 minutos sera reducido para cumplir este limite.
 
+  # Si supera los 20 minutos, puedes encarcelar permanentemente a la persona.
 
 
-  # Crimes
 
-  # I Degree
+  # Crimenes
 
-  For minor crimes, fix the issue then warn the person to not attempt the crime again, if they still proceed to do it at a later date, a brig time may be better.
+  # Grado I
 
-  ## Disturbance
+  Para crimenes menores, soluciona el problema y luego advierte a la persona de no intentar el crimen de nuevo. Si aun asi proceden a hacerlo en una fecha posterior, un tiempo de brigada puede ser mejor.
 
-  [bold]Description[/bold]: To cause a public disturbance.
+  ## Alteracion del Orden
 
-  [bold]Maximum Punishment:[/bold] 2:00
+  [bold]Descripcion[/bold]: Causar una alteracion publica.
 
-  [bold]Notes:[/bold] Sometimes referred to as hooliganism. The catch-all for obnoxious crewmates. Covers things such as public nudity, needless insults, obstructing authorities, and inciting crime or violence.
+  [bold]Castigo Maximo:[/bold] 2:00
 
-  ## Petty Theft
+  [bold]Notas:[/bold] A veces referido como gamberrismo. El comodin para tripulantes molestos. Cubre cosas como desnudez publica, insultos innecesarios, obstruccion a las autoridades e incitacion al crimen o la violencia.
 
-  [bold]Description[/bold]: To take non-vital or inexpensive property of another individual, organization, or common property, without consent.
+  ## Hurto Menor
 
-  [bold]Maximum Punishment:[/bold] 3:00
+  [bold]Descripcion[/bold]: Tomar propiedad no vital o de bajo valor de otro individuo, organizacion o propiedad comun, sin consentimiento.
 
-  [bold]Notes:[/bold] The difference between petty theft and grand theft is based on how crucial the stolen item is, things like instruments, clothing and tools fall under petty theft. In most cases all you need to do is detain the thief, return the stolen item and let them go with a warning.
+  [bold]Castigo Maximo:[/bold] 3:00
 
-  ## Possession/Use of Illegal Substances
+  [bold]Notas:[/bold] La diferencia entre hurto menor y robo mayor se basa en lo crucial que sea el articulo robado. Cosas como instrumentos, ropa y herramientas caen bajo hurto menor. En la mayoria de los casos solo necesitas detener al ladron, devolver el articulo robado y dejarlo ir con una advertencia.
 
-  [bold]Description[/bold]: To make, hold, or abuse restricted drugs or chemicals.
+  ## Posesion/Uso de Sustancias Ilegales
 
-  [bold]Maximum Punishment:[/bold] 3:00
+  [bold]Descripcion[/bold]: Fabricar, poseer o abusar de drogas o quimicos restringidos.
 
-  [bold]Notes: This is to be followed in accordance with Standard Operating Procedure. If anything questionable is not brought up in SOP the captain or highest standing command staff may publicly restrict it.[/bold]
+  [bold]Castigo Maximo:[/bold] 3:00
 
-  ## Tresspass
+  [bold]Notas: Esto debe seguirse de acuerdo con el Procedimiento Operativo Estandar. Si algo cuestionable no se menciona en el POE, el capitan o el personal de mando de mayor rango puede restringirlo publicamente.[/bold]
 
-  [bold]Description[/bold]: To enter a non-secured area without permission.
+  ## Intrusion
 
-  [bold]Maximum Punishment:[/bold] 2:00
+  [bold]Descripcion[/bold]: Entrar en un area no segura sin permiso.
 
-  [bold]Notes:[/bold] It's best to just remove them from the area unless this is a repeated crime.
+  [bold]Castigo Maximo:[/bold] 2:00
 
-  ## Vandalism
+  [bold]Notas:[/bold] Es mejor simplemente removerlos del area a menos que sea un crimen repetido.
 
-  [bold]Description[/bold]: To intentionally deface or superficially damage public or private property.
+  ## Vandalismo
 
-  [bold]Maximum Punishment:[/bold] 2:00
+  [bold]Descripcion[/bold]: Desfigurar intencionalmente o danar superficialmente propiedad publica o privada.
 
-  [bold]Notes:[/bold] Painting graffiti, smashing bar glasses, and cracking internal windows is vandalism, breaking a window into space or secure areas is not.
+  [bold]Castigo Maximo:[/bold] 2:00
 
+  [bold]Notas:[/bold] Pintar grafiti, romper vasos de bar y agrietar ventanas internas es vandalismo; romper una ventana hacia el espacio o areas seguras no lo es.
 
 
-  # II Degree
 
-  ## Animal Cruelty
+  # Grado II
 
-  [bold]Description[/bold]: To inflict unnecessary suffering or harm on a non-sapient being with malicious intent.
+  ## Crueldad Animal
 
-  [bold]Maximum Punishment:[/bold] 3:00
+  [bold]Descripcion[/bold]: Infligir sufrimiento o dano innecesario a un ser no sapiente con intencion maliciosa.
 
-  [bold]Notes:[/bold] This doesn't include legitimate and authorized animal testing and usually doesn't extend to vermin or creatures that could pose a threat to the station.
+  [bold]Castigo Maximo:[/bold] 3:00
 
-  ## Damage/Destruction of Property
+  [bold]Notas:[/bold] Esto no incluye pruebas con animales legitimas y autorizadas y generalmente no se extiende a alimanas o criaturas que puedan representar una amenaza para la estacion.
 
-  [bold]Description[/bold]: To maliciously damage or deface public or private property or equipment.
+  ## Dano/Destruccion de Propiedad
 
-  [bold]Maximum Punishment:[/bold] 4:00
+  [bold]Descripcion[/bold]: Danar o desfigurar maliciosamente propiedad o equipo publico o privado.
 
-  [bold]Notes:[/bold] Step up from vandalism but a step down from mass destruction.
+  [bold]Castigo Maximo:[/bold] 4:00
 
-  ## Endangerment
+  [bold]Notas:[/bold] Un paso por encima del vandalismo pero un paso por debajo de la destruccion masiva.
 
-  [bold]Description[/bold]: To recklessly put yourself or others in danger, either through direct action, or failure to act.
+  ## Puesta en Peligro
 
-  [bold]Maximum Punishment:[/bold] 4:00
+  [bold]Descripcion[/bold]: Poner imprudentemente en peligro a ti mismo o a otros, ya sea por accion directa o falta de accion.
 
-  [bold]Notes:[/bold] Covers industrial accidents, industrial negligence, self-experimentation, or even medical malpractice.
+  [bold]Castigo Maximo:[/bold] 4:00
 
-  ## Failure to Comply
+  [bold]Notas:[/bold] Cubre accidentes industriales, negligencia industrial, autoexperimentacion o incluso mala praxis medica.
 
-  [bold]Description[/bold]: To resist reasonable orders given by an authority. This extends to warrants and authorized searches.
+  ## Incumplimiento
 
-  [bold]Maximum Punishment:[/bold] 2:00
+  [bold]Descripcion[/bold]: Resistir ordenes razonables dadas por una autoridad. Esto se extiende a ordenes judiciales y registros autorizados.
 
-  [bold]Notes:[/bold] The order has to be reasonable and the person has to receive a good amount of warning before the arrest is issued.
+  [bold]Castigo Maximo:[/bold] 2:00
 
-  ## Posession of Restricted Gear
+  [bold]Notas:[/bold] La orden tiene que ser razonable y la persona debe recibir suficientes advertencias antes de que se emita el arresto.
 
-  [bold]Description[/bold]: To hold or use non-lethal items or objects that are restricted or illegal.
+  ## Posesion de Equipo Restringido
 
-  [bold]Maximum Punishment:[/bold] 5:00
+  [bold]Descripcion[/bold]: Poseer o usar articulos u objetos no letales que estan restringidos o son ilegales.
 
-  [bold]Notes:[/bold] This is mostly for syndicate contraband; EMAGs, syndicate gas masks, bloodred hardsuits, hijacked PDAs, or implants, however can sometimes extend to things the individual shouldn't possess like kevlar vests and security gear.
+  [bold]Castigo Maximo:[/bold] 5:00
 
-  ## Rioting
+  [bold]Notas:[/bold] Esto es principalmente para contrabando del sindicato; EMAGs, mascaras de gas del sindicato, trajes rojos sangre, PDAs hackeados o implantes, sin embargo a veces puede extenderse a cosas que el individuo no deberia poseer como chalecos kevlar y equipo de seguridad.
 
-  [bold]Description[/bold]: To take part in a large group of personnel creating an unlawful public disturbance.
+  ## Disturbios
 
-  [bold]Maximum Punishment:[/bold] 4:00
+  [bold]Descripcion[/bold]: Participar en un grupo grande de personal creando una alteracion publica ilegal.
 
-  [bold]Notes:[/bold] Crimes like damage of property or battery are expected to be thrown on top of this charge. Leaders of a riot can be charged with all crimes that happen under their lead.
+  [bold]Castigo Maximo:[/bold] 4:00
 
+  [bold]Notas:[/bold] Se espera que crimenes como dano a la propiedad o agresion se anadan encima de este cargo. Los lideres de un disturbio pueden ser acusados de todos los crimenes que ocurran bajo su liderazgo.
 
 
-  # III Degree
 
-  ## Assault/Battery
+  # Grado III
 
-  [bold]Description[/bold]: To threaten to or to use physical force against someone without the intent to kill.
+  ## Agresion/Lesiones
 
-  [bold]Maximum Punishment:[/bold] 6:00
+  [bold]Descripcion[/bold]: Amenazar con usar o usar fuerza fisica contra alguien sin la intencion de matar.
 
-  [bold]Notes:[/bold] Attempted murder and battery are different, make sure you've got it right.
+  [bold]Castigo Maximo:[/bold] 6:00
 
-  ## Breach of Arrest
+  [bold]Notas:[/bold] Intento de asesinato y lesiones son diferentes, asegurate de tenerlo claro.
 
-  [bold]Description[/bold]: To intentionally resist and flee arrest or detainment by an authorized staff.
+  ## Evasion de Arresto
 
-  [bold]Maximum Punishment:[/bold] 4:00
+  [bold]Descripcion[/bold]: Resistir intencionalmente y huir de un arresto o detencion por parte del personal autorizado.
 
-  [bold]Notes:[/bold] This only applies if the person is actively being physically arrested. Includes people uncuffing or assisting others out of an arrest. Breach of custody is a separate crime.
+  [bold]Castigo Maximo:[/bold] 4:00
 
-  ## Grand Theft
+  [bold]Notas:[/bold] Esto solo aplica si la persona esta siendo arrestada fisicamente de forma activa. Incluye personas que desesposan o asisten a otros a escapar de un arresto. Evasion de custodia es un crimen separado.
 
-  [bold]Description[/bold]: To take critical or unreplaceable property of another individual or organization without consent.
+  ## Robo Mayor
 
-  [bold]Maximum Punishment:[/bold] 6:00
+  [bold]Descripcion[/bold]: Tomar propiedad critica o irremplazable de otro individuo u organizacion sin consentimiento.
 
-  [bold]Notes:[/bold] The difference between petty theft and grand theft is based on how crucial the stolen item is, this mostly is used for the theft of command staff items, things like door remotes, hardsuits, jetpacks, and unreplaceable machine parts.
+  [bold]Castigo Maximo:[/bold] 6:00
 
-  ## Manslaughter
+  [bold]Notas:[/bold] La diferencia entre hurto menor y robo mayor se basa en lo crucial que sea el articulo robado. Esto se usa principalmente para el robo de articulos del personal de mando, cosas como controles remotos de puertas, trajes, jetpacks y partes de maquinas irremplazables.
 
-  [bold]Description[/bold]: To incidentally kill a sapient being without intent.
+  ## Homicidio Involuntario
 
-  [bold]Maximum Punishment:[/bold] 8:00
+  [bold]Descripcion[/bold]: Matar incidentalmente a un ser sapiente sin intencion.
 
-  [bold]Notes:[/bold] Includes manslaughter in self-defense and negligent manslaughter.
+  [bold]Castigo Maximo:[/bold] 8:00
 
-  ## Mass Destruction
+  [bold]Notas:[/bold] Incluye homicidio en defensa propia y homicidio por negligencia.
 
-  [bold]Description[/bold]: To cause massive damage to an area or major station system.
+  ## Destruccion Masiva
 
-  [bold]Maximum Punishment:[/bold] 10:00
+  [bold]Descripcion[/bold]: Causar dano masivo a un area o sistema importante de la estacion.
 
-  [bold]Notes:[/bold] This is mostly used for deadly bombings or sabotage of major station systems such as power production, cloning, substations, or atmos.
+  [bold]Castigo Maximo:[/bold] 10:00
 
-  ## Posession of Restricted Weaponry
+  [bold]Notas:[/bold] Esto se usa principalmente para bombardeos mortales o sabotaje de sistemas importantes de la estacion como produccion de energia, clonacion, subestaciones o atmosfericos.
 
-  [bold]Description[/bold]: To hold or use a weapon that is unlawful or contraband.
+  ## Posesion de Armamento Restringido
 
-  [bold]Maximum Punishment:[/bold] 6:00
+  [bold]Descripcion[/bold]: Poseer o usar un arma que sea ilegal o contrabando.
 
-  [bold]Notes:[/bold] Everything from guns without a permit, deadly blades, explosives, syndicate firearms to explosive implants.
+  [bold]Castigo Maximo:[/bold] 6:00
 
-  ## Secure Tresspass
+  [bold]Notas:[/bold] Todo desde armas de fuego sin permiso, cuchillas mortales, explosivos, armas de fuego del sindicato hasta implantes explosivos.
 
-  [bold]Description[/bold]: To enter a secured area without permission.
+  ## Intrusion en Area Segura
 
-  [bold]Maximum Punishment:[/bold] 6:00
+  [bold]Descripcion[/bold]: Entrar en un area segura sin permiso.
 
-  [bold]Notes:[/bold] This covers places like telecomms, head offices, security zones, command areas, the vault and armory.
+  [bold]Castigo Maximo:[/bold] 6:00
 
-  ## Breach of Custody
+  [bold]Notas:[/bold] Esto cubre lugares como telecomunicaciones, oficinas de jefes, zonas de seguridad, areas de mando, la boveda y la armeria.
 
-  [bold]Description[/bold]: To break out of a cell or custody with the intention of escaping.
+  ## Evasion de Custodia
 
-  [bold]Maximum Punishment:[/bold] 5:00
+  [bold]Descripcion[/bold]: Escapar de una celda o custodia con la intencion de huir.
 
-  [bold]Notes:[/bold] This time should be added on top of a prisoners current brig time. While rare, this charge can be bumped to permanent brig if the suspect has repeatedly attempted to break out of the permanent brig. Includes people breaking others out.
+  [bold]Castigo Maximo:[/bold] 5:00
 
+  [bold]Notas:[/bold] Este tiempo debe anadirse encima del tiempo de brigada actual del prisionero. Aunque es raro, este cargo puede elevarse a brigada permanente si el sospechoso ha intentado repetidamente escapar de la brigada permanente. Incluye personas que liberan a otros.
 
 
-  # IV Degree
 
-  ## Attempted Murder
+  # Grado IV
 
-  [bold]Description[/bold]: To make an attempt to use physical force against someone with the clear intent to kill.
+  ## Intento de Asesinato
 
-  [bold]Maximum Punishment:[/bold] 10:00
+  [bold]Descripcion[/bold]: Intentar usar fuerza fisica contra alguien con la clara intencion de matar.
 
-  [bold]Notes:[/bold] Make sure you've got the proof to back up the intention claims.
+  [bold]Castigo Maximo:[/bold] 10:00
 
-  ## Unlawful Control/Kidnapping/Hostage Taking
+  [bold]Notas:[/bold] Asegurate de tener las pruebas para respaldar las afirmaciones de intencion.
 
-  [bold]Description[/bold]: To unlawfully restrain, transport, control or confine a sapient being against that individual's will.
+  ## Control Ilicito/Secuestro/Toma de Rehenes
 
-  [bold]Maximum Punishment:[/bold] 10:00
+  [bold]Descripcion[/bold]: Restringir, transportar, controlar o confinar ilegalmente a un ser sapiente contra la voluntad de ese individuo.
 
-  [bold]Notes:[/bold] A large range of things, used mostly as a catch all when dealing with unlawful control of another being.
+  [bold]Castigo Maximo:[/bold] 10:00
 
-  ## Murder
+  [bold]Notas:[/bold] Una amplia gama de cosas, usado principalmente como comodin al tratar con control ilicito de otro ser.
 
-  [bold]Description[/bold]: To kill a sapient being with malicious intent.
+  ## Asesinato
 
-  [bold]Maximum Punishment:[/bold] 10:00
+  [bold]Descripcion[/bold]: Matar a un ser sapiente con intencion maliciosa.
 
-  [bold]Notes:[/bold] This only changes from attempted to full on murder if the victim enters a state of being deceased, having to be resurrected.
+  [bold]Castigo Maximo:[/bold] 10:00
 
+  [bold]Notas:[/bold] Esto solo cambia de intento a asesinato completo si la victima entra en estado de fallecimiento, teniendo que ser resucitada.
 
 
-  # V Degree
 
-  ## Mass Murder
+  # Grado V
 
-  [bold]Description[/bold]: To kill three or more sapient beings with malicious intent.
+  ## Asesinato Masivo
 
-  [bold]Maximum Punishment:[/bold] Permanent
+  [bold]Descripcion[/bold]: Matar a tres o mas seres sapientes con intencion maliciosa.
 
-  [bold]Notes:[/bold] Only applies when there have been multiple killings with intention.
+  [bold]Castigo Maximo:[/bold] Permanente
 
-  ## Prevention of Revival
+  [bold]Notas:[/bold] Solo aplica cuando ha habido multiples asesinatos con intencion.
 
-  [bold]Description[/bold]: To render a body unresurrectable.
+  ## Prevencion de Resurreccion
 
-  [bold]Maximum Punishment:[/bold] Permanent
+  [bold]Descripcion[/bold]: Hacer que un cuerpo sea irresucitable.
 
-  [bold]Notes:[/bold] This covers gibbing, spacing, intentionally hiding a body leading to it rotting, or other ways of preventing a body with a soul from being resurrected.
+  [bold]Castigo Maximo:[/bold] Permanente
 
-  ## Refusal of Mental Shielding
+  [bold]Notas:[/bold] Esto cubre despedazar, espaciar, ocultar intencionalmente un cuerpo causando que se pudra, u otras formas de prevenir que un cuerpo con alma sea resucitado.
 
-  [bold]Description[/bold]: To refuse to comply with a reasonable Mind Shielding procedure.
+  ## Rechazo de Escudo Mental
 
-  [bold]Maximum Punishment:[/bold] Permanent
+  [bold]Descripcion[/bold]: Negarse a cumplir con un procedimiento razonable de Escudo Mental.
 
-  [bold]Notes:[/bold] Applies if the suspect is excessively uncooperative or the implant fails to function due to the mental state of the prisoner already being too far gone. If the implant fails the maximum punishment is upped to Expedited Execution.
+  [bold]Castigo Maximo:[/bold] Permanente
 
-  ## Terrorism
+  [bold]Notas:[/bold] Aplica si el sospechoso es excesivamente poco cooperativo o si el implante no funciona debido a que el estado mental del prisionero ya esta demasiado deteriorado. Si el implante falla, el castigo maximo se eleva a Ejecucion Expedita.
 
-  [bold]Description[/bold]: To engage in maliciously destructive actions which threaten to destroy, or successfully destroy a vessel or habitat.
+  ## Terrorismo
 
-  [bold]Maximum Punishment:[/bold] Execution
+  [bold]Descripcion[/bold]: Participar en acciones maliciosamente destructivas que amenacen con destruir, o destruyan exitosamente una nave o habitat.
 
-  [bold]Notes:[/bold] Summed up; extreme sabotage of station systems or setting off self-destruction systems.
+  [bold]Castigo Maximo:[/bold] Ejecucion
+
+  [bold]Notas:[/bold] Resumido: sabotaje extremo de sistemas de la estacion o activacion de sistemas de autodestruccion.
 </Document>

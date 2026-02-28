@@ -4,5 +4,5 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-guide-entry-wizard = Wizard
-guide-entry-wizard-spells = Wizard Spells
+guide-entry-wizard = Mago
+guide-entry-wizard-spells = Hechizos de Mago

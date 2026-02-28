@@ -7,13 +7,13 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-guidebook-window-title = Guidebook
-guidebook-placeholder-text = Select an entry.
-guidebook-placeholder-text-2 = If you're new, head over to "New? Start here!"
-guidebook-filter-placeholder-text = Filter items
+guidebook-window-title = Guía
+guidebook-placeholder-text = Selecciona una entrada.
+guidebook-placeholder-text-2 = Si eres nuevo, ve a "¿Nuevo? ¡Empieza aquí!"
+guidebook-filter-placeholder-text = Filtrar elementos
 
-guidebook-parser-error = Parser Error
-guidebook-error-message = Error Message
+guidebook-parser-error = Error del Analizador
+guidebook-error-message = Mensaje de Error
 
-guidebook-monkey-unspin = Unspin Monkey
-guidebook-monkey-disco = Disco Monkey
+guidebook-monkey-unspin = Dejar de Girar Mono
+guidebook-monkey-disco = Mono Disco

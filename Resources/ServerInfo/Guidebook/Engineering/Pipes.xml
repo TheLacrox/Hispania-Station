@@ -6,27 +6,27 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Pipes
-  Pipes are used to distribute gasses from one place to another.
-  There are a wide variety of pipes available to construct:
+  # Tuberías
+  Las tuberías se usan para distribuir gases de un lugar a otro.
+  Hay una amplia variedad de tuberías disponibles para construir:
 
   <Box>
-    <GuideEntityEmbed Entity="GasPipeStraight" Caption="straight"/>
-    <GuideEntityEmbed Entity="GasPipeHalf" Caption="half"/>
-    <GuideEntityEmbed Entity="GasPipeBend" Caption="bend"/>
-    <GuideEntityEmbed Entity="GasPipeTJunction" Caption="T junction"/>
-    <GuideEntityEmbed Entity="GasPipeFourway" Caption="fourway"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Caption="recta"/>
+    <GuideEntityEmbed Entity="GasPipeHalf" Caption="media"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Caption="curva"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Caption="T"/>
+    <GuideEntityEmbed Entity="GasPipeFourway" Caption="cuádruple"/>
   </Box>
 
-  Pipes will [color=#a4885c]automatically connect[/color] to other pipes when anchored (or wrenched) to the hull to form a [textlink="network of pipes." link="PipeNetworks"]
-  A network of pipes is commonly called a [textlink="pipenet" link="PipeNetworks"].
+  Las tuberías se [color=#a4885c]conectarán automáticamente[/color] a otras tuberías cuando se anclen (con llave inglesa) al casco para formar una [textlink="red de tuberías." link="PipeNetworks"]
+  Una red de tuberías se conoce comúnmente como [textlink="red de tuberías" link="PipeNetworks"].
 
-  Pipes will [color=red]not connect[/color] to pipes that are already connected to a different pipe.
-  For example, building a bent pipe on top of a straight pipe to form a makeshift T-junction will not work.
+  Las tuberías [color=red]no se conectarán[/color] a tuberías que ya están conectadas a una tubería diferente.
+  Por ejemplo, construir una tubería curva encima de una tubería recta para formar una unión en T improvisada no funcionará.
 
-  However, two pipes can share a tile as long as one isn't obstructing the other's connection to another pipe.
-  For example, two bend pipes can be placed on the same tile, with one moving gas from north to east, and the other moving gas from west to south.
+  Sin embargo, dos tuberías pueden compartir una casilla siempre que una no obstruya la conexión de la otra con otra tubería.
+  Por ejemplo, dos tuberías curvas pueden colocarse en la misma casilla, con una moviendo gas de norte a este, y la otra moviendo gas de oeste a sur.
 
-  You can color pipes (and most equipment that handles gasses) using a spray painter.
-  This is commonly done to distinguish the air and waste components of the station's Distro pipenet.
+  Puedes colorear las tuberías (y la mayoría del equipo que maneja gases) usando un pintor en aerosol.
+  Esto se hace comúnmente para distinguir los componentes de aire y residuos de la red de Distribución de la estación.
 </Document>

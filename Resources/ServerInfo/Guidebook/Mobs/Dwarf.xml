@@ -8,16 +8,16 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Dwarves
+  # Enanos
 
   <Box>
     <GuideEntityEmbed Entity="MobDwarf" Caption=""/>
   </Box>
 
-  Dwarves are similar to humans in most respects, however,
-  They are not poisoned by alcohol and instead are even slightly healed by it.
-  Their mining instincts allow them to feel nearby ore in 3 tile radius.
-  They are slightly smaller than humans, though are also slightly heavier.
-  They suffocate two times faster.
+  Los enanos son similares a los humanos en la mayoría de aspectos, sin embargo,
+  no son envenenados por el alcohol y en su lugar son incluso ligeramente curados por él.
+  Sus instintos mineros les permiten sentir mineral cercano en un radio de 3 casillas.
+  Son ligeramente más pequeños que los humanos, aunque también ligeramente más pesados.
+  Se asfixian dos veces más rápido.
 
 </Document>

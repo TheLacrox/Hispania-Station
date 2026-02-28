@@ -1,25 +1,25 @@
 <Document>
-  # Chitinid
+  # Chitínido
 
   <Box>
     <GuideEntityEmbed Entity="MobChitinid" Caption=""/>
   </Box>
 
-  An industrious hymenoptera species, the Chitinid are strong and diligent. Thanks to evolution, they have grown an acute resistance to radiation, but not without its side effects.
+  Una especie himenóptera industriosa, los Chitínidos son fuertes y diligentes. Gracias a la evolución, han desarrollado una aguda resistencia a la radiación, pero no sin efectos secundarios.
 
-  ## Diet
-  - Can eat raw meat.
+  ## Dieta
+  - Pueden comer carne cruda.
 
-  ## Benefits
-  - Takes 80% less Radiation, 10% less Slash Blunt and Piercing.
-  - Their bodies naturally recover from light radiation damage up to a point, once they accumulate enough radiation they must purge it from their systems in the form of a small rock [color=#ff0f0f]WARNING:The Chitzite they expel is slightly radioactive [/color].
-  - They possess a bio light.
+  ## Beneficios
+  - Reciben un 80% menos de Radiación, un 10% menos de daño Cortante, Contundente y Perforante.
+  - Sus cuerpos se recuperan naturalmente del daño por radiación leve hasta cierto punto, una vez que acumulan suficiente radiación deben purgarla de su sistema en forma de una pequeña roca [color=#ff0f0f]ADVERTENCIA: La Chitzita que expulsan es ligeramente radiactiva[/color].
+  - Poseen una bioluz.
 
-  ## Drawbacks
-  - They take 15% more Shock damage due to their biology.
-  - Due to their hard shells normal syringes can not pierce them, requiring hypos to bypass the toughness.
-  - Thanks to their overactive systems they get hungry 33% faster.
-  - The cold does not agree with their biology and makes their movement sluggish the colder it gets, the cold also harms them more than others causing them to take 25% more damage from it.
-  - Bug Blood.
+  ## Desventajas
+  - Reciben un 15% más de daño por Descarga debido a su biología.
+  - Debido a su caparazón duro, las jeringas normales no pueden perforarlos, requiriendo hipodérmicas para atravesar su resistencia.
+  - Gracias a sus sistemas hiperactivos, sienten hambre un 33% más rápido.
+  - El frío no le sienta bien a su biología y hace que su movimiento se vuelva lento cuanto más frío hace, el frío también los daña más que a otros causando que reciban un 25% más de daño por ello.
+  - Sangre de Insecto.
 
 </Document>

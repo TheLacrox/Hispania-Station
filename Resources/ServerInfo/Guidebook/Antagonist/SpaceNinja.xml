@@ -10,77 +10,77 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Space Ninja
+  # Ninja Espacial
 
   <Box>
-    [color=#999999][italic]"Spider of the night, silent is my bite."[/italic][/color]
+    [color=#999999][italic]"Arana de la noche, silenciosa es mi mordida."[/italic][/color]
   </Box>
 
-  You are an elite mercenary that [color=#66FF00]The Spider Clan[/color] has sent to wreak all kinds of havoc on the station. You are equipped to keep it silent-but-deadly.
+  Eres un mercenario de elite que [color=#66FF00]El Clan Arana[/color] ha enviado para causar todo tipo de estragos en la estacion. Estas equipado para mantenerlo silencioso pero letal.
 
-  Whether you get bloody or stay out of trouble, your discipline has taught you that [italic]your objectives must be at least attempted[/italic]. For honor!
+  Ya sea que te manches de sangre o te mantengas fuera de problemas, tu disciplina te ha ensenado que [italic]tus objetivos deben ser al menos intentados[/italic]. Por el honor!
 
-  ## Standard Equipment
-  You begin implanted with a [color=cyan]death acidifier[/color], so if you are captured or KIA all your precious equipment is kept out of enemy hands.
+  ## Equipo Estandar
+  Comienzas implantado con un [color=cyan]acidificador mortal[/color], asi que si eres capturado o eliminado en accion, todo tu precioso equipo se mantiene fuera de manos enemigas.
 
-  Your bag is full of [bold]tools[/bold] and a [bold]survival box[/bold]. You also carry a [color=cyan]jetpack[/color] and a [color=cyan]pinpointer[/color] that will lead you to the station.
+  Tu mochila esta llena de [bold]herramientas[/bold] y una [bold]caja de supervivencia[/bold]. Tambien llevas un [color=cyan]jetpack[/color] y un [color=cyan]localizador[/color] que te guiara a la estacion.
 
   <Box>
     <GuideEntityEmbed Entity="JetpackBlack"/>
     <GuideEntityEmbed Entity="PinpointerStation"/>
   </Box>
 
-  ## Your Suit
+  ## Tu Traje
 
   <Box>
-    <GuideEntityEmbed Entity="ClothingEyesVisorNinja" Caption="your visor"/>
-    <GuideEntityEmbed Entity="ClothingOuterSuitSpaceNinja" Caption="your suit"/>
-    <GuideEntityEmbed Entity="ClothingShoesSpaceNinja" Caption="your boots"/>
+    <GuideEntityEmbed Entity="ClothingEyesVisorNinja" Caption="tu visor"/>
+    <GuideEntityEmbed Entity="ClothingOuterSuitSpaceNinja" Caption="tu traje"/>
+    <GuideEntityEmbed Entity="ClothingShoesSpaceNinja" Caption="tus botas"/>
   </Box>
 
-  Your single most important item is [color=cyan]your suit[/color], without it none of your abilities would work.
-  Your suit requires power to function, which is supplied by its [bold]internal battery[/bold]. It can be replaced, and [italic]high capacity batteries[/italic] mean a [italic]highly effective ninja[/italic].
+  Tu objeto mas importante es [color=cyan]tu traje[/color], sin el ninguna de tus habilidades funcionaria.
+  Tu traje requiere energia para funcionar, que es suministrada por su [bold]bateria interna[/bold]. Puede ser reemplazada, y las [italic]baterias de alta capacidad[/italic] significan un [italic]ninja altamente efectivo[/italic].
 
-  [bold]You can recharge your internal battery directly[/bold] by using [color=cyan]your gloves[/color]. You can see the current charge by examining the suit or checking the nifty battery alert on your screen.
+  [bold]Puedes recargar tu bateria interna directamente[/bold] usando [color=cyan]tus guantes[/color]. Puedes ver la carga actual examinando el traje o revisando la alerta de bateria en tu pantalla.
 
-  Your outfit also includes [color=cyan]special boots[/color] that keep you agile, upright and grounded without using energy. You've also got flash protection thanks to your [color=cyan]visor[/color].
+  Tu atuendo tambien incluye [color=cyan]botas especiales[/color] que te mantienen agil, de pie y anclado sin usar energia. Tambien tienes proteccion contra flashes gracias a tu [color=cyan]visor[/color].
 
-  ## Ninja Gloves
+  ## Guantes Ninja
 
   <Box>
-    <GuideEntityEmbed Entity="ClothingHandsGlovesSpaceNinja" Caption="your gloves"/>
+    <GuideEntityEmbed Entity="ClothingHandsGlovesSpaceNinja" Caption="tus guantes"/>
   </Box>
 
-  [color=#66FF00]These bad boys are your bread and butter.[/color] They are made from [bold]insulated nanomachines[/bold] to allow you to gracefully break into restricted areas without leaving behind fingerprints.
+  [color=#66FF00]Estos son tu pan de cada dia.[/color] Estan hechos de [bold]nanomaquinas aislantes[/bold] para permitirte irrumpir con gracia en areas restringidas sin dejar huellas dactilares.
 
-  You have an action to toggle gloves. When the gloves are turned on, they allow you to use [bold]special abilities[/bold], which are triggered by interacting with things with an empty hand and with combat mode disabled.
+  Tienes una accion para alternar los guantes. Cuando los guantes estan activados, te permiten usar [bold]habilidades especiales[/bold], que se activan interactuando con cosas con la mano vacia y con el modo de combate desactivado.
 
-  Your glove abilities include:
-  - Emagging doors and airlocks.
-  - Draining power from [bold]transformers[/bold] such as APCs, substations, or SMESes (higher voltage transformers drain more efficiently).
-  - Tampering with [bold]station equipment[/bold] to complete [color=#66FF00]objectives[/color].
+  Tus habilidades de guantes incluyen:
+  - Emaguear puertas y esclusas.
+  - Drenar energia de [bold]transformadores[/bold] como APCs, subestaciones o SMESes (los transformadores de mayor voltaje drenan mas eficientemente).
+  - Manipular [bold]equipo de la estacion[/bold] para completar [color=#66FF00]objetivos[/color].
 
-  ## Energy Katana
+  ## Katana de Energia
 
   <Box>
     <GuideEntityEmbed Entity="EnergyKatana"/>
   </Box>
 
-  [bold]You have sworn yourself to the sword and refuse to use firearms.[/bold] Luckily, you've got a pretty cool sword.
+  [bold]Te has jurado a la espada y te niegas a usar armas de fuego.[/bold] Afortunadamente, tienes una espada bastante genial.
 
-  Your [color=cyan]energy katana[/color] hurts plenty and can be [bold]recalled at will[/bold] at the cost of suit power. The farther away it is from you, the more energy required to recall it.
+  Tu [color=cyan]katana de energia[/color] hace mucho dano y puede ser [bold]recuperada a voluntad[/bold] a costa de energia del traje. Cuanto mas lejos este de ti, mas energia se requiere para recuperarla.
 
-  While in hand you may also [color=cyan]teleport[/color] to anywhere that you can see, [bold]including through windows[/bold]. The charges required to do this regenerate slowly, so keep a charge or two spare in case you need a quick getaway.
+  Mientras la tengas en mano tambien puedes [color=cyan]teletransportarte[/color] a cualquier lugar que puedas ver, [bold]incluso a traves de ventanas[/bold]. Las cargas requeridas para hacer esto se regeneran lentamente, asi que guarda una o dos cargas en caso de que necesites una escapada rapida.
 
-  ## Spider Clan Charge
+  ## Carga del Clan Arana
 
   <Box>
     <GuideEntityEmbed Entity="SpiderCharge"/>
   </Box>
 
-  This is a [color=cyan]modified C-4 explosive[/color] which can be found in your pocket. Creates a large explosion but [bold]must be armed in your target area[/bold] as it is one of your objectives.
+  Este es un [color=cyan]explosivo C-4 modificado[/color] que puedes encontrar en tu bolsillo. Crea una gran explosion pero [bold]debe ser armado en tu area objetivo[/bold] ya que es uno de tus objetivos.
 
-  It can't be activated manually, so simply plant it on a wall or some furniture that does not spark joy. Choose wisely, it can't be unstuck once planted.
+  No puede ser activado manualmente, asi que simplemente plantalo en una pared o algun mueble que no te alegre. Elige sabiamente, no puede ser despegado una vez plantado.
 
   ## Ninjutsu
 
@@ -88,16 +88,16 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="NinjutsuScroll"/>
   </Box>
 
-  As a true warrior of the Spider Clan, you are a master of [textlink="Ninjutsu" link="Ninjutsu"], a martial art honed over centuries by your teachers.
-  The art is not simply about strength or speed; it is about becoming one with the shadows and striking with deadly precision.
+  Como verdadero guerrero del Clan Arana, eres un maestro del [textlink="Ninjutsu" link="Ninjutsu"], un arte marcial perfeccionado durante siglos por tus maestros.
+  El arte no se trata simplemente de fuerza o velocidad; se trata de convertirse en uno con las sombras y golpear con precision mortal.
 
-  ## Objectives
+  ## Objetivos
 
-  - Download \[9-13\] research nodes: Use your gloves on an R&D server with a number of unlocked technologies. You may have to unlock technologies yourself if there aren't enough to steal already.
-  - Doorjack \[15-40\] doors on the station: Use your gloves to emag a number of doors.
-  - Detonate the spider clan charge: Plant your spider clan charge at the specified location and watch it go boom!
-  - Call in a [textlink="threat" link="MinorAntagonists"]: Use your gloves on a communications console.
-  - Set everyone to wanted: Use your gloves on a criminal records console.
-  - Survive: Don't die.
+  - Descargar \[9-13\] nodos de investigacion: Usa tus guantes en un servidor de I+D con cierto numero de tecnologias desbloqueadas. Puede que tengas que desbloquear tecnologias tu mismo si no hay suficientes para robar.
+  - Hackear \[15-40\] puertas en la estacion: Usa tus guantes para emaguear cierto numero de puertas.
+  - Detonar la carga del clan arana: Planta tu carga del clan arana en la ubicacion especificada y mira como explota!
+  - Invocar una [textlink="amenaza" link="MinorAntagonists"]: Usa tus guantes en una consola de comunicaciones.
+  - Poner a todos en busca y captura: Usa tus guantes en una consola de registros criminales.
+  - Sobrevivir: No mueras.
 
 </Document>

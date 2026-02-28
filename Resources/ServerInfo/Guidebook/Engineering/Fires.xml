@@ -13,27 +13,27 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Fires
-  Fires are arguably the most dangerous atmospheric upset that can occur on the station.
+  # Incendios
+  Los incendios son posiblemente la alteración atmosférica más peligrosa que puede ocurrir en la estación.
 
   <Box>
     <GuideEntityEmbed Entity="Firelock" Caption=""/>
     <GuideEntityEmbed Entity="FirelockGlass" Caption=""/>
   </Box>
 
-  They often make high-pressure and high-temperature gasses, which can quickly spread throughout the station if firelocks or doors are opened carelessly, even if only for a moment.
+  A menudo producen gases de alta presión y alta temperatura, que pueden propagarse rápidamente por toda la estación si las compuertas cortafuegos o puertas se abren descuidadamente, incluso si es solo por un momento.
 
-  If people are caught in a fire, they can quickly become incapacitated, die, and even ash, rendering them unrevivable.
+  Si las personas quedan atrapadas en un incendio, pueden quedar incapacitadas rápidamente, morir e incluso convertirse en cenizas, haciéndolas irrevivibles.
 
-  ## Combating Fires
-  The key elements of a fire are fuel and oxygen.
-  Removing any of these two elements will extinguish the fire.
-  For example, fires that have no oxygen flowing to them will slowly snuff themselves out, and fires that have no fuel will also extinguish themselves.
+  ## Combatir Incendios
+  Los elementos clave de un incendio son el combustible y el oxígeno.
+  Eliminar cualquiera de estos dos elementos extinguirá el fuego.
+  Por ejemplo, los incendios que no tienen flujo de oxígeno se apagarán lentamente, y los incendios que no tienen combustible también se extinguirán.
 
-  Exposing the fire to space will extinguish it, as all the gas will simply be spaced.
-  You can then [textlink="fix" link="ExpandingRepairingStation"] the [textlink="spacing" link="Spacing"] and repressurize the area.
+  Exponer el fuego al espacio lo extinguirá, ya que todo el gas simplemente será expulsado al espacio.
+  Luego puedes [textlink="reparar" link="ExpandingRepairingStation"] la [textlink="despresurización" link="Spacing"] y represurizar el área.
 
-  ## Tips
-  - [bold]Know the signs of a future fire.[/bold] If an area is filled with highly flammable gasses, it's only a matter of time before a careless passenger sets it off. Try to isolate the area and scrub the gasses out as quickly as possible.
-  - [bold]Prevent the spread of gasses using a holofan projector.[/bold] Letting gasses through a firelock can make other rooms dangerous, even for a moment. This increases the number of rooms you have to fix.
+  ## Consejos
+  - [bold]Conoce las señales de un futuro incendio.[/bold] Si un área está llena de gases altamente inflamables, es solo cuestión de tiempo antes de que un pasajero descuidado lo provoque. Intenta aislar el área y depurar los gases lo más rápido posible.
+  - [bold]Prevén la propagación de gases usando un proyector de holoventilador.[/bold] Dejar pasar gases a través de una compuerta cortafuegos puede hacer que otras habitaciones sean peligrosas, incluso por un momento. Esto aumenta el número de habitaciones que tienes que reparar.
 </Document>

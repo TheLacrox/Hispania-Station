@@ -10,10 +10,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Portable Generators
+  # Generadores Portátiles
 
-  The "P.A.C.M.A.N." line of portable generators are used to provide emergency or supplemental power to key rooms, areas, or even departments.
-  They are easy to set up and maintain, and can be used to power critical systems and areas in the event of a power outage.
+  La línea de generadores portátiles "P.A.C.M.A.N." se utiliza para proporcionar energía de emergencia o suplementaria a habitaciones clave, áreas o incluso departamentos.
+  Son fáciles de configurar y mantener, y pueden usarse para alimentar sistemas y áreas críticas en caso de un corte de energía.
 
   <Box>
     <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="J.R.P.A.C.M.A.N." />
@@ -21,21 +21,21 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="S.U.P.E.R.P.A.C.M.A.N." />
   </Box>
 
-  # The Junior
+  # El Junior
 
   <Box>
     <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="J.R.P.A.C.M.A.N." />
     <GuideEntityEmbed Entity="WeldingFuelTank" />
   </Box>
 
-  The J.R.P.A.C.M.A.N. can be found across the station in maintenance shafts, and is ideal for crew to set up themselves whenever there are power issues.
-  Its output of up to [color=orange][protodata="PortableGeneratorJrPacman" comp="FuelGenerator" member="MaxTargetPower" format="N0"/] W[/color] is enough to power a room or two, which can prove invaluable in a place like Medbay or Chemistry in the Medical Department.
+  El J.R.P.A.C.M.A.N. se puede encontrar en toda la estación en los conductos de mantenimiento, y es ideal para que la tripulación lo configure ella misma cuando haya problemas de energía.
+  Su producción de hasta [color=orange][protodata="PortableGeneratorJrPacman" comp="FuelGenerator" member="MaxTargetPower" format="N0"/] W[/color] es suficiente para alimentar una o dos habitaciones, lo que puede resultar invaluable en un lugar como la Enfermería o Química en el Departamento Médico.
 
-  Setup is incredibly easy: wrench it down above an [color=green]LV[/color] power cable, give it some welding fuel, and start it up.
+  La configuración es increíblemente fácil: anclarlo con la llave inglesa sobre un cable de energía [color=green]BV[/color], darle algo de combustible de soldadura, y encenderlo.
 
-  Welding fuel is the only fuel source the J.R.P.A.C.M.A.N. can use and it can be found in welding fuel tanks across the station, commonly in maintenance areas.
+  El combustible de soldadura es la única fuente de combustible que el J.R.P.A.C.M.A.N. puede usar y se puede encontrar en tanques de combustible de soldadura en toda la estación, comúnmente en áreas de mantenimiento.
 
-  # The Big Ones
+  # Los Grandes
 
   <Box>
     <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="P.A.C.M.A.N." />
@@ -47,12 +47,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="SheetUranium" />
   </Box>
 
-  The P.A.C.M.A.N. and S.U.P.E.R.P.A.C.M.A.N. is intended for usage by engineering for larger power outages and supplementing power in the event of a deficit.
-  Bootstrapping larger [textlink="engines" link="SingularityTeslaEngine"], powering departments, and so on.
+  El P.A.C.M.A.N. y S.U.P.E.R.P.A.C.M.A.N. están destinados para uso de ingeniería en cortes de energía más grandes y para suplementar energía en caso de un déficit.
+  Arrancar [textlink="motores" link="SingularityTeslaEngine"] más grandes, alimentar departamentos, y demás.
 
-  The S.U.P.E.R.P.A.C.M.A.N. boasts a larger power output (up to [color=orange][protodata="PortableGeneratorSuperPacman" comp="FuelGenerator" member="MaxTargetPower" format="N0"/] W[/color]) and longer runtime at maximum output, but scales down to lower outputs less efficiently.
+  El S.U.P.E.R.P.A.C.M.A.N. presume una mayor producción de energía (hasta [color=orange][protodata="PortableGeneratorSuperPacman" comp="FuelGenerator" member="MaxTargetPower" format="N0"/] W[/color]) y mayor tiempo de funcionamiento a máxima producción, pero escala a producciones menores de forma menos eficiente.
 
-  They connect directly to [color=yellow]MV[/color] or [color=orange]HV[/color] [textlink="power cables" link="VoltageNetworks"] and are able to switch between them for flexibility.
+  Se conectan directamente a cables de [textlink="energía" link="VoltageNetworks"] [color=yellow]MV[/color] o [color=orange]AV[/color] y pueden cambiar entre ellos para mayor flexibilidad.
 
-  The S.U.P.E.R.P.A.C.M.A.N and P.A.C.M.A.N require uranium sheets and plasma sheets as fuel, respectively.
+  El S.U.P.E.R.P.A.C.M.A.N y P.A.C.M.A.N requieren láminas de uranio y láminas de plasma como combustible, respectivamente.
 </Document>

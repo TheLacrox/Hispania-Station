@@ -5,20 +5,20 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-reagent-effect-status-effect-Stun = stunning
-reagent-effect-status-effect-KnockedDown = knockdown
-reagent-effect-status-effect-Jitter = jittering
-reagent-effect-status-effect-TemporaryBlindness = blindness
-reagent-effect-status-effect-SeeingRainbows = hallucinations
-reagent-effect-status-effect-Muted = inability to speak
-reagent-effect-status-effect-Stutter = stuttering
-reagent-effect-status-effect-ForcedSleep = unconsciousness
-reagent-effect-status-effect-Drunk = drunkenness
-reagent-effect-status-effect-PressureImmunity = pressure immunity
-reagent-effect-status-effect-Pacified = combat pacification
-reagent-effect-status-effect-RatvarianLanguage = ratvarian language patterns
-reagent-effect-status-effect-StaminaModifier = modified stamina
-reagent-effect-status-effect-RadiationProtection = radiation protection
-reagent-effect-status-effect-Drowsiness = drowsiness
-reagent-effect-status-effect-Adrenaline = adrenaline
+reagent-effect-status-effect-Stun = aturdimiento
+reagent-effect-status-effect-KnockedDown = derribo
+reagent-effect-status-effect-Jitter = temblores
+reagent-effect-status-effect-TemporaryBlindness = ceguera
+reagent-effect-status-effect-SeeingRainbows = alucinaciones
+reagent-effect-status-effect-Muted = incapacidad para hablar
+reagent-effect-status-effect-Stutter = tartamudeo
+reagent-effect-status-effect-ForcedSleep = inconsciencia
+reagent-effect-status-effect-Drunk = embriaguez
+reagent-effect-status-effect-PressureImmunity = inmunidad a la presión
+reagent-effect-status-effect-Pacified = pacificación de combate
+reagent-effect-status-effect-RatvarianLanguage = patrones de lenguaje ratvariano
+reagent-effect-status-effect-StaminaModifier = resistencia modificada
+reagent-effect-status-effect-RadiationProtection = protección contra radiación
+reagent-effect-status-effect-Drowsiness = somnolencia
+reagent-effect-status-effect-Adrenaline = adrenalina
 reagent-effect-status-effect-Vulgarity = vulgar

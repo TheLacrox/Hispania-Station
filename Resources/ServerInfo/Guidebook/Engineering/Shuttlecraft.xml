@@ -11,14 +11,14 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Shuttle-craft
+  # Lanzadera Espacial
 
-  Shuttle construction is straightforward, albeit rather expensive and hard to pull off within an hour.
+  La construcción de una lanzadera es sencilla, aunque bastante costosa y difícil de completar en una hora.
 
-  It's a good activity if you have a significant amount of spare time on your hands and want a bit of a challenge.
+  Es una buena actividad si tienes una cantidad significativa de tiempo libre y quieres un desafío.
 
-  ## Getting started
-  <Box>Required parts:</Box>
+  ## Primeros pasos
+  <Box>Piezas necesarias:</Box>
   <Box>
   <GuideEntityEmbed Entity="Thruster"/>
   <GuideEntityEmbed Entity="Gyroscope"/>
@@ -33,10 +33,10 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
-  <Box>Optional parts:</Box>
+  <Box>Piezas opcionales:</Box>
   <Box>
   <GuideEntityEmbed Entity="AirCanister"/>
-  <GuideEntityEmbed Entity="LightTube" Caption="lighting"/>
+  <GuideEntityEmbed Entity="LightTube" Caption="iluminación"/>
   <GuideEntityEmbed Entity="AirlockGlassShuttle"/>
   <GuideEntityEmbed Entity="SMESBasic"/>
   </Box>
@@ -45,8 +45,8 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   <GuideEntityEmbed Entity="NuclearBomb"/>
   </Box>
 
-  ## Foundation
-  For this step you'll need steel sheets, metal rods, and floor tiles (optional).
+  ## Cimientos
+  Para este paso necesitarás láminas de acero, varillas de metal y baldosas de suelo (opcionales).
 
   <Box>
     <GuideEntityEmbed Entity="SheetSteel" Caption=""/>
@@ -58,32 +58,32 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="FloorTileItemWhite" Caption=""/>
   </Box>
 
-  Head out into space with steel sheets and metal rods in hand and click on the edge of the station to place lattice.
+  Sal al espacio con láminas de acero y varillas de metal en mano y haz clic en el borde de la estación para colocar celosía.
 
-  Place a line of lattice about 3-4 tiles away from the station, then start building a platform with lattice.
+  Coloca una línea de celosía a unas 3-4 baldosas de distancia de la estación, luego comienza a construir una plataforma con celosía.
 
-  Keep doing this until you have a platform that is at least 3x3 in size, which is connected to the station via a single lattice line.
+  Continúa haciendo esto hasta que tengas una plataforma de al menos 3x3 de tamaño, conectada a la estación mediante una sola línea de celosía.
 
-  Once you're finished constructing the base of your shuttle, you can use wirecutters to snip the connecting lattice that joins your new ship and the station.
+  Una vez que hayas terminado de construir la base de tu lanzadera, puedes usar alicates de corte para cortar la celosía de conexión que une tu nuevo barco con la estación.
 
-  This platform is considered a different grid from the station and thus will not have any gravity or be held in place by a station anchor — it can move around freely.
+  Esta plataforma se considera una cuadrícula diferente a la estación y, por lo tanto, no tendrá gravedad ni estará sujeta por el ancla de la estación: puede moverse libremente.
 
-  You can expand your lattice platform further by clicking just off the edge with some rods in hand.
+  Puedes expandir tu plataforma de celosía más haciendo clic justo en el borde con algunas varillas en mano.
 
-  ## Docking Ports
-  Shuttle airlocks serve as docking ports, where ships can dock to stations safely.
+  ## Puertos de Atraque
+  Las escotillas de la lanzadera sirven como puertos de atraque, donde las naves pueden atracar con seguridad en las estaciones.
 
-  The orientation of docking ports is important, as it determines on which face the shuttle will dock.
+  La orientación de los puertos de atraque es importante, ya que determina en qué cara atracará la lanzadera.
 
-  The little numb on the bottom of the docking port determines the direction of the docking port.
+  El pequeño saliente en la parte inferior del puerto de atraque indica la dirección del mismo.
 
   <Box>
     <GuideEntityEmbed Entity="AirlockShuttle"/>
     <GuideEntityEmbed Entity="AirlockGlassShuttle"/>
   </Box>
 
-  ## Directional Control
-  From there, once you have the shape you want, bring out and install thrusters at the edges.
+  ## Control Direccional
+  A partir de ahí, una vez que tengas la forma que deseas, saca e instala propulsores en los bordes.
 
   <Box>
     <GuideEntityEmbed Entity="Thruster" Caption="" Rotation="0"/>
@@ -92,28 +92,28 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="Thruster" Caption="" Rotation="270"/>
   </Box>
 
-  It's a good idea to install four thrusters, one on each side of the platform, to ensure you can move in any direction.
+  Es una buena idea instalar cuatro propulsores, uno en cada lado de la plataforma, para asegurarte de que puedes moverte en cualquier dirección.
 
-  They must be pointing outward into space to function and will not fire if there's a tile in the way of the nozzle.
-  You can rotate thrusters—even anchored ones—using either [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] or [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] to rotate clockwise or counterclockwise.
+  Deben apuntar hacia el exterior del espacio para funcionar y no se activarán si hay una baldosa bloqueando la boquilla.
+  Puedes rotar los propulsores —incluso los anclados— usando [color=yellow][bold][keybind="RotateObjectClockwise"][/bold][/color] o [color=yellow][bold][keybind="RotateObjectCounterclockwise"][/bold][/color] para rotar en sentido horario o antihorario.
 
-  Thrusters can be disabled or enabled using [color=yellow][bold][keybind="Use"][/bold][/color] with an empty hand or [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color].
+  Los propulsores pueden desactivarse o activarse usando [color=yellow][bold][keybind="Use"][/bold][/color] con la mano vacía o [color=yellow][bold][keybind="ActivateItemInWorld"][/bold][/color].
 
-  ## Rotational Control
-  Now that you have directional control, you'll need to install a gyroscope to control your rotation.
+  ## Control de Rotación
+  Ahora que tienes control direccional, necesitarás instalar un giroscopio para controlar tu rotación.
 
   <Box>
     <GuideEntityEmbed Entity="Gyroscope"/>
   </Box>
-  The placement of the gyroscope is not as important as the thrusters, but it should be somewhere convenient for you to access and power.
+  La ubicación del giroscopio no es tan importante como la de los propulsores, pero debería estar en un lugar conveniente para acceder y conectar a la energía.
 
-  Note for large mass objects, you may need more than one gyroscope to rotate effectively.
+  Ten en cuenta que para objetos de gran masa, puede que necesites más de un giroscopio para rotar con eficacia.
 
-  ## Power
-  Now that you have all the systems in place, you'll need to power them.
+  ## Energía
+  Ahora que tienes todos los sistemas en su lugar, necesitarás alimentarlos de energía.
 
-  For small shuttles, a J.R.P.A.C.M.A.N.-type portable generator is a good choice. It provides straight LV power, so you don't have to worry about transformers.
-  Fuel for the generator is also commonly found in maintenance tunnels.
+  Para lanzaderas pequeñas, un generador portátil de tipo J.R.P.A.C.M.A.N. es una buena opción. Proporciona energía BV directamente, por lo que no tienes que preocuparte por los transformadores.
+  El combustible para el generador también se encuentra habitualmente en los túneles de mantenimiento.
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -124,9 +124,9 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </Box>
   </Box>
 
-  Some stations, however, provide much better generators and compact solutions like the Shuttle APU or the static generator.
-  These output HV and will have to be stepped down to MV and LV.
-  Luckily, these stations also usually provide wallmount substation boards for this purpose.
+  Sin embargo, algunas estaciones proporcionan generadores mucho mejores y soluciones compactas como la APU de lanzadera o el generador estático.
+  Estos producen AV y deberán reducirse a MV y BV.
+  Afortunadamente, estas estaciones también suelen proporcionar placas de subestación de montaje en pared para este propósito.
 
   <Box HorizontalAlignment="Stretch">
     <Box>
@@ -140,9 +140,9 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     </Box>
   </Box>
 
-  ## Piloting
-  Finally, install the shuttle computer wherever it is convenient and ensure all your thrusters and gyroscopes are receiving power (remember to wire the MV and LV networks!).
-  If they are, congratulations! You should have a functional shuttle!
+  ## Pilotaje
+  Por último, instala el ordenador de lanzadera donde sea conveniente y asegúrate de que todos tus propulsores y giroscopios reciben energía (¡recuerda cablear las redes MV y BV!).
+  Si es así, ¡felicidades! ¡Deberías tener una lanzadera funcional!
 
-  Making it livable and good-looking is left as an exercise to the reader.
+  Hacerla habitable y de buen aspecto se deja como ejercicio para el lector.
 </Document>

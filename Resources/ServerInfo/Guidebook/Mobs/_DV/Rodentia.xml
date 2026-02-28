@@ -15,29 +15,29 @@ SPDX-License-Identifier: AGPL-3.0-or-later
     <GuideEntityEmbed Entity="MobRodentiaDummy" Caption=""/>
   </Box>
 
-  Rodentia are a race of humanoid beings resembling rodents. Resourceful, evasive, sneaky, but fragile.
+  Los Rodentia son una raza de seres humanoides que se asemejan a roedores. Ingeniosos, evasivos, astutos, pero frágiles.
 
-  ## Diet
+  ## Dieta
 
-  - Can eat raw meat.
-  - Will get poisoned by Theobromine (Chocolate, Tea, Coffee) and Allicin (Onion, Garlic).
+  - Pueden comer carne cruda.
+  - Serán envenenados por Teobromina (Chocolate, Té, Café) y Alicina (Cebolla, Ajo).
 
-  ## Benefits
+  ## Beneficios
 
-  - Uses their claws to do some Slashing and Blunt damage.
-  - Can fit in duffelbags.
+  - Usan sus garras para infligir algo de daño Cortante y Contundente.
+  - Pueden caber en bolsas de viaje.
 
-  ## Special
+  ## Especial
 
-  - Can Rummage in disposal chutes, which can sometimes dig up food.
-  - Can store small items in their cheeks. Having items in their mouth makes their speech unintelligible, and they will drop all items in their mouth if attacked, stunned, or shoved.
-  - Can "sneak" underneath tables, but not doors.
-  - Smaller than most other species.
+  - Pueden Rebuscar en conductos de eliminación, lo que a veces puede desenterrar comida.
+  - Pueden almacenar objetos pequeños en sus mejillas. Tener objetos en la boca hace su habla ininteligible, y soltarán todos los objetos de su boca si son atacados, aturdidos o empujados.
+  - Pueden "escabullirse" por debajo de las mesas, pero no por las puertas.
+  - Son más pequeños que la mayoría de las otras especies.
 
-  ## Drawbacks
+  ## Desventajas
 
-  - Takes 15% more Blunt, Slash, and Piercing damage.
-  - Always triggers mousetraps, regardless of whether or not they are wearing shoes.
-  - Gets hungry 33% faster.
+  - Reciben un 15% más de daño Contundente, Cortante y Perforante.
+  - Siempre activan las trampas para ratones, independientemente de si llevan zapatos o no.
+  - Sienten hambre un 33% más rápido.
 
 </Document>

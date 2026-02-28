@@ -7,19 +7,19 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Moth People
+  # Personas Polilla
 
   <Box>
     <GuideEntityEmbed Entity="MobMoth" Caption=""/>
   </Box>
 
-  They can eat cotton, fabrics and clothing, but virtually none of the food that others would consider "edible". They prefer a somewhat lower temperature range than humans. They are obsessed with the number "65".
+  Pueden comer algodón, telas y ropa, pero prácticamente ninguno de los alimentos que otros considerarían "comestibles". Prefieren un rango de temperatura algo más bajo que los humanos. Están obsesionadas con el número "65".
 
-  Their wings give them better acceleration if there is no gravity on the station, but they still can't move without equipment when floating out in space.
-  They can also dash small distances once in 6.5 seconds using their wings, but that requires the gravity to be present. However they move 6.5% slower than other species due to their weak legs.
+  Sus alas les dan mejor aceleración si no hay gravedad en la estación, pero aún no pueden moverse sin equipo cuando flotan en el espacio.
+  También pueden impulsarse pequeñas distancias una vez cada 6.5 segundos usando sus alas, pero eso requiere que haya gravedad presente. Sin embargo, se mueven un 6.5% más lento que otras especies debido a sus débiles piernas.
 
-  They take [color=#1e90ff]30% less Cold damage[/color] but [color=#ffa500]30% more Heat and 6.5% more Brute damage, and catch on fire more easily[/color].
+  Reciben [color=#1e90ff]un 30% menos de daño por Frío[/color] pero [color=#ffa500]un 30% más de daño por Calor y un 6.5% más de daño Contundente, y prenden fuego más fácilmente[/color].
 
-  They are also 6.5% lighter than most species.
+  También son un 6.5% más ligeras que la mayoría de las especies.
 
 </Document>

@@ -6,19 +6,19 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Ban Durations
+  # Duraciones de Ban
 
-  Bans can be appealed at forum.ss14.io in the ban appeals section.
+  Los bans pueden ser apelados en forum.ss14.io en la sección de apelaciones de ban.
 
-  ## Temporary
-  Temporary bans will be lifted automatically after a certain amount of time. If they are a game ban, they will tell you how much time is remaining when you try to connect.
+  ## Temporal
+  Los bans temporales se levantarán automáticamente después de cierto tiempo. Si son un ban de juego, te indicarán cuánto tiempo queda cuando intentes conectarte.
 
-  ## Indefinite
-  These bans will only be removed on a successful appeal on the forums. Any ban which doesn't tell you when it expires and doesn't specify otherwise can be presumed to be an indefinite ban.
+  ## Indefinido
+  Estos bans solo se eliminarán con una apelación exitosa en los foros. Cualquier ban que no te indique cuándo expira y no especifique lo contrario puede presumirse como un ban indefinido.
 
-  ## Voucher
-  This is an indefinite ban which may only be appealed both with a successful appeal and which require a voucher of good behavior from the administrative team of a well-known or at least decently active SS13/SS14 server in order for the appeal to be considered. Voucher bans typically cannot be appealed for at least six months after being issued. Without a voucher, a player can only attempt to appeal a voucher ban once, and only if the ban was inappropriately placed. Voucher bans are typically only placed as a result of an unsuccessful appeal of an indefinite game ban by players with a history of bans and of causing issues.
+  ## Con Aval
+  Este es un ban indefinido que solo puede ser apelado tanto con una apelación exitosa como con un aval de buen comportamiento del equipo administrativo de un servidor SS13/SS14 conocido o al menos moderadamente activo para que la apelación sea considerada. Los bans con aval típicamente no pueden ser apelados hasta al menos seis meses después de ser emitidos. Sin un aval, un jugador solo puede intentar apelar un ban con aval una vez, y solo si el ban fue colocado inapropiadamente. Los bans con aval típicamente solo se aplican como resultado de una apelación fallida de un ban de juego indefinido por jugadores con historial de bans y de causar problemas.
 
-  ## Permanent
-  This is a ban that is only appealable if the ban was inappropriately placed, including if the ban should not have been permanent. If the result of the appeal is that the ban was appropriately placed, the ban may not be appealed again and will not be lifted. These bans are extremely rare, but are applied to players who continually cause problems even after a voucher ban or users who have completely unacceptable behavior may be permanently removed.
+  ## Permanente
+  Este es un ban que solo es apelable si fue colocado inapropiadamente, incluyendo si el ban no debería haber sido permanente. Si el resultado de la apelación es que el ban fue colocado apropiadamente, el ban no podrá ser apelado de nuevo y no será levantado. Estos bans son extremadamente raros, pero se aplican a jugadores que continuamente causan problemas incluso después de un ban con aval o usuarios que tienen un comportamiento completamente inaceptable y pueden ser removidos permanentemente.
 </Document>

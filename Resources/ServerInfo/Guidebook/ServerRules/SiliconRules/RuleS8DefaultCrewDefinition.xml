@@ -7,23 +7,23 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Silicon Rule 8 - Your HUD determines who is crew
-  Unless a law redefines the definition of crew, then anyone who the HUD indicates to you has a job, including passengers, is a crewmember. You cannot do something that causes someone to not be considered crew, but you can allow someone else to do something that causes someone to not be crew.
+  # Regla de Silicon 8 - Tu HUD determina quién es tripulación
+  A menos que una ley redefina la definición de tripulación, cualquiera que el HUD te indique que tiene un trabajo, incluyendo pasajeros, es un miembro de la tripulación. No puedes hacer algo que cause que alguien deje de ser considerado tripulación, pero puedes permitir que otra persona haga algo que cause que alguien deje de ser tripulación.
 
-  Under the default cyborg lawset you cannot harm any crew without an order from the AI, regardless of the harm they may bring to others.
+  Bajo el conjunto de leyes predeterminado del cyborg no puedes dañar a ninguna tripulación sin una orden de la IA, independientemente del daño que puedan causar a otros.
 
-  Crew is ANYONE with a job icon including:
+  Tripulación es CUALQUIERA con un icono de trabajo incluyendo:
   - Changelings
-  - Nuclear Operatives
-  - Heretics
+  - Agentes Nucleares
+  - Herejes
   - Zombies
-  Note: This list is not exhaustive and includes ANY being bearing a job icon
+  Nota: Esta lista no es exhaustiva e incluye CUALQUIER ser que porte un icono de trabajo
 
-  Not Crew:
-  - A captain who has lost their ID and icon
-  - An invisible person who due to being invisible has no icon
+  No Tripulación:
+  - Un capitán que ha perdido su ID e icono
+  - Una persona invisible que debido a ser invisible no tiene icono
 
-  Icons that are not job icons:
-  - Empty grey square, such as those on syndicate IDs
-  - A question mark that indicates lack of ID
+  Iconos que no son iconos de trabajo:
+  - Cuadrado gris vacío, como los de las IDs del sindicato
+  - Un signo de interrogación que indica falta de ID
 </Document>
