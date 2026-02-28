@@ -1,8 +1,8 @@
-guide-entry-wraith = Espectro
+guide-entry-wraith = Wraith
 
-guide-entry-plaguebringer = Senda del Portaplaga
-guide-entry-harbinger = Senda del Heraldo
-guide-entry-trickster = Senda del Embaucador
+guide-entry-plaguebringer = Plaguebringer path
+guide-entry-harbinger = Harbinger path
+guide-entry-trickster = Trickster path
 
-guide-entry-void-summons = Invocaciones del Vacio
-guide-entry-revenant = Aparecido
+guide-entry-void-summons = Void summons
+guide-entry-revenant = Revenant

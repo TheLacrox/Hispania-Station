@@ -1,4 +1,4 @@
-guide-entry-cosmiccult = Culto Cosmico
-guide-entry-cosmiccult-monument = El Monumento
-guide-entry-cosmiccult-influences = Influencias
-guide-entry-cosmiccult-deconversion = Desconversion
+guide-entry-cosmiccult = Cosmic Cult
+guide-entry-cosmiccult-monument = The Monument
+guide-entry-cosmiccult-influences = Influences
+guide-entry-cosmiccult-deconversion = Deconversion

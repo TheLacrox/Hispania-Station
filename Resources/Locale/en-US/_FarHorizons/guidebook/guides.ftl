@@ -1,2 +1,2 @@
-guide-entry-nuclear-reactor = Reactor Nuclear
-guide-entry-nuclear-materials = Efectos de Materiales
+guide-entry-nuclear-reactor = Nuclear Reactor
+guide-entry-nuclear-materials = Material Effects

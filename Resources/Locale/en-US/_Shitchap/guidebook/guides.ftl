@@ -6,4 +6,4 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-guide-entry-chaplain = Capellan
+guide-entry-chaplain = Chaplain
