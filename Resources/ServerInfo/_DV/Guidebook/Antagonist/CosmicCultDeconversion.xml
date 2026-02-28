@@ -1,25 +1,25 @@
 <Document>
-  # Deconversion
+  # Desconversion
   <Box>
     <GuideEntityEmbed Entity="Bible" Caption=""/>
   </Box>
 
-  When mounting an effort to thwart the [color=#4cabb3]Cosmic Cult[/color], there are several methods the crew might employ to ensure their survival and safety. One of these methods is [color=Yellow]Deconversion[/color].
+  Al intentar frustrar al [color=#4cabb3]Culto Cosmico[/color], hay varios metodos que la tripulacion puede emplear para garantizar su supervivencia y seguridad. Uno de estos metodos es la [color=Yellow]Desconversion[/color].
 
-  To [color=Yellow]Deconvert[/color] a cosmic cultist, two methods can be employed. The first is by having a cultist drink a glass of [color=#91C3F7]Holy Water[/color] — by force, if neccesary. Holy Water can be procured from:
-  - Shipments of religious supplies, available from Cargo. These contain two jugs of Holy Water, as well as a Bible.
-  - Usage of a Bible by a Chaplain on most containers of water will bless the water, turning it into Holy Water.
+  Para [color=Yellow]Desconvertir[/color] a un cultista cosmico, se pueden emplear dos metodos. El primero consiste en hacer que un cultista beba un vaso de [color=#91C3F7]Agua Bendita[/color] — por la fuerza, si es necesario. El Agua Bendita puede obtenerse de:
+  - Envios de suministros religiosos, disponibles en Carga. Estos contienen dos jarras de Agua Bendita, ademas de una Biblia.
+  - El uso de una Biblia por parte de un Capellan sobre la mayoria de los contenedores de agua bendecira el agua, convirtiendola en Agua Bendita.
 
-  ## Suppression Methods
+  ## Metodos de Supresion
   <Box>
     <GuideEntityEmbed Entity="Bible" Caption=""/>
     <GuideEntityEmbed Entity="MindShieldImplanter" Caption=""/>
   </Box>
 
-  Deconversion is but one method for dealing with an encroaching cult. Crew aboard the station may alternatively wish to invest in [color=Green]Mindshield[/color] implanters.
+  La desconversion es solo uno de los metodos para hacer frente a un culto que avanza. Los miembros de la tripulacion a bordo de la estacion pueden, alternativamente, considerar invertir en implantadores de [color=Green]Escudo Mental[/color].
 
-  These state-of-the-art devices can prevent outside influences from brainwashing crewmembers, providing a powerful utility against the cult's influence.
+  Estos dispositivos de ultima generacion pueden evitar que influencias externas manipulen mentalmente a los miembros de la tripulacion, proporcionando una poderosa utilidad contra la influencia del culto.
 
-  The [color=Yellow]Chaplain[/color]'s devotion renders them immune to nearly all of the cosmic cult's powers.
+  La devocion del [color=Yellow]Capellan[/color] los hace inmunes a casi todos los poderes del culto cosmico.
 
 </Document>

@@ -6,28 +6,28 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Atmospheric Technician SOP
-This is the list of procedures, responsibilities, and duties of the [color=#c8a404][bold]Atmospheric Technician[/bold][/color] of this station.
+# PNE del Tecnico de Atmosfera
+Esta es la lista de procedimientos, responsabilidades y deberes del [color=#c8a404][bold]Tecnico de Atmosfera[/bold][/color] de esta estacion.
 
-1. Atmospheric Technicians are permitted to re-pipe their region to suit their needs but must maintain life support to distro.
+1. Los Tecnicos de Atmosfera tienen permiso para re-tubificar su region segun sus necesidades, pero deben mantener el soporte vital hacia la distribucion.
 
-2. Atmospheric Technicians are permitted to make mixtures, but they must have a use and must be beneficial to the station and/or its engines.
-<Box>Failure to follow this may result in Termination or in severe cases Contract Nullification.</Box>
+2. Los Tecnicos de Atmosfera tienen permiso para crear mezclas, pero estas deben tener un uso y deben ser beneficiosas para la estacion y/o sus motores.
+<Box>El incumplimiento de esto puede resultar en Despido o, en casos graves, en la Nulificacion del Contrato.</Box>
 
-3. Atmospheric Technicians are permitted to cool Plasma and store it for later use in Radiation Collectors. Likewise, they are permitted to cool Nitrogen or Carbon Dioxide and store it for use as coolant for the Supermatter Engine;
+3. Los Tecnicos de Atmosfera tienen permiso para enfriar Plasma y almacenarlo para uso posterior en Colectores de Radiacion. Asimismo, tienen permiso para enfriar Nitrogeno o Dioxido de Carbono y almacenarlo para usarlo como refrigerante en el Motor de Supermateria.
 
-4. Atmospheric Technicians are not permitted to take the axe out of its case unless there is an immediate and urgent threat to their life or urgent access to crisis locations is necessary.
-<Box>The axe must be returned to the case afterwards, and the case locked.</Box>
+4. Los Tecnicos de Atmosfera no tienen permiso para sacar el hacha de su caja a menos que exista una amenaza inmediata y urgente para su vida, o que sea necesario un acceso urgente a lugares en crisis.
+<Box>El hacha debe ser devuelta a la caja posteriormente, y la caja debe quedar cerrada.</Box>
 
-5. Atmospheric Technicians are not permitted to tamper with the default values on Air Alarms, but must fix them and/or change their values for emergency situations. [bold]This does not include isolated sections for burn chambers, mixture chambers, et cetera.[/bold]
-<Box>They are, however, permitted to create small, acclimatized rooms for species that require special atmospheric conditions (such as Vox), provided they receive express permission from the Chief Engineer.</Box>
+5. Los Tecnicos de Atmosfera no tienen permiso para alterar los valores predeterminados de las Alarmas de Aire, pero deben reparar y/o cambiar sus valores en situaciones de emergencia. [bold]Esto no incluye secciones aisladas para camaras de combustion, camaras de mezcla, etcetera.[/bold]
+<Box>Sin embargo, tienen permiso para crear pequenas habitaciones aclimatadas para especies que requieren condiciones atmosfericas especiales (como los Vox), siempre que reciban permiso expreso del Jefe de Ingenieria.</Box>
 
-6. Atmospheric Technicians must periodically check on the Central Alarms Computer, in periods of, at most, thirty (30) minutes.
+6. Los Tecnicos de Atmosfera deben revisar periodicamente la Computadora de Alarmas Centrales, en intervalos de, como maximo, treinta (30) minutos.
 
-7. Atmospheric Technicians must respond promptly to piping and station breaches.
-<Box>Failure to report within fifteen (15) minutes will be considered a breach of Standard Operating Procedure, unless there are no spare Atmospheric Technicians to report, or an Engineer has arrived on scene first.</Box>
-<Box>All Hazard Zones must be cordoned off with Engineering Tape or holobarriers, for the sake of everyone else.</Box>
+7. Los Tecnicos de Atmosfera deben responder con prontitud a brechas en tuberias y en la estacion.
+<Box>No reportarse dentro de los quince (15) minutos sera considerado una violacion del Procedimiento Operativo Estandar, a menos que no haya Tecnicos de Atmosfera disponibles para responder, o que un Ingeniero ya haya llegado al lugar.</Box>
+<Box>Todas las Zonas de Peligro deben ser acordonadas con Cinta de Ingenieria o holobarreras, por la seguridad de todos.</Box>
 
-8. Atmospheric Technicians are held to the same guidelines and standards as [color=#c8a404][bold]Station Engineer[/bold][/color]s but have elevated access and their own rules for Atmospherics.
+8. Los Tecnicos de Atmosfera estan sujetos a las mismas normas y estandares que los [color=#c8a404][bold]Ingenieros de Estacion[/bold][/color], pero cuentan con acceso elevado y sus propias reglas para Atmosfera.
 
 </Document>

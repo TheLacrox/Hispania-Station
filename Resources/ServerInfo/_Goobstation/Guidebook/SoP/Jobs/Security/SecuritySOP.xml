@@ -6,12 +6,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Security Department SOP
-These are the list of SOPs that Security Personnel should follow. These are, as stated before, [bold]not checklists[/bold] and should be treated as guidelines.
+# PES del Departamento de Seguridad
+Estos son los PES que el Personal de Seguridad debe seguir. Estos son, como se ha indicado antes, [bold]no listas de verificacion[/bold] y deben tratarse como directrices.
 
-For reference, [color=#ba292c][bold]Security Officer[/bold][/color] and [color=#ba292c][bold]Security Cadet[/bold][/color] have been combined in the same entry, for ease of use.
+Como referencia, el [color=#ba292c][bold]Oficial de Seguridad[/bold][/color] y el [color=#ba292c][bold]Cadete de Seguridad[/bold][/color] han sido combinados en la misma entrada, para facilitar su uso.
 
-The following jobs have entries in this department, the [color=#1b67a5][bold]Head of Security[/bold][/color] being the Head of Staff and [color=#ba292c][bold]Warden[/bold][/color] commanding underneath them:
+Los siguientes puestos tienen entradas en este departamento, siendo el [color=#1b67a5][bold]Jefe de Seguridad[/bold][/color] el Jefe de Personal y el [color=#ba292c][bold]Carcelero[/bold][/color] comandando por debajo de el:
 - [textlink="Head of Security" link="HeadOfSecurity SOP"]
 - [textlink="Warden" link="Warden SOP"]
 - [textlink="Detective" link="Detective SOP"]

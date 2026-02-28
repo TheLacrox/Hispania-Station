@@ -6,14 +6,14 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Science Department SOP
-These are the list of SOPs that Science Personnel should follow. These are, as stated before, [bold]not checklists[/bold] and should be treated as guidelines.
+# PNE del Departamento de Ciencias
+Estos son los PNE que el Personal de Ciencias debe seguir. Estos son, como se ha indicado antes, [bold]no listas de verificacion[/bold] y deben tratarse como directrices.
 
-<Box>For clarification, Roboticist can extend to any Science personnel working on Robots.</Box>
+<Box>Para mayor claridad, Roboticista puede extenderse a cualquier personal de Ciencias que trabaje con Robots.</Box>
 
-It is expected that [color=#cc74fc]Research Assistant[/color] and [color=#cc74fc]Scientist[/color] coincide in the same SOP guidelines.
+Se espera que [color=#cc74fc]Asistente de Investigacion[/color] y [color=#cc74fc]Cientifico[/color] coincidan en las mismas directrices de PNE.
 
-The following jobs have entries in this Department, the [color=#1b67a5][bold]Research Director[/bold][/color] being the Head of Staff:
+Los siguientes puestos tienen entradas en este Departamento, siendo el [color=#1b67a5][bold]Director de Investigacion[/bold][/color] el Jefe de Personal:
 - [textlink="Research Director" link="ResearchDirectorSOP"]
 - [textlink="Roboticist" link="RoboticistSOP"]
 - [textlink="Scientist" link="ScientistSOP"]

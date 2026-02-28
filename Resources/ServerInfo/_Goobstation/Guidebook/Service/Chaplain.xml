@@ -1,9 +1,9 @@
 <Document>
-# Chaplain
-There's something about the vast infinity of space that turns men to prayer... Especially if they get thrown into it without a space suit.
+# Capellan
+Hay algo en la vasta infinidad del espacio que lleva a los hombres a rezar... Especialmente si los lanzan al vacio sin traje espacial.
 
 
-As a chaplain, you would ideally proselytize whatever crazy religion you've made up for that round over your headset. However, besides your office, the hellish crematorium next to your office, and the rarely used morgue, you have no access.
+Como capellan, lo ideal seria que predicaras la religion alocada que hayas inventado para esa ronda a traves de tu auricular. Sin embargo, ademas de tu oficina, el crematorio infernal junto a tu oficina y la morgue raramente utilizada, no tienes acceso a ninguna otra area.
 
   <Box>
     <GuideEntityEmbed Entity="Bible"/>
@@ -11,10 +11,10 @@ As a chaplain, you would ideally proselytize whatever crazy religion you've made
     <GuideEntityEmbed Entity="ArmamentsBeacon"/>
   </Box>
 
-## Religions:
-You are free to propagate any present day religions you know of, or even invent one of your own! Just make sure it doesn't go against NanoTrasen and its values, or you may well end up in the brig.
+## Religiones:
+Eres libre de difundir cualquier religion del presente que conozcas, o incluso inventar la tuya propia! Solo asegurate de que no vaya en contra de NanoTrasen y sus valores, o podrias acabar en el calabozo.
 
-If you don't already have one, build an altar and find an offering to place on-top:
+Si aun no tienes uno, construye un altar y encuentra una ofrenda para colocar encima:
 
   <Box>
     <GuideEntityEmbed Entity="AltarBananium"/>
@@ -36,56 +36,56 @@ If you don't already have one, build an altar and find an offering to place on-t
     <GuideEntityEmbed Entity="AltarEmpire"/>
   </Box>
 
-These altars can be constructed by placing the following offerings atop your base convert altar:
+Estos altares se pueden construir colocando las siguientes ofrendas sobre tu altar de conversion base:
 
-- Bananium Altar: 1 x Bananium
-- Chaos Altar: 1 x Plasma
-- Druid Altar: 1 x Wooden Plank
-- Fanged Altar: 1 x Raw Meat
-- Heaven Altar: 1 x Templar Helmet
-- Maints Altar: 1 x Budget Insulated Gloves
-- Nanotrasen Altar: 1 x Plasteel
-- Space-Christian Altar: 1 x Nun Hood
-- Technology Altar: 1 x Capacitor
-- Toolbox Altar: 1 x Toolbox
-- Clockwork Altar: 1 x Small Power Cell
-- Draconic Altar: 1 x Carp plushie
-- Imperial altar: 1 x Book
+- Altar de Bananium: 1 x Bananium
+- Altar del Caos: 1 x Plasma
+- Altar Druida: 1 x Tabla de madera
+- Altar Colmillos: 1 x Carne cruda
+- Altar del Cielo: 1 x Casco de Templario
+- Altar de Mantenimiento: 1 x Guantes aislantes de presupuesto
+- Altar de Nanotrasen: 1 x Plasteel
+- Altar Cristiano Espacial: 1 x Capucha de monja
+- Altar de la Tecnologia: 1 x Condensador
+- Altar de la Caja de Herramientas: 1 x Caja de herramientas
+- Altar Clockwork: 1 x Celda de energia pequena
+- Altar Draconico: 1 x Peluche de carpa
+- Altar Imperial: 1 x Libro
 
-## Holy Artefacts
+## Artefactos Sagrados
 
-### Armaments Beacon
-Allows you to choose a set of armor. All armors have identical stats.
+### Baliza de Armamentos
+Te permite elegir un conjunto de armadura. Todas las armaduras tienen estadisticas identicas.
 
-### Null Rod
-The obsidian rod will be your defense against the forces of evil. [color=blue][bold] Having it in your hands will make you completely immune to the effects of magic. [/bold][/color]
+### Baston Nulo
+El baston de obsidiana sera tu defensa contra las fuerzas del mal. [color=blue][bold] Tenerlo en tus manos te hara completamente inmune a los efectos de la magia. [/bold][/color]
 
-You can transform it into a holy weapon of choice by placing it on an altar!
+Puedes transformarlo en un arma sagrada de tu eleccion colocandolo en un altar!
 
-### Enchanting
+### Encantamiento
 
-You can use your Bible and any Altar of your choosing to [textlink="enchant items." link="Enchanting"]
+Puedes usar tu Biblia y cualquier Altar de tu eleccion para [textlink="encantar objetos." link="Enchanting"]
 
-### Spirit Candles
-You can craft a spirit candle by putting a candle on a skull. Spirit Candles are useful against evil spirits like Wraith.
+### Velas Espirituales
+Puedes fabricar una vela espiritual colocando una vela sobre un craneo. Las velas espirituales son utiles contra los espiritus malignos como el Wraith.
 
-When they are ignited, they create a 12x12 tile area that reveals evil spirits. It also has a special function when you use it in-hand.
-By using it [bold]when an evil spirit is within(!!) your 12x12 area[/bold], it will make them corporeal.
+Cuando se encienden, crean un area de 12x12 baldosas que revela a los espiritus malignos. Tambien tiene una funcion especial cuando la usas en mano.
+Al usarla [bold]cuando un espiritu maligno esta dentro de(!!) tu area de 12x12[/bold], lo volvera corporal.
 
-It has 2 charges per spirit candle, and [bold]it only consumes a charge when you reveal the evil spirit[/bold].
+Tiene 2 cargas por vela espiritual, y [bold]solo consume una carga cuando revelas al espiritu maligno[/bold].
 
-It drops the skull once the candle has melted, so you can craft another one.
+Suelta el craneo una vez que la vela se haya derretido, para que puedas fabricar otra.
 
-## Duties
+## Deberes
 
-- Church Services: Give sermons and sing hymns.
-- Proselytizing: Most crew members are godless heathens, show them god's love.
-- Burial Services: Security or Medical may require someone, or something... to be cremated, familiarise yourself with your Chapel so you can make things quick!
-- [bold] Metaphysical Investigation: Most crew aren't aware of the threats posed by the unholy, be on the look out for anything suspicious. [/bold]
+- Servicios Religiosos: Da sermones y canta himnos.
+- Proselitismo: La mayoria de los miembros de la tripulacion son paganos sin dios, muestrasles el amor de dios.
+- Servicios Funerarios: Seguridad o Medicos pueden necesitar que alguien, o algo... sea cremado, familiarizate con tu Capilla para poder hacer las cosas con rapidez!
+- [bold] Investigacion Metafisica: La mayoria de la tripulacion no es consciente de las amenazas que representan los seres impios, estate atento a cualquier cosa sospechosa. [/bold]
 
-### Metaphysical Threats
-As Chaplain you are the first line of defence against metaphysical threats, [bold] ready your Null Rod - the time is now. [/bold]
+### Amenazas Metafisicas
+Como Capellan eres la primera linea de defensa contra las amenazas metafisicas, [bold] prepara tu Baston Nulo - el momento ha llegado. [/bold]
 
-[color=red][bold] Use of excessive force against targets which you cannot confirm are metaphysical threats may land you in trouble with the law, use caution and investigate carefully. [/bold][/color]
+[color=red][bold] El uso de fuerza excesiva contra objetivos que no puedas confirmar que son amenazas metafisicas puede meterte en problemas con la ley, actua con cautela e investiga con cuidado. [/bold][/color]
 
 </Document>

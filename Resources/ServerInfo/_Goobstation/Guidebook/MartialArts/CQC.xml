@@ -1,67 +1,67 @@
 <Document>
 
-  # Close Quarters Combat
+  # Combate en Cuartos Cerrados
 
   <Box>
     <GuideEntityEmbed Entity="CQCManual" Caption=""/>
   </Box>
 
-  Close Quarters Combat, or simply CQC, is a [textlink="martial art" link="MartialArts"] that focuses on swiftly and efficiently
-  dispatching your target, with simple but powerful combos that lack the more outlandish moves of other martial arts.
-  CQC is primarily an aggressive fighting style that focuses on dealing stamina damage to targets - designed to quickly subdue
-  opponents and overpower them with pressure technique and crushing blows. This art requires a thorough knowledge of intents.
+  El Combate en Cuartos Cerrados, o simplemente CQC, es un [textlink="arte marcial" link="MartialArts"] que se centra en despachar a tu objetivo de forma rapida y eficiente,
+  con combinaciones simples pero poderosas que carecen de los movimientos mas extravagantes de otras artes marciales.
+  El CQC es principalmente un estilo de combate agresivo que se centra en causar dano de stamina a los objetivos, disenado para someter rapidamente
+  a los oponentes y superarlos con tecnica de presion y golpes contundentes. Este arte requiere un conocimiento profundo de los intentos.
 
-  It is usually used by Syndicate antagonists, however Chefs also get access to it. In Chef's case, CQC obviously stands
-  for Close Quarters Cooking, and Chefs don't cook outside of kitchen, so they are unable to use CQC away from it.
+  Normalmente lo usan los antagonistas del Sindicato, aunque los Chefs tambien tienen acceso a el. En el caso del Chef, CQC obviamente significa
+  Cocina en Cuartos Cerrados, y los Chefs no cocinan fuera de la cocina, por lo que no pueden usar CQC fuera de ella.
 
-  ## Special abilities
+  ## Habilidades Especiales
 
-  CQC users are better at Disarm intent, as their shoves will deal extra stamina damage to the opponent.
+  Los usuarios de CQC son mejores con el intento de Desarme, ya que sus empujones causaran dano de stamina adicional al oponente.
 
-  ### Neck Snap
+  ### Romper el Cuello
 
-  There is no escape from a choke grab of a CQC master. If they are out of stamina, with a single Harm action to the head, the victim's neck breaks,
-  killing them instantly. No armor can shield against this deadly precision. The end comes swiftly, and without mercy.
+  No hay escape de un agarre de estrangulamiento de un maestro de CQC. Si estan sin stamina, con una sola accion de Dano en la cabeza, el cuello de la victima se rompe,
+  matandola instantaneamente. Ninguna armadura puede proteger contra esta precision letal. El fin llega rapidamente y sin piedad.
 
-  ## Combo attacks
+  ## Ataques en Combinacion
 
-  ### Slam
+  ### Golpe al Suelo
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
   </Box>
 
-  Slams the opponent, knocking them down while dealing Blunt damage. Only works on standing opponents.
+  Golpea al oponente, derrumbandolo mientras causa dano Contundente. Solo funciona en oponentes de pie.
 
-  ### Kick
+  ### Patada
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
   </Box>
 
-  Knocks the opponent away and deals both Blunt and Stamina damage. If opponent is out of stamina, puts them to sleep.
+  Lanza al oponente hacia atras y causa dano Contundente y de Stamina. Si el oponente se queda sin stamina, lo duerme.
 
-  ### Restrain
+  ### Inmovilizar
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
   </Box>
 
-  Locks the opponent into a restraining position, knocking them down while dealing Stamina damage.
+  Bloquea al oponente en una posicion de sujecion, derrumbandolo mientras causa dano de Stamina.
 
-  ### Pressure
+  ### Presion
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
   </Box>
 
-  Deals Stamina damage and steals whatever item the opponent is currently holding in their active hand.
+  Causa dano de Stamina y roba el objeto que el oponente sostiene actualmente en su mano activa.
 
-  ### Consecutive
+  ### Consecutivo
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
@@ -69,14 +69,14 @@
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
   </Box>
 
-  Deals a lot of Stamina damage and some Blunt damage to the opponent.
+  Causa mucho dano de Stamina y algo de dano Contundente al oponente.
 
-  ### Leg Sweep
+  ### Barrido de Piernas
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
   </Box>
 
-  Can only be performed while prone. Knocks the opponent down and forces the user back on their feet, even if they are manually crawling.
+  Solo puede realizarse estando tumbado. Derrumba al oponente y obliga al usuario a ponerse de pie, incluso si se esta arrastrando manualmente.
 
 </Document>

@@ -1,55 +1,55 @@
 <Document>
 
-  # Corporate Judo
+  # Judo Corporativo
 
   <Box>
     <GuideEntityEmbed Entity="ClothingBeltCorporateJudo" Caption=""/>
   </Box>
 
-  Corporate Judo, or simply Judo, is a [textlink="martial art" link="MartialArts"] that focuses on restraining your opponent with more
-  complex but effective moves. You will see this style most used by Security Officers, as they get access to the belts in their department.
-  Harness the art and strike any tider that gets in your way. A good understanding of intents is required.
+  El Judo Corporativo, o simplemente Judo, es un [textlink="arte marcial" link="MartialArts"] que se centra en someter al oponente con movimientos
+  mas complejos pero efectivos. Veras este estilo usado principalmente por los Oficiales de Seguridad, ya que tienen acceso a los cinturones en su departamento.
+  Domina el arte y golpea a cualquier intruso que se interponga en tu camino. Se requiere un buen conocimiento de los intentos.
 
-  ## Special abilities
+  ## Habilidades Especiales
 
-  Judo users are better at Harm intent, as their unarmed attacks will deal extra damage to the opponent.
+  Los usuarios de Judo son mejores con el intento de Dano, ya que sus ataques desarmados causaran dano adicional al oponente.
 
-  ### Stunbaton Scorn
+  ### Desprecio por la Porra Aturdidora
 
-  A Judo user is unable to use stunbatons. A true master relies on technique, using the
-  body’s leverage and strength to subdue, leaving the need for electrified force behind.
+  Un usuario de Judo no puede usar porras aturdidoras. Un verdadero maestro se apoya en la tecnica, usando el
+  equilibrio y la fuerza del cuerpo para someter, dejando atras la necesidad de la fuerza electrificada.
 
-  ## Combo attacks
+  ## Ataques en Combinacion
 
-  ### Discombobulate
+  ### Desconcertar
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
   </Box>
 
-  Slows the opponent down and reduces their stamina resistance temporarily.
+  Ralentiza al oponente y reduce su resistencia de stamina temporalmente.
 
-  ### Eye Poke
+  ### Golpe en los Ojos
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
   </Box>
 
-  Blinds the opponent and blurs their vision, regardless of eye protection, and deals some Blunt damage.
+  Ciega al oponente y distorsiona su vision, independientemente de la proteccion ocular, y causa algo de dano Contundente.
 
-  ### Judo Throw
+  ### Lanzamiento de Judo
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
   </Box>
 
-  Can only be perfomed while standing. Only works on standing opponents, dealing Stamina damage and knocking them down.
-  Knockdown duration is affected by their Stamina resistance.
+  Solo puede realizarse estando de pie. Solo funciona en oponentes de pie, causando dano de Stamina y derrumbandolos.
+  La duracion del derribo se ve afectada por su resistencia de Stamina.
 
-  ### Armbar
+  ### Llave de Brazo
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
@@ -57,10 +57,10 @@
     <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
   </Box>
 
-  Only works on downed opponents. Inflicts Stamina damage, disarms them, and locks them in an armbar until they manage to stand up.
-  Armbar works similarly to a knockdown and choke grab, and its duration is affected by their Stamina resistance.
+  Solo funciona en oponentes tumbados. Inflige dano de Stamina, los desarma y los bloquea en una llave de brazo hasta que consigan ponerse de pie.
+  La llave de brazo funciona de manera similar a un derribo y un agarre de estrangulamiento, y su duracion se ve afectada por su resistencia de Stamina.
 
-  ### Wheel Throw
+  ### Lanzamiento en Rueda
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
@@ -68,7 +68,7 @@
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
   </Box>
 
-  Only works on opponents locked in an armbar. Flips the opponent over the shoulder,
-  inflicting massive Stamina damage, and forces the user back on their feet.
+  Solo funciona en oponentes bloqueados en una llave de brazo. Lanza al oponente sobre el hombro,
+  infligiendo dano de Stamina masivo y obliga al usuario a ponerse de pie.
 
 </Document>

@@ -1,52 +1,52 @@
 <Document>
-  # Slaughter Demon
+  # Demonio de la Masacre
 
   <Box>
     <GuideEntityEmbed Entity="BaseMobSlaughterDemon" Caption=""/>
   </Box>
 
-  Slaughter Demons are large, armour-plated monsters sent from the depths of hell to steal the souls of the crew in a very violent fashion.
-  They can use blood to travel quickly, possess a pair of large blades in place of arms, and can fully heal by eating downed crewmembers.
+  Los Demonios de la Masacre son grandes monstruos con armadura enviados desde las profundidades del infierno para robar las almas de la tripulacion de una manera muy violenta.
+  Pueden usar sangre para desplazarse rapidamente, poseen un par de grandes hojas en lugar de brazos, y pueden curarse completamente comiendo a los tripulantes derribados.
 
-  ## Summoning a Being from Hell
+  ## Invocar a un Ser del Infierno
 
   <Box>
     <GuideEntityEmbed Entity="ClothingHeadHatWizard" Caption=""/>
   </Box>
 
-  There are a two ways a Slaughter Demon may enter the station to terrorize it. It can be summoned onto the overworld with a mystical summoning item by a Wizard foolish enough to do so, or through a Midround roll.
-  Both options let spirits take over the role of a blood thirsty spawn of Satan.
+  Hay dos maneras en las que un Demonio de la Masacre puede entrar en la estacion para aterrorizarla. Puede ser invocado en el mundo con un objeto de invocacion mistico por un Mago lo suficientemente necio como para hacerlo, o mediante un sorteo de ronda intermedia.
+  Ambas opciones permiten a los espiritus tomar el rol de una criatura sedienta de sangre nacida de Satanas.
 
-  ## How to play as the slaughter demon, by a slaughter demon
+  ## Como jugar como el demonio de la masacre, por un demonio de la masacre
 
-  LISTEN, DEMON. [color=red]ALL YOU HAVE TO DO IS KILL[/color]. RIP THEIR GUTS OUT, DRINK THEIR BLOOD... YOU KNOW, DAILY UNDERWORLD ACTIVITIES.
-  JUST GO OUT THERE AND HIT PEOPLE, MAKE THEM BLEED. YOU UNDERSTAND???
+  ESCUCHA, DEMONIO. [color=red]TODO LO QUE TIENES QUE HACER ES MATAR[/color]. SACARLES LAS TRIPAS, BEBER SU SANGRE... YA SABES, ACTIVIDADES DIARIAS DEL INFRAMUNDO.
+  SAL AHI FUERA Y GOLPEA A LA GENTE, HAZLOS SANGRAR. ¿LO ENTIENDES?
 
-  BUT REMEMBER, DEVILS ARE OUR HOMIES SO DON'T GO ATTACKING THEM FOR NO REASON!
+  ¡PERO RECUERDA, LOS DIABLOS SON NUESTROS AMIGOS ASI QUE NO LOS ATAQUES SIN RAZON!
 
-  OH, AND IF YOU SEE A LAUGHTER DEMON THEN MAKE FUN OF THEM, OR MAKE THEIR DAY WORSE... SATAN TOLD US THAT WE CAN'T KILL THEM, SOOOO... DEAL WITH THEM FOR THE TIME BEING!
-  HOW CAN THEY NOT LOVE BLOOD AS MUCH AS WE DO????
+  ¡OH, Y SI VES A UN DEMONIO DE LA RISA HAZTE EL GRACIOSO CON ELLOS, O EMPEORA SU DIA... SATANAS NOS DIJO QUE NO PODEMOS MATARLOS, ASI QUE... TRATALOS POR EL MOMENTO!
+  ¿COMO PUEDEN NO AMAR LA SANGRE TANTO COMO NOSOTROS?
 
-  ## BASIC ABILITIES
+  ## HABILIDADES BASICAS
 
-  - BLOOD JAUNTING
+  - SALTO DE SANGRE
 
-  SPREADING BLOOD ALL THROUGH THE HALLWAYS (DRAGGING A CORPSE WHILE SLASHING IT) WILL HELP YOU IN THE LONG RUN, TRUST ME.
-  HAVING THE ABILITY TO TELEPORT ANYWHERE PROVES TO BE PRETTY USEFUL.
+  ESPARCIR SANGRE POR TODOS LOS PASILLOS (ARRASTRANDO UN CADAVER MIENTRAS LO ACUCHILLAS) TE AYUDARA A LARGO PLAZO, CONFIATE.
+  TENER LA HABILIDAD DE TELETRANSPORTARTE A CUALQUIER LUGAR RESULTA SER BASTANTE UTIL.
 
-  - CORPSE FEEDING
+  - ALIMENTARSE DE CADAVERES
 
-  NO SHAME ON TAKING A BITE ONCE YOU DRAG THEM TO HELL, MY FRIEND.
-  IT'S YOUR ONLY WAY OF HEALING, SHORT OF A HUMAN PATCHING YOU UP. NOT ONLY IS A HUMAN GIVING YOU MEDICAL HELP A DISGRACE TO ALL DEMONKIND,
-  BUT IF YOU EVEN ADMIT THAT YOU'RE CLOSE TO DYING THEY'LL PROBABLY JUST KILL YOU ANYWAY, YOU STUPID IDIOT DEMON.
+  SIN VERGUENZA EN DAR UN MORDISCO UNA VEZ QUE LOS ARRASTRAS AL INFIERNO, AMIGO.
+  ES TU UNICA FORMA DE CURARTE, SALVO QUE UN HUMANO TE PARCHEE. NO SOLO ES UNA DESHONRA PARA TODO EL DEMONIOKIND QUE UN HUMANO TE DE AYUDA MEDICA,
+  SINO QUE SI ADMITES QUE ESTAS CERCA DE MORIR PROBABLEMENTE TE MATEN DE TODAS FORMAS, ESTUPIDO IDIOTA DEMONIACO.
 
-  [bold](In order to corpse feed, drag a body with one hand and use blood jaunt on a blood pool)[/bold]
+  [bold](Para alimentarte de cadaveres, arrastra un cuerpo con una mano y usa salto de sangre en un charco de sangre)[/bold]
 
-  - JAUNT KILLING
+  - MATAR CON SALTO
 
-  WE ARE SLOW, OKAY? IT TURNS OUT HAVING A SUIT OF INFERNAL ARMOR GLUED TO US IS PRETTY HEAVY. LUCKILY, YOU CAN GET SOME PRETTY EASY KILLS JUMPING OUT OF BLOOD AS THE BLOOD WILL GIVE YOU A SPEED BOOST.
-  FANTASTIC COMBO, JUMP OUT OF BLOOD, ATTACK, TRY TO GET IN A FEW, AND THEN RETREAT TO THE BLOOD FOR ANOTHER SPEED ATTACK.
-  REALLY THE ONLY WAY YOU'RE REALISTICALLY GOING TO STOP A SHOTGUN WIELDING ASSHOLE, SO PRACTICE MAKES PERFECT.
+  SOMOS LENTOS, ¿VALE? RESULTA QUE LLEVAR UN TRAJE DE ARMADURA INFERNAL PEGADO A NOSOTROS ES BASTANTE PESADO. POR SUERTE, PUEDES CONSEGUIR MUERTES BASTANTE FACILES SALTANDO DESDE LA SANGRE YA QUE TE DARA UN IMPULSO DE VELOCIDAD.
+  COMBO FANTASTICO: SALTA DE LA SANGRE, ATACA, INTENTA ASESTAR UNOS CUANTOS GOLPES Y LUEGO RETROCEDE A LA SANGRE PARA OTRO ATAQUE DE VELOCIDAD.
+  EN REALIDAD ES LA UNICA MANERA REALISTA DE DETENER A UN IDIOTA ARMADO CON UNA ESCOPETA, ASI QUE LA PRACTICA HACE AL MAESTRO.
 
-  ANYWAYS, I'M TOO BUSY WITH DRINKING SOME CLOWN'S BLOOD RIGHT NOW, SO I'LL SEE YA LATER IN HELL.
+  DE TODAS FORMAS, ESTOY MUY OCUPADO BEBIENDO LA SANGRE DE UN PAYASO AHORA MISMO, ASI QUE NOS VEMOS LUEGO EN EL INFIERNO.
 </Document>

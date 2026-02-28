@@ -6,12 +6,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Cargo Department SOP
-These are the list of SOPs that Cargo Personnel should follow. These are, as stated before, [bold]not checklists[/bold] and should be treated as guidelines.
+# PNE del Departamento de Carga
+Estas son las listas de PNEs que el Personal de Carga debe seguir. Estos son, como se ha indicado anteriormente, [bold]no listas de verificacion[/bold] y deben tratarse como directrices.
 
-The following jobs have entries in this Department, the [color=#1b67a5][bold]Quartermaster[/bold][/color] being the Head of Staff:
-- [textlink="Quartermaster" link="QuartermasterSOP"]
-- [textlink="Cargo Technician" link="CargoTechSOP"]
-- [textlink="Salvage Specialist" link="SalvageSpecialistSOP"]
+Los siguientes puestos tienen entradas en este Departamento, siendo el [color=#1b67a5][bold]Jefe de Abastecimiento[/bold][/color] el Jefe de Personal:
+- [textlink="Jefe de Abastecimiento" link="QuartermasterSOP"]
+- [textlink="Tecnico de Carga" link="CargoTechSOP"]
+- [textlink="Especialista en Salvamento" link="SalvageSpecialistSOP"]
 
 </Document>

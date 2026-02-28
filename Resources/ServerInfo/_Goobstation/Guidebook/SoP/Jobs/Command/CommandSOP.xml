@@ -6,26 +6,26 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Command Department SOP
-These are the list of SOPs that Command Personnel should follow. These are, as stated before, [bold]not checklists[/bold] and should be treated as guidelines.
+# PNE del Departamento de Mando
+Estas son las listas de PNEs que el Personal de Mando debe seguir. Estos son, como se ha indicado anteriormente, [bold]no listas de verificacion[/bold] y deben tratarse como directrices.
 
-Below are the list of guidelines [bold]all of Command should follow[/bold]:
+A continuacion se encuentran las directrices que [bold]todo el Mando debe seguir[/bold]:
 
-1. The Command Personnel, excluding Head of Security, should not act as Security. Their job is to maintain their own Departments and assist the station.
+1. El Personal de Mando, excluyendo al Jefe de Seguridad, no debe actuar como Seguridad. Su trabajo es mantener sus propios Departamentos y asistir a la estacion.
 
-2. The Command Personnel may defend themselves and perform arrests as needed in self-defense, but may not try, place times, or perform any other Security activities except hand-off arrested personnel to Security.
+2. El Personal de Mando puede defenderse a si mismo y realizar arrestos cuando sea necesario en defensa propia, pero no puede juzgar, fijar plazos, ni realizar ninguna otra actividad de Seguridad excepto entregar al personal arrestado a Seguridad.
 
-3. The Command Personnel may not, under any circumstances, promote station personnel to Central Command VIP Positions ([color=#1b67a5][bold]Nanotrasen Representative[/bold][/color] and [color=#1b67a5][bold]Blueshield Officer[/bold][/color]) without authorization from Central Command.
+3. El Personal de Mando no puede, bajo ninguna circunstancia, ascender al personal de la estacion a Puestos VIP del Mando Central ([color=#1b67a5][bold]Representante de Nanotrasen[/bold][/color] y [color=#1b67a5][bold]Oficial Escudo Azul[/bold][/color]) sin autorizacion del Mando Central.
 
-The following jobs have entries in this Department, the Chain of Command being linked at the top, the Central Command VIP being separated in terms of Chain of Command, the Captain being the top of Chain of Command, and all Heads of Staff on equal footing:
-- [textlink="Chain of Command" link="Succession"]
-- [textlink="Nanotrasen Representative" link="NanotrasenRepSOP"]
-- [textlink="Blueshield Officer" link="BlueshieldOfficerSOP"]
-- [textlink="Head of Personnel" link="HeadOfPersonnelSOP"]
-- [textlink="Head of Security" link="HeadOfSecuritySOP"]
-- [textlink="Research Director" link="ResearchDirectorSOP"]
-- [textlink="Chief Medical Officer" link="ChiefMedicalOfficerSOP"]
-- [textlink="Chief Engineer" link="ChiefEngineerSOP"]
-- [textlink="Quartermaster" link="QuartermasterSOP"]
+Los siguientes puestos tienen entradas en este Departamento, con la Cadena de Mando enlazada al principio, el VIP del Mando Central separado en terminos de Cadena de Mando, el Capitan en la cima de la Cadena de Mando, y todos los Jefes de Personal en pie de igualdad:
+- [textlink="Cadena de Mando" link="Succession"]
+- [textlink="Representante de Nanotrasen" link="NanotrasenRepSOP"]
+- [textlink="Oficial Escudo Azul" link="BlueshieldOfficerSOP"]
+- [textlink="Jefe de Personal" link="HeadOfPersonnelSOP"]
+- [textlink="Jefe de Seguridad" link="HeadOfSecuritySOP"]
+- [textlink="Director de Investigacion" link="ResearchDirectorSOP"]
+- [textlink="Jefe Medico" link="ChiefMedicalOfficerSOP"]
+- [textlink="Jefe de Ingenieria" link="ChiefEngineerSOP"]
+- [textlink="Jefe de Abastecimiento" link="QuartermasterSOP"]
 
 </Document>

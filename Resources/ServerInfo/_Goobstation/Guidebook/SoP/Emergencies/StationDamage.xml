@@ -6,17 +6,17 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Structural Damage Procedures
-In the event of massive structural damage to the station, Command should set the alert to [color=#c8a404]Yellow Alert[/color] and notify Engineering of the location of the damage.
+# Procedimientos de Dano Estructural
+En caso de danos estructurales masivos en la estacion, el Mando debe establecer la alerta en [color=#c8a404]Alerta Amarilla[/color] y notificar a Ingenieria de la ubicacion del dano.
 
-1. Engineering personnel should be allowed access to the damage site (in the event of the location being in a different department and inaccessible).
+1. Se debe permitir al personal de Ingenieria el acceso al lugar del dano (en caso de que la ubicacion se encuentre en un departamento diferente e inaccesible).
 
-2. Engineering should be given priority for materials to rebuild the section for a safe state.
+2. Ingenieria debe tener prioridad en los materiales para reconstruir la seccion a un estado seguro.
 
-3. Engineering should repressurize the area to prevent pressure lockout.
+3. Ingenieria debe repressurizar el area para evitar el bloqueo por presion.
 
-4. All secure areas that are affected should be completely sealed off and returned to a secure state, confirmed by Security/Command.
+4. Todas las areas seguras que se vean afectadas deben sellarse completamente y devolverse a un estado seguro, con confirmacion de Seguridad/Mando.
 
-5. Once all damage has been dealt with, Engineering is to give the all clear with confirmation from Command, and the alert should be set to a safe alert.
+5. Una vez que todos los danos hayan sido atendidos, Ingenieria debe dar luz verde con confirmacion del Mando, y la alerta debe establecerse en un nivel seguro.
 
 </Document>

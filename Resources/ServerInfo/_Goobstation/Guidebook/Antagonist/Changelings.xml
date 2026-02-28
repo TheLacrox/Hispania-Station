@@ -13,57 +13,57 @@ SPDX-License-Identifier: AGPL-3.0-or-later
   <Box>
     <GuideEntityEmbed Entity="GuidebookChangelingFluff" Caption=""/>
   </Box>
-  A Changeling is an  alien creature able to morph into humanoids. Changelings nautral form is a headslug, but before a shift started, they killed someone and began imitating them.
-  The main weapons of the Changeling are its ability to internally synthesize dangerous chemicals, morph into other creatures that it has absorbed, and blend in with humans.
+  Un Changeling es una criatura alienígena capaz de transformarse en humanoides. La forma natural de un Changeling es una babosa de cabeza, pero antes de que comenzara el turno, mato a alguien y empezo a imitarlo.
+  Las principales armas del Changeling son su capacidad de sintetizar internamente quimicos peligrosos, transformarse en otras criaturas que ha absorbido, y mezclarse con los humanos.
 
-  The changeling can be anyone it's absorbed, it can switch identities instantaneously, only absorbing takes time and peace. Unlike the Traitor, the Changeling's only objective is to survive until the shuttle arrives and escape on it while transformed into somebody else.
+  El changeling puede ser cualquiera que haya absorbido, puede cambiar de identidad instantaneamente; solo la absorcion requiere tiempo y tranquilidad. A diferencia del Traidor, el unico objetivo del Changeling es sobrevivir hasta que llegue el transbordador y escapar en el transformado en otra persona.
 
-  Remember that Changelings are not obliged to work eachother as a team, and some may go solo/rogue depending on how they like it.
+  Recuerda que los Changelings no estan obligados a trabajar en equipo entre si, y algunos pueden actuar solos dependiendo de sus preferencias.
 
-  ## I've turned into myself, what do?
+  ## Me he transformado en mi mismo, ¿que hago?
 
-  ### Chemicals
-  Chemicals are your source of abilities. Without them you won't be able to use your powers.
-  They regenerate slowly over time, and absorption will increase their max capacity.
+  ### Quimicos
+  Los quimicos son tu fuente de habilidades. Sin ellos no podras usar tus poderes.
+  Se regeneran lentamente con el tiempo, y la absorcion aumentara su capacidad maxima.
 
-  ### DNA Absorption
-  Your main weapon is deception. Transform into other humanoid creatures to confuse the crew.
-  To do this, it must take ANY human, living or dead (even thrown away bodies from cloning), and absorb them using either the Absorb abliity, or the DNA Extraction Sting.
-  You can only have a maximum of 5 DNA strands at a time, and must transform to obtain more.
+  ### Absorcion de ADN
+  Tu arma principal es el engano. Transformate en otras criaturas humanoides para confundir a la tripulacion.
+  Para hacerlo, debes tomar a CUALQUIER humano, vivo o muerto (incluso cuerpos desechados del clonador), y absorberlos usando la habilidad de Absorcion, o el Aguijon de Extraccion de ADN.
+  Solo puedes tener un maximo de 5 cadenas de ADN a la vez, y debes transformarte para obtener mas.
 
-  Acquiring DNA via absorption requires the victim's incapacitation, critical condition or death. Simply, handcuff, put him into crit or kill him if you need to absorb him.
+  Adquirir ADN mediante absorcion requiere la incapacitacion, estado critico o muerte de la victima. Simplemente, esposalo, ponlo en estado critico o matalo si necesitas absorberlo.
 
-  - Absorbing someone takes a lot of time, so prepare a safe spot or do it somewhere with the least amount of ears possible.
-  - Absorbing a victim will recover all of your biomass, increase your maximum chemical capacity and give you bonus evolution points to buy new abilities.
-  - Absorbing another changeling will, on top of that, increase your maximum biomass capacity, allowing you to stay alive for more time and give you even more chemicals and evolution points.
-  - [color=red]Absorbed victims cannot be cloned.[/color] On the other hand, they can still be turned into cyborgs.
+  - Absorber a alguien lleva mucho tiempo, asi que prepara un lugar seguro o hazlo en algún sitio con la menor cantidad de testigos posible.
+  - Absorber a una victima recuperara toda tu biomasa, aumentara tu capacidad quimica maxima y te dara puntos de evolucion extra para comprar nuevas habilidades.
+  - Absorber a otro changeling ademas aumentara tu capacidad maxima de biomasa, permitiendote mantenerte vivo mas tiempo y darte aun mas quimicos y puntos de evolucion.
+  - [color=red]Las victimas absorbidas no pueden ser clonadas.[/color] Sin embargo, aun pueden ser convertidas en ciborgs.
 
-  ### You exclaim, "I am the only one here!"
-  Changelings are limited, however, to how much DNA they can absorb at once! If a changeling has 5 DNAs stored and attempts to gain another, they must purge the older DNA by transforming. Eventually, any changeling will have to be a twin of someone else on the station, living or dead.
-  The changeling can shift its appearance, making them look and sound exactly like a victim of which they have absorbed. This can be massive compromise in security, especially if command staff are absorbed and the changeling is able to imitate them.
-  Changelings can also, via their lesser form ability, transform into monkeys and do monkey things.
+  ### ¡Exclamas: "¡Soy el unico aqui!"
+  Los Changelings tienen un limite en cuanto a la cantidad de ADN que pueden absorber a la vez. ¡Si un changeling tiene 5 ADN almacenados e intenta obtener otro, debe purgar el ADN mas antiguo transformandose. Eventualmente, cualquier changeling tendra que ser el doble de alguien mas en la estacion, vivo o muerto.
+  El changeling puede cambiar su apariencia, haciendo que luzca y suene exactamente como una victima que ha absorbido. Esto puede ser un gran compromiso para la seguridad, especialmente si los miembros del mando son absorbidos y el changeling puede imitarlos.
+  Los Changelings tambien pueden, mediante su habilidad de forma menor, transformarse en monos y hacer cosas de mono.
 
-  ### Regeneration
-  Also known as Regenerative Stasis, changelings have the ability to 'kill' themselves, and appear dead. After an uncertain amount of time, the changeling can revive at will, fully healed of all injuries and illness.
-  Entering stasis will start a timer that scales with damage taken, and leaving will cost 30 chemicals. Chemicals will still regenerate while a changeling is dead.
+  ### Regeneracion
+  Tambien conocida como Estasis Regenerativa, los changelings tienen la capacidad de "matarse" a si mismos y aparentar estar muertos. Despues de un periodo de tiempo indeterminado, el changeling puede revivir a voluntad, completamente curado de todas las lesiones y enfermedades.
+  Entrar en estasis iniciara un temporizador que escala con el dano recibido, y salir costara 30 quimicos. Los quimicos seguiran regenerandose mientras el changeling este muerto.
 
-  Changelings can also choose to revive by defibrillator, making it even harder to tell if they are one or not.
+  Los Changelings tambien pueden elegir revivir mediante desfibrilador, lo que hace aun mas dificil saber si son uno o no.
 
-  This makes them nigh-unkillable, as they can fully regenerate themselves even from death if they have enough chemicals. Spaced changelings may also be able to make it back on station given enough time. The best way to permanently deal with a changeling is to cremate them, put them on mining colonies or in solitary confinement.
+  Esto los hace casi imposibles de matar, ya que pueden regenerarse completamente incluso despues de morir si tienen suficientes quimicos. Los Changelings lanzados al espacio tambien pueden regresar a la estacion con suficiente tiempo. La mejor manera de deshacerse permanentemente de un changeling es incinerarlo, enviarlo a colonias mineras o en confinamiento solitario.
 
-  ### Going Solo or Teaming Up
-  Like traitors, changelings operate individually and are in no way obligated to assist each other. It is not required for changelings to even reveal their identity to each other, as it's not uncommon for changelings to backstab each other to remove competition.
-  Even so, [color=red]a coordinated group of changelings is truly a terror to behold[/color].
+  ### Actuar Solo o en Equipo
+  Al igual que los traidores, los changelings operan individualmente y de ninguna manera estan obligados a ayudarse entre si. No es necesario que los changelings revelen su identidad entre ellos, ya que no es raro que los changelings se traicionen mutuamente para eliminar la competencia.
+  Aun asi, [color=red]un grupo coordinado de changelings es verdaderamente aterrador[/color].
 
-  ## Identifying a changeling
-  Changelings have a different blood type. Even if a changeling is pretending to be a diona, vox or a moth person, they have one blood type.
-  Also, when put in a centrifuge, the changeling's blood reacts violently.
-  You cannot identify changelings in any other possible way, unless they're dead obvious and start going loud.
+  ## Identificar a un changeling
+  Los Changelings tienen un tipo de sangre diferente. Incluso si un changeling esta fingiendo ser una diona, vox o una polilla, tiene un tipo de sangre.
+  Ademas, cuando se pone en una centrifugadora, la sangre del changeling reacciona violentamente.
+  No puedes identificar changelings de ninguna otra manera posible, a menos que sean muy obvios y empiecen a actuar abiertamente.
 
-  ## Your true weakness...
-  [color=orange]Kill it with fire![/color]
-  - While on fire, they are [color=red]unable to use or toggle most of their combat, defensive and utility oriented abilities.[/color]
-  - Changelings also suffer a massive reduction to their chemical generation, being [color=red]reduced to a 1/4 of its current amount[/color] when on fire!
+  ## Tu verdadera debilidad...
+  [color=orange]¡Matalo con fuego![/color]
+  - Mientras estan en llamas, [color=red]son incapaces de usar o activar la mayoria de sus habilidades de combate, defensivas y de utilidad.[/color]
+  - Los Changelings tambien sufren una reduccion masiva en su generacion de quimicos, [color=red]reduciendose a 1/4 de su cantidad actual[/color] cuando estan en llamas.
 
-  [textlink="Learn about the changeling abilities." link="ChangelingsAbilities"]
+  [textlink="Aprende sobre las habilidades del changeling." link="ChangelingsAbilities"]
 </Document>

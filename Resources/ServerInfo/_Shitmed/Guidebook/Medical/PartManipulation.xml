@@ -8,54 +8,54 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Part Manipulation
-  This is how you will turn Tajaran into humans, or vice versa if you're feeling particularly cruel.
+  # Manipulacion de Partes
+  Asi es como convertiras a un Tajaran en humano, o viceversa si te sientes particularmente cruel.
 
-  ## Anatomy
-  Normally a body has 11 main parts. Those being:
+  ## Anatomia
+  Normalmente un cuerpo tiene 11 partes principales. Estas son:
 
   <Box>
-<GuideEntityEmbed Entity="HeadHuman" Caption="head"/>
+<GuideEntityEmbed Entity="HeadHuman" Caption="cabeza"/>
 </Box>
 <Box>
-<GuideEntityEmbed Entity="RightHandHuman" Caption="right hand"/>
-<GuideEntityEmbed Entity="RightArmHuman" Caption="right arm"/>
+<GuideEntityEmbed Entity="RightHandHuman" Caption="mano derecha"/>
+<GuideEntityEmbed Entity="RightArmHuman" Caption="brazo derecho"/>
 <GuideEntityEmbed Entity="ChestHuman" Caption="torso"/>
-<GuideEntityEmbed Entity="GroinHuman" Caption="groin"/>
-<GuideEntityEmbed Entity="LeftArmHuman" Caption="left arm"/>
-<GuideEntityEmbed Entity="LeftHandHuman" Caption="left hand"/>
+<GuideEntityEmbed Entity="GroinHuman" Caption="entrepierna"/>
+<GuideEntityEmbed Entity="LeftArmHuman" Caption="brazo izquierdo"/>
+<GuideEntityEmbed Entity="LeftHandHuman" Caption="mano izquierda"/>
 </Box>
 <Box>
-<GuideEntityEmbed Entity="RightFootHuman" Caption="right foot"/>
-<GuideEntityEmbed Entity="RightLegHuman" Caption="right leg"/>
-<GuideEntityEmbed Entity="LeftLegHuman" Caption="left leg"/>
-<GuideEntityEmbed Entity="LeftFootHuman" Caption="left foot"/>
+<GuideEntityEmbed Entity="RightFootHuman" Caption="pie derecho"/>
+<GuideEntityEmbed Entity="RightLegHuman" Caption="pierna derecha"/>
+<GuideEntityEmbed Entity="LeftLegHuman" Caption="pierna izquierda"/>
+<GuideEntityEmbed Entity="LeftFootHuman" Caption="pie izquierdo"/>
 </Box>
 
-Certain species might have more or less parts, such as tails, wings, or extra limbs, but this is the rough outline of what you'll see.
-To detach a limb, you'll need to apply the Remove Part surgery on it, which will then remove it without harming the patient.
+Algunas especies pueden tener mas o menos partes, como colas, alas o extremidades adicionales, pero este es el esquema general de lo que veras.
+Para separar un miembro, deberas aplicar la cirugia de Extraccion de Parte sobre el, que lo retirara sin danar al paciente.
 
-However if you want to reattach the limb, you'll need to apply the Attach Part surgery where you want it attached.
-Hands are attached to the arms, feet are attached to the legs. And everything else is attached to the torso.
+Sin embargo, si deseas volver a unir el miembro, deberas aplicar la cirugia de Adjuncion de Parte donde quieras fijarlo.
+Las manos se unen a los brazos, los pies se unen a las piernas. Todo lo demas se une al torso.
 
 
-## Where do I get more parts?
+## Donde consigo mas partes?
 
-Normally when your patients come in needing new limbs, they'll need to get a new one, as their old ones will be either missing, or damaged beyond repair.
-For this you can use the Medical Biofabricator with some Biomass. Which can manufacture Biosynthetic limbs for all species.
+Normalmente cuando tus pacientes lleguen necesitando nuevas extremidades, tendran que conseguir una nueva, ya que las suyas estaran ausentes o danadas irreparablemente.
+Para esto puedes usar el Biofabricador Medico con algo de Biomasa, que puede fabricar extremidades biosinteticas para todas las especies.
 
 <Box>
-<GuideEntityEmbed Entity="MedicalBiofabricator" Caption="medical biofabricator"/>
-<GuideEntityEmbed Entity="MedicalBiofabMachineBoard" Caption="biofabricator board"/>
-<GuideEntityEmbed Entity="MaterialBiomass" Caption="biomass"/>
+<GuideEntityEmbed Entity="MedicalBiofabricator" Caption="biofabricador medico"/>
+<GuideEntityEmbed Entity="MedicalBiofabMachineBoard" Caption="placa de biofabricador"/>
+<GuideEntityEmbed Entity="MaterialBiomass" Caption="biomasa"/>
 </Box>
 
-By default, every Chief Medical Officer has access to a Medical Biofabricator board in their locker.
+Por defecto, todo Jefe de Personal Medico tiene acceso a una placa de Biofabricador Medico en su taquilla.
 
-## I reattached my patient's limb, but
-## it's not working?
+## Volvi a unir el miembro de mi paciente,
+## pero no funciona?
 
-Your patient has taken enough damage to the point that their limb's nerves were badly damaged, and they need to be healed properly before it can work again.
-For this you can try the Tend Wounds surgeries, or letting them use topicals on their wounds.
+Tu paciente ha sufrido suficiente dano como para que los nervios de su miembro quedaran gravemente danados y necesitan sanar correctamente antes de volver a funcionar.
+Para esto puedes intentar las cirugias de Tratamiento de Heridas, o dejarlos usar topicos sobre sus heridas.
 
 </Document>

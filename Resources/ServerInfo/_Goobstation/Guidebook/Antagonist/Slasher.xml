@@ -1,56 +1,56 @@
 <Document>
-# Slasher
+# Asesino en Serie
 
-[color=#ac3a0d]An unstoppable 80's terror driven by vengeance, dread, and synth beats echoing through dark maintenance.[/color]
+[color=#ac3a0d]Un terror imparable de los anos 80 impulsado por la venganza, el miedo y ritmos sintetizados que reverberan por el oscuro mantenimiento.[/color]
 
-The Slasher is a relentless horror that stalks isolated crew, harvesting their souls and growing stronger with every victim. It thrives on fear, appearing and vanishing between flickers of light and fresh trails of blood.
+El Asesino en Serie es un horror implacable que acecha a la tripulacion aislada, cosechando sus almas y fortaleciendose con cada victima. Prospera con el miedo, apareciendo y desapareciendo entre parpadeos de luz y rastros de sangre fresca.
 
 <Box>
-  <GuideEntityEmbed Entity="ClothingHeadHatSlasherMask" Caption="Mask"/>
+  <GuideEntityEmbed Entity="ClothingHeadHatSlasherMask" Caption="Mascara"/>
   <GuideEntityEmbed Entity="SlasherMachete" Caption="Machete"/>
-  <GuideEntityEmbed Entity="SlasherMeatSpike" Caption="Meat Spike"/>
+  <GuideEntityEmbed Entity="SlasherMeatSpike" Caption="Pua de Carne"/>
 </Box>
 
-  Unlike most midround antagonists the slasher starts off weak. For every soul they steal they gain that much more strength. If left unchecked they can quickly become a terrifying force.
+  A diferencia de la mayoria de los antagonistas de ronda intermedia, el asesino comienza siendo debil. Por cada alma que roba gana mas fuerza. Si se le deja actuar sin control, puede convertirse rapidamente en una fuerza aterradora.
 
-  ## Core Loop
-  1. Find isolated targets.
+  ## Ciclo Principal
+  1. Encuentra objetivos aislados.
 
-  2. Incapacitate and absorb their soul.
+  2. Incapacitalos y absorbe su alma.
 
-  3. Repeat.
+  3. Repite.
 
-  4. Once you gain enough souls you can really start embodying the 80's slasher vibes.
+  4. Una vez que obtengas suficientes almas, podras encarnar de verdad la vibracion del asesino de los anos 80.
 
-  ## Abilities
+  ## Habilidades
 
-  [bold]Machete Summon[/bold] – You can always call your signature weapon back. This is a great skill if you lose your weapon or want to throw it at someone for some quick damage.
+  [bold]Invocacion de Machete[/bold] - Siempre puedes llamar de vuelta tu arma caracteristica. Es una gran habilidad si pierdes tu arma o quieres lanzarla a alguien para infligir dano rapido.
 
-  [bold]Soul Steal[/bold] – Can only be used on an incapicated or otherwise restrained target. For every soul stolen you gain more defense and increased damage. It is much more effective on alive targets. Victims become [italic]soulless[/italic] and receive a random negative devil clause.
+  [bold]Robo de Alma[/bold] - Solo puede usarse sobre un objetivo incapacitado o inmovilizado de otro modo. Por cada alma robada ganas mas defensa y dano aumentado. Es mucho mas efectivo sobre objetivos vivos. Las victimas quedan [italic]sin alma[/italic] y reciben una clausula diabolica negativa aleatoria.
 
-  [bold]Massacre[/bold] – An incredibly strong move that's tied to your special machete. When first used you deal much less damage but the more hits you deal the more damage you deal. After a certain point you will start chopping off the victims limbs and at the 13th hit you decapitate them. Missing resets the combo.
+  [bold]Masacre[/bold] - Un movimiento increiblemente poderoso ligado a tu machete especial. Al usarlo por primera vez inflige mucho menos dano, pero cuantos mas golpes aciertes mas dano causas. A partir de cierto punto comenzaras a amputar los miembros de las victimas y en el golpe numero 13 las decapitas. Fallar reinicia el combo.
 
-  [bold]Regeneration / Slasherium[/bold] – An incredibly robust source of healing. It rejuvanates you and takes off any restraints. It comes at the cost of an incredibly long cooldown. Once you use it you cannot use it again until you have stolen another soul.
+  [bold]Regeneracion / Slasherium[/bold] - Una fuente de curacion increiblemente robusta. Te rejuvenece y elimina cualquier restriccion. Tiene un tiempo de espera extremadamente largo. Una vez que la uses no podras volver a usarla hasta que hayas robado otra alma.
 
-  [bold]Blood Trail[/bold] – Leave a trail of blood in your wake. It also plays some music. Spooky!
+  [bold]Rastro de Sangre[/bold] - Deja un rastro de sangre a tu paso. Tambien reproduce musica. ¡Escalofriante!
 
-  [bold]Incorporeal / Corporealization[/bold] – Dissappear and reappear from the material realm. This is your main source of traversal. You cannot use it while seen. Extremely limited but very powerful. Blocks cooldowns from going down while in jaunt.
+  [bold]Incorporeo / Corporealizacion[/bold] - Desaparece y reaparece del plano material. Esta es tu principal fuente de desplazamiento. No puedes usarla mientras alguien te vea. Extremadamente limitada pero muy poderosa. Bloquea el progreso de los tiempos de espera mientras estes en el estado incorpóreo.
 
-  [bold]Possession[/bold] – Temporarily take control of a victims body. Mindshields block it.
+  [bold]Posesion[/bold] - Toma control temporalmente del cuerpo de una victima. Los MindShields lo bloquean.
 
-  [bold]Meat Spike[/bold] – You can summon a meatspike that you can use to trap your victims in. It is incredibly useful for stealing souls and preventing people from running away.
+  [bold]Pua de Carne[/bold] - Puedes invocar una pua de carne que puedes usar para atrapar a tus victimas. Es increiblemente util para robar almas e impedir que la gente huya.
 
-  [bold]Stagger Area[/bold] – You slow down everyone that's near you for a short amount of time. Very useful for getting the jump on people.
+  [bold]Area de Aturdimiento[/bold] - Ralentizas a todos los que esten cerca de ti durante un breve periodo de tiempo. Muy util para sorprender a la gente.
 
-  ## Crew Tips
-  [bold]Do not wander alone.[/bold].
-  - They are relatively weak when they first appear on the station.
-  - When they steal souls they become much more tankier and deal that much more damage.
-  - If you get the drop on them do not let them out of your sight. If you see them they can't escape.
-  - They are weak to holy. Get the chaplain to help out if you're running low on forces.
-  - Tinfoil hats and mindshields prevent possessions!
-  - Upon 15 souls stolen an announcement plays to warn the crew.
-  - They have no crit state.
+  ## Consejos para la Tripulacion
+  [bold]No deambules solo.[/bold]
+  - Es relativamente debil cuando aparece por primera vez en la estacion.
+  - Cuando roba almas se vuelve mucho mas resistente e inflige mucho mas dano.
+  - Si consigues sorprenderlo, no lo pierdas de vista. Si lo ves, no puede escapar.
+  - Es debil ante lo sagrado. Pide ayuda al capellan si te quedas sin fuerzas.
+  - ¡Los sombreros de papel de aluminio y los MindShields previenen las posesiones!
+  - Al robar 15 almas se reproduce un anuncio para advertir a la tripulacion.
+  - No tiene estado critico.
 
-  [color=red][bold]You are the legend of the midnight massacre—make it feel like one.[/bold][/color]
+  [color=red][bold]Eres la leyenda de la masacre de medianoche: hazla sentir como tal.[/bold][/color]
 </Document>

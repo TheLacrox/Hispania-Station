@@ -6,30 +6,30 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Station Alert - Omicron
+  # Alerta de Estacion - Omicron
 
   <Box>
-    [italic]Called by: Central Command Only.[/italic]
+    [italic]Declarada por: Solo el Comando Central.[/italic]
   </Box>
 
-  [bold]Conditions:[/bold]
+  [bold]Condiciones:[/bold]
 
-  Central Command has decided to take direct control of the station.
+  El Comando Central ha decidido tomar el control directo de la estacion.
 
-  [bold]Security:[/bold]
+  [bold]Seguridad:[/bold]
 
-  All security members are to de-arm and await further instructions from Central Command.
+  Todos los miembros de seguridad deben desarmarse y esperar nuevas instrucciones del Comando Central.
 
-  [bold]Secure Areas:[/bold]
+  [bold]Areas Seguras:[/bold]
 
-  All Secure Areas are to be bolted down.
+  Todas las Areas Seguras deben estar bloqueadas.
 
-  [bold]General Crew:[/bold]
+  [bold]Tripulacion General:[/bold]
 
-  All personnel must maximise their suit sensors.
+  Todo el personal debe maximizar sus sensores de traje.
 
-  All personnel should remain in their department, and await further orders.
+  Todo el personal debe permanecer en su departamento y esperar nuevas ordenes.
 
-  Personnel are required to follow all Central Command orders.
+  El personal esta obligado a seguir todas las ordenes del Comando Central.
 
 </Document>

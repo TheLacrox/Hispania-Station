@@ -1,16 +1,16 @@
 
-[color=#ffffff]Entity spawn panel options[/color]
-[color=#a4885c]Default[/color] spawns small entities like mugs without aligning them to anything, while aligning block entities like walls to the grid.
-[color=#a4885c]PlaceFree[/color] spawns all entities without aligning them.
-[color=#a4885c]PlaceNearby[/color] limits the spawn radius to around 2 tiles.
-[color=#a4885c]SnapgridCenter[/color] aligns the entity to the middle of the tile.
-[color=#a4885c]SnapgridBorder[/color] aligns the entity to the border of the tile.
+[color=#ffffff]Opciones del panel de creacion de entidades[/color]
+[color=#a4885c]Default[/color] crea entidades pequenas como tazas sin alinearlas a nada, mientras que alinea entidades en bloque como paredes a la cuadricula.
+[color=#a4885c]PlaceFree[/color] crea todas las entidades sin alinearlas.
+[color=#a4885c]PlaceNearby[/color] limita el radio de creacion a aproximadamente 2 tiles.
+[color=#a4885c]SnapgridCenter[/color] alinea la entidad al centro del tile.
+[color=#a4885c]SnapgridBorder[/color] alinea la entidad al borde del tile.
 
-[color=#ffffff]Grid aligned options[/color]
-[color=#a4885c]AlignSimilar[/color] snaps the entity to similar entities. Currently broken.
-[color=#a4885c]AlignTileAny[/color] aligns the entity to the grid.
-[color=#a4885c]AlignTileEmpty[/color] target tile must be empty
-[color=#a4885c]AlignTileNonDense[/color] no colliders allowed in the target tile.
-[color=#a4885c]AlignTileDense[/color] colliders must be in the target tile.
-[color=#a4885c]AlignWall[/color] snaps to vertical halftiles.
-[color=#a4885c]AlignWallProper[/color] snaps the entity to the middle of the tile edges
+[color=#ffffff]Opciones alineadas a la cuadricula[/color]
+[color=#a4885c]AlignSimilar[/color] ajusta la entidad a entidades similares. Actualmente no funciona.
+[color=#a4885c]AlignTileAny[/color] alinea la entidad a la cuadricula.
+[color=#a4885c]AlignTileEmpty[/color] el tile objetivo debe estar vacio.
+[color=#a4885c]AlignTileNonDense[/color] no se permiten colisionadores en el tile objetivo.
+[color=#a4885c]AlignTileDense[/color] debe haber colisionadores en el tile objetivo.
+[color=#a4885c]AlignWall[/color] ajusta a medios-tiles verticales.
+[color=#a4885c]AlignWallProper[/color] ajusta la entidad al centro de los bordes del tile.

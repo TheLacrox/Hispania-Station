@@ -1,68 +1,68 @@
 <Document>
-# Virology
-This is a guide to diseases and how to handle them.
+# Virologia
+Esta es una guia sobre las enfermedades y como manejarlas.
 
-## Infection
-Diseases initially come from a specific source. Most often, it's a plague mouse.
+## Infeccion
+Las enfermedades provienen inicialmente de una fuente especifica. La mayoria de las veces, es un raton de la plaga.
 
 <GuideEntityEmbed Entity="MobMousePlague" Caption="plague mouse"/>
 
-If you're bitten by a plague mouse, there's a significant chance you get infected with a disease. The disease is random and can be anything, but will generally be weak. Alternatively, someone can cough near you, and you will get infected if not wearing protective gear.
+Si un raton de la plaga te muerde, hay una probabilidad significativa de que te infectes con una enfermedad. La enfermedad es aleatoria y puede ser cualquier cosa, pero en general sera debil. Alternativamente, alguien puede toser cerca de ti y te infectaras si no llevas equipo de proteccion.
 
-Infections can also affect monkeys and other mice, but diseases do not have any effect in mice, so they act as disease spread vectors. However, non-plague mice have a smaller chance to infect on bite.
+Las infecciones tambien pueden afectar a los monos y a otros ratones, pero las enfermedades no tienen ningun efecto en los ratones, por lo que actuan como vectores de propagacion. Sin embargo, los ratones no infectados por la plaga tienen menos probabilidades de infectar al morder.
 
-## Disease lifecycle
-Once you're infected, the disease gains infection progress while inside of you. The only way to tell you're infected at this point is to use a health analyzer or a swab. Additionally, you gain permanent immunity to that disease's genotype, as if you've taken a vaccine, so one disease can't infect you twice.
+## Ciclo de vida de la enfermedad
+Una vez infectado, la enfermedad gana progreso de infeccion mientras esta dentro de ti. La unica forma de saber que estas infectado en este punto es usar un analizador de salud o un hisopo. Ademas, obtienes inmunidad permanente al genotipo de esa enfermedad, como si hubieras tomado una vacuna, por lo que una enfermedad no puede infectarte dos veces.
 
-Symptoms will begin showing up once the infection progress crosses certain thresholds. The more infection progress, the stronger the effects. Eventually it will hit its full force and stop progressing.
+Los sintomas empezaran a aparecer una vez que el progreso de la infeccion supere ciertos umbrales. Cuanto mayor sea el progreso de la infeccion, mas fuertes seran los efectos. Eventualmente alcanzara su maxima intensidad y dejara de progresar.
 
-At that time, immunity progress will also start catching up, if not suppressed by the disease. Immunity progress will make the infection progress slow down and eventually reverse. For most diseases, this will make you eventually lose the disease on your own.
+En ese momento, el progreso de la inmunidad tambien comenzara a avanzar, si no es suprimido por la enfermedad. El progreso de la inmunidad hara que el progreso de la infeccion se ralentice y eventualmente se revierta. Para la mayoria de las enfermedades, esto hara que eventualmente pierdas la enfermedad por tu cuenta.
 
-Disease effects can be varied. Most diseases will have some effect that makes it obvious you are sick, but rarely they will simply silently damage you. Some diseases will fight back against your immunity, not going away on their own.
+Los efectos de las enfermedades pueden ser variados. La mayoria de las enfermedades tendran algun efecto que haga obvio que estas enfermo, pero raramente solo te danaran en silencio. Algunas enfermedades lucharan contra tu inmunidad y no desapareceran por si solas.
 
-Once the infection progress hits 0, you lose the disease.
+Una vez que el progreso de la infeccion llega a 0, pierdes la enfermedad.
 
-## Treatment
-There's several ways to treat diseases.
+## Tratamiento
+Hay varias formas de tratar las enfermedades.
 
-The first and most important, of course, is simply not getting infected:
-- Avoid mice, especially if it's trying to bite you.
-- If you see someone coughing, keep away.
-- Wear sterile masks and other protective gear. Wear a biosuit for full protection. They can be ordered at cargo.
-- Wear a MedHUD to see who is infected.
-- Vaccines. If the virologist has gotten their hands on a disease, they might have a vaccine that will make you permanently immune.
+La primera y mas importante, por supuesto, es simplemente no infectarse:
+- Evita los ratones, especialmente si intentan morderte.
+- Si ves a alguien tosiendo, mantente alejado.
+- Usa mascarillas esteriles y otro equipo de proteccion. Usa un biotraje para una proteccion completa. Se pueden pedir en cargo.
+- Usa un MedHUD para ver quien esta infectado.
+- Vacunas. Si el virologo ha conseguido una enfermedad, puede que tenga una vacuna que te hara permanentemente inmune.
 
-If that didn't work, you'll have to cure the disease, and not even vaccines will work. This can be done in several ways:
-- Immurin. It's a chemical that boosts your immunity, causing the disease to go away on its own much quicker.
-- Specialised anti-disease-type chemicals, such as devirate or spaceacilin.
-- Additionally, pay a visit to the virologist and let them swab you so they may analyze the disease and make vaccines against it.
+Si eso no funciono, tendras que curar la enfermedad, y ni siquiera las vacunas funcionaran. Esto se puede hacer de varias formas:
+- Imurina. Es un quimico que aumenta tu inmunidad, haciendo que la enfermedad desaparezca por si sola mucho mas rapido.
+- Quimicos anti-enfermedad especializados, como el devirato o la espaceacilin.
+- Ademas, visita al virologo y deja que te tome un hisopo para que pueda analizar la enfermedad y fabricar vacunas contra ella.
 
-## Disease specifics and mutation
-Diseases aren't static, and they mutate every time they spread. Just about everything about a disease can mutate, even mutation rate itself, but not the disease type. Bacteria aren't going to mutate into viruses.
+## Especificidades de las enfermedades y mutacion
+Las enfermedades no son estaticas y mutan cada vez que se propagan. Casi todo sobre una enfermedad puede mutar, incluso la tasa de mutacion en si misma, pero no el tipo de enfermedad. Las bacterias no van a mutar en virus.
 
-The main properties of a disease are its genotype and its effects.
+Las propiedades principales de una enfermedad son su genotipo y sus efectos.
 
-The genotype is relevant for immunity against this disease. If the disease mutates its genotype, the resulting mutated disease will be able to infect even people who have been sick with the original disease.
+El genotipo es relevante para la inmunidad contra esta enfermedad. Si la enfermedad muta su genotipo, la enfermedad mutante resultante podra infectar incluso a personas que ya estuvieron enfermas con la enfermedad original.
 
-The disease effects are self-explanatory. It's what the disease does, such as coughing, damage, immunity suppression, vomiting, or positive effects such as speeding you up.
+Los efectos de la enfermedad son autoexplicativos. Es lo que hace la enfermedad, como toser, causar dano, suprimir la inmunidad, vomitar, o efectos positivos como acelerarte.
 
-Diseases can be mutated by drinking unstable mutagen.
+Las enfermedades pueden mutarse bebiendo mutageno inestable.
 
-# Virologist
-This is a sub-guide on how to be the virologist.
+# Virologo
+Esta es una sub-guia sobre como ser el virologo.
 
-## The job
-As a virologist, your job is both to combat disease and to use it to your advantage.
+## El trabajo
+Como virologo, tu trabajo es tanto combatir las enfermedades como usarlas a tu favor.
 
-You have many tools you can use for that purpose.
+Tienes muchas herramientas que puedes usar para ese proposito.
 
-## Your toolkit
-- Your ViroHUD. It's significantly more avanced than the MedHUD at spotting who is infected, and can tell the rough severity.
-- Disease-related chemicals. Ask chemistry to make some.
-- Your biosuit, which will protect you from infection. Plague mice can't infect you through it.
-- Swabs, which let you take samples of disease from infected people.
-- A health analyzer, which can see what people are infected with.
-- And of course, your virology machinery.
+## Tu kit de herramientas
+- Tu ViroHUD. Es significativamente mas avanzado que el MedHUD para detectar quien esta infectado y puede indicar la gravedad aproximada.
+- Quimicos relacionados con enfermedades. Pide a quimica que fabrique algunos.
+- Tu biotraje, que te protegera de la infeccion. Los ratones de la plaga no pueden infectarte a traves de el.
+- Hisopos, que te permiten tomar muestras de la enfermedad de personas infectadas.
+- Un analizador de salud, que puede ver con que estan infectadas las personas.
+- Y por supuesto, tu maquinaria de virologia.
 
 <Box>
 <GuideEntityEmbed Entity="ClothingEyesHudViro" Caption="viro HUD"/>
@@ -72,16 +72,16 @@ You have many tools you can use for that purpose.
 <GuideEntityEmbed Entity="HandheldHealthAnalyzer"/>
 </Box>
 
-## Virology machines
-The disease analyzer and vaccinator are necessary to be able to properly handle disease. To use both of the machines, you will need a swab with disease on it. To get one, take a sterile swab and use it on someone who is infected.
+## Maquinas de virologia
+El analizador de enfermedades y la vacunadora son necesarios para poder manejar correctamente las enfermedades. Para usar ambas maquinas, necesitaras un hisopo con la enfermedad. Para obtenerlo, toma un hisopo esteril y usalo en alguien que este infectado.
 
 <GuideEntityEmbed Entity="DiseaseSwab" Caption="swab"/>
 
-The disease analyzer is a machine that can tell the specifics of a disease. It's important for triage and deciding what to do about the disease.
+El analizador de enfermedades es una maquina que puede indicar las especificidades de una enfermedad. Es importante para el triaje y para decidir que hacer con la enfermedad.
 
 <GuideEntityEmbed Entity="DiseaseDiagnoser" Caption="disease analyzer"/>
 
-The vaccinator has 2 modes. Vaccine mode, and live injector mode. In vaccine mode, when inserted a swab, it will output a vaccine against the genotype of the disease on the swab. Vaccines make it so that people they are applied to gain permanent immunity to the disease's genotype. In live injector mode, the vaccinator will instead output an injector that infects whoever it's applied to with the source disease.
+La vacunadora tiene 2 modos. Modo vacuna y modo inyector en vivo. En modo vacuna, cuando se inserta un hisopo, produce una vacuna contra el genotipo de la enfermedad en el hisopo. Las vacunas hacen que las personas a las que se aplican ganen inmunidad permanente al genotipo de la enfermedad. En modo inyector en vivo, la vacunadora producira en cambio un inyector que infecta a quien se le aplique con la enfermedad fuente.
 
 <Box>
 <GuideEntityEmbed Entity="Vaccine" Caption="vaccine"/>
@@ -89,9 +89,9 @@ The vaccinator has 2 modes. Vaccine mode, and live injector mode. In vaccine mod
 <GuideEntityEmbed Entity="Vaccinator" Caption="vaccinator"/>
 </Box>
 
-## Experimentation
-And now, on why the live injector mode is needed, other than purposes not condoned by Nanotrasen.
+## Experimentacion
+Y ahora, sobre por que se necesita el modo inyector en vivo, ademas de propositos no aprobados por Nanotrasen.
 
-Diseases work on monkeys, so you can infect them and try to get the disease to mutate. Eventually, this might result in a positive effect, getting you a helpful disease. Additionally, if you get lucky, you might get a disease with the same genotype but way weaker. People sick with the weaker disease will gain immunity against the original disease. There's more usages that this guide won't go through.
+Las enfermedades funcionan en los monos, por lo que puedes infectarlos e intentar que la enfermedad mute. Eventualmente, esto podria resultar en un efecto positivo, dandote una enfermedad util. Ademas, si tienes suerte, podrias obtener una enfermedad con el mismo genotipo pero mucho mas debil. Las personas enfermas con la enfermedad mas debil ganaran inmunidad contra la enfermedad original. Hay mas usos que esta guia no detallara.
 
 </Document>

@@ -1,92 +1,92 @@
 <Document>
-  # Void Summons
+  # Invocaciones del Vacio
 
-  Void summons are special minions summoned by the Wraith with skills that can put even robust crewmembers to shame. Fighting one alone is generally never recommended.
-  While not entirely meant for being killing machines by themselves, together with the Wraith and their lesser minions, a void summon can easily become a major pain in the neck.
+  Las invocaciones del vacio son sirvientes especiales invocados por el Espectro con habilidades que pueden poner en aprietos incluso a los tripulantes mas robustos. Por lo general, nunca se recomienda enfrentarse a uno solo.
+  Aunque no estan pensadas en su totalidad para ser maquinas de matar por si solas, junto al Espectro y sus sirvientes menores, una invocacion del vacio puede convertirse facilmente en un grave problema.
 
-  # Skeleton Commander
+  # Comandante Esqueleto
   <Box>
     <GuideEntityEmbed Entity="MobSkeletonCommander" Caption=""/>
   </Box>
 
-  The tanky backbone of your army, skeleton commanders can hold the line and boost nearby minions.
+  La resistente columna vertebral de tu ejercito, los comandantes esqueleto pueden mantener la linea y potenciar a los sirvientes cercanos.
 
-  ## Skills
+  ## Habilidades
 
-  Don't expect to do much yourself to the crewmembers. You actions mostly rely on sending others to do the work for you.
+  No esperes hacer mucho tu mismo contra los tripulantes. Tus acciones dependen principalmente de enviar a otros a hacer el trabajo por ti.
 
-  ### Rally
+  ### Arengar
 
-  - Buffs all surrounding allied critters, giving them a temporary boost in combat.
+  - Potencia a todas las criaturas aliadas circundantes, dandoles un impulso temporal en combate.
 
-  Best used when multiple summons are grouped together to maximize your army’s impact.
+  Mejor usado cuando multiples invocaciones estan agrupadas para maximizar el impacto de tu ejercito.
 
-  ### Summon Lesser Skeleton
+  ### Invocar Esqueleto Menor
 
-  - Spawns in a singular lesser skeleton to help you in whatever you are doing. The skeleton is mindless, and should generally be used right before a scuffle.
-  - The lesser skeleton does not have a lot of health, but they can cause a lot of damage while rallied.
+  - Hace aparecer a un esqueleto menor para ayudarte en lo que estes haciendo. El esqueleto no tiene mente propia y generalmente debe usarse justo antes de una pelea.
+  - El esqueleto menor no tiene mucha salud, pero puede causar mucho dano cuando esta potenciado.
 
-  # Tentacle Fiend
+  # Fiende Tentacular
   <Box>
     <GuideEntityEmbed Entity="MobVoidSpiker" Caption=""/>
   </Box>
 
-  Fast, ranged, and unpredictable. These fiends excel at controlling space and abducting targets to secure an easy kill for the Wraith.
-  Their meelee attacks, while extremely weak damage wise, quickly cause the target to be knocked out.
+  Rapido, a distancia e impredecible. Estos fiendas destacan en controlar el espacio y raptar objetivos para asegurar una muerte facil para el Espectro.
+  Sus ataques cuerpo a cuerpo, aunque extremadamente debiles en dano, hacen que el objetivo quede rapidamente inconsciente.
 
-  ## Skills
+  ## Habilidades
 
-  You have the perfect set of tools for kidnapping. 
+  Tienes el conjunto perfecto de herramientas para el secuestro.
 
-  ### Tentacle Hook
+  ### Gancho Tentacular
 
-  - Launch a tentacle at a target and drag them toward the fiend.
-  - While the target can try and run from the hook, it will always, inevitable, drag them into the fiend.
+  - Lanza un tentaculo hacia un objetivo y lo arrastra hacia el fienda.
+  - Aunque el objetivo puede intentar escapar del gancho, inevitablemente lo arrastrara hacia el fienda.
 
-  ### Shuffle
+  ### Esquivar
 
-  - Compress your body to slip through doors, cancel stuns, and escape attacks.
-  - Prevents using other skills during the usage of this skill, so is generally only meant for evading rather than for engaging.
+  - Comprime tu cuerpo para deslizarte por las puertas, cancelar aturdimientos y escapar de ataques.
+  - Impide usar otras habilidades durante su uso, por lo que generalmente esta pensado para evadir mas que para atacar.
 
-  ### Lash
+  ### Latigazo
 
-  - Stun a target, cause them to bleed, and do considerable damage.
-  - Best used together with the tentacle hook. As soon as the target is within reach, lash them, and abduct them into maints, never to be seen again.
+  - Aturde a un objetivo, lo hace sangrar y le inflige dano considerable.
+  - Mejor usado junto con el gancho tentacular. En cuanto el objetivo este al alcance, lanzale un latigazo y secuestralo al mantenimiento, para no ser visto jamas.
 
-  # Void Hound
+  # Sabueso del Vacio
   <Box>
     <GuideEntityEmbed Entity="MobVoidHound" Caption=""/>
   </Box>
 
-  Stealthy, fast, and deadly in close quarters. Void hounds are ideal for hit-and-run attacks and disruption.
-  The only minion from the Wraith capable of sprinting.
+  Sigiloso, rapido y letal en combate cercano. Los sabuesos del vacio son ideales para ataques de golpe y fuga y para sembrar la confusion.
+  El unico sirviente del Espectro capaz de esprintar.
 
-  ## Skills
+  ## Habilidades
 
-  Your actions are centered around catching people by surprise. 
+  Tus acciones se centran en sorprender a la gente.
 
-  ### Cloak
+  ### Camuflaje
 
-  - Become partially invisible and difficult to detect.
-  - Doesn't last for very long, but is good for sneaking up on targets.
-  - Can be used for retreating into the shadows as well.
+  - Vuelvete parcialmente invisible y dificil de detectar.
+  - No dura mucho tiempo, pero es bueno para acercarse sigilosamente a los objetivos.
+  - Tambien puede usarse para retroceder hacia las sombras.
 
-  ### Rush Down
+  ### Embestida
 
-  - Leap forward, knocking down the first person in your path and stunning in a large radius around where you land.
-  - Has a lenghthy cooldown, so use it to secure kills or to escape dire situations.
+  - Avanza rapidamente, derribando a la primera persona en tu camino y aturdiendo en un gran radio alrededor del punto de aterrizaje.
+  - Tiene un tiempo de espera prolongado, asi que usala para asegurar muertes o para escapar de situaciones desesperadas.
 
-  ### General Tips
+  ### Consejos Generales
 
-  Skeleton commanders are capable of soaking a lot of shots, but their rallying action is quite invaluable for the other minions. Choose wisely whether you wish to tank for them, or to stay behind buffing them from the backline.
+  Los comandantes esqueleto pueden absorber muchos disparos, pero su accion de arengar es bastante invaluable para los demas sirvientes. Elige sabiamente si deseas aguantar los golpes por ellos o quedarte atras potenciandolos desde la retaguardia.
 
-  Tentacle fiends excel at picking off targets from afar and killing them while they are incapable of fighting back. Once the deed is done, call over the Wraith to absorb the corpse, and rinse and repeat.
+  Los fiendas tentaculares destacan en eliminar objetivos desde lejos y matarlos mientras son incapaces de defenderse. Una vez hecho esto, llama al Espectro para que absorba el cadaver, y vuelve a empezar.
 
-  Void hounds are your mobile assassins, but not very tanky. While your stun is extremely potent, it can leave you right in the lion's den if unprepared.
+  Los sabuesos del vacio son tus asesinos moviles, pero no son muy resistentes. Aunque tu aturdimiento es extremadamente potente, puede dejarte justo en la boca del leon si no estas preparado.
 
-  Always consider positioning and timing. Summons can be fragile and die quickly if left unsupported.
+  Considera siempre el posicionamiento y el momento. Las invocaciones pueden ser fragiles y morir rapidamente si se quedan sin apoyo.
 
-  The Wraith should aim to combine minions with portals to maintain constant pressure and cause death en masse.
+  El Espectro debe intentar combinar sirvientes con portales para mantener una presion constante y causar muertes en masa.
 
-  [textlink="Back to Harbinger of the Void" link="Harbinger"]
+  [textlink="Volver a Harbinger del Vacio" link="Harbinger"]
 </Document>

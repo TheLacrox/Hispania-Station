@@ -6,12 +6,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Engineering Department SOP
-These are the list of SOPs that Engineering Personnel should follow. These are, as stated before, [bold]not checklists[/bold] and should be treated as guidelines.
+# PNE del Departamento de Ingenieria
+Estos son los PNE que el Personal de Ingenieria debe seguir. Estos son, como se ha indicado antes, [bold]no listas de verificacion[/bold] y deben tratarse como directrices.
 
-For clarification, [color=#c8a404][bold]Station Engineer[/bold][/color] and [color=#c8a404][bold]Technical Assistant[/bold][/color] are combined into the same entry, and should be followed as such.
+Para mayor claridad, [color=#c8a404][bold]Ingeniero de Estacion[/bold][/color] y [color=#c8a404][bold]Asistente Tecnico[/bold][/color] estan combinados en la misma entrada y deben seguirse como tal.
 
-The following jobs have entries in this Department, with [color=#1b67a5][bold]Chief Engineer[/bold][/color] being the Head of Staff:
+Los siguientes puestos tienen entradas en este Departamento, siendo el [color=#1b67a5][bold]Jefe de Ingenieria[/bold][/color] el Jefe de Personal:
 - [textlink="Chief Engineer" link="ChiefEngineer SOP"]
 - [textlink="Atmospheric Technician" link="AtmosTech SOP"]
 - [textlink="Station Engineer" link="StationEngineer SOP"]

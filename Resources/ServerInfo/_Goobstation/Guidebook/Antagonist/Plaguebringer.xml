@@ -1,66 +1,66 @@
 <Document>
-  # Plaguebringer
+  # Portador de la Plaga
   <Box>
     <GuideEntityEmbed Entity="MobWraithPlague" Caption=""/>
   </Box>
 
-  The Plaguebringer is a path focused around curses, diseases and filth. Most of your abilities involve applying debuffs to one of those clueless crewmembers, and then, once the time is right and their soul is ripe, collecting your dues.
+  El Portador de la Plaga es un camino centrado en maldiciones, enfermedades e inmundicia. La mayoria de tus habilidades implican aplicar efectos negativos a algun tripulante despistado y, cuando llegue el momento adecuado y su alma este madura, cobrar lo que te corresponde.
 
-  # Curses
+  # Maldiciones
 
-  The Plaguebringer has access to four base curses, with one, final curse to rule them all.
+  El Portador de la Plaga tiene acceso a cuatro maldiciones base, mas una maldicion final para gobernarlas a todas.
 
-  ## Blindness
+  ## Ceguera
 
-  - Slowly damages the eyesight of the afflicted until they are rendered fully blind.
+  - Dana lentamente la vision del afectado hasta dejarlo completamente ciego.
 
-  ## Blood
+  ## Sangre
 
-  - Causes them to cough blood, sometimes a little, sometimes a lot. Mostly just an annoyance, but can get serious if left untreated.
-  - In an ideal world, this would also apply Hemophilia to the target, which makes them bleed for longer. However, that is not yet implemented.
+  - Le provoca tos con sangre, a veces poca, a veces mucha. Principalmente una molestia, pero puede volverse grave si no se trata.
+  - En un mundo ideal, tambien aplicaria Hemofilia al objetivo, haciendolo sangrar por mas tiempo. Sin embargo, eso aun no esta implementado.
 
-  ## Enfeeblement
+  ## Debilitamiento
 
-  - This one has several effects, such as draining the stamina of the afflicted, or making them drowsy and forcing them into a sudden nap.
+  - Este tiene varios efectos, como drenar la resistencia del afectado, causarle somnolencia y obligarle a dormirse de forma repentina.
 
-  ## Rot
+  ## Putrefaccion
 
-  - Causes the afflicted to randomly puke and cough all over the place. Great for spreading disease.
-  - Prevents them from eating at all. Combined with the fact that they are slowly puking out all the contents of their stomach, this will eventually leave them starving, unable to do anything about it.
+  - Hace que el afectado vomite y tosa aleatoriamente por todas partes. Excelente para extender enfermedades.
+  - Le impide comer completamente. Combinado con el hecho de que lentamente vomita todo el contenido de su estomago, esto eventualmente lo dejara muerto de hambre, sin poder hacer nada al respecto.
 
-  ## Death
+  ## Muerte
 
-  - The final of the curses. Can only be applied once all four other curses have been applied on the same person.
-  - Once applied, the target will have less than a minute to live. They will hear a dreadful song signifying that their end is near.
-  - During that time, they will begin to experience several effects, such as falling to the ground or shaking.
-  - This curse deals damage that ramps up over time. It starts small, but quickly enough, becomes so deadly that no medicine in the world can help them survive it.
-  - Once they die, their corpse will gib, and you will permanently gain increased WP regeneration. This will count as if you had absorbed their corpse.
+  - La ultima de las maldiciones. Solo puede aplicarse una vez que las otras cuatro maldiciones hayan sido aplicadas a la misma persona.
+  - Una vez aplicada, el objetivo tendra menos de un minuto de vida. Escuchara una cancion espantosa que indica que su fin esta proximo.
+  - Durante ese tiempo, comenzara a experimentar varios efectos, como caer al suelo o temblar.
+  - Esta maldicion inflige dano que aumenta con el tiempo. Empieza siendo pequeno, pero rapidamente se vuelve tan letal que ningun medicamento del mundo podra ayudarles a sobrevivir.
+  - Una vez que mueran, su cadaver se destruira y obtendras permanentemente una mayor regeneracion de PE. Esto contara como si hubieras absorbido su cadaver.
 
-  Do note that if one curse is used, all other curses will go on cooldown. So there is a limit to how quickly you can reap someone's soul.
-  Also, important to mention, the Chaplain can [color=red]purge all of your curses with their bible by using it on the afflicted[/color], so don't expect this to be easy.
+  Ten en cuenta que si se usa una maldicion, todas las demas entraran en tiempo de espera. Asi que hay un limite en cuanto a la rapidez con la que puedes cosechar el alma de alguien.
+  Ademas, es importante mencionar que el Capellan puede [color=red]purgar todas tus maldiciones con su biblia usandola sobre el afectado[/color], asi que no esperes que esto sea sencillo.
 
-  ## Defile
+  ## Profanar
 
-  This serves to fill up either some sort of drink, or to contaminate food with a chemical of your choosing (It's always poison). First, use the action on yourself to pick the reagent, then use it again on the food/drink to defile it.
+  Sirve para contaminar alguna bebida o comida con un producto quimico de tu eleccion (siempre es veneno). Primero, usa la accion sobre ti mismo para elegir el reactivo, luego usala de nuevo sobre la comida o bebida para profanarla.
 
-  ## Summon Plague Rat
+  ## Invocar Rata de la Plaga
 
-  Creates a diseased rat on your position, a ghost role that can be taken over by someone else. The diseased rat can eat trash to grow into a larger form of itself, gaining new abilities in the process. It starts very weak, but once fully grown, can prove to be a real pain.
+  Crea una rata enferma en tu posicion, un rol de fantasma que puede ser tomado por otra persona. La rata enferma puede comer basura para crecer y convertirse en una forma mayor de si misma, ganando nuevas habilidades en el proceso. Comienza siendo muy debil, pero una vez completamente crecida, puede convertirse en un verdadero problema.
 
-  ## Create Rot Hulk
+  ## Crear Coloso Putrefacto
 
-  Uses nearby filth to summon a mass of filth and decay that attacks nearby crew and explodes on death. Try using this action at disposals, or near large amounts of trash if you can find something of the sort.
-  If you manage to find a pile of more than 30 pieces of trash, it will spawn a much stronger version of the rot hulk.
+  Usa la suciedad cercana para invocar una masa de inmundicia y decadencia que ataca a la tripulacion proxima y explota al morir. Intenta usar esta accion en las eliminadoras, o cerca de grandes cantidades de basura si puedes encontrar algo de ese tipo.
+  Si consigues encontrar un monton de mas de 30 piezas de basura, invocara una version mucho mas fuerte del coloso putrefacto.
 
-  # Sick! But how do I do better as this?
+  # ¡Genial! ¿Pero como puedo hacerlo mejor con este rol?
 
-  ## General tips
+  ## Consejos generales
 
-  It takes some time for you to apply all four curses on someone. And even more so, they still have another full minute before the death curse does them in. Try to use your curses on targets that are far away from the chaplain, to reduce the chances of them wasting all of your effort.
-  
-  Use actions such as Possess object or Spook to create more trash by breaking windows or lightbulbs. This will allow you to summon stronger rot hulks, and can even help diseased rats to evolve faster.
-  
-  Defile leaves a very distinct taste in the mouth of whoever eats the contaminated food. You can use this to frame the chef or the bartender for trying to poison someone.
+  Lleva algun tiempo aplicar las cuatro maldiciones a alguien. Y aun mas, el objetivo tendra otro minuto completo antes de que la maldicion de muerte acabe con el. Intenta usar tus maldiciones en objetivos que esten lejos del capellan, para reducir las posibilidades de que desperdicien todo tu esfuerzo.
 
-  [textlink="Back to Wraith Evolutions" link="Wraiths"]
+  Usa acciones como Poseer objeto o Asustar para crear mas basura rompiendo ventanas o bombillas. Esto te permitira invocar colosos putrefactos mas fuertes, y puede incluso ayudar a las ratas enfermas a evolucionar mas rapido.
+
+  Profanar deja un sabor muy particular en la boca de quien come la comida contaminada. Puedes usar esto para culpar al cocinero o al barman de intentar envenenar a alguien.
+
+  [textlink="Volver a Evoluciones de Espectro" link="Wraiths"]
 </Document>

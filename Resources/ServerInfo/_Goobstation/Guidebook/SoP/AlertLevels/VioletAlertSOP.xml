@@ -6,40 +6,40 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Station Alert - Violet
+  # Alerta de Estacion - Violeta
 
   <Box>
-    [italic]Called by: A viral threat aboard the station.[/italic]
+    [italic]Declarada por: Una amenaza viral a bordo de la estacion.[/italic]
   </Box>
 
-  [bold]Conditions:[/bold]
+  [bold]Condiciones:[/bold]
 
-  There is a known viral threat aboard the station, and all hands on deck are required to combat it.
+  Existe una amenaza viral conocida a bordo de la estacion, y se requiere la colaboracion de todo el personal para combatirla.
 
-  [bold]Security:[/bold]
+  [bold]Seguridad:[/bold]
 
-  Security should fully arm themselves, and at their discretion may also hand out arms to trusted crewmembers and Command.
+  Seguridad debe armarse completamente y, a su discrecion, puede tambien distribuir armas a tripulantes de confianza y al Mando.
 
-  Security personnel are to prioritize the safety of themselves and Command, and crewmembers as the next-highest priority.
+  El personal de Seguridad debe priorizar su propia seguridad y la del Mando, siendo la tripulacion la siguiente prioridad.
 
-  Security personnel should distance themselves from others in order to avoid the spread of unknown pathogens.
+  El personal de Seguridad debe mantener distancia con los demas para evitar la propagacion de patogenos desconocidos.
 
-  [bold]Secure Areas:[/bold]
+  [bold]Areas Seguras:[/bold]
 
-  EVA Storage, Tech Storage, Gravity Generator, Engineering Secure Storage, AI Upload, Vault, Gateway, anywhere else requiring command level access that does not get regularly used.
+  Almacen EVA, Almacen Tecnico, Generador de Gravedad, Almacen Seguro de Ingenieria, Subida de IA, Boveda, Portal, y cualquier otro lugar que requiera acceso de nivel mando y que no se use habitualmente.
 
-  It is recommended that all Secure Areas be bolted down unless their use is necessary;
+  Se recomienda que todas las Areas Seguras esten bloqueadas a menos que su uso sea necesario;
 
-  The Gateway should be fully closed to avoid off-station spread of the virus.
+  El Portal debe cerrarse completamente para evitar la propagacion del virus fuera de la estacion.
 
-  [bold]General Crew:[/bold]
+  [bold]Tripulacion General:[/bold]
 
-  All personnel are required to maximize their Suit Sensors;
+  Todo el personal esta obligado a maximizar sus Sensores de Traje;
 
-  Personnel are to distance themselves from other personnel where infection or carrier status is suspected.
+  El personal debe mantener distancia con otro personal en quien se sospeche infeccion o condicion de portador.
 
-  Personnel must exercise caution at all times. Following simple safety procedures (such as not going through Maintenance alone) can prevent needless accidents.
+  El personal debe extremar las precauciones en todo momento. Seguir procedimientos de seguridad simples (como no atravesar el Mantenimiento en solitario) puede prevenir accidentes innecesarios.
 
-  Personnel are advised to secure a secluded location to ride out the viral threat in. Stock as much food and water as is possible.
+  Se aconseja al personal que asegure un lugar aislado donde resguardarse de la amenaza viral. Acumula la mayor cantidad posible de comida y agua.
 
 </Document>

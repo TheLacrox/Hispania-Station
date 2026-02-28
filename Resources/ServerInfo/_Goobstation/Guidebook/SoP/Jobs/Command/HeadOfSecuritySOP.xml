@@ -6,53 +6,53 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Head of Security (HOS) SOP
-This is the list of procedures, responsibilities, and duties of the [color=#1b67a5][bold]Head of Security[/bold][/color] of this station.
+# PNE del Jefe de Seguridad (JdS)
+Esta es la lista de procedimientos, responsabilidades y obligaciones del [color=#1b67a5][bold]Jefe de Seguridad[/bold][/color] de esta estacion.
 
 <ColorBox>
   <Box>
-    For the purposes of Alert Escalation: Treat higher alerts as if they are still on the previous alert level. (Yellow Alert is Blue Alert if it was Blue Alert prior.) Furthermore, treat Delta, Gamma, Epsilon, and Violet Alert as Red Alert.
+    A efectos de Escalada de Alerta: Tratar las alertas superiores como si estuvieran aun en el nivel de alerta anterior. (La Alerta Amarilla es Alerta Azul si era Alerta Azul antes.) Ademas, tratar la Alerta Delta, Gamma, Epsilon y Violeta como Alerta Roja.
   </Box>
 </ColorBox>
 
-The [color=#1b67a5][bold]Head of Security[/bold][/color] is permitted to carry their shift-start equipment, but should follow escalation procedures and refrain from using lethals.
+El [color=#1b67a5][bold]Jefe de Seguridad[/bold][/color] tiene permitido portar su equipo de inicio de turno, pero debe seguir los procedimientos de escalada y abstenerse de usar armas letales.
 
-## Green Alert
-1. The Head of Security is permitted to carry out arrests under the same conditions as their Security Officers.
+## Alerta Verde
+1. El Jefe de Seguridad tiene permitido realizar arrestos bajo las mismas condiciones que sus Oficiales de Seguridad.
 
-2. The Head of Security is permitted to carry a standard disabler, a flash, a telescopic baton, a flashbang, and a standard energy gun.
-<Box>While permitted to carry their unique Energy Gun, they should keep it on Stun/Disable.</Box>
+2. El Jefe de Seguridad tiene permitido portar un desactivador estandar, una linterna de destellos, una porra telescopica, una granada de destello y una pistola de energia estandar.
+<Box>Aunque tiene permitido portar su Pistola de Energia unica, debe mantenerla en modo Aturdimiento/Desactivacion.</Box>
 
-3. The Head of Security is permitted to carry their standard equipment provided in their locker, including their submachine gun, but should refrain from using it.
+3. El Jefe de Seguridad tiene permitido portar su equipo estandar proporcionado en su armario, incluida su subfusil, pero debe abstenerse de usarla.
 
-4. The Head of Security is not obligated to provide a trial, but is encouraged to allow legal representation should the suspect request it. This only applies to Capital Crimes.
+4. El Jefe de Seguridad no esta obligado a celebrar un juicio, pero se le anima a permitir representacion legal si el sospechoso lo solicita. Esto solo aplica a Crimenes Capitales.
 
-5. The Head of Security may not overrule a Captain/Nanotrasen Representative, unless their decisions are blatantly breaking Standard Operating Procedure and/or Space Law. In which case Central Command is to be contacted as well.
+5. El Jefe de Seguridad no puede anular las decisiones de un Capitan/Representante de Nanotrasen, a menos que sus decisiones esten violando de manera evidente el Procedimiento Operativo Estandar y/o la Ley Espacial. En tal caso, tambien debe contactarse al Mando Central.
 
-6. The Head of Security must follow the same guidelines as the Warden for Armory equipment, portable flashers and deployable barriers.
+6. El Jefe de Seguridad debe seguir las mismas directrices que el Carcelero para el equipo del Armeria, destelladores portatiles y barreras desplegables.
 
-7. The Head of Security is not permitted to collect equipment from the Armory to carry on their person.
+7. El Jefe de Seguridad no tiene permitido recoger equipo del Armeria para portarlo en su persona.
 
-8. The Head of Security is permitted to either use their regular coat, or armored trenchcoat.
+8. El Jefe de Seguridad tiene permitido usar su abrigo regular o su gabardina blindada.
 
-9. The Head of Security is permitted to wear their unique gas mask.
+9. El Jefe de Seguridad tiene permitido usar su mascara de gas unica.
 
-10. The Head of Security may not overrule established sentences, unless further evidence is brought to light or the prisoner in question attempts to escape.
+10. El Jefe de Seguridad no puede anular las sentencias establecidas, a menos que se presente nueva evidencia o el prisionero en cuestion intente escapar.
 
-11. The Head of Security must follow the same guidelines as Security Officers for attire, with the exception that their own assigned attire is also acceptable for any of the attire mentioned for Security Officers.
+11. El Jefe de Seguridad debe seguir las mismas directrices que los Oficiales de Seguridad en cuanto a la vestimenta, con la excepcion de que su propia vestimenta asignada tambien es aceptable para cualquiera de las vestimentas mencionadas para los Oficiales de Seguridad.
 
-## Blue Alert
-1. All Guidelines carry over from [color=#388c34]Green Alert[/color].
-<Box>The exception being that the energy gun may now be used in energy or ion mode if needed.</Box>
+## Alerta Azul
+1. Todas las directrices de [color=#388c34]Alerta Verde[/color] se mantienen.
+<Box>La excepcion es que la pistola de energia ahora puede usarse en modo energia o ion si es necesario.</Box>
 
-2. The Head of Security is permitted to use the submachine gun lethally for self-defense purposes. They must follow the same escalation laws for hostiles.
+2. El Jefe de Seguridad tiene permitido usar el subfusil de forma letal para propositos de autodefensa. Debe seguir las mismas leyes de escalada para los hostiles.
 
-## Red Alert
-1. All Guidelines carry over from [color=#388c34]Green Alert[/color] and [color=#1b67a5]Blue Alert[/color].
+## Alerta Roja
+1. Todas las directrices de [color=#388c34]Alerta Verde[/color] y [color=#1b67a5]Alerta Azul[/color] se mantienen.
 
-2. The Head of Security is required to make a Station Announcement regarding the nature of the confirmed threat that caused [color=#ba292c]Red Alert[/color].
-<Box>The Captain may perform this duty in the place of the Head of Security.</Box>
+2. El Jefe de Seguridad debe realizar un Anuncio de Estacion sobre la naturaleza de la amenaza confirmada que causo la [color=#ba292c]Alerta Roja[/color].
+<Box>El Capitan puede realizar este deber en lugar del Jefe de Seguridad.</Box>
 
-3. The Head of Security may also wear their hardsuit if necessary.
+3. El Jefe de Seguridad tambien puede usar su traje especial si es necesario.
 
 </Document>

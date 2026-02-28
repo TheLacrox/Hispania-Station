@@ -6,68 +6,68 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Warden SOP
-This is the list of procedures, responsibilities, and duties of the [color=#ba292c][bold]Warden[/bold][/color] of this station.
+# PES de Carcelero
+Esta es la lista de procedimientos, responsabilidades y obligaciones del [color=#ba292c][bold]Carcelero[/bold][/color] de esta estacion.
 
 <ColorBox>
   <Box>
-    For the purposes of Alert Escalation: Treat higher alerts as if they are still on the previous alert level. (Yellow Alert is Blue Alert if it was Blue Alert prior.) Furthermore, treat Delta, Gamma, Epsilon, and Violet Alert as Red Alert.
+    Para efectos de Escalada de Alertas: Trata las alertas superiores como si todavia estuvieras en el nivel de alerta anterior. (Alerta Amarilla es Alerta Azul si era Alerta Azul antes.) Ademas, trata Delta, Gamma, Epsilon y Alerta Violeta como Alerta Roja.
   </Box>
 </ColorBox>
 
-The [color=#ba292c][bold]Warden[/bold][/color] is permitted to carry their shift-start equipment, but should follow escalation procedures and refrain from using lethals.
+El [color=#ba292c][bold]Carcelero[/bold][/color] tiene permitido portar su equipo de inicio de turno, pero debe seguir los procedimientos de escalada y abstenerse de usar armas letales.
 
-## Green Alert
-1. The Warden is obligated to remain in the Security Department at all times except to assist in transportation of prisoners.
-<Box>The Warden must maintain control over the Armory as well, with only exceptions being allowed for Captain and Head of Security.</Box>
+## Alerta Verde
+1. El Carcelero esta obligado a permanecer en el Departamento de Seguridad en todo momento, excepto para asistir en el transporte de prisioneros.
+<Box>El Carcelero tambien debe mantener el control sobre la Armeria, con excepciones permitidas solo para el Capitan y el Jefe de Seguridad.</Box>
 
-2. The Warden may not perform arrests if there are Security Officers active.
+2. El Carcelero no puede realizar arrestos si hay Oficiales de Seguridad activos.
 
-3. The Warden must conduct a thorough search of every prisoner's belongings, including pockets, PDA slots, any coat pockets and suit storage slots.
-<Box>Following proper Space Law: PDA, clothes, and Headsets are to be returned when the search is finished; unless contraband/tampering is evident. Then replacements should be issued.</Box>
+3. El Carcelero debe realizar un registro exhaustivo de las pertenencias de cada prisionero, incluyendo bolsillos, ranuras de PDA, bolsillos de abrigo y ranuras de almacenamiento del traje.
+<Box>Siguiendo la Ley Espacial correspondiente: el PDA, la ropa y los auriculares deben devolverse cuando el registro este terminado; a menos que haya contrabando o manipulacion evidente. En tal caso, deben emitirse reemplazos.</Box>
 
-4. The warden should ensure that all prisoners are equipped with their PDA, Headset, and clothes (provided they are not contraband/tampered with).
-<Box>In such cases where the PDA, Headset, and/or clothes are tampered with or harboring contraband, replacements should be issued.</Box>
+4. El Carcelero debe asegurarse de que todos los prisioneros cuenten con su PDA, auriculares y ropa (siempre que no sean contrabando o esten manipulados).
+<Box>En los casos en que el PDA, los auriculares y/o la ropa esten manipulados o contengan contrabando, deben emitirse reemplazos.</Box>
 
-5. The Warden is not obligated to provide a trial, but is encouraged to allow legal representation should the suspect request it. This only applies to Capital Crimes.
+5. El Carcelero no esta obligado a proporcionar un juicio, pero se le alienta a permitir representacion legal si el sospechoso lo solicita. Esto solo aplica a Crimenes Capitales.
 
-6. The Warden may not hand out any weapons or armour from the Armory, except for extra disablers.
+6. El Carcelero no puede distribuir ninguna arma ni armadura de la Armeria, excepto desactivadores adicionales.
 
-7. The Warden is permitted to carry a standard disabler, a flash, a stunbaton, a flashbang and their provided energy shotgun.
+7. El Carcelero tiene permitido portar un desactivador estandar, una linterna, una porra paralizante, una granada de luz y su escopeta de energia asignada.
 
-8. The Warden may not place the portable flashers nor deployable barriers within the Brig.
+8. El Carcelero no puede colocar destelladores portatiles ni barreras desplegables dentro de la Brigada.
 
-9. The Warden must read to every prisoner the crimes they are sentenced to.
+9. El Carcelero debe leer a cada prisionero los crimenes por los que esta sentenciado.
 
-10. The Warden is not permitted to leave prisoners buckled and cuffed to their beds.
-<Box>An exception is made if the prisoners are acting overly hostile or attempting to breach the cell in order to escape.</Box>
+10. El Carcelero no tiene permitido dejar a los prisioneros esposados y atados a sus camas.
+<Box>Se hace una excepcion si los prisioneros actuan de forma excesivamente hostil o intentan forzar la celda para escapar.</Box>
 
-11. The Warden must follow the same guidelines as Security Officers for attire, with the exception that their own assigned attire is also acceptable for any of the attire mentioned for Security Officers.
+11. El Carcelero debe seguir las mismas directrices que los Oficiales de Seguridad en cuanto a vestimenta, con la excepcion de que su propia vestimenta asignada tambien es aceptable para cualquiera de las vestimentas mencionadas para los Oficiales de Seguridad.
 
-12. The Warden is permitted to place the portable flashers inside the Brig if there is an influx of prisoner personnel and/or several attempts to escape.
+12. El Carcelero tiene permitido colocar los destelladores portatiles dentro de la Brigada si hay una afluencia de personal prisionero y/o varios intentos de fuga.
 
-## Blue Alert
-1. Guidelines 2, 3, 5, 7, 10, and 12 are carried over from [color=#388c34]Green Alert[/color].
+## Alerta Azul
+1. Las directrices 2, 3, 5, 7, 10 y 12 se mantienen desde la [color=#388c34]Alerta Verde[/color].
 
-2. The Warden is permitted to hand out all equipment from the Armory. Energy and Laser guns are only to be handed out with Captain and/or Head of Security's approval, as they present a lethal risk.
-<Box>Exceptions apply if there is a lethal threat and/or emergency, such as Nuclear Operatives, Blob, and/or Delta Alert.</Box>
+2. El Carcelero tiene permitido distribuir todo el equipo de la Armeria. Las armas de energia y laser solo deben distribuirse con la aprobacion del Capitan y/o Jefe de Seguridad, ya que presentan un riesgo letal.
+<Box>Se aplican excepciones si hay una amenaza letal y/o emergencia, como Operativos Nucleares, Blob y/o Alerta Delta.</Box>
 
-3. The Warden is permitted to place the portable flashes and deployable barriers inside the Brig at all times.
+3. El Carcelero tiene permitido colocar los destelladores portatiles y las barreras desplegables dentro de la Brigada en todo momento.
 
-4. The Warden should still remain in the Security Department unless an emergency requires moving.
+4. El Carcelero debe permanecer en el Departamento de Seguridad a menos que una emergencia requiera moverse.
 
-## Red Alert
-1. Guidelines 3, 5, 7, 10, and 12 are carried over from [color=#388c34]Green Alert[/color].
+## Alerta Roja
+1. Las directrices 3, 5, 7, 10 y 12 se mantienen desde la [color=#388c34]Alerta Verde[/color].
 
-2. Guidelines 2 and 3 are carried over from [color=#1b67a5]Blue Alert[/color]. In addition, the Warden may also carry any weapon from the Armory, but never more than one at a time.
+2. Las directrices 2 y 3 se mantienen desde la [color=#1b67a5]Alerta Azul[/color]. Ademas, el Carcelero tambien puede portar cualquier arma de la Armeria, pero nunca mas de una a la vez.
 
-3.The Warden is permitted to distribute any weapon or piece of equipment in the Armory. This includes whatever Research has provided.
+3. El Carcelero tiene permitido distribuir cualquier arma o equipo de la Armeria. Esto incluye lo que Investigacion haya proporcionado.
 
-4. The Warden is permitted to carry out arrests freely.
+4. El Carcelero tiene permitido realizar arrestos libremente.
 
-5. The Warden, with approval from Captain and/or Head of Security, may give one (1) lethal weapon to a Head of Staff.
-<Box>The lethal weapon must be returned when the alert is reduced.</Box>
+5. El Carcelero, con aprobacion del Capitan y/o Jefe de Seguridad, puede entregar un (1) arma letal a un Jefe de Personal.
+<Box>El arma letal debe devolverse cuando la alerta sea reducida.</Box>
 
-6. The Warden should still remain in the Security Department unless an emergency requires moving.
+6. El Carcelero debe permanecer en el Departamento de Seguridad a menos que una emergencia requiera moverse.
 
 </Document>

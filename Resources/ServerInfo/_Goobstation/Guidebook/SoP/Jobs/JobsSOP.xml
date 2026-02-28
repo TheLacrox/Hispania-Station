@@ -6,14 +6,14 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Job Standards
-Attached below this are several different categories for Job-Specific Standard Operating Procedures (SOP). These are here to help clarify different goals in your job or department.
+# Estandares de Puesto
+A continuacion se presentan varias categorias de Procedimientos Operativos Estandar (PNE) especificos de cada Puesto. Estos sirven para clarificar los diferentes objetivos de tu trabajo o departamento.
 
 <Box>
-[bold][color=#f0e4b4]To be clear:[/color][/bold] these are not a [italic]checklist[/italic] for you to follow. They can be used as such, but should be used more as guidelines.
+[bold][color=#f0e4b4]Para ser claros:[/color][/bold] estos no son una [italic]lista de verificacion[/italic] que debes seguir. Pueden usarse como tal, pero deben tratarse mas como directrices.
 </Box>
 
-The following folders are listed underneath this folder:
+Las siguientes carpetas estan listadas dentro de esta carpeta:
 - [textlink="Cargo Department" link="CargoSOP"]
 - [textlink="Command Department" link="CommandSOP"]
 - [textlink="Engineering Department" link="EngineeringSOP"]

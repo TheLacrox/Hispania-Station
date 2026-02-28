@@ -6,18 +6,18 @@
     <GuideEntityEmbed Entity="LegionnaireBonfire" Caption=""/>
   </Box>
 
-  Hell Ripte, is a [textlink="martial art" link="MartialArts"] that focuses on ripping through crowds of demons with
-  brutal efficiency. This art can only be mastered by the slaughter demons of hell, as it requires an enormous amount of raw strength and power to master,
-  yet Space Wizards may also unravel its secrets.
-  A full understanding of this art will allow you to paint the station red. None will be safe from your carnage.
+  Hell Ripte es un [textlink="arte marcial" link="MartialArts"] que se centra en destrozar multitudes de demonios con
+  brutal eficiencia. Este arte solo puede ser dominado por los demonios de la matanza del infierno, ya que requiere una enorme cantidad de fuerza y poder brutos para dominarlo,
+  aunque los Magos Espaciales tambien pueden desvelar sus secretos.
+  Un dominio completo de este arte te permitira pintar la estacion de rojo. Nadie estara a salvo de tu carniceria.
 
-  ## Special abilities
+  ## Habilidades Especiales
 
-  Hell Ripte masters do extreme amounts of damage in short windows, making them unmatched in hand to hand combat.
+  Los maestros de Hell Ripte causan cantidades extremas de dano en ventanas cortas, haciendolos incomparables en el combate cuerpo a cuerpo.
 
-  ## Combo attacks
+  ## Ataques en Combinacion
 
-  ### Tear Down
+  ### Derribo
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
@@ -25,9 +25,9 @@
     <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
   </Box>
 
-  Deals massive slashing damage and bleeds the target.
+  Causa dano de corte masivo y hace sangrar al objetivo.
 
-  ### Head Rip
+  ### Arrancamiento de Cabeza
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
@@ -36,24 +36,24 @@
     <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
   </Box>
 
-  Rip off the head of an opponent who is dead, very lethal. Cannot be done while target is alive.
+  Arranca la cabeza de un oponente que esta muerto, muy letal. No puede realizarse mientras el objetivo este vivo.
 
-  ### Hellish Slam
+  ### Golpe Infernal
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
   </Box>
 
-  Knocks an opponent down and deals heavy stamina damage. If you are downed you pull yourself up.
+  Derrumba a un oponente y causa dano de stamina pesado. Si estas tumbado te levantas.
 
-  ### Drop Kick
+  ### Patada en Caida
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
   </Box>
 
-  Launch a downed opponent. Great for painting. Cannot be done while on the ground.
+  Lanza a un oponente tumbado. Ideal para pintar. No puede realizarse estando en el suelo.
 
 </Document>

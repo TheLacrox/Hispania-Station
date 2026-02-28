@@ -8,55 +8,55 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Surgery
-Your usual weekly activity. By performing surgical operations on your patients, you can heal wounds, remove or add body parts, organs, and more.
+# Cirugia
+Tu actividad semanal habitual. Realizando operaciones quirurgicas en tus pacientes puedes sanar heridas, retirar o agregar partes del cuerpo, organos y mucho mas.
 
-## The Basics
-To start surgery your patient needs to be laying down, and ideally sedated.
+## Lo Basico
+Para comenzar una cirugia tu paciente necesita estar tumbado y, idealmente, sedado.
 
-If they are not sedated, they will be in a lot of pain, which decreases their mood, and will make surgical wounds worse.
+Si no esta sedado, sufrira mucho dolor, lo que disminuye su animo y empeorara las heridas quirurgicas.
 
 <Box>
-<GuideEntityEmbed Entity="NitrousOxideTank" Caption="nitrous oxide"/>
-<GuideEntityEmbed Entity="ClothingMaskBreathMedical" Caption="any breathing tool"/>
+<GuideEntityEmbed Entity="NitrousOxideTank" Caption="oxido nitroso"/>
+<GuideEntityEmbed Entity="ClothingMaskBreathMedical" Caption="cualquier herramienta de respiracion"/>
 </Box>
 
-You also need to wear protective gear such as a mask and gloves to prevent harming the patient due to contamination.
+Tambien debes usar equipo protector como mascarilla y guantes para evitar danar al paciente por contaminacion.
 
 <Box>
-<GuideEntityEmbed Entity="ClothingMaskSterile" Caption="any mask"/>
-<GuideEntityEmbed Entity="ClothingHandsGlovesNitrile" Caption="any gloves"/>
+<GuideEntityEmbed Entity="ClothingMaskSterile" Caption="cualquier mascarilla"/>
+<GuideEntityEmbed Entity="ClothingHandsGlovesNitrile" Caption="cualquier guante"/>
 </Box>
 
-## Getting Started
+## Primeros Pasos
 
-To engage in surgery, you'll need a set of surgical tools.
+Para realizar una cirugia necesitaras un conjunto de herramientas quirurgicas.
 
 <Box>
-<GuideEntityEmbed Entity="Scalpel" Caption="scalpel"/>
+<GuideEntityEmbed Entity="Scalpel" Caption="bisturi"/>
 <GuideEntityEmbed Entity="Retractor" Caption="retractor"/>
 <GuideEntityEmbed Entity="Hemostat" Caption="hemostat"/>
-<GuideEntityEmbed Entity="Drill" Caption="drill"/>
+<GuideEntityEmbed Entity="Drill" Caption="taladro"/>
 </Box>
 <Box>
-<GuideEntityEmbed Entity="Saw" Caption="saw"/>
-<GuideEntityEmbed Entity="Cautery" Caption="cautery"/>
-<GuideEntityEmbed Entity="BoneGel" Caption="bone gel"/>
+<GuideEntityEmbed Entity="Saw" Caption="sierra"/>
+<GuideEntityEmbed Entity="Cautery" Caption="cauterizador"/>
+<GuideEntityEmbed Entity="BoneGel" Caption="gel oseo"/>
 </Box>
 
-Once you've got tools in hand, interact with your patient to begin surgery. You'll be able to choose which part you want to operate on.
+Una vez que tengas las herramientas en mano, interactua con tu paciente para comenzar la cirugia. Podras elegir sobre que parte quieres operar.
 
-## Ghetto Surgery
+## Cirugia de Emergencia
 
-Certain non-surgical tools can be used in a pinch, use the scalpel examine icon to see how good or bad something is.
+Ciertas herramientas no quirurgicas pueden usarse en caso de necesidad; usa el icono de examinar del bisturi para ver que tan buena o mala es una herramienta.
 <Box>
-<GuideEntityEmbed Entity="Welder" Caption="welder"/>
-<GuideEntityEmbed Entity="Wirecutter" Caption="wirecutter"/>
-<GuideEntityEmbed Entity="KitchenKnife" Caption="knife"/>
-<GuideEntityEmbed Entity="Crowbar" Caption="crowbar"/>
-<GuideEntityEmbed Entity="CableApcStack" Caption="lv cable"/>
+<GuideEntityEmbed Entity="Welder" Caption="soldador"/>
+<GuideEntityEmbed Entity="Wirecutter" Caption="cortacables"/>
+<GuideEntityEmbed Entity="KitchenKnife" Caption="cuchillo"/>
+<GuideEntityEmbed Entity="Crowbar" Caption="palanca"/>
+<GuideEntityEmbed Entity="CableApcStack" Caption="cable lv"/>
 </Box>
 
-They aren't ideal compared to real surgical equipment, but they'll do in a pinch!
+No son ideales comparadas con el equipo quirurgico real, pero serviran en caso de apuro.
 
 </Document>

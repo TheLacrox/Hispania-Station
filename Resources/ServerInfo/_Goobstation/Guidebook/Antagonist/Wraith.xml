@@ -1,106 +1,106 @@
 <Document>
-  # Wraith
+  # Espectro
   <Box>
     <GuideEntityEmbed Entity="MobWraith" Caption=""/>
   </Box>
-  Where most other antagonist roles exist to make you afraid of some maniac with a fire extinguisher coming to get you,
-  the Wraith exists to make you afraid of the station itself.
+  Mientras que la mayoria de los roles de antagonista existen para hacerte temer a algun maniaco con un extintor que viene a por ti,
+  el Espectro existe para hacerte temer a la propia estacion.
 
-  Given enough time and corpses (and given that they almost always appear with other antagonists, there will be corpses), they can progress from an inconvenience to a terrifying juggernaut of murder.
+  Con suficiente tiempo y cadaveres (y dado que casi siempre aparece junto a otros antagonistas, habra cadaveres), puede pasar de ser una molestia a un aterrador juggernaut asesino.
 
-  They have their downsides, though, and a clever chef with some salt can be far more dangerous to a wraith than an army of supercops armed to the teeth.
+  Tiene sus desventajas, sin embargo, y un cocinero inteligente con un poco de sal puede ser mucho mas peligroso para un espectro que un ejercito de superagentes armados hasta los dientes.
 
-  ## So I've been reborn as a Wraith, now what?
+  ## Entonces me han reencarnado como Espectro, ¿y ahora que?
 
-  First and foremost, wraiths are ghosts. They cannot be seen by the living unless manifested, they can hear everything on the station, they can talk to and see normal ghosts, fly through walls, all of it.
-  They can use their powers while incorporeal as well, and are effectively invulnerable in this state.
+  Ante todo, los espectros son fantasmas. No pueden ser vistos por los vivos a menos que se manifiesten, pueden escuchar todo en la estacion, pueden hablar y ver a los fantasmas normales, volar a traves de paredes, todo eso.
+  Tambien pueden usar sus poderes mientras son incorporeos, y en este estado son practicamente invulnerables.
 
-  When wraiths use the Haunt ability, they manifest in a physical form for about minute, able to be injured and even killed.
+  Cuando los espectros usan la habilidad Acechar, se manifiestan en forma fisica durante aproximadamente un minuto, pudiendo ser heridos e incluso muertos.
 
-  If killed while manifested, though, a wraith isn't necessarily dead. Wraiths can survive being banished from physical form once - the second time kills them for good.
-  Moreover, there's strings attached: when banished, they lose all of their built-up WP and, far more cripplingly, any WP regeneration bonuses from Absorb Corpse. The consolation prize is that Absorb Corpse's cooldown is reset as well.
+  Si son asesinados mientras estan manifestados, sin embargo, un espectro no esta necesariamente muerto. Los espectros pueden sobrevivir siendo desterrados de la forma fisica una vez; la segunda vez los mata definitivamente.
+  Ademas, hay condiciones: cuando son desterrados, pierden todos sus PP acumulados y, mucho mas gravemente, cualquier bonificacion de regeneracion de PP de Absorber Cadaver. El consuelo es que el tiempo de recarga de Absorber Cadaver tambien se reinicia.
 
-  Wraiths can also move items by pulling them around.
+  Los espectros tambien pueden mover objetos arrastrando los alrededor.
 
-  ## Wraith Points
+  ## Puntos de Espectro
 
-  Wraith abilities work off the creatively named Wraith Points, or WP, a resource that passively increases over time. The rate of regeneration can be permanently increased by absorbing corpses, or temporarily increased by using Haunt near a crowd or possessing a Revenant.
-  There's no upper limit to banked points or regeneration rate, but banishment resets both.
+  Las habilidades del espectro funcionan con los creativamente denominados Puntos de Espectro, o PP, un recurso que aumenta pasivamente con el tiempo. La tasa de regeneracion puede aumentarse permanentemente absorbiendo cadaveres, o temporalmente aumentarse usando Acechar cerca de una multitud o poseyendo un Revenant.
+  No hay limite superior de puntos acumulados ni de tasa de regeneracion, pero el destierro reinicia ambos.
 
-  ### Ok, that's good and all, but how do I work this thing?
+  ### Bien, eso esta bien, pero ¿como funciona esto?
 
-  At the beginning, you are fairly weak. Not necessarily in the literal sense, but without WP (Wraith Points!),
-  you are incapable of using most of your skills to cause actual harm. Your two most important abilities are:
+  Al principio, eres bastante debil. No necesariamente en el sentido literal, pero sin PP (¡Puntos de Espectro!),
+  eres incapaz de usar la mayoria de tus habilidades para causar dano real. Tus dos habilidades mas importantes son:
 
-  ### Haunt
+  ### Acechar
 
-  - Makes you corporeal, allowing others to see you. While this does leave you vulnerable to being attacked, it also increases the rate at which you gain WP based on the number of witnesses to your spooky presence.
-  - Some actions may only be used while corporeal, so this is your way of doing that.
+  - Te vuelve corporeo, permitiendo que otros te vean. Si bien esto te deja vulnerable a ser atacado, tambien aumenta la tasa a la que ganas PP en funcion del numero de testigos de tu espeluznante presencia.
+  - Algunas acciones solo pueden usarse mientras eres corporeo, por lo que esta es tu forma de hacerlo.
 
-  ### Absorb Corpse
+  ### Absorber Cadaver
 
-  - Consumes a corpse (so long as they aren't rotting), giving you some extra WP regeneration permanently, as well as a nice chunk of WP in the process.
-  - Once this action is used, it will rot the target and create some nasty black smoke, so it isn't exactly subtle.
-  - Be warned! If you attempt to absorb a corpse that has at least 25 units of Formaldehyde inside it, while the chemical will be removed in the process, you will be left severely harmed! Avoid targetting corpses inside the morgue that may have been injected with this embalming chemical.
+  - Consume un cadaver (siempre que no este en descomposicion), dándote algo de regeneracion extra de PP de forma permanente, ademas de una buena cantidad de PP en el proceso.
+  - Una vez que se usa esta accion, pudrira al objetivo y creara un humo negro desagradable, por lo que no es exactamente sutil.
+  - ¡Ten cuidado! Si intentas absorber un cadaver que tiene al menos 25 unidades de Formaldehido dentro de el, aunque el quimico sera eliminado en el proceso, quedas gravemente danado. Evita atacar cadaveres dentro de la morgue que puedan haber sido inyectados con este quimico de embalsamamiento.
 
-  These are your bread and butter. Once you absorb enough corpses, you will be allowed to...
+  Estas son tus habilidades basicas. Una vez que hayas absorbido suficientes cadaveres, podras...
 
-  ## Evolve
+  ## Evolucionar
 
-  Past the basic wraith form, three unique paths are available in the form of an ability in its original power set. Each has their own ability set granted on top of the base wraith's, allowing for different styles of gameplay. The different forms also have their own weaknesses to go along with their individual strengths.
+  Mas alla de la forma basica de espectro, tres caminos unicos estan disponibles en forma de una habilidad en su conjunto de poderes original. Cada uno tiene su propio conjunto de habilidades otorgadas sobre las del espectro base, permitiendo diferentes estilos de juego. Las diferentes formas tambien tienen sus propias debilidades ademas de sus fortalezas individuales.
 
-  ### Be careful around these...
-    [color=red]Salt![/color]
-  - If you walk over salt, you will lose [color=red]all of your skills, and be made corporeal in the process against your will.[/color] This usually is a death sentence for your average Wraith, so always keep an eye out for any lines of salt or ore rocks lying around!
-  - Salt can be hidden under objects, or even inside doorways.
+  ### Ten cuidado con estas cosas...
+    [color=red]¡La sal![/color]
+  - Si caminas sobre sal, perderas [color=red]todas tus habilidades, y seras forzado a manifestarte corporalmente contra tu voluntad.[/color] Esto suele ser una sentencia de muerte para el Espectro promedio, ¡asi que siempre vigila cualquier linea de sal o rocas de mineral que haya por ahi!
+  - La sal puede estar oculta bajo objetos, o incluso dentro de las puertas.
 
-    [color=red]That pesky chaplain![/color]
-  - The chaplain is immune to most of your actions. In some cases, attempting to interact with them may even end up harming you, instead!
-  - However, the chaplain is not immortal. You can still find ways to kill him indirectly. His corpse will be quite delicious, I promise you that...
+    [color=red]¡Ese molesto capellan![/color]
+  - El capellan es inmune a la mayoria de tus acciones. En algunos casos, ¡intentar interactuar con el puede incluso terminar danandote a ti!
+  - Sin embargo, el capellan no es inmortal. Aun puedes encontrar formas de matarlo indirectamente. Su cadaver sera bastante delicioso, te lo prometo...
 
-  ## Fighting a Wraith
+  ## Luchar contra un Espectro
 
 
-  The Wraith may seem powerful at first, but once you know their weakness, it is quite easy to deal with them.
+  El Espectro puede parecer poderoso al principio, pero una vez que conoces su debilidad, es bastante facil lidiar con el.
 
-  - Use salt! [bold]You can make salt lines with salt shakers and salt packets[/bold]! Leave salt spread all over areas of interest for the Wraith.
-  - Get rid of corpses! Without corpses to absorb, the Wraith cannot evolve, which will significantly decrease the amount of harm it can cause. Gib corpses, recycle them, space them. Anything works, so long as there is nothing left to absorb.
-  - Formaldehyde! It is a chemical used to prevent rotting in corpses. It can be bought in cargo or easily synthesized in the Chemistry lab. Injecting a corpse with more than 25 units of Formaldehyde will cause the body to be tainted if the Wraith ever tries to absorb it, hurting them in the process.
-  - Spirit Candles. Although rare, they can be used to reveal wraith in a 12x12 tile area. [bold]If you activate them once Wraith appears, you can make them corporeal![/bold]. Craft one by placing a candle on a skull.
+  - ¡Usa sal! [bold]¡Puedes hacer lineas de sal con saleros y sobres de sal![/bold] Deja sal esparcida por todas las areas de interes para el Espectro.
+  - ¡Deshaste de los cadaveres! Sin cadaveres para absorber, el Espectro no puede evolucionar, lo que disminuira significativamente la cantidad de dano que puede causar. Destroza cadaveres, reciclalos, lanzalos al espacio. Cualquier cosa funciona, siempre y cuando no quede nada que absorber.
+  - ¡Formaldehido! Es un quimico que se usa para evitar que los cadaveres se pudran. Se puede comprar en carga o sintetizar facilmente en el laboratorio de quimica. Inyectar un cadaver con mas de 25 unidades de Formaldehido hara que el cuerpo este contaminado si el Espectro intenta absorberlo, danadole en el proceso.
+  - Velas de Espiritu. Aunque raras, pueden usarse para revelar al espectro en un area de 12x12 casillas. [bold]Si las activas una vez que el Espectro aparece, ¡puedes hacerlo corporeo![/bold]. Craftea una colocando una vela sobre una calavera.
 
-  ## Plaguebringer
+  ## Portador de la Plaga
 
-  [textlink="Learn about the Plaguebringer." link="Plaguebringer"]
+  [textlink="Aprende sobre el Portador de la Plaga." link="Plaguebringer"]
 
-  ## Harbinger of the Void
+  ## Heraldo del Vacio
 
-  [textlink="Learn about the Harbinger of the Void." link="Harbinger"]
+  [textlink="Aprende sobre el Heraldo del Vacio." link="Harbinger"]
 
-  ## Trickster
+  ## Embaucador
 
-  [textlink="Learn about the Trickster." link="Trickster"]
+  [textlink="Aprende sobre el Embaucador." link="Trickster"]
 
-  # Being the Ghost with the Most (Evil)
+  # Siendo el Fantasma con mas Maldad
 
-  ## Making the Most of Base Abilities
+  ## Sacar el Maximo Partido a las Habilidades Base
 
-  - You can't use Decay on a Cyborg to remove its laws, nor can you use it on a cyborg frame to make the borg it's built from have no laws.
-    With Decay you are able to emag stuff without the usual risk of being seen by others, and that can be extremely helpful for setting up traps and ambushes.
-  - Haunt can give you a ton of WP when used in a large crowd, but a large crowd is also in prime position to wreck you when you're at your most vulnerable.
-  - Whenever someone has a gun drawn, use Command to knock them down, immediately use Possess Object on the gun, and shoot them with it.
-  - Is the chaplain pissing you off? Command and Mass Command may not work on them when you click them directly, but if they're stunned, standing still, or distracted by animated objects, targeting the floor under them works just as well.
-  - Spook may seem harmless, but some cunning applications can save your ass or cause mass chaos in a clutch.
-  - Try using Possess Object on the fire extinguisher in Toxins Storage, bashing open a plasma tank. Then, use Spook to flip lights and cause a fire.
-  - Has Security recently confiscated some guns/weapons? Pop open the contraband safe with the Open doors, lockers, crates option from Spook.
+  - No puedes usar Decadencia en un Cyborg para eliminar sus leyes, ni usarla en un chasis de cyborg para hacer que el borg que se construye a partir de el no tenga leyes.
+    Con Decadencia puedes hacer sabotajes sin el riesgo habitual de ser visto por otros, y eso puede ser extremadamente util para preparar trampas y emboscadas.
+  - Acechar puede darte una tonelada de PP cuando se usa en una gran multitud, pero una gran multitud tambien esta en posicion privilegiada para destrozarte cuando eres mas vulnerable.
+  - Cuando alguien tiene un arma desenfundada, usa Comando para derribarlos, usa inmediatamente Poseer Objeto en el arma, y disparales con ella.
+  - ¿El capellan te esta molestando? Comando y Comando Masivo pueden no funcionar en ellos cuando haces clic directamente sobre ellos, pero si estan aturdidos, quietos o distraidos por objetos animados, apuntar al suelo bajo ellos funciona igual de bien.
+  - Asustar puede parecer inofensivo, pero algunas aplicaciones astutas pueden salvarte el trasero o causar caos masivo en un momento decisivo.
+  - Intenta usar Poseer Objeto en el extintor del Almacen de Toxinas, golpeando un tanque de plasma para abrirlo. Luego, usa Asustar para apagar las luces y causar un incendio.
+  - ¿Seguridad ha confiscado recientemente algunas armas? Abre la caja de contrabando con la opcion Abrir puertas, taquillas, cajones de Asustar.
 
-  ## In General
-  [bold]You are not invincible[/bold], no matter how much it may seem like it sometimes. It only takes one twitchy crew member with a weapon and a salt shaker to ruin you.
+  ## En General
+  [bold]No eres invencible[/bold], sin importar cuanto pueda parecerlo a veces. Solo hace falta un miembro nervioso de la tripulacion con un arma y un salero para arruinarte.
 
-  Wraiths don't appear alone, so try to lay low for a little while and look for the other antagonists. Scavenge the corpses they'll inevitably leave in their wake for more WP regeneration, or try to strike deals with them with Whisper. A wraith with someone to feed it a steady stream of corpses can get very, very scary, but be warned that some antagonists might not trust you to not murder them and raise the alarm on you.
+  Los espectros no aparecen solos, asi que intenta mantenerte en segundo plano por un tiempo y busca a los otros antagonistas. Aprovecha los cadaveres que inevitablemente dejaran a su paso para obtener mas regeneracion de PP, o intenta llegar a acuerdos con ellos mediante Susurro. Un espectro con alguien que le proporcione un flujo constante de cadaveres puede volverse muy, muy aterrador, pero ten cuidado de que algunos antagonistas podrian no confiar en que no los mates y podrian alertar a la estacion sobre ti.
 
-  Plan for things going terribly. You may not want to absorb every corpse you find just in case you get banished, but you may not want to leave any corpses undrained either in case the crew gets wise and starts spacing/gibbing/reclaiming corpses immediately.
+  Planifica para cuando las cosas vayan muy mal. Puede que no quieras absorber cada cadaver que encuentres por si acaso eres desterrado, pero puede que tampoco quieras dejar ningun cadaver sin drenar por si la tripulacion se da cuenta y empieza a lanzarlos al espacio/destroza rlos/reclamarlos de inmediato.
 
-You're not that great at outright killing people without isolating someone or being lucky. Be a scavenger; try to make a bad situation worse for someone already pretty fucked up rather than try to kill a healthy person. The crew will amaze you with how many ways they can kill themselves.
+  No eres tan bueno matando gente directamente sin aislar a alguien o tener suerte. Se un carronero; intenta empeorar una mala situacion para alguien que ya esta bastante jodido en lugar de intentar matar a una persona sana. La tripulacion te asombrara con la cantidad de formas en que pueden matarse a si mismos.
 
 
 </Document>

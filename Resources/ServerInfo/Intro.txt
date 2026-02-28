@@ -1,8 +1,8 @@
-Welcome to Space Station 14! You have just started your shift aboard a Nanotrasen space station and along with your crewmates should cooperate, perform your job role to the best of your ability and have fun (not at the expense of others hopefully).
+Bienvenido a Space Station 14! Acabas de comenzar tu turno a bordo de una estacion espacial de Nanotrasen y, junto con tus companeros de tripulacion, debes cooperar, desempenar tu rol lo mejor posible y divertirte (con suerte sin hacerlo a expensas de los demas).
 
-Please make sure you understand the server rules (F1) and if you have any questions, consult this guide, your colleagues on shift in person or over radio or via discord. You can also ask admins for help (ahelp) by hitting the escape key > admin help and typing a message to any online admins. Especially do this if you witness someone breaking rules.
+Por favor, asegurate de entender las reglas del servidor (F1) y si tienes alguna pregunta, consulta esta guia, a tus companeros de turno en persona o por radio, o a traves de discord. Tambien puedes pedir ayuda a los admins (ahelp) pulsando la tecla Escape > ayuda admin y escribiendo un mensaje a los admins conectados. Hazlo especialmente si ves a alguien rompiendo las reglas.
 
-To reiterate, you are all a crew of people who work together (even the clown) and you should not be harming each other unless you have an extremely good reason (self defence) and even then, call security over radio, stun and detain, do not commit murder as a non antagonist (see antagonist further down).
+Para reiterar, todos son una tripulacion de personas que trabaja en conjunto (incluso el payaso) y no debes hacerle dano a los demas a menos que tengas una razon muy buena (defensa propia), e incluso en ese caso, llama a seguridad por radio, aturde y detiene, no cometas un asesinato siendo no-antagonista (ver antagonista mas abajo).
 
 
-Instead of intents, we have combat mode. Check controls below for its keybind. You can't attack anybody with it off, so no more hitting yourself with your own crowbar.
+En vez de intenciones, tenemos el modo combate. Consulta los controles a continuacion para ver su tecla de acceso rapido. No puedes atacar a nadie con el desactivado, asi que no mas golpearte a ti mismo con tu propia palanca.

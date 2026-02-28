@@ -6,12 +6,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Medical Department SOP
-These are the list of SOPs that Medical Personnel should follow. These are, as stated before, [bold]not checklists[/bold] and should be treated as guidelines.
+# PNE del Departamento Medico
+Estos son los PNE que el Personal Medico debe seguir. Estos son, como se ha indicado antes, [bold]no listas de verificacion[/bold] y deben tratarse como directrices.
 
-For purposes of condensing entries, [color=#42636d][bold]Medical Doctor[/bold][/color], [color=#42636d][bold]Medical Intern[/bold][/color], [color=#42636d][bold]Paramedic[/bold][/color] are combined.
+A efectos de condensar las entradas, [color=#42636d][bold]Medico[/bold][/color], [color=#42636d][bold]Interno Medico[/bold][/color] y [color=#42636d][bold]Paramedico[/bold][/color] estan combinados.
 
-The following jobs have entries in this Department, the [color=#1b67a5][bold]Chief Medical Officer[/bold][/color] being the Head of Staff:
+Los siguientes puestos tienen entradas en este Departamento, siendo el [color=#1b67a5][bold]Oficial Medico Jefe[/bold][/color] el Jefe de Personal:
 - [textlink="Chief Medical Officer" link="ChiefMedicalOfficerSOP"]
 - [textlink="Chemist" link="ChemistSOP"]
 - [textlink="Paramedic" link="DoctorInternSOP"]

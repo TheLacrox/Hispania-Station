@@ -1,71 +1,71 @@
 <Document>
-## The Xenomorph Life Cycle
+## El Ciclo de Vida del Xenomorfo
 
 <Box>
   <GuideEntityEmbed Entity="XenomorphEgg" Caption=""/>
   <GuideEntityEmbed Entity="MobXenomorphFaceHugger" Caption=""/>
 </Box>
 
-  The lowliest form of Xenomorph is the humble [color=#FFBF00]facehugger[/color], the only type of xenomorph not usually player-controlled.
-  [color=#FFBF00]Facehuggers[/color] hatch from eggs laid by Queens, and on their own simply meander around.
-  If they come close to appropriate prey, typically humans or monkeys, they will launch themselves at their targets, ripping off most (but not all) forms of face protection and aggressively violating their victim's esophagus.
+  La forma mas humilde de Xenomorfo es el sencillo [color=#FFBF00]abrazacaras[/color], el unico tipo de xenomorfo que normalmente no es controlado por un jugador.
+  Los [color=#FFBF00]abrazacaras[/color] eclosionan de huevos puestos por las Reinas, y por si solos simplemente deambulan.
+  Si se acercan a una presa adecuada, tipicamente humanos o monos, se lanzaran sobre sus objetivos, arrancando la mayoria (pero no todas) las formas de proteccion facial y violando agresivamente el esofago de su victima.
 
-  The facehugger dies afterwards, but their target will have an alien larva planted inside them,
-  which will fatally burst out of their chest after some time.
-  Note that facehuggers act as pseudo-items, and can be picked up by mature xenomorphs to throw at prey.
+  El abrazacaras muere despues, pero su objetivo tendra una larva alien plantada dentro de el,
+  que fatalmente saldra de su pecho de forma explosiva despues de algun tiempo.
+  Ten en cuenta que los abrazacaras actuan como pseudo-objetos, y pueden ser recogidos por xenomorfos maduros para lanzarlos a la presa.
 
 <Box>
 <GuideEntityEmbed Entity="MobXenomorphLarva" Caption=""/>
 </Box>
 
-  Also known as chestbursters, [color=#E97451]Larva[/color] are violently born from the bodies of those who fall prey to facehuggers.
-  When a larva is born, a random ghost player takes control of it, joining the xenomorphs and adding to their growing army.
+  Tambien conocidas como reventadores de pecho, las [color=#E97451]Larvas[/color] nacen violentamente de los cuerpos de quienes caen presa de los abrazacaras.
+  Cuando nace una larva, un jugador fantasma aleatorio toma el control de ella, uniendose a los xenomorfos y sumandose a su creciente ejercito.
 
-  [color=#E97451]Larva[/color] are relatively helpless, having no real offensive capability; instead, they must stay alive long enough to grow into an adult xenomorph.
-  They can crawl through vents to escape danger, and hide under tables to avoid detection.
-  Once they've grown enough, they can become one of three types of xeno:
-  - Hunters
-  - Sentinels
+  Las [color=#E97451]Larvas[/color] son relativamente indefensas, sin capacidad ofensiva real; en cambio, deben sobrevivir el tiempo suficiente para crecer hasta convertirse en un xenomorfo adulto.
+  Pueden arrastrarse por los conductos de ventilacion para escapar del peligro, y esconderse bajo las mesas para evitar ser detectadas.
+  Una vez que han crecido lo suficiente, pueden convertirse en uno de tres tipos de xeno:
+  - Cazadores
+  - Centinelas
   - Drones
 
-  ## The xenomorphs
+  ## Los xenomorfos
 <Box>
 <GuideEntityEmbed Entity="MobXenomorphHunter" Caption=""/>
 </Box>
 
-  The offensive backbone of the xenos, [color=#9F2B68]Hunters[/color] move at blistering speed and can tackle down their unlucky opponents for quick stuns.
-  Hunters are typically tasked with securing new prey by ventcrawling through the station, facehuggers in hand, looking for lone crew members to throw them at.
-  They're also the best class for starting new outposts and spreading plasma weeds, due to their speed.
+  La columna vertebral ofensiva de los xenos, los [color=#9F2B68]Cazadores[/color] se mueven a velocidades vertiginosas y pueden derribar a sus desafortunados oponentes para aturdirlos rapidamente.
+  Los Cazadores tipicamente tienen la tarea de asegurar nueva presa desplazandose por los conductos de la estacion, con abrazacaras en mano, buscando miembros solitarios de la tripulacion para lanzarlos sobre ellos.
+  Tambien son la mejor clase para establecer nuevos puestos avanzados y extender maleza de plasma, debido a su velocidad.
 
 <Box>
 <GuideEntityEmbed Entity="MobXenomorphSentinel" Caption=""/>
 </Box>
 
-  Defensive guards of the nest, [color=#5D3FD3]Sentinels[/color] are slower and beefier than Hunters, and can become partially invisible by staying still.
-  Their abilities recharge quicker than Hunters', and they usually stay near nests, keeping any captured humans from escaping and protecting the Drones.
+  Guardias defensivos del nido, los [color=#5D3FD3]Centinelas[/color] son mas lentos y resistentes que los Cazadores, y pueden volverse parcialmente invisibles al quedarse quietos.
+  Sus habilidades se recargan mas rapido que las de los Cazadores, y generalmente permanecen cerca de los nidos, evitando que los humanos capturados escapen y protegiendo a los Drones.
 
 <Box>
 <GuideEntityEmbed Entity="MobXenomorphDrone" Caption=""/>
 </Box>
 
-  An important type of xenomorph, second only to the Queen, [color=#871F78]Drones[/color] are the builders of the xenomorphs.
-  They can construct resin walls to block pathways, resin nests to keep prey secured, and other such structures.
-  Drones are also the only adult xenomorph capable of further evolution, into a Praetorian.
+  Un tipo importante de xenomorfo, segundo solo a la Reina, los [color=#871F78]Drones[/color] son los constructores de los xenomorfos.
+  Pueden construir paredes de resina para bloquear caminos, nidos de resina para mantener a la presa asegurada, y otras estructuras similares.
+  Los Drones tambien son el unico xenomorfo adulto capaz de evolucionar mas, hasta convertirse en Pretorianos.
 
 <Box>
 <GuideEntityEmbed Entity="MobXenomorphPraetorian" Caption=""/>
 </Box>
 
-  [color=#871F78]Praetorians[/color] share many of the same abilities as Queens, without the ability to lay eggs.
-  If none exist on the station, Praetorians can evolve into Queens themselves.
-  Each xenomorph colony only has one Queen, and each is a massive engine of destruction, though their real power is in the ability to lay eggs. A nest with no Queen is crippled, and a colony with no Queens, Praetorians or Drones is effectively neutered.
-  Both Praetorians and Queens are also incredibly slow, and the only aliens who can't ventcrawl.
+  Los [color=#871F78]Pretorianos[/color] comparten muchas de las mismas habilidades que las Reinas, sin la capacidad de poner huevos.
+  Si no existe ninguno en la estacion, los Pretorianos pueden evolucionar hasta convertirse en Reinas ellos mismos.
+  Cada colonia xenomorfa tiene solo una Reina, y cada una es una enorme maquina de destruccion, aunque su verdadero poder radica en la capacidad de poner huevos. Un nido sin Reina esta paralizado, y una colonia sin Reinas, Pretorianos ni Drones esta efectivamente neutralizada.
+  Tanto los Pretorianos como las Reinas tambien son increiblemente lentos, y los unicos aliens que no pueden desplazarse por los conductos.
 
 <Box>
 <GuideEntityEmbed Entity="MobXenomorphQueen" Caption=""/>
 </Box>
 
-  The [color=#702963]Queen[/color] is the heart of the hive, laying eggs to expand the colony.
+  La [color=#702963]Reina[/color] es el corazon del colmena, poniendo huevos para expandir la colonia.
 
-  [bold]Also, it should be noted that all xenos have a 3 shove 15 second stun.[/bold]
+  [bold]Ademas, cabe destacar que todos los xenos tienen un aturdimiento de 15 segundos al recibir 3 empujones.[/bold]
 </Document>

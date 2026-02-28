@@ -6,24 +6,24 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# War Declaration Procedures
-In the event of a station-wide war declaration made by enemy forces, the Command should immediately set the station alert to [color=#ba292c]Red Alert[/color].
+# Procedimientos de Declaracion de Guerra
+En caso de una declaracion de guerra a toda la estacion por parte de fuerzas enemigas, el Mando debe establecer inmediatamente la alerta de la estacion en [color=#ba292c]Alerta Roja[/color].
 
-1. All weapon restrictions are lifted, contraband permitted, and all station personnel should be alerted of this (if not already understood).
-<Box>Station AI, Cyborgs, and Beepsky/Security Bots, should be alerted of this as well.</Box>
+1. Todas las restricciones de armas quedan levantadas, el contrabando esta permitido, y todo el personal de la estacion debe ser alertado de esto (si no lo saben ya).
+<Box>La IA de la estacion, los Cyborgs, y los Bots de Beepsky/Seguridad tambien deben ser alertados de esto.</Box>
 
-2. Cargo Department should focus on acquiring as many weapons as possible for station personnel.
+2. El Departamento de Carga debe centrarse en adquirir el mayor numero posible de armas para el personal de la estacion.
 
-3. Cargo Department should focus on acquiring as many materials for the station as possible.
+3. El Departamento de Carga debe centrarse en adquirir el mayor numero posible de materiales para la estacion.
 
-4. Research Department should focus on fabricating weaponry and technology to aid in station defense.
+4. El Departamento de Investigacion debe centrarse en fabricar armamento y tecnologia para ayudar en la defensa de la estacion.
 
-5. Erecting barricades and defense points is recommended to all personnel.
+5. Se recomienda a todo el personal erigir barricadas y puntos de defensa.
 
-6. Command and Security should operate in tandem to secure nuclear devices.
+6. El Mando y la Seguridad deben operar conjuntamente para asegurar los dispositivos nucleares.
 
-7. In the event of a successful defense, if the station is relatively undamaged, shift should operate as normal.
+7. En caso de una defensa exitosa, si la estacion esta relativamente sin danos, el turno debe operar con normalidad.
 
-8. In the event of the station being extremely damaged, or Command falling and nuclear devices ending up in enemy hands, the evacuation shuttle should be called.
+8. En caso de que la estacion este extremadamente danada, o de que el Mando haya caido y los dispositivos nucleares hayan caido en manos enemigas, se debe llamar al transbordador de evacuacion.
 
 </Document>

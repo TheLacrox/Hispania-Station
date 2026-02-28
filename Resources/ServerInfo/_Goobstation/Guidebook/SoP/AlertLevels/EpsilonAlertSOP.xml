@@ -6,34 +6,34 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Station Alert - Epsilon
+  # Alerta de Estacion - Epsilon
 
   <Box>
-    [italic]Called by: Central Command Only.[/italic]
+    [italic]Declarada por: Solo el Comando Central.[/italic]
   </Box>
 
-  [bold]Conditions:[/bold]
+  [bold]Condiciones:[/bold]
 
-  Central Command has deemed it necessary to terminate all contracts.
+  El Comando Central ha considerado necesario rescindir todos los contratos.
 
-  [bold]Security:[/bold]
+  [bold]Seguridad:[/bold]
 
-  Security and the rest of the station are to fend for themselves. All contracts are terminated and nothing is required to act upon.
+  Seguridad y el resto de la estacion deben valerse por si mismos. Todos los contratos han sido rescindidos y no se requiere actuar sobre ninguna orden.
 
-  [bold]Secure Areas:[/bold]
+  [bold]Areas Seguras:[/bold]
 
-  The entire station is considered a secure area.
+  Toda la estacion se considera un area segura.
 
-  All Secure Areas are to be bolted down. Secure Areas may be left unbolted at the discretion of any personnel with access to do so.
+  Todas las Areas Seguras deben estar bloqueadas. Las Areas Seguras pueden dejarse desbloqueadas a discrecion de cualquier personal con acceso para hacerlo.
 
-  [bold]General Crew:[/bold]
+  [bold]Tripulacion General:[/bold]
 
-  All personnel are no longer required to maximize suit sensors. Do so at your discretion.
+  Todo el personal ya no esta obligado a maximizar los sensores de traje. Hazlo a tu discrecion.
 
-  All personnel are no longer required to remain in any Department.
+  Todo el personal ya no esta obligado a permanecer en ningun Departamento.
 
-  Visitors of the station, anyone without Central Command access, are to fend for themselves along with the station crew.
+  Los visitantes de la estacion, cualquier persona sin acceso de Comando Central, deben valerse por si mismos junto con la tripulacion de la estacion.
 
-  Personnel are no longer required to follow instructions from any other person.
+  El personal ya no esta obligado a seguir las instrucciones de ninguna otra persona.
 
 </Document>

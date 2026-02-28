@@ -6,65 +6,65 @@ SPDX-License-Identifier: MIT
 -->
 
 <Document>
-# Enchanting
+# Encantamiento
 
-Those who are magically inclined, such as Wizards, Heretic and Chaplains, have access to the arcane art of Enchanting.
+Aquellos con inclinaciones magicas, como los Magos, Herejes y Capellanes, tienen acceso al arte arcano del Encantamiento.
 
-# Enchanting an item
+# Encantar un objeto
 
-To enchant an item, you need a sacrificial offering and an item to enchant. Most often these are the cores of anomalies, but are occasionally more mundane components like Diamonds.
+Para encantar un objeto, necesitas una ofrenda sacrificial y un objeto para encantar. La mayoria de las veces son nucleos de anomalias, pero ocasionalmente son componentes mas mundanos como Diamantes.
 <Box>
   <GuideEntityEmbed Entity="AltarConvert" Caption=""/>
 </Box>
-Place an item on an altar (or a Transmutation Rune) alongside the offering and hit the item with your magical tome. For wizards, this is their Wizard's Grimoire. For Chaplain, their Bible or other religious texts. For Heretics, their Codex Cicatrix.
+Coloca un objeto en un altar (o en una Runa de Transmutacion) junto con la ofrenda y golpea el objeto con tu tomo magico. Para los magos, es su Grimorio del Mago. Para el Capellan, su Biblia u otros textos religiosos. Para los Herejes, su Codex Cicatrix.
 
-If the item and offering are compatible, the offering will be consumed and the item will become enchanted. If you use an anomaly core, those from critical anomalies are more potent than inert cores, and empower your item more effectively.
+Si el objeto y la ofrenda son compatibles, la ofrenda sera consumida y el objeto quedara encantado. Si usas un nucleo de anomalia, los de anomalias criticas son mas potentes que los nucleos inertes y potencian tu objeto de forma mas efectiva.
 
-# Enchantment limits
+# Limites de encantamiento
 
-An item can only be enchanted with one kind of enchantment, unless you perform a ritual. By killing any living entity with a soul on top of an altar alongside your enchanted item, their soul will be consumed and increase the enchantment limit.
+Un objeto solo puede encantarse con un tipo de encantamiento, a menos que realices un ritual. Al matar a cualquier entidad viva con alma sobre un altar junto a tu objeto encantado, su alma sera consumida y aumentara el limite de encantamiento.
 
-The sacrifice will be possible to revive, but have the ill effects of losing their soul, akin to selling their soul to a Devil.
+El sacrificado podra ser revivido, pero sufrira los efectos negativos de perder su alma, similar a vender su alma a un Demonio.
 
-# Types of enchantments
+# Tipos de encantamientos
 
-  ### Fire Aspect
-Fire Aspect causes your weapon to set your foes on fire. Obtainable from Pyroclastic Anomaly cores.
+  ### Aspecto de Fuego
+El Aspecto de Fuego hace que tu arma prenda fuego a tus enemigos. Obtenible de nucleos de Anomalia Piroclatica.
 
-  ### Lavaforged
-Lavaforged grants your equipment the ability to protect you from lava. Obtainable from Pyroclastic Anomaly cores.
+  ### Forjado en Lava
+Forjado en Lava otorga a tu equipo la capacidad de protegerte de la lava. Obtenible de nucleos de Anomalia Piroclatica.
 
-  ### Knockback
-Knockback causes your weapon to knock people back on hit. Obtainable from Gravity Anomaly cores.
+  ### Retroceso
+El Retroceso hace que tu arma empuje a las personas hacia atras al golpear. Obtenible de nucleos de Anomalia de Gravedad.
 
-  ### Fire Protection
-Fire Protection grants your armor protection from... Fire. Obtainable from Ice Anomaly cores.
+  ### Proteccion contra el Fuego
+La Proteccion contra el Fuego otorga a tu armadura proteccion contra... el Fuego. Obtenible de nucleos de Anomalia de Hielo.
 
-  ### Sharpness
-Sharpness sharpens your weapon and grants four bonus Slash damage per level. Obtainable from Flesh Anomaly cores.
+  ### Filo
+El Filo afila tu arma y otorga cuatro puntos de dano de corte adicionales por nivel. Obtenible de nucleos de Anomalia de Carne.
 
-  ### Unbreaking
-Unbreaking reduces all damage by 50%. Due to complicated magical law restrictions, this is only applicable to mice. Obtainable from Rock Anomaly cores.
+  ### Irrompible
+Irrompible reduce todo el dano en un 50%. Debido a complicadas restricciones de la ley magica, esto solo es aplicable a ratones. Obtenible de nucleos de Anomalia de Roca.
 
-  ### Protection
-Protection grants your equipment damage resistance. Obtainable from Rock Anomaly cores.
+  ### Proteccion
+La Proteccion otorga a tu equipo resistencia al dano. Obtenible de nucleos de Anomalia de Roca.
 
-  ### Slippery
-Slippery makes any item slip people. Obtainable from Liquid Anomaly cores.
+  ### Resbaladizo
+Resbaladizo hace que cualquier objeto haga resbalar a las personas. Obtenible de nucleos de Anomalia Liquida.
 
-  ### Unslippable
-Unslippable makes any shoes grant immunity to slipping. Obtainable from Liquid Anomaly cores.
+  ### Antideslizante
+Antideslizante hace que cualquier zapato otorgue inmunidad a resbalar. Obtenible de nucleos de Anomalia Liquida.
 
-  ### Insulated?
-Insulated? grants a chance to not be shocked by sources of electricity to gloves. Obtainable from inert Elecricity Anomaly cores.
+  ### Aislado?
+Aislado? otorga a los guantes una probabilidad de no ser electrocutado por fuentes de electricidad. Obtenible de nucleos inertes de Anomalia de Electricidad.
 
-  ### Insulated
-Insulated grants gloves full insulation from electricity. Obtainable from critical Elecricity Anomaly cores.
+  ### Aislado
+Aislado otorga a los guantes aislamiento completo de la electricidad. Obtenible de nucleos criticos de Anomalia de Electricidad.
 
-  ### Thorns
-Thorns can be applied to armor, and damages melee attackers with 4 slash damage per level. Obtainable from Floral Anomaly cores.
+  ### Espinas
+Las Espinas pueden aplicarse a armaduras y danan a los atacantes cuerpo a cuerpo con 4 puntos de dano de corte por nivel. Obtenible de nucleos de Anomalia Floral.
 
-  ### Fortune
-Fortune has a chance to increase ore yield for drills and pickaxes, chance proportional to enchantment level. Obtainable from Santa Anomaly cores and diamonds.
+  ### Fortuna
+La Fortuna tiene una probabilidad de aumentar el rendimiento de minerales para taladros y picos, probabilidad proporcional al nivel de encantamiento. Obtenible de nucleos de Anomalia de Santa y diamantes.
 
 </Document>

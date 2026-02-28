@@ -6,45 +6,45 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Detective SOP
-This is the list of procedures, responsibilities, and duties of the [color=#ba292c][bold]Detective[/bold][/color] of this station.
+# PES de Detective
+Esta es la lista de procedimientos, responsabilidades y obligaciones del [color=#ba292c][bold]Detective[/bold][/color] de esta estacion.
 
 <ColorBox>
   <Box>
-    For the purposes of Alert Escalation: Treat higher alerts as if they are still on the previous alert level. (Yellow Alert is Blue Alert if it was Blue Alert prior.) Furthermore, treat Delta, Gamma, Epsilon, and Violet Alert as Red Alert.
+    Para efectos de Escalada de Alertas: Trata las alertas superiores como si todavia estuvieras en el nivel de alerta anterior. (Alerta Amarilla es Alerta Azul si era Alerta Azul antes.) Ademas, trata Delta, Gamma, Epsilon y Alerta Violeta como Alerta Roja.
   </Box>
 </ColorBox>
 
-The [color=#ba292c][bold]Detective[/bold][/color] is permitted to carry their shift-start equipment, but should follow escalation laws and leave them holstered on Green Alert.
+El [color=#ba292c][bold]Detective[/bold][/color] tiene permitido portar su equipo de inicio de turno, pero debe seguir las leyes de escalada y mantenerlos enfundados en Alerta Verde.
 
-## Green Alert
-1. The Detective is permitted to assist Security Officers with all Patrol Duties. This includes stops, searches, and arrests as per the current Alert Code.
-<Box>They should, however, prioritize investigations and the collection of forensic evidence.</Box>
+## Alerta Verde
+1. El Detective tiene permitido asistir a los Oficiales de Seguridad con todas las Tareas de Patrulla. Esto incluye detenciones, registros y arrestos segun el Codigo de Alerta vigente.
+<Box>Sin embargo, debe priorizar las investigaciones y la recoleccion de evidencia forense.</Box>
 
-2. The Detective is to follow all Standard Operating Procedures as outlined by the Security Officer SOP in regard to stops, searches and arrests as per the current Alert Code.
+2. El Detective debe seguir todos los Procedimientos Estandar de Operacion descritos en el PES de Oficial de Seguridad en relacion a detenciones, registros y arrestos segun el Codigo de Alerta vigente.
 
-3. The Detective may carry their Inspector revolver, spare ammunition for it and their Betty umbrella, as well as standard security equipment, excluding stunbaton and Judo belts.
+3. El Detective puede portar su revolver Inspector, municion de repuesto para el mismo y su paraguas Betty, asi como equipo estandar de seguridad, excluyendo porras paralizantes y cinturones de Judo.
 
-4. The Detective is not permitted to obtain more ammunition without permission from the Captain, Head of Security, and/or Warden.
+4. El Detective no tiene permitido obtener mas municion sin permiso del Capitan, Jefe de Seguridad y/o Carcelero.
 
-5. The Detective is permitted to wear non-Security clothing with permission from the Captain and/or Head of Security for the purpose of undercover investigations.
+5. El Detective tiene permitido usar ropa que no sea de Seguridad con permiso del Capitan y/o Jefe de Seguridad para el proposito de investigaciones encubiertas.
 
-6. When not undercover, the Detective must follow the same guidelines as Security Officers for attire, with the exception that their own assigned attire is also acceptable for any of the attire mentioned for Security Officers.
+6. Cuando no este encubierto, el Detective debe seguir las mismas directrices que los Oficiales de Seguridad en cuanto a vestimenta, con la excepcion de que su propia vestimenta asignada tambien es aceptable para cualquiera de las vestimentas mencionadas para los Oficiales de Seguridad.
 
-## Blue Alert
-1. All Guidelines carry over from [color=#388c34]Green Alert[/color].
+## Alerta Azul
+1. Todas las directrices se mantienen desde la [color=#388c34]Alerta Verde[/color].
 
-2. The Detective may pull aside any suspect for an interrogation during the course of their time in Processing. No detainee is to be held for longer than five (5) minutes in Processing if no evidence against them is readily available.
-<Box>Exceptions may be made for changelings, heretics, and/or revolutionaries.</Box>
+2. El Detective puede apartar a cualquier sospechoso para una interrogacion durante el transcurso de su tiempo en Procesamiento. Ningun detenido debe ser retenido por mas de cinco (5) minutos en Procesamiento si no hay evidencia disponible contra el.
+<Box>Se pueden hacer excepciones para cambiantes, herejes y/o revolucionarios.</Box>
 
-3. The Detective may use their revolver during arrests.
+3. El Detective puede usar su revolver durante los arrestos.
 
-## Red Alert
-1. Guidelines 1, 2, 3, 4, 5 and 7 carry over from [color=#388c34]Green Alert[/color].
+## Alerta Roja
+1. Las directrices 1, 2, 3, 4, 5 y 7 se mantienen desde la [color=#388c34]Alerta Verde[/color].
 
-2. Guidelines 2 and 3 carry over from [color=#1b67a5]Blue Alert[/color].
+2. Las directrices 2 y 3 se mantienen desde la [color=#1b67a5]Alerta Azul[/color].
 
-3. The Detective is permitted to carry around any weapons or equipment available in the Armory, at the Captain, Head of Security, and/or Warden's discretion, but never more than one at a time.
-<Box>Exception is made for extreme emergencies, such as Nuclear Operatives, Blob, and/or Delta Alert.</Box>
+3. El Detective tiene permitido portar cualquier arma o equipo disponible en la Armeria, a discrecion del Capitan, Jefe de Seguridad y/o Carcelero, pero nunca mas de uno a la vez.
+<Box>Se hace una excepcion para emergencias extremas, como Operativos Nucleares, Blob y/o Alerta Delta.</Box>
 
 </Document>

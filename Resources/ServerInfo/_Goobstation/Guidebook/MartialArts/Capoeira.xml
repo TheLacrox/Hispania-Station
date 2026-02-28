@@ -6,83 +6,83 @@
     <GuideEntityEmbed Entity="CapoeiraManual" Caption=""/>
   </Box>
 
-  Capoeira, the Syndicate's dance of war originating in Brazil, is a [textlink="martial art" link="MartialArts"] that disguises violence as beauty.
-  Swift attacks link into flowing combos, each move faster and harder than the last one, fueled by relentless momentum.
+  La Capoeira, la danza de guerra del Sindicato originaria de Brasil, es un [textlink="arte marcial" link="MartialArts"] que disfraza la violencia como belleza.
+  Los ataques rapidos se encadenan en combinaciones fluidas, cada movimiento mas rapido y fuerte que el anterior, impulsado por un impulso implacable.
 
-  ## Special abilities
+  ## Habilidades Especiales
 
-  Capoeira users are better at Grab intent. Successfully grabbing an opponent grants user a brief speed boost and denies target from sprinting temporarily.
+  Los usuarios de Capoeira son mejores con el intento de Agarre. Agarrar exitosamente a un oponente otorga al usuario un breve aumento de velocidad y priva al objetivo de correr temporalmente.
 
-  ### Capoeira Stance
+  ### Postura de Capoeira
 
-  You never stop moving while performing the ginga. This makes you very mobile while fighting.
+  Nunca dejas de moverte mientras realizas la ginga. Esto te hace muy movil durante el combate.
 
-  Through swift motion, Capoeira masters channel speed into energy, with combos being more deadly the faster they run.
-  Halt their flow, and their strength will vanish. Their combos, powered by movement, falter when they are prone.
+  A traves del movimiento rapido, los maestros de Capoeira canalizan la velocidad en energia, siendo las combinaciones mas letales cuanto mas rapido corren.
+  Detener su flujo hara que su fuerza desaparezca. Sus combinaciones, impulsadas por el movimiento, fallan cuando estan tumbados.
 
-  ### Capoeira Momentum
+  ### Impulso de Capoeira
 
-  Through the flowing, relentless motion of Capoeira, each successful combo restores the user's stamina.
-  Every connected strike fuels their endurance, allowing them to fight longer, faster, and harder without pause.
+  A traves del movimiento fluido e implacable de la Capoeira, cada combinacion exitosa restaura la stamina del usuario.
+  Cada golpe conectado alimenta su resistencia, permitiendoles combatir mas tiempo, mas rapido y con mas fuerza sin pausas.
 
-  ### Capoeira Tempo
+  ### Ritmo de Capoeira
 
-  Hit or miss, it's just part of the dance! And the best part is about to start!
+  Acertar o fallar, es solo parte del baile. Y la mejor parte esta a punto de comenzar.
 
-  A missed attack sharpens the next, reducing its recovery and increasing the damage.
+  Un ataque fallado afila el siguiente, reduciendo su tiempo de recuperacion y aumentando el dano.
 
-  ## Combo attacks
+  ## Ataques en Combinacion
 
-  ### Push Kick
-
-  <Box>
-    <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
-    <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
-    <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
-  </Box>
-
-  Knocks down and pushes opponent away from the user. Doesn't force to drop held items.
-
-  ### Circle Kick
-
-  <Box>
-    <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
-    <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
-    <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
-  </Box>
-
-  Deals Blunt damage and also slows down the opponent significantly.
-
-  ### Sweep Kick
-
-  <Box>
-    <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
-    <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
-    <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
-  </Box>
-
-  Knocks down and deals Blunt and Stamina damage. Temporarily increases user's attack speed by a bit.
-  Cannot be performed if the user is moving too slow.
-
-  ### Spin Kick
+  ### Patada de Empuje
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
+    <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
+  </Box>
+
+  Derrumba y empuja al oponente lejos del usuario. No obliga a soltar los objetos en mano.
+
+  ### Patada Circular
+
+  <Box>
+    <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
   </Box>
 
-  Deals a lot of Blunt damage and knocks the opponent down. Also makes the user flip. Only works on standing opponents.
-  Cannot be performed if the user is moving too slow.
+  Causa dano Contundente y tambien ralentiza significativamente al oponente.
 
-  ### Kick Up
+  ### Patada de Barrido
+
+  <Box>
+    <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
+    <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
+    <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
+  </Box>
+
+  Derrumba y causa dano Contundente y de Stamina. Aumenta temporalmente la velocidad de ataque del usuario un poco.
+  No puede realizarse si el usuario se mueve demasiado lento.
+
+  ### Patada Giratoria
+
+  <Box>
+    <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
+    <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
+    <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
+    <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
+  </Box>
+
+  Causa mucho dano Contundente y derrumba al oponente. Tambien hace que el usuario gire. Solo funciona en oponentes de pie.
+  No puede realizarse si el usuario se mueve demasiado lento.
+
+  ### Levantarse
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
   </Box>
 
-  Needs to be targeted at the user themselves. Can be performed while prone. Removes knock down status effect and forces the user to stand up instantly.
+  Debe apuntarse al propio usuario. Puede realizarse estando tumbado. Elimina el efecto de estado de derribo y obliga al usuario a ponerse de pie instantaneamente.
 
 </Document>

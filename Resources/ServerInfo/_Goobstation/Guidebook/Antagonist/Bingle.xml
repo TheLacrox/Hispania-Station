@@ -8,39 +8,39 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 <Document>
 # Bingle
 
-A bingle is a disgusting fungus that rapidly grows and takes over stations. Very weak on its own, their strength is in numbers.
+Un bingle es un asqueroso hongo que crece rapidamente y se apodera de las estaciones. Muy debil por si solo, su fuerza esta en los numeros.
 
   <Box>
     <GuideEntityEmbed Entity="MobBingle" Caption="Bingle"/>
 	  <GuideEntityEmbed Entity="BinglePit" Caption="Bingle Pit"/>
   </Box>
 
-A bingle is a midround antagonist that spawns alone, but can quickly grow in numbers
+Un bingle es un antagonista de turno intermedio que aparece solo, pero puede crecer rapidamente en numero.
 
-## Playing As A Bingle
+## Jugando Como Un Bingle
 
-- The most difficult part of a bingle pit's development is the beginning, when it is very weak. As the first bingle you should prioritize dragging as many items to the pit as fast as you can.
-Bingles are very strong in melee combat, stunning in a few hits. Try to take out any lone witnesses before they can call out the pits location.
+- La parte mas dificil del desarrollo de un hoyo de bingle es el comienzo, cuando es muy debil. Como el primer bingle debes priorizar arrastrar tantos objetos al hoyo tan rapido como puedas.
+Los bingles son muy fuertes en combate cuerpo a cuerpo, aturdiendo con pocos golpes. Intenta eliminar a cualquier testigo solitario antes de que puedan revelar la ubicacion del hoyo.
 
-- Once there are a few bingles, you should focus on dragging items in, as well as protecting the pit. If it breaks, you wont be able to make any more bingles and the colony will die out.
+- Una vez que haya algunos bingles, debes concentrarte en arrastrar objetos hacia dentro, ademas de proteger el hoyo. Si se rompe, no podras crear mas bingles y la colonia morira.
 
-- The bingle pit is the home of bingles, when several items are drug into it and fall down a new bingle is made. After quite a large number of items are drug into it, bingles are upgraded into armored bingles, which have far more health than the normal ones. The bingle pit also grows to larger than before, allowing for corpses to be dropped into the pit.
+- El hoyo de bingle es el hogar de los bingles; cuando varios objetos son arrastrados hacia el y caen, se crea un nuevo bingle. Despues de que una gran cantidad de objetos sean arrastrados hacia el, los bingles se actualizan a bingles acorazados, que tienen mucha mas salud que los normales. El hoyo de bingle tambien crece mas grande que antes, permitiendo que los cadaveres sean arrojados dentro.
 
-## Playing Against Bingles
+## Jugando Contra Bingles
 
-The most best way to play against bingles is to avoid melee combat. Instead; Use ranged weapons to deal with them and thin their numbers from afar.
+La mejor manera de jugar contra los bingles es evitar el combate cuerpo a cuerpo. En su lugar, usa armas a distancia para enfrentarlos y reducir sus numeros desde lejos.
   <Box>
     <GuideEntityEmbed Entity="WeaponRifleLecter"/>
 	  <GuideEntityEmbed Entity="WeaponLaserCarbine"/>
   </Box>
-The bingle pit itself can only be damaged by melee weapons and explosives. When attacking the pit directly be careful to avoid falling into it, as you can do so even while alive. It is typically best to deal with the bingles themselves before attacking the pit.
+El hoyo de bingle en si solo puede ser danado por armas cuerpo a cuerpo y explosivos. Al atacar el hoyo directamente ten cuidado de no caer dentro, ya que puedes hacerlo incluso estando vivo. Por lo general es mejor encargarse de los propios bingles antes de atacar el hoyo.
 
-If a bingle infestation is growing out of hand, consider shutting down gravity, bingles cannot drop items into a pit without gravity and therefor cannot multiply.
+Si una infestacion de bingles esta creciendo fuera de control, considera apagar la gravedad; los bingles no pueden arrojar objetos a un hoyo sin gravedad y por lo tanto no pueden multiplicarse.
 
   <Box>
     <GuideEntityEmbed Entity="GravityGenerator"/>
   </Box>
 
-All items (and people) lost to the pit will be spat out when destroyed!
+¡Todos los objetos (y personas) perdidos en el hoyo seran expulsados cuando sea destruido!
 
 </Document>

@@ -1,67 +1,67 @@
 <Document>
 
-  # Way of The Sleeping Carp
+  # El Camino de la Carpa Durmiente
 
   <Box>
     <GuideEntityEmbed Entity="SleepingCarpScroll" Caption=""/>
   </Box>
 
-  The Way of The Sleeping Carp, or simply the Sleeping Carp, is an ancient [textlink="martial art" link="MartialArts"] learned through intense study and meditation.
-  It is modeled after the graceful movement, combat, and flow of Space Carp. Ancient masters of this art are rumored to have studied among great schools of space carp
-  and survived, some have even befriended the aggressive creatures. This art is often utilized by zealots and extremists especially among The Syndicate.
+  El Camino de la Carpa Durmiente, o simplemente la Carpa Durmiente, es un antiguo [textlink="arte marcial" link="MartialArts"] aprendido a traves de un intenso estudio y meditacion.
+  Esta modelado segun el gracioso movimiento, combate y flujo de las Carpas Espaciales. Se dice que los antiguos maestros de este arte estudiaron entre grandes bancos de carpas espaciales
+  y sobrevivieron, algunos incluso se hicieron amigos de las agresivas criaturas. Este arte es frecuentemente utilizado por zelotes y extremistas, especialmente entre El Sindicato.
 
-  ## Special abilities
+  ## Habilidades Especiales
 
-  Sleeping Carp users are better at Harm intent, as their unarmed attacks will deal extra damage to the opponent.
+  Los usuarios de la Carpa Durmiente son mejores con el intento de Dano, ya que sus ataques desarmados causaran dano adicional al oponente.
 
-  ### Riptide Reflection
+  ### Reflejo de Marejada
 
-  Due to the graceful nature of this martial art, Sleeping Carp users are able to completely deflect almost all incoming
-  projectiles. Whether ballistic or energy-based projectiles, hitscan shots or bolas, they effortlessly reflect them.
-  However, explosives, knives, and syringes remain outside their control, slipping through the serene flow of their defense.
+  Debido a la naturaleza graciosa de este arte marcial, los usuarios de la Carpa Durmiente pueden desviar completamente casi todos los proyectiles entrantes.
+  Ya sean proyectiles balisticos o de energia, disparos de barrido o bolas, los reflejan sin esfuerzo.
+  Sin embargo, los explosivos, cuchillos y jeringas permanecen fuera de su control, escapandose del sereno flujo de su defensa.
 
-  ### Fellow Fish
+  ### Amigo de los Peces
 
-  Users of the Sleeping Carp style move with the grace of the waters, in perfect harmony with Space Carp.
-  These creatures, sensing the peaceful bond, will more often than not treat them as allies, not attacking them.
-  This connection extends to other Carp-like beings, including Sharkminnows and even the mighty Space Dragons.
+  Los usuarios del estilo de la Carpa Durmiente se mueven con la gracia de las aguas, en perfecta armonia con las Carpas Espaciales.
+  Estas criaturas, al percibir el vinculo pacifico, las trataran la mayoria de las veces como aliados, sin atacarlas.
+  Esta conexion se extiende a otros seres parecidos a las Carpas, incluyendo los Tiburoncillos e incluso los poderosos Dragones Espaciales.
 
-  ### Gun Gainsay
+  ### Renuncia a las Armas de Fuego
 
-  Part of becoming a Master of Sleeping Carp is to take an oath to abstain from using guns. This includes regular guns
-  and firearms attached to equipment such as mechs. It isn't quite clear why, however, it is thought that it allows the
-  user to intensify their focus on perfect flow and deflection. Others believe that it is part of the drive of the master
-  to further emulate the way of the Carp, to completely focus on the attack of the Carp: its [bold] Bite [/bold]. This does not prevent
-  the practitioners of Sleeping Carp from throwing items, bolas, floor tiles, or even people, all useful ranged weapons.
+  Parte de convertirse en Maestro de la Carpa Durmiente es hacer un juramento de abstenerse de usar armas de fuego. Esto incluye armas de fuego normales
+  y armas de fuego adjuntas a equipos como mecas. No esta del todo claro por que, sin embargo, se cree que permite al
+  usuario intensificar su enfoque en el flujo perfecto y la deflexion. Otros creen que es parte del impulso del maestro
+  para emular aun mas el camino de la Carpa, para centrarse completamente en el ataque de la Carpa: su [bold] Mordisco [/bold]. Esto no impide
+  a los practicantes de la Carpa Durmiente lanzar objetos, bolas, baldosas del suelo o incluso personas, todos utiles como armas a distancia.
 
-  ## Combo attacks
+  ## Ataques en Combinacion
 
-  ### Keelhaul
+  ### Quilla
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookGrab" Caption=""/>
   </Box>
 
-  Kicks an opponent in the head, knocking them down and dealing both Slash and Stamina damage to them,
-  unless they are already stunned. In that case, it will as well completely disarm the opponent.
+  Da una patada al oponente en la cabeza, derrumbandolo y causando dano de Corte y de Stamina,
+  a menos que ya esten aturdidos. En ese caso, tambien desarmara completamente al oponente.
 
-  ### Crashing Waves Kick
+  ### Patada de Olas Rompientes
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookDisarm" Caption=""/>
   </Box>
 
-  Kicks the opponent square in the chest, sending them flying and dealing Slash damage. Only works on standing opponents.
+  Da una patada al oponente directamente en el pecho, haciendolo salir volando y causando dano de Corte. Solo funciona en oponentes de pie.
 
-  ### Gnashing Teeth
+  ### Dientes Rechinantes
 
   <Box>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
     <GuideEntityEmbed Entity="GuidebookHarm" Caption=""/>
   </Box>
 
-  Deals extra Slash damage, and makes the user shout to strike fear into their opponent's heart.
+  Causa dano de Corte adicional y hace que el usuario grite para infundir miedo en el corazon del oponente.
 
 </Document>

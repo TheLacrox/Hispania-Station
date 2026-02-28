@@ -6,42 +6,42 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # Station Alert - Red
+  # Alerta de Estacion - Roja
 
   <Box>
-    [italic]Called by: Anyone with Command-Level Access at a working Communications Console.[/italic]
+    [italic]Declarada por: Cualquier persona con acceso de nivel Mando en una Consola de Comunicaciones operativa.[/italic]
   </Box>
 
-  [bold]Conditions:[/bold]
+  [bold]Condiciones:[/bold]
 
-  There is a confirmed, hostile threat on-board the station or nearby in space. This threat should pose recognizable danger to the station and/or crew at large.
+  Existe una amenaza hostil confirmada a bordo de la estacion o en sus cercanias en el espacio. Esta amenaza debe suponer un peligro reconocible para la estacion y/o la tripulacion en general.
 
-  [italic]Weak threats such as Shadowlings are not credible enough threats to elevate alert level to red, unless they have caused visible chaos.[/italic]
+  [italic]Amenazas debiles como los Sombras no son suficientemente creibles para elevar el nivel de alerta a rojo, salvo que hayan causado un caos visible.[/italic]
 
-  [bold]Security:[/bold]
+  [bold]Seguridad:[/bold]
 
-  Security personnel should read Security SOP for armament, armory and safety procedures;
+  El personal de Seguridad debe leer el PNO de Seguridad para los procedimientos de armamento, armeria y seguridad;
 
-  Random searches are fully permitted and recommended. Security personnel may detain any personnel refusing a random search in order to conduct said search;
+  Los registros aleatorios estan completamente permitidos y se recomiendan. El personal de Seguridad puede detener a cualquier persona que se niegue a un registro aleatorio para llevar a cabo dicho registro;
 
-  Security personnel are to cooperate fully with any Central Command Staff (such as Emergency Response Teams) in order to eliminate the threat to the station.
+  El personal de Seguridad debe cooperar plenamente con cualquier personal del Comando Central (como los Equipos de Respuesta de Emergencia) para eliminar la amenaza a la estacion.
 
-  [bold]Secure Areas:[/bold]
+  [bold]Areas Seguras:[/bold]
 
-  EVA Storage, Tech Storage, Gravity Generator, Engineering Secure Storage, AI Upload, Vault, anywhere else requiring command level access that does not get regularly used.
+  Almacen EVA, Almacen Tecnico, Generador de Gravedad, Almacen Seguro de Ingenieria, Subida de IA, Boveda, y cualquier otro lugar que requiera acceso de nivel mando y que no se use habitualmente.
 
-  There are no restrictions on bolting Secure Areas. Secure Areas may be left bolted or unbolted at the discretion of Command personnel;
+  No hay restricciones para bloquear las Areas Seguras. Las Areas Seguras pueden dejarse bloqueadas o desbloqueadas a discrecion del personal de Mando;
 
-  [bold]General Crew:[/bold]
+  [bold]Tripulacion General:[/bold]
 
-  All personnel are required to maximize their Suit Sensors;
+  Todo el personal esta obligado a maximizar sus Sensores de Traje;
 
-  Unless their job demands it, personnel are forbidden from entering maintenance tunnels. Personnel in violation of this order may be charged with trespassing;
+  Salvo que su trabajo lo exija, el personal tiene prohibido entrar en los tuneles de mantenimiento. El personal que incumpla esta orden puede ser acusado de intrusion;
 
-  Visitors to the station (anyone with Civilian-level access) are to remain inside the Bar, Library or Dormitories for the duration of Code Red;
+  Los visitantes de la estacion (cualquier persona con acceso de nivel Civil) deben permanecer dentro del Bar, la Biblioteca o los Dormitorios durante el Codigo Rojo;
 
-  Personnel are to follow the instructions of Security staff, so long as they are within the bounds of Space Law and are not acting against the general well-being of the station and its crew. Failure to do so may lead to their arrest for Creating a Workplace Hazard.
+  El personal debe seguir las instrucciones del personal de Seguridad, siempre que esten dentro de los limites de la Ley Espacial y no actuen en contra del bienestar general de la estacion y su tripulacion. El incumplimiento puede llevar a su detencion por Crear un Riesgo Laboral.
 
-  Crewmembers in maintenance without proper reason or authorization may be detained for trespassing.
+  Los tripulantes en el mantenimiento sin razon o autorizacion debida pueden ser detenidos por intrusion.
 
 </Document>

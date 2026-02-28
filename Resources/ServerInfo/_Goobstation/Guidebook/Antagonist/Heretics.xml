@@ -9,102 +9,102 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-  # The Mansus Veil Weakens
-  So you're a Heretic? Well, get ready for magic and battle. Grab influences, complete sacrifices, accomplish rituals, and ascend to godhood.
+  # El Velo del Mansus se Debilita
+  ¿Eres un Heretico? Preparate para la magia y el combate. Recoge influencias, completa sacrificios, realiza rituales y asciende a la divinidad.
 
-  Your ultimate goal is to ascend and become all powerful, but to do that you must gain knowledge.
-  In order to ascend, you must complete your objectives, research final ascension knowledge and perform ascension ritual on transmutation rune.
-  Most knowledges and all side knowledge cost 1 point, some of them cost 2 and ascension costs 3.
+  Tu objetivo final es ascender y volverse todopoderoso, pero para ello debes obtener conocimiento.
+  Para ascender, debes completar tus objetivos, investigar el conocimiento de ascension final y realizar el ritual de ascension en una runa de transmutacion.
+  La mayoria de los conocimientos y todos los conocimientos secundarios cuestan 1 punto, algunos cuestan 2 y la ascension cuesta 3.
 
-  You can gain knowledge points and become stronger through a few ways:
-  - Draining influences that spawn randomly around the station.
-  - Sacrificing crew members your dark patrons hunger for.
-  - Automatically getting one knowledge point every 20 minutes.
+  Puedes ganar puntos de conocimiento y fortalecerte de varias maneras:
+  - Drenando influencias que aparecen aleatoriamente por la estacion.
+  - Sacrificando tripulantes que tus oscuros patrones desean.
+  - Obteniendo automaticamente un punto de conocimiento cada 20 minutos.
 
-  ## The Chaplain
-  A powerful foe indeed, try to steer clear of the Chaplain as their Null Rod and it's variants will deal holy damage to you while you're wielding heretical equipment!
+  ## El Capellan
+  Un enemigo formidable. Intenta mantenerte lejos del Capellan, ya que su Vara Nula y sus variantes te infligiran dano sagrado mientras portas equipo heretico.
 
-  Heretics can heal holy damage a few ways:
-  - Standing on a transmutation rune.
-  - Drinking from the Eldritch Flask.
-  - Using Nightwatcher's Rebirth ashen path ability.
-  - Standing on rust as rusted path heretic.
-  - Hitting living people with your blades as ascended blade heretic.
+  Los hereticos pueden curar el dano sagrado de varias formas:
+  - Permaneciendo sobre una runa de transmutacion.
+  - Bebiendo del Frasco Eldrico.
+  - Usando la habilidad del camino cenizoso Renacimiento del Vigilante Nocturno.
+  - Permaneciendo sobre oxido como heretico del camino oxidado.
+  - Golpeando a personas vivas con tus hojas como heretico de hoja ascendida.
 
-  ## Eldritch Influences
+  ## Influencias Eldricas
   <Box>
     <GuideEntityEmbed Entity="EldritchInfluence" Caption=""/>
   </Box>
-  Influences are the easy way to gain power points. Whenever there are Heretics aboard Space Station 14, influences will randomly spawn across the station.
-  They are not visible to the naked eye of a crew member, however they [bold]will[/bold] become visible after harvesting, aside from suddenly changing colors.
-  Tip: When using [color=green]Codex Cicatrix[/color] on an influence you will harvest it faster and get twice as much knowledge points from it, but it will be a dead giveaway to anyone nearby that you're a heretic.
+  Las influencias son la forma mas sencilla de ganar puntos de poder. Siempre que haya Hereticos a bordo de Space Station 14, las influencias apareceran aleatoriamente por la estacion.
+  No son visibles a simple vista para la tripulacion, pero [bold]seran[/bold] visibles tras ser recolectadas, ademas de cambiar de color repentinamente.
+  Consejo: Al usar [color=green]Codex Cicatrix[/color] sobre una influencia la recolectaras mas rapido y obtendras el doble de puntos de conocimiento, pero sera una pista evidente para cualquiera cercano de que eres un heretico.
   <Box>
-    <GuideEntityEmbed Entity="EldritchInfluenceSpent" Caption="Harvested influence. Notice the glow."/>
+    <GuideEntityEmbed Entity="EldritchInfluenceSpent" Caption="Influencia recolectada. Observa el brillo."/>
   </Box>
 
-  Each influence can only be harvested once, so the heretic that goes the fastest and grabs the most influences first has to do less killing and sacrificing to reach their ascensions.
+  Cada influencia solo puede recolectarse una vez, por lo que el heretico que se mueva mas rapido y consiga mas influencias primero tendra que matar y sacrificar menos para alcanzar su ascension.
 
-  ## Sacrifices
-  Now it's time for you to grow some balls and start sacrificing crewmembers for points.
-  The Mansus desires only a select few Heathens (non-heretics) at any moment.
+  ## Sacrificios
+  Es hora de armarte de valor y comenzar a sacrificar tripulantes para obtener puntos.
+  El Mansus solo desea a unos pocos Paganos (no hereticos) en cada momento.
 
-  At the start of the round you will be assigned four-five sacrifice targets.
+  Al inicio de la ronda se te asignaran cuatro o cinco objetivos de sacrificio.
 
-  - One target will be a Head of Staff.
-  - One target will be a member of security.
-  - Other targets will be completely random crewmembers.
+  - Uno de los objetivos sera un Jefe de Personal.
+  - Uno de los objetivos sera un miembro de seguridad.
+  - Los demas objetivos seran tripulantes completamente aleatorios.
 
-  Sacrificing a Head of Staff or member of security will reward you 3 knowledge points, sacrificing any other crewmember will reward 2. You cannot sacrifice regular non-target crewmembers.
+  Sacrificar a un Jefe de Personal o a un miembro de seguridad te recompensara con 3 puntos de conocimiento; sacrificar a cualquier otro tripulante te recompensara con 2. No puedes sacrificar tripulantes normales que no sean objetivos.
 
-  Other heretics are an exception. You can always sacrifice another heretic and get 3 knowledge points for doing so.
+  Los demas hereticos son una excepcion. Siempre puedes sacrificar a otro heretico y obtener 3 puntos de conocimiento por ello.
 
-  Follow your [color=red]Living Heart[/color] to your target of choice and incapacitate them through any means necessary. If your target is incapacitated, they're ready to sacrifice.
-  Drag them over a transmutation rune and invoke the [color=yellow]Heartbeat of the Mansus[/color] to sacrifice them.
+  Sigue tu [color=red]Corazon Viviente[/color] hasta el objetivo de tu eleccion e incapacitalo por cualquier medio necesario. Si tu objetivo esta incapacitado, esta listo para ser sacrificado.
+  Arrastralo sobre una runa de transmutacion e invoca el [color=yellow]Latido del Mansus[/color] para sacrificarlo.
 
-  You can reroll your targets by invoking [color=yellow]Relentless Heartbeat[/color] ritual.
+  Puedes reiniciar tus objetivos invocando el ritual [color=yellow]Latido Incesante[/color].
 
-  ## Heretical Research
-  Once you have some power points, it's time to research! Open up your knowledge store using the action button.
-  The research menu forms a branching tree, and your first selection will be to commit to a path that defines your initial abilities and Final Ascension.
-  You can earn abilities from other paths to a limited degree, but overall your chosen path will heavily influence your play-style.
+  ## Investigacion Heretica
+  Una vez que tengas algunos puntos de poder, es hora de investigar. Abre tu almacen de conocimientos con el boton de accion.
+  El menu de investigacion forma un arbol ramificado, y tu primera seleccion sera comprometerte con un camino que defina tus habilidades iniciales y tu Ascension Final.
+  Puedes obtener habilidades de otros caminos en cierta medida, pero en general el camino elegido influira fuertemente en tu estilo de juego.
 
-  ## Transmutation is Key
-  Eventually, you'll need to start using proper magics. To draw a transmutation rune, you'll need a writing tool, such as a pen or crayon.
-  Activate [color=green]Mansus Grasp[/color] in your offhand and click on the floor to start drawing a rune.
-  These runes are highly noticeable and take up a 3x3 area.
-  You can freely remove runes by using your pen with the activated [color=green]Mansus Grasp[/color] on it, and you can also freely use other Heretic's runes.
+  ## La Transmutacion es Clave
+  Con el tiempo, necesitaras usar magia de verdad. Para dibujar una runa de transmutacion, necesitaras una herramienta de escritura, como un boligrafo o un crayon.
+  Activa [color=green]Zarpa del Mansus[/color] en tu mano secundaria y haz clic en el suelo para comenzar a dibujar una runa.
+  Estas runas son muy notorias y ocupan un area de 3x3.
+  Puedes eliminar runas libremente usando tu boligrafo con la [color=green]Zarpa del Mansus[/color] activada sobre ella, y tambien puedes usar libremente las runas de otros Hereticos.
 
-  To [bold]transmute[/bold], simply click the rune with your empty hand to choose the needed ritual, after that use your [color=green]Mansus Grasp[/color] on the rune to see what objects you require for the ritual.
-  You can always see your chosen ritual by [bold]inspecting[/bold] the rune.
+  Para [bold]transmutar[/bold], simplemente haz clic en la runa con la mano vacia para elegir el ritual necesario; luego usa tu [color=green]Zarpa del Mansus[/color] sobre la runa para ver que objetos necesitas para el ritual.
+  Siempre puedes ver el ritual elegido [bold]inspeccionando[/bold] la runa.
 
-  Transmutation Rituals allow you to create powerful artifacts, demonic monsters, and many useful tools that will help you progress towards ultimate power.
+  Los Rituales de Transmutacion te permiten crear poderosos artefactos, monstruos demoniacos y muchas herramientas utiles que te ayudaran a avanzar hacia el poder absoluto.
 
-  ## Focus is Necessary
-  To cast more advanced spells, you must focus by wearing an [color=orange]Amber Focus[/color].
-  You can acquire Amber Focus using the eponymous ritual.
-  Some more powerful heretical equipment also functions as a focus - namely, the Ominous Armor from the Armorer's Ritual (when the hood is flipped up).
-  [color=yellow]Ascension[/color] disables the need for a focus.
+  ## La Concentracion es Necesaria
+  Para lanzar hechizos mas avanzados, debes concentrarte portando un [color=orange]Foco de Ambar[/color].
+  Puedes obtener el Foco de Ambar mediante el ritual del mismo nombre.
+  Algunos equipos hereticos mas poderosos tambien funcionan como foco; en particular, la Armadura Siniestra del Ritual del Armero (cuando la capucha esta levantada).
+  [color=yellow]La Ascension[/color] elimina la necesidad de un foco.
 
-  ## Starting Knowledge
-  - \[ [color=red]Mansus Grasp[/color] \] - A short range spell that channels eldritch power straight to your palm. Upon contact, knocks down and confuses unsuspecting targets. It can be used as a surgical tool for obtaining organs.
-  - \[ [color=red]Heartbeat of the Mansus[/color] \] - Allows you to sacrifice targets who are dead to the Mansus, gibbing them and rewarding you with two knowledge point; three if your victim was a head of staff, security, or another heretic.
-  - \[ [color=red]Amber Focus[/color] \] - Allows you to transmute a sheet of glass and a pair of eyes into an Amber Focus. This is a small neck-worn item that allows you to cast advanced spells while worn.
-  - \[ [color=red]Living Heart[/color] \] - Allows you to pinpoint your targets. Plays an audible heartbeat sound, so use it carefully.
-  - \[ [color=red]Relentless Heartbeat[/color] \] - Allows you to transmute a heart, a pen and paper to reroll your target selection, in case you've run out of bodies or want a different approach.
-  - \[ [color=red]Codex Cicatrix[/color] \] - Allows you to transmute a book, any pen, and any piece of meat or non-silicon organ to create a Codex Cicatrix. The Codex Cicatrix can be used when draining influences to gain additional knowledge, but comes at greater risk of being noticed. It can also be used to draw and remove transmutation runes faster, and as a spell focus in a pinch.
-  - \[ [color=red]Cloak of Shadow[/color] \] - A spell, which will conceal your identity in an obvious purple smoke, making you move faster but interact slower. Requires a focus to cast.
-  - \[ [color=red]Feast of Owls[/color] \] - Allows you to perform a ritual that grants you 5 knowledge points but locks you out of ascension. A small sacrifice to gain power quickly. There is no going back.
-  - \[ [color=red]Reminiscence[/color] \] - Heretic blades are limited. You can only create up to 2-4 blades depending on your path by performing stage 2 blade creation ritual. Reminiscence ritual allows you to transmute a chair to recall your lost blade that you have previously created to the transmutation rune.
+  ## Conocimiento Inicial
+  - \[ [color=red]Zarpa del Mansus[/color] \] - Un hechizo de corto alcance que canaliza poder eldrico directamente a tu palma. Al contacto, derriba y confunde a objetivos desprevenidos. Puede usarse como herramienta quirurgica para extraer organos.
+  - \[ [color=red]Latido del Mansus[/color] \] - Permite sacrificar objetivos que esten muertos ante el Mansus, destruyendo sus restos y recompensandote con dos puntos de conocimiento; tres si tu victima era un jefe de personal, miembro de seguridad u otro heretico.
+  - \[ [color=red]Foco de Ambar[/color] \] - Permite transmutar una lamina de vidrio y un par de ojos en un Foco de Ambar. Es un pequeno objeto que se lleva al cuello y permite lanzar hechizos avanzados mientras se porta.
+  - \[ [color=red]Corazon Viviente[/color] \] - Permite localizar a tus objetivos. Emite un latido audible, asi que usalo con cuidado.
+  - \[ [color=red]Latido Incesante[/color] \] - Permite transmutar un corazon, un boligrafo y papel para reiniciar la seleccion de objetivos, en caso de que te hayas quedado sin cuerpos o desees un enfoque diferente.
+  - \[ [color=red]Codex Cicatrix[/color] \] - Permite transmutar un libro, cualquier boligrafo y cualquier trozo de carne u organo no silicio para crear un Codex Cicatrix. El Codex Cicatrix puede usarse al drenar influencias para obtener conocimiento adicional, pero conlleva mayor riesgo de ser detectado. Tambien puede usarse para dibujar y eliminar runas de transmutacion mas rapido, y como foco de hechizos en caso de apuro.
+  - \[ [color=red]Manto de Sombra[/color] \] - Un hechizo que oculta tu identidad en un evidente humo purpura, haciendote mover mas rapido pero interactuar mas lentamente. Requiere un foco para lanzarlo.
+  - \[ [color=red]Festin de Buhos[/color] \] - Permite realizar un ritual que te otorga 5 puntos de conocimiento pero te bloquea el acceso a la ascension. Un pequeno sacrificio para ganar poder rapidamente. No hay vuelta atras.
+  - \[ [color=red]Reminiscencia[/color] \] - Las hojas hereticas son limitadas. Solo puedes crear 2 a 4 hojas segun tu camino realizando el ritual de creacion de hojas de fase 2. El ritual de Reminiscencia te permite transmutar una silla para recuperar tu hoja perdida que hayas creado previamente hasta la runa de transmutacion.
 
-  ## Tips
-  - You can enchant items using your Codex Cicatrix and Transmutation rune. [textlink="For more info on enchanting, click here." link="Enchanting"]
-  - Be wary of other heretics. They worship false gods, and will sacrifice you for knowledge just as easily as they would any other heathen. However, you can sacrifice them to the Mansus as well. Let the strongest god win.
-  - On Ashen Path, always carry a fire extinguisher or a bottle of water with you! While you can spew out fireballs, you are not immune to them until you ascend or wear a Mask of Madness!
-  - As a [color=purple]Raw Prophet[/color], your [color=green]Mansus Link[/color] ability is extremely useful for communication. When you use it on someone, they gain a hivemind similar to changelings with +m key to talk privately.
-  - Your Mansus Grasp will temporarily garble the speech of people who you use it on. This can let you get away with murder while comms are online, but be careful - it's not foolproof.
-  - [color=purple]Influences[/color] can spawn in almost any location on the station, ranging from the main hallways and public restrooms to [color=cyan]Command staff offices[/color] and [color=red]restricted security areas[/color] in the Brig. It's best to check every area you can access, public and department.
-  - Monkeys and other animals make for great, usually non-suspicious sources of organs or corpses for your heretical rituals.
-  - Most summoned ghouls will drop the components used to create them on death. While having them to die is not ideal, you can easily grab the parts and summon another.
-  - [color=yellow]Eldritch Flask[/color], a stage 3 side path knowledge acts like a cryostasis beaker and has a total capacity of 100 units, meaning you can create deadly mixes that are easily triggered.
-  - [color=yellow]Eldritch Essence[/color], contained in eldritch flask is able to rust tiles upon splashing on them. Contrariwise, [color=yellow]Space Cola[/color] clears tile rusting, which is useful for crew when fighting Rusted Path heretic.
+  ## Consejos
+  - Puedes encantar objetos usando tu Codex Cicatrix y la runa de Transmutacion. [textlink="Para mas informacion sobre el encantamiento, haz clic aqui." link="Enchanting"]
+  - Ten cuidado con otros hereticos. Adoran a dioses falsos y te sacrificaran para obtener conocimiento tan facilmente como a cualquier otro pagano. Sin embargo, tambien puedes sacrificarlos al Mansus. Que gane el dios mas fuerte.
+  - En el Camino Cenizoso, lleva siempre un extintor o una botella de agua. Puedes lanzar bolas de fuego, pero no eres inmune a ellas hasta que asciendes o llevas una Mascara de la Locura.
+  - Como [color=purple]Profeta Crudo[/color], tu habilidad [color=green]Vinculo del Mansus[/color] es extremadamente util para la comunicacion. Al usarla sobre alguien, este obtiene una mente colmena similar a la de los cambiaformas con la tecla +m para hablar en privado.
+  - Tu Zarpa del Mansus distorsionara temporalmente el habla de las personas sobre las que la uses. Esto puede permitirte cometer un asesinato mientras las comunicaciones estan activas, pero ten cuidado: no es infalible.
+  - [color=purple]Las influencias[/color] pueden aparecer en casi cualquier lugar de la estacion, desde los pasillos principales y los banos publicos hasta [color=cyan]las oficinas del personal de mando[/color] y [color=red]las zonas restringidas de seguridad[/color] en la Prision. Lo mejor es revisar cada area a la que puedas acceder, publica y de departamento.
+  - Los monos y otros animales son excelentes fuentes de organos o cadaveres, generalmente sin levantar sospechas, para tus rituales hereticos.
+  - La mayoria de los espectros invocados dejaran caer los componentes usados para crearlos al morir. Aunque perderlos no es ideal, puedes recoger facilmente las piezas e invocar otro.
+  - [color=yellow]El Frasco Eldrico[/color], un conocimiento secundario de fase 3, actua como un recipiente de criostasis y tiene una capacidad total de 100 unidades, lo que significa que puedes crear mezclas mortales de facil activacion.
+  - [color=yellow]La Esencia Eldrica[/color] contenida en el frasco eldrico puede oxidar losetas al derramarse sobre ellas. Por el contrario, [color=yellow]la Cola Espacial[/color] elimina el oxido de las losetas, lo cual es util para la tripulacion cuando lucha contra el heretico del Camino Oxidado.
 </Document>

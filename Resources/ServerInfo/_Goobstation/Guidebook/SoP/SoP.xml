@@ -6,42 +6,42 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 -->
 
 <Document>
-# Standard Operating Procedure
-The Standard Operating Procedure, SOP, is the set of procedures for crew personnel to follow when there is (or isn't) an emergency on the station.
-These directives are here to assist you, as a valuable crew member on this station, with knowledge of what to do in these special scenarios.
+# Procedimiento Operativo Estandar
+El Procedimiento Operativo Estandar, POE, es el conjunto de procedimientos que el personal de la tripulacion debe seguir cuando hay (o no hay) una emergencia en la estacion.
+Estas directivas estan aqui para asistirte, como valioso miembro de la tripulacion de esta estacion, con el conocimiento de que hacer en estos escenarios especiales.
 
-These procedures are a guideline to assure all actions follow Nanotrasen's best interest. Failure to follow these can result in dismissal and/or demotion from your job position.
+Estos procedimientos son una guia para asegurar que todas las acciones sigan el mejor interes de Nanotrasen. El incumplimiento de estos puede resultar en el despido y/o degradacion de tu puesto de trabajo.
 
-<Box>It is [bold]highly advised[/bold] to read over the [bold]Standard Procedures[/bold], [bold]Legal[/bold], and your [bold]Job Department[/bold] SOP!</Box>
+<Box>Se [bold]recomienda ampliamente[/bold] leer los [bold]Procedimientos Estandar[/bold], el apartado [bold]Legal[/bold], y el POE de tu [bold]Departamento[/bold]!</Box>
 
-## What Does This Define?
-The SOP outlines several procedures for alert levels, Chain of Command (command succession), treatment of prisoners, identification of threats, and much more.
-Adherence to these guidelines is expected but the guidelines are malleable to multiple scenarios. Should you choose to deviate from these guidelines, you must justify your actions when asked.
+## Que Define Esto?
+El POE describe varios procedimientos para los niveles de alerta, la Cadena de Mando (sucesion de mando), el tratamiento de prisioneros, la identificacion de amenazas, y mucho mas.
+Se espera el cumplimiento de estas pautas, pero las pautas son maleables a multiples escenarios. Si decides desviarte de estas pautas, debes justificar tus acciones cuando se te pida.
 
   <Box>
-    [bold]NOTE:[/bold] Blindly following SOP while ignoring context is a [italic]ridiciously bad idea[/italic] and is not suggested. [bold]Context is King![/bold]
+    [bold]NOTA:[/bold] Seguir el POE ciegamente ignorando el contexto es una [italic]idea ridiculamente mala[/italic] y no se sugiere. [bold]El Contexto es lo mas importante![/bold]
   </Box>
   <Box>
-    Further note that any references to "This Station" or "Station" are assumed to be the station you are working on during this shift. You may find this on your PDA.
+    Ten en cuenta ademas que cualquier referencia a "Esta Estacion" o "Estacion" se asume que es la estacion en la que estas trabajando durante este turno. Puedes encontrar esto en tu PDA.
   </Box>
 
-## General Station SOP
-The following links are for general knowledge of the station.
-- [textlink="Hiring, Promoting, Transferring" link="HiringSOP"]
-- [textlink="Firing, Demoting, Terminating" link="DemotingSOP"]
-- [textlink="Chain of Command" link="Succession"]
+## POE General de la Estacion
+Los siguientes enlaces son para el conocimiento general de la estacion.
+- [textlink="Contratacion, Ascenso, Traslado" link="HiringSOP"]
+- [textlink="Despido, Degradacion, Baja" link="DemotingSOP"]
+- [textlink="Cadena de Mando" link="Succession"]
 - [textlink="Legal" link="LegalSOP"]
-- [textlink="Emergencies" link="EmergenciesSOP"]
-- [textlink="Alert Levels" link="AlertLevels"]
+- [textlink="Emergencias" link="EmergenciesSOP"]
+- [textlink="Niveles de Alerta" link="AlertLevels"]
 
-## General Department
-The following links are for general department SOPs. These will guide you to the folder entry.
-- [textlink="Cargo Department" link="CargoSOP"]
-- [textlink="Command Department" link="CommandSOP"]
-- [textlink="Engineering Department" link="EngineeringSOP"]
-- [textlink="Medical Department" link="MedicalSOP"]
-- [textlink="Science Department" link="ScienceSOP"]
-- [textlink="Security Department" link="SecuritySOP"]
-- [textlink="Service Department" link="ServiceSOP"]
+## Departamentos Generales
+Los siguientes enlaces son para los POE de departamentos generales. Te guiaran a la entrada de la carpeta.
+- [textlink="Departamento de Carga" link="CargoSOP"]
+- [textlink="Departamento de Mando" link="CommandSOP"]
+- [textlink="Departamento de Ingenieria" link="EngineeringSOP"]
+- [textlink="Departamento Medico" link="MedicalSOP"]
+- [textlink="Departamento de Ciencias" link="ScienceSOP"]
+- [textlink="Departamento de Seguridad" link="SecuritySOP"]
+- [textlink="Departamento de Servicios" link="ServiceSOP"]
 
 </Document>

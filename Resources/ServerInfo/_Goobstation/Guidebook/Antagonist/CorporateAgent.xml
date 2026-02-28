@@ -1,46 +1,46 @@
 <Document>
-  # Corporate Agents
+  # Agentes Corporativos
 
-  [color=#ac3a0d]An elite agent sent to infiltrate and complete missions onboard various stations.[/color]
+  [color=#ac3a0d]Un agente de elite enviado a infiltrarse y completar misiones a bordo de varias estaciones.[/color]
 
-  Only select command members can become corporate agents: the Quartermaster, Chief Engineer, and Research Director.
+  Solo ciertos miembros del mando pueden convertirse en agentes corporativos: el Jefe de Suministros, el Jefe de Ingenieria y el Director de Investigacion.
   <Box>
-    <GuideEntityEmbed Entity="PosterLegitEnlist" Caption="Enlist now!"/>
+    <GuideEntityEmbed Entity="PosterLegitEnlist" Caption="¡Enlistarse ahora!"/>
   </Box>
 
-  Corporate Agents are tasked with retrieving items, testing weak points, sabotaging, or assassinating targets who know too much.
+  Los Agentes Corporativos tienen la tarea de recuperar objetos, probar puntos debiles, sabotear o asesinar a objetivos que saben demasiado.
 
-  Despite their deep connections to Nanotrasen/Central Command, they rarely receive help and are abandoned if caught.
-  Corporate agents should avoid causing excessive disruption, [color=red][bold]as corporations want to avoid bad press.[/bold][/color]
+  A pesar de sus profundas conexiones con Nanotrasen/Mando Central, rara vez reciben ayuda y son abandonados si son capturados.
+  Los agentes corporativos deben evitar causar interrupciones excesivas, [color=red][bold]ya que las corporaciones quieren evitar la mala prensa.[/bold][/color]
 
-  ## How they play
+  ## Como jugar
 
-  Unlike Traitors, Corporate Agents have limited freedom in their objectives.
-  First and foremost, [color=red][bold] they should not be causing more damage than necessary! [/bold][/color]
-  Corporate Agents must complete missions while maintaining their disguise as command members.
-  It wouldn't be very productive if the station fell apart due to them not doing their job as a head of staff, now would it?
+  A diferencia de los Traidores, los Agentes Corporativos tienen libertad limitada en sus objetivos.
+  Ante todo, [color=red][bold] ¡no deben causar mas dano del necesario! [/bold][/color]
+  Los Agentes Corporativos deben completar sus misiones manteniendo su disfraz como miembros del mando.
+  ¿No seria muy poco productivo que la estacion se viniera abajo por no hacer su trabajo como jefe de personal, verdad?
 
-  [bold] Most people don't react well to finding out one of their closest allies is a spy. [/bold]
+  [bold] La mayoria de la gente no reacciona bien al descubrir que uno de sus aliados mas cercanos es un espia. [/bold]
 
-  ## Objectives
+  ## Objetivos
 
-  Corporate Agents receive objectives at the start of the round, often involving traitors or other heads of staff.
-  Objectives typically include stealing items or eliminating targets who oppose the corporation or know sensitive information.
-  Sometimes someone's been talking against the corporation, or they've heard things they really shouldn't have.
+  Los Agentes Corporativos reciben objetivos al inicio de la ronda, que a menudo involucran a traidores u otros jefes de personal.
+  Los objetivos tipicamente incluyen robar objetos o eliminar a objetivos que se oponen a la corporacion o conocen informacion sensible.
+  A veces alguien ha estado hablando en contra de la corporacion, o ha escuchado cosas que realmente no deberia haber escuchado.
 
-  Agents may also need to handle suspected syndicate spies discreetly, as corporations aim to maintain appearances and avoid public violations of space law.
-  [bold]Corporate Agents are here to resolve these issues.[/bold]
+  Los agentes tambien pueden necesitar manejar discretamente a posibles espias del sindicato, ya que las corporaciones buscan mantener las apariencias y evitar violaciones publicas de la ley espacial.
+  [bold]Los Agentes Corporativos estan aqui para resolver estos problemas.[/bold]
 
-  ## Equipment
+  ## Equipamiento
 
-  Corporate Agents start with an uplink containing 25 telecrystals.
-  These corporations usually don't have an abundance of Telecrystals to spare even for their most elite agents.
-  Use them wisely.
-  Agents must carefully manage their purchases and utilize resources as command members.
+  Los Agentes Corporativos comienzan con un enlace que contiene 25 telecristales.
+  Estas corporaciones generalmente no tienen una abundancia de Telecristales para gastar incluso en sus agentes mas de elite.
+  Usaelos sabiamente.
+  Los agentes deben gestionar cuidadosamente sus compras y utilizar los recursos como miembros del mando.
 
-  [color=red][bold]You didn't spend all this time infiltrating and gaining trust with nothing to show for it right?[/bold][/color]
+  [color=red][bold]¿No pasaste todo este tiempo infiltrandote y ganando confianza para no tener nada que mostrar, verdad?[/bold][/color]
 
 
 
-  [textlink="For more information on how to play it look in the traitor tab." link="Traitors"]
+  [textlink="Para mas informacion sobre como jugarlo, mira en la pestana de traidor." link="Traitors"]
 </Document>
