@@ -1,0 +1,8 @@
+# SPDX-FileCopyrightText: 2026 Hispania Station Contributors
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+nuclear-centrifuge-insert-item = {CAPITALIZE(THE($user))} insertó {THE($item)} en {THE($machine)}.
+
+nuclear-centrifuge-wrong-item = No puedes poner {THE($item)} aquí, no encaja.
+nuclear-centrifuge-unfit-item = {THE($item)} no está listo para su reprocesamiento.
