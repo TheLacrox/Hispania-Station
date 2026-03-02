@@ -55,3 +55,6 @@ zzzz-fmt-energy-watt-hours = { TOSTRING($divided, "F1") } { $places ->
 
 # Usado internamente por la función PLAYTIME().
 zzzz-fmt-playtime = {$hours}H {$minutes}M
+
+# Usado internamente por la función THE().
+zzzz-the = { $ent }
