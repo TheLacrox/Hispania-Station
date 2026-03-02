@@ -25,7 +25,8 @@ ent-PaperCargoBountyManifest = manifiesto de recompensa
 ent-PaperSalvageJobLabel = etiqueta de envío de trabajo de salvamento
     .desc = Una etiqueta de papel que indica que un cajón contiene un envío para cumplir un trabajo de salvamento. Vender un cajón con esta etiqueta cumplirá el trabajo.
 
-ent-PaperCNCSheet # legally gray zone of using "D&D" and "DND" = hoja de personaje
+# legally gray zone of using "D&D" and "DND"
+ent-PaperCNCSheet = hoja de personaje
     .desc = Una hoja para tus personajes de Carpas y Criptas.
 
 ent-NukeCodePaper = códigos de autenticación nuclear

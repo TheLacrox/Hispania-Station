@@ -13,7 +13,8 @@ ent-CrateSyndicateDreadnought = paquete dreadnought de cybersun
 ent-CratePizzaParty = entrega de pizza de desastre
     .desc = En el evento definitivo donde todo lo demás ha fallado, encuentra consuelo en que más pizza lo soluciona todo. Incluye 16 pizzas.
 
-ent-CrateSyndicateUndetermined # Not actually a crate, just looks like one = caja de paquete Syndicate indeterminado
+# Not actually a crate, just looks like one
+ent-CrateSyndicateUndetermined = caja de paquete Syndicate indeterminado
     .desc = Contiene un paquete del Syndicate. Cuál está aún por determinar.
 
 ent-CrateSyndicateStarterKit = paquete básico de operativo

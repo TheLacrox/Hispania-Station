@@ -40,7 +40,8 @@ ent-ClothingOuterHardsuitRd = traje duro de investigación experimental # Goob e
 ent-ClothingOuterHardsuitSecurityRed = traje duro del jefe de seguridad
     .desc = Más ligero y protector que el traje duro de seguridad estándar, pero no mucho más.
 
-ent-ClothingOuterHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738 = traje duro de minería de lujo # Goob edit
+# DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738
+ent-ClothingOuterHardsuitLuxury = traje duro de minería de lujo
     .desc = Un traje duro de minería restaurado, confeccionado con los colores del Quartermaster. El revestimiento de grafeno proporciona menos protección, pero es mucho más fácil de mover. # Goob edit
 
 ent-ClothingOuterHardsuitSyndie = traje duro rojo sangre # Goob edit

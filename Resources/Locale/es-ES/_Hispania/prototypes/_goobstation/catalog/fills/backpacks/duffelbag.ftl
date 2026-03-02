@@ -7,7 +7,8 @@ ent-ClothingBackpackDuffelSyndicateStealthHardsuitBundle = paquete de traje sigi
 ent-ClothingBackpackDuffelSyndicateBurner = Paquete Burner
     .desc = Un rifle Burner de alto calibre, viene con munición anti-material y explosiva.
 
-ent-ClothingBackpackDuffelSyndicateM90Bundle # - 古い M90 バンドルがこの ID を使用しているかどうかはわかりませんが、その ID はコメントアウトされており、もう存在しないと思います。 = paquete M-90
+# - 古い M90 バンドルがこの ID を使用しているかどうかはわかりませんが、その ID はコメントアウトされており、もう存在しないと思います。
+ent-ClothingBackpackDuffelSyndicateM90Bundle = paquete M-90
     .desc = Un paquete que lleva el rifle de asalto M-90 del Syndicate, embalado con 2 cargadores de repuesto.
 
 ent-ClothingBackpackDuffelSyndicateFilledWSPR = paquete WSPR

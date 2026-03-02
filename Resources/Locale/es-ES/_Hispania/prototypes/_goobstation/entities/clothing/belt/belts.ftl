@@ -16,7 +16,8 @@ ent-ClothingBeltChemBagSyndi = bolsa médica del Syndicate
 ent-ClothingBeltSheathHeadOfSecurity = funda del jefe de seguridad
     .desc = Una funda resistente, diseñada para guardar la espada de energía personalizada del Jefe de Seguridad.
 
-ent-ClothingBeltMilitaryRigGrenadier # Rig instead of webbing to distinguish it from the upstream counterpart = cinturón granadero
+# Rig instead of webbing to distinguish it from the upstream counterpart
+ent-ClothingBeltMilitaryRigGrenadier = cinturón granadero
     .desc = Un cinturón especializado para llevar tantas granadas que el brazo se cansa de lanzarlas todas. También puede almacenar una pistola secundaria y cargadores para ella.
 
 ent-ClothingBeltChemBagXenobiology = bolsa de xenobiología

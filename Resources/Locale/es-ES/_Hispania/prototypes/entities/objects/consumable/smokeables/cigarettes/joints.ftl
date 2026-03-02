@@ -4,7 +4,8 @@ ent-Joint = porro
 ent-JointRainbow = porro
     .desc = Un rollito de materia vegetal seca envuelto en papel fino. Parece colorido por dentro.
 
-ent-BluntCigar # Shitmed Change = blunt
+# Shitmed Change
+ent-BluntCigar = blunt
     .desc = Un rollito de materia vegetal seca envuelto en una hoja de tabaco seca.
 
 ent-BluntRainbow = blunt

@@ -14,6 +14,7 @@ ent-ShadowlingNullChargeEffect = efecto de carga nula de shadowling
 
 ent-ShadowlingSonicScreechEffect = efecto de chillido sónico de shadowling
 
-ent-ShadowlingBlackRecuperationEffect # plays on Thralls = efecto de recuperación negra de shadowling
+# plays on Thralls
+ent-ShadowlingBlackRecuperationEffect = efecto de recuperación negra de shadowling
 
 ent-ShadowlingAscendingEffect = efecto de ascensión de shadowling

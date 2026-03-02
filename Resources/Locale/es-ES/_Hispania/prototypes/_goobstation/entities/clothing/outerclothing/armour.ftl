@@ -28,7 +28,8 @@ ent-ClothingBlueshieldArmoredCowboyJacket = chaqueta de cowboy blindada del escu
 ent-ClothingOuterWinterBlueshield = abrigo de invierno blindado del escudo azul
     .desc = Un abrigo de invierno azul reforzado con kevlar en el área del pecho.
 
-ent-ClothingOuterArmourInvisible # I'll be real, this is just invisible armor so it doesn't ruin how fucking AWESOME navy officers look. Bite me. = armadura asistida por bluespace
+# I'll be real, this is just invisible armor so it doesn't ruin how fucking AWESOME navy officers look. Bite me.
+ent-ClothingOuterArmourInvisible = armadura asistida por bluespace
     .desc = Un chaleco blindado que utiliza tecnología de bluespace, doblando la luz y volviéndose invisible a simple vista cuando se lleva puesto.
 
 ent-ClothingOuterArmourInvisibleChameleon = armadura encubierta

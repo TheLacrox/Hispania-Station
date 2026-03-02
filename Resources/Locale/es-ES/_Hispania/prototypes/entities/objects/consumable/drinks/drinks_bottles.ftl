@@ -52,7 +52,8 @@ ent-DrinkWhiskeyBottleFull = Reserva Especial del Tío Git
 ent-DrinkWineBottleFull = botella de vino especial Doublebearded Bearded
     .desc = Un leve aura de inquietud e incomodidad rodea la botella.
 
-ent-DrinkBeerGrowler # Needs to be renamed DrinkBeerBottleFull = growler de cerveza  # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
+# Needs to be renamed DrinkBeerBottleFull
+ent-DrinkBeerGrowler = growler de cerveza
     .desc = Una bebida alcohólica elaborada con granos malteados, lúpulo, levadura y agua. Botella growler XL.
 
 ent-DrinkAleBottleFullGrowler = growler de Magm-Ale

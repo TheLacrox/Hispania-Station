@@ -49,7 +49,8 @@ ent-ClothingUniformJumpsuitMilitaryContractor = mono de contratista
 ent-ClothingUniformJumpsuitMilitaryContractorTac = mono de contratista
     .desc = Un mono resistente, comúnmente emitido a contratistas de NT.
 
-ent-ClothingUniformJumpsuitMilitaryHoP # goob - no SR = mono del JdeP # goob - no SR
+# goob - no SR
+ent-ClothingUniformJumpsuitMilitaryHoP = mono del JdeP
 
 ent-ClothingUniformJumpsuitMilitaryService = mono de trabajador de servicios
     .desc = Un mono de emisión estándar para trabajadores de servicios de NT.

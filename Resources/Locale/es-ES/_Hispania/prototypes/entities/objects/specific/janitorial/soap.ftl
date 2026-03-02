@@ -19,5 +19,6 @@ ent-SoapHomemade = jabón
 ent-SoapOmega = jabón omega
     .desc = El jabón más avanzado conocido por la humanidad. Huele a bluespace.
 
-ent-SoapBorg # Intended for borg internals, not slippery or food, not a container for soap reagent = jabón
+# Intended for borg internals, not slippery or food, not a container for soap reagent
+ent-SoapBorg = jabón
     .desc = Una barra de jabón de la marca Nanotrasen. Huele a plasma y máquinas.

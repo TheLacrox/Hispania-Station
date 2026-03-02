@@ -16,6 +16,7 @@ ent-PelletShotgunFlare = perdigón (.50 bengala)
 
 ent-PelletShotgunUranium = perdigón (.50 de uranio)
 
-ent-PelletGrapeshot #tally fucking ho = perdigón de metralla
+# tally fucking ho
+ent-PelletGrapeshot = perdigón de metralla
 
 ent-PelletGlass = fragmento de vidrio

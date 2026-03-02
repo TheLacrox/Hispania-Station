@@ -7,5 +7,6 @@ ent-SlicedBucketBase = cubo con ranura
 ent-SteelBucketBase = cubo de acero
     .desc = Un cubo con acero soldado en su exterior. Necesita un mejor moldeado antes de poder usarse cómodamente.
 
-ent-ClothingHeadHelmetScrap #When we get the tech for it this bad boy needs to be given a vision reduction when equipped. 1-2 tiles less than normal should be good. = casco chatarra
+# When we get the tech for it this bad boy needs to be given a vision reduction when equipped. 1-2 tiles less than normal should be good.
+ent-ClothingHeadHelmetScrap = casco chatarra
     .desc = Un casco improvisado hecho de cables, acero y un cubo.

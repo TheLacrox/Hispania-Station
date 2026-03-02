@@ -35,7 +35,8 @@ ent-BorgModuleCleaning = módulo de borg de limpieza
 ent-BorgModuleAdvancedCleaning = módulo de borg de limpieza avanzada
     .desc = Módulo de conserjería avanzado que contiene, pues... equipo de conserje avanzado. ¿Qué esperabas?
 
-ent-BorgModuleDiagnosis # todo: reuse when med refractor is finished = módulo de borg de diagnóstico
+# todo: reuse when med refractor is finished
+ent-BorgModuleDiagnosis = módulo de borg de diagnóstico
 
 ent-BorgModuleTopicals = módulo de borg de tópicos
 

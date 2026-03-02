@@ -1,4 +1,5 @@
-ent-BaseBalloon       # Base balloon = globo base
+# Base balloon
+ent-BaseBalloon = globo base
 
 ent-RedBalloon = globo rojo
     .desc = El globo más débil.

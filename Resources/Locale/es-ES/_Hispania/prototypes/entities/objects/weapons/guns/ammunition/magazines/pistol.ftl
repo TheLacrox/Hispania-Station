@@ -2,7 +2,8 @@ ent-BaseMagazinePistol = cargador de pistola (.35 auto)
 
 ent-BaseMagazinePistolHighCapacity = cargador de pistola ametralladora (.35 auto)
 
-ent-BaseMagazinePistolSubMachineGun  # Yeah it's weird but it's pistol caliber = cargador de SMG (.35 auto)
+# Yeah it's weird but it's pistol caliber
+ent-BaseMagazinePistolSubMachineGun = cargador de SMG (.35 auto)
 
 ent-MagazinePistolSubMachineGunTopMounted = cargador WT550 (.35 auto montaje superior)
     .desc = Cargador no convencional de 30 rondas de alimentación superior para el SMG WT550. Diseñado para munición cinética de uso general.

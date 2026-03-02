@@ -16,7 +16,8 @@ ent-MobMonstrosityBody = monstruosidad mecánica
 ent-MobLion = león
     .desc = Oh cielos.
 
-ent-MobAncientRepairBot # Este mob debería ser un dron que repara cosas automáticamente, pero está fuera del alcance y solo para zonas de aventura. = robot extraño  #Se supone que este mob también debe disparar rayos en lugar de golpear en cuerpo a cuerpo, pero como no tenemos IA capaz de usar habilidades de mob, eso se añadirá más adelante.
+# Este mob debería ser un dron que repara cosas automáticamente, pero está fuera del alcance y solo para zonas de aventura.
+ent-MobAncientRepairBot = robot extraño
     .desc = ¿Parece algún tipo de bot de reparación flotante o algo así?
 
 ent-MobAncientGuardBot = robot extraño

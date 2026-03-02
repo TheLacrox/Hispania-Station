@@ -13,5 +13,6 @@ ent-EnergyDaggerBox = caja de e-daga
 ent-EnergyCutlass = sable de energía
     .desc = Un arma de energía exótica.
 
-ent-EnergySwordDoubleBase # Goob edit = espada de energía de doble hoja
+# Goob edit
+ent-EnergySwordDoubleBase = espada de energía de doble hoja
     .desc = Los pasantes del Comando Syndicate pensaron que tener una sola hoja en la espada de energía no era suficiente. Esta se puede guardar en los bolsillos.

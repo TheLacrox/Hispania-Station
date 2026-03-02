@@ -28,19 +28,24 @@ ent-PlushieLamp = peluche de lámpara
 ent-PlushieArachind = peluche de arácnido
     .desc = Un adorable peluche que se parece a un arácnido. Se siente sedoso...
 
-ent-PlushieLizard #Weh! = peluche de lagarto
+# Weh!
+ent-PlushieLizard = peluche de lagarto
     .desc = Un adorable peluche que se parece a una persona lagarto. Fabricado por CentComm como iniciativa simbólica para combatir el especismo en entornos laborales. "¡Da la bienvenida a tus nuevos compañeros como haces con este peluche, con los brazos abiertos!"
 
-ent-PlushieExperiment #Arf! = peluche de experimento
+# Arf!
+ent-PlushieExperiment = peluche de experimento
     .desc = Un peluche de una especie de cánido, anhela ser detonado en una mina terrestre.
 
-ent-PlushieRainbowLizard #Weh but gay = peluche de lagarto arcoíris
+# Weh but gay
+ent-PlushieRainbowLizard = peluche de lagarto arcoíris
     .desc = Un adorable peluche que se parece a una persona lagarto de todos los colores. Puede que tropieces mientras lo miras...
 
-ent-PlushieSpaceLizard #ᵂᵉʰ! = peluche de lagarto espacial
+# ᵂᵉʰ!
+ent-PlushieSpaceLizard = peluche de lagarto espacial
     .desc = Un adorable peluche que se parece a una persona lagarto con un traje EVA. Fabricado por CentComm como iniciativa simbólica para combatir el especismo en entornos espaciales. "¡Da la bienvenida a tus nuevos compañeros como haces con este peluche, con los brazos abiertos!"
 
-ent-PlushieLizardInversed #Hew! = peluche de drazil
+# Hew!
+ent-PlushieLizardInversed = peluche de drazil
     .desc = Un adorable peluche que se parece a una persona lagarto de una dimensión invertida. ¡Hew!
 
 ent-PlushieDiona = peluche de diona

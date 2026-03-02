@@ -40,7 +40,8 @@ ent-ClothingHeadHelmetHardsuitRd = casco de traje duro de investigación experim
 ent-ClothingHeadHelmetHardsuitSecurityRed = casco de traje duro del jefe de seguridad # Goob edit
     .desc = Casco de traje duro de seguridad con el último software secreto NT-HUD. Pertenece al jefe de seguridad. # Goob edit
 
-ent-ClothingHeadHelmetHardsuitLuxury #DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738 = casco de traje duro de minería de lujo # Goob edit
+# DO NOT MAP - https://github.com/space-wizards/space-station-14/pull/19738#issuecomment-1703486738
+ent-ClothingHeadHelmetHardsuitLuxury = casco de traje duro de minería de lujo
     .desc = Un casco de traje duro de minería restaurado, con relleno de satén y una antena extra (no funcional), porque tú eres así de especial. # Goob edit
 
 ent-ClothingHeadHelmetHardsuitSyndie = casco de traje duro rojo sangre # Goob edit

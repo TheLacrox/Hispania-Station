@@ -22,7 +22,8 @@ ent-BeeRazorium = abeja (razorium)
 
 ent-BeeMuteToxin = abeja (toxina silenciante)
 
-ent-BeeBuzzochloricBees # Abejas abejas = abeja (abejas buzoclóricas)
+# Abejas abejas
+ent-BeeBuzzochloricBees = abeja (abejas buzoclóricas)
 
 ent-BeeLaughter = abeja (risa)
 

@@ -1,7 +1,8 @@
 ent-BaseDefibrillator = desfibrilador
     .desc = ¡DESPEJEN! ¡Zzzzap!
 
-ent-DefibrillatorCompact # This should be a research item at some point # Goobstation - it is. = desfibrilador compacto
+# This should be a research item at some point # Goobstation - it is.
+ent-DefibrillatorCompact = desfibrilador compacto
     .desc = ¡Ahora en tamaño divertido!
 
 ent-DefibrillatorSyndicate = desfibrilador interdyne

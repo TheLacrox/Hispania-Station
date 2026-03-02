@@ -1,2 +1,3 @@
-ent-VendingMachineSyndieContraband # Ported from Frontier = ContraVend
+# Ported from Frontier
+ent-VendingMachineSyndieContraband = ContraVend
     .desc = ¡Buscado en múltiples sectores!

@@ -1,4 +1,5 @@
-ent-BaseMobAdultSlime # Goob = slime básico
+# Goob
+ent-BaseMobAdultSlime = slime básico
     .desc = Se parece mucho a la jalea. Me pregunto a qué sabrá.
 
 ent-MobAdultSlimes = slime básico

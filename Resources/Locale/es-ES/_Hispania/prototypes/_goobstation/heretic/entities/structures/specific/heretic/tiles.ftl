@@ -1,4 +1,5 @@
-ent-HereticFireAA # AA en la ascensión de ceniza = fuego
+# AA en la ascensión de ceniza
+ent-HereticFireAA = fuego
     .desc = Vaya, qué calor.
 
 ent-TileHereticVoid = vacío

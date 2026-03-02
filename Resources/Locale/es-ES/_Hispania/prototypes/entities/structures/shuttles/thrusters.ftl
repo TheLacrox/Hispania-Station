@@ -6,5 +6,6 @@ ent-Thruster = propulsor
 ent-Gyroscope = giroscopio
     .desc = Aumenta la rotación angular potencial de la lanzadera.
 
-ent-ThrusterShuttleEvac # Can't be unanchored and hard to destroy = propulsor
+# Can't be unanchored and hard to destroy
+ent-ThrusterShuttleEvac = propulsor
     .desc = Un propulsor que permite a una lanzadera moverse.

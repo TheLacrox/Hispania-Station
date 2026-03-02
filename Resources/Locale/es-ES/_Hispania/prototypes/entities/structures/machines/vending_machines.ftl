@@ -12,7 +12,8 @@ ent-VendingMachineAmmo = liberation station
 ent-VendingMachineBooze = Booze-O-Mat
     .desc = Una maravilla tecnológica, supuestamente capaz de mezclar justo la mezcla que te gustaría beber en el momento que la pides.
 
-ent-VendingMachineBoozeSyndicate # syndie booze-o-mat for nukie outpost = Bruise-O-Mat
+# syndie booze-o-mat for nukie outpost
+ent-VendingMachineBoozeSyndicate = Bruise-O-Mat
     .desc = Un Booze-O-Mat reacondicionado para mejorar la moral de los operativos. La huella de un traje duro rojo sangre es visible en un lado, y la pintura parece quemada en el otro.
 
 ent-VendingMachineCart = PTech

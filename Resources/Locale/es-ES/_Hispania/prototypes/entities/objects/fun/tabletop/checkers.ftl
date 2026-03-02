@@ -1,12 +1,12 @@
 ent-CheckerBoard = tablero de damas
     .desc = Un tablero de damas. ¡Fichas incluidas!
 
-ent-*checkerboard = tablero de damas
+ent-CheckerBoardTabletop = tablero de damas
 
-ent-*pieceWhite = ficha blanca de damas
+ent-CheckerPieceWhite = ficha blanca de damas
 
-ent-*crownWhite = dama blanca coronada
+ent-CheckerCrownWhite = dama blanca coronada
 
-ent-*pieceBlack = ficha negra de damas
+ent-CheckerPieceBlack = ficha negra de damas
 
-ent-*crownBlack = dama negra coronada
+ent-CheckerCrownBlack = dama negra coronada
