@@ -58,3 +58,77 @@ zzzz-fmt-playtime = {$hours}H {$minutes}M
 
 # Usado internamente por la función THE().
 zzzz-the = { $ent }
+
+# Usado internamente por la función SUBJECT().
+zzzz-subject-pronoun = { GENDER($ent) ->
+    [male] él
+    [female] ella
+    [epicene] elles
+   *[neuter] ello
+   }
+
+# Usado internamente por la función OBJECT().
+zzzz-object-pronoun = { GENDER($ent) ->
+    [male] lo
+    [female] la
+    [epicene] les
+   *[neuter] lo
+   }
+
+# Usado internamente por la función DAT-OBJ().
+zzzz-dat-object = { GENDER($ent) ->
+    [male] le
+    [female] le
+    [epicene] les
+   *[neuter] le
+   }
+
+# Usado internamente por la función GENITIVE().
+zzzz-genitive = { GENDER($ent) ->
+    [male] su
+    [female] su
+    [epicene] su
+   *[neuter] su
+   }
+
+# Usado internamente por la función POSS-PRONOUN().
+zzzz-possessive-pronoun = { GENDER($ent) ->
+    [male] suyo
+    [female] suya
+    [epicene] suyos
+   *[neuter] suyo
+   }
+
+# Usado internamente por la función POSS-ADJ().
+zzzz-possessive-adjective = { GENDER($ent) ->
+    [male] su
+    [female] su
+    [epicene] su
+   *[neuter] su
+   }
+
+# Usado internamente por la función REFLEXIVE().
+zzzz-reflexive-pronoun = { GENDER($ent) ->
+    [male] sí mismo
+    [female] sí misma
+    [epicene] sí mismos
+   *[neuter] sí mismo
+   }
+
+# Usado internamente por la función CONJUGATE-BE().
+zzzz-conjugate-be = { GENDER($ent) ->
+    [epicene] son
+   *[other] es
+   }
+
+# Usado internamente por la función CONJUGATE-HAVE().
+zzzz-conjugate-have = { GENDER($ent) ->
+    [epicene] tienen
+   *[other] tiene
+   }
+
+# Usado internamente por la función CONJUGATE-BASIC().
+zzzz-conjugate-basic = { GENDER($ent) ->
+    [epicene] { $first }
+   *[other] { $second }
+   }
