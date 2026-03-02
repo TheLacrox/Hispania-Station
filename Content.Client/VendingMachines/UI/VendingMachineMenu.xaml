@@ -26,7 +26,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
          <!-- Footer -->
         <BoxContainer Orientation="Vertical">
             <PanelContainer StyleClasses="LowDivider" />
-            <!-- Hispania: Balance display for priced vendors -->
+            <!-- Capibara: Balance display for priced vendors -->
             <Label Name="BalanceLabel" Visible="False" StyleClasses="WindowFooterText"
                     HorizontalAlignment="Center" Margin="4 2"/>
             <BoxContainer Orientation="Horizontal" Margin="10 2 5 0" VerticalAlignment="Bottom">

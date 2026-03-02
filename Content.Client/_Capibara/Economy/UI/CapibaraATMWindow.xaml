@@ -1,0 +1,87 @@
+<!--
+SPDX-FileCopyrightText: 2025 Capibara Station Contributors
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<controls:FancyWindow
+    xmlns="https://spacestation14.io"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls"
+    Title="{Loc 'capibara-atm-title'}"
+    MinSize="320 320"
+    SetSize="320 320">
+    <BoxContainer Orientation="Vertical" Margin="10">
+        <!-- Account Header -->
+        <Label Name="AccountLabel"
+               StyleClasses="LabelHeading"
+               HorizontalAlignment="Center"
+               Margin="0 0 0 5"/>
+
+        <!-- Card Management Buttons -->
+        <Button Name="InsertButton"
+                Text="{Loc 'capibara-atm-insert'}"
+                HorizontalExpand="True"
+                Margin="0 0 0 5"/>
+        <Button Name="EjectButton"
+                Text="{Loc 'capibara-atm-eject'}"
+                HorizontalExpand="True"
+                Margin="0 0 0 5"/>
+
+        <!-- No Account Notice + Create Account Button -->
+        <Label Name="NoAccountLabel"
+               Text="{Loc 'capibara-atm-no-account'}"
+               HorizontalAlignment="Center"
+               StyleClasses="LabelSubText"
+               Margin="0 0 0 5"/>
+        <Button Name="CreateAccountButton"
+                Text="{Loc 'capibara-atm-create-account'}"
+                HorizontalExpand="True"
+                Margin="0 0 0 5"/>
+
+        <!-- Balance Display -->
+        <PanelContainer StyleClasses="AngleRect" Margin="0 5">
+            <BoxContainer Orientation="Vertical" Margin="8">
+                <Label Text="{Loc 'capibara-atm-balance-label'}"
+                       StyleClasses="LabelSubText"/>
+                <Label Name="BalanceLabel"
+                       StyleClasses="LabelHeadingBig"
+                       HorizontalAlignment="Center"/>
+            </BoxContainer>
+        </PanelContainer>
+
+        <!-- Amount Input -->
+        <BoxContainer Orientation="Horizontal" Margin="0 8 0 0">
+            <Label Text="{Loc 'capibara-atm-amount-label'}"
+                   Margin="0 0 5 0"
+                   VerticalAlignment="Center"/>
+            <LineEdit Name="AmountInput"
+                      PlaceHolder="0"
+                      HorizontalExpand="True"/>
+        </BoxContainer>
+
+        <!-- Quick Amount Buttons -->
+        <BoxContainer Orientation="Horizontal" Margin="0 5">
+            <Button Name="Btn50" Text="50" HorizontalExpand="True" Margin="2 0"/>
+            <Button Name="Btn100" Text="100" HorizontalExpand="True" Margin="2 0"/>
+            <Button Name="Btn200" Text="200" HorizontalExpand="True" Margin="2 0"/>
+            <Button Name="Btn500" Text="500" HorizontalExpand="True" Margin="2 0"/>
+        </BoxContainer>
+
+        <!-- Action Buttons -->
+        <BoxContainer Orientation="Horizontal" Margin="0 8 0 0">
+            <Button Name="WithdrawButton"
+                    Text="{Loc 'capibara-atm-withdraw'}"
+                    HorizontalExpand="True"
+                    Margin="2 0"/>
+            <Button Name="DepositButton"
+                    Text="{Loc 'capibara-atm-deposit'}"
+                    HorizontalExpand="True"
+                    Margin="2 0"/>
+        </BoxContainer>
+
+        <!-- Status Message -->
+        <Label Name="StatusLabel"
+               HorizontalAlignment="Center"
+               Margin="0 5 0 0"/>
+    </BoxContainer>
+</controls:FancyWindow>

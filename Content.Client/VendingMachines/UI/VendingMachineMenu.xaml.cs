@@ -134,7 +134,7 @@ namespace Content.Client.VendingMachines.UI
         /// </summary>
         private bool _enabled;
 
-        // Hispania: price display support
+        // Capibara: price display support
         private Dictionary<string, int>? _prices;
         private int _defaultPrice;
         private int? _playerBalance;
@@ -189,7 +189,7 @@ namespace Content.Client.VendingMachines.UI
             _listItems[protoID] = (button, item);
             button.AddChild(item);
             button.AddStyleClass("ButtonSquare");
-            // Hispania: also disable if player can't afford the item
+            // Capibara: also disable if player can't afford the item
             var cantAfford = _playerBalance != null && _prices != null && GetItemPrice(protoID) > _playerBalance.Value;
             button.Disabled = !_enabled || _amounts[protoID] == 0 || cantAfford;
         }
@@ -282,7 +282,7 @@ namespace Content.Client.VendingMachines.UI
 
                 button.Item.SetText(text);
 
-                // Hispania: also disable if player can't afford the item
+                // Capibara: also disable if player can't afford the item
                 var cantAfford = _playerBalance != null && _prices != null && GetItemPrice(proto) > _playerBalance.Value;
                 button.Button.Disabled = !enabled || amount == 0 || cantAfford;
             }
@@ -293,7 +293,7 @@ namespace Content.Client.VendingMachines.UI
             var itemName = Identity.Name(dummy, _entityManager);
             var text = $"{itemName} [{amount}]";
 
-            // Hispania: append price if prices are set
+            // Capibara: append price if prices are set
             if (_prices != null && protoId != null)
             {
                 var price = GetItemPrice(protoId);
@@ -304,7 +304,7 @@ namespace Content.Client.VendingMachines.UI
             return text;
         }
 
-        // Hispania: get price for an item
+        // Capibara: get price for an item
         private int GetItemPrice(string protoId)
         {
             if (_prices == null)
@@ -317,7 +317,7 @@ namespace Content.Client.VendingMachines.UI
         }
 
         /// <summary>
-        /// Hispania: Set price information for the vendor display.
+        /// Capibara: Set price information for the vendor display.
         /// </summary>
         public void SetPrices(Dictionary<string, int>? prices, int defaultPrice, int? balance)
         {
@@ -327,7 +327,7 @@ namespace Content.Client.VendingMachines.UI
 
             if (balance != null)
             {
-                BalanceLabel.Text = Loc.GetString("hispania-vending-balance", ("balance", balance.Value));
+                BalanceLabel.Text = Loc.GetString("capibara-vending-balance", ("balance", balance.Value));
                 BalanceLabel.Visible = true;
             }
             else

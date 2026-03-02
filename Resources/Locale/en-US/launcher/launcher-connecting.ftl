@@ -13,7 +13,7 @@
 
 ### Connecting dialog when you start up the game
 
-connecting-title = Hispania Station 14
+connecting-title = Capibara Station 14
 connecting-exit = Exit
 connecting-retry = Retry
 connecting-reconnect = Reconnect

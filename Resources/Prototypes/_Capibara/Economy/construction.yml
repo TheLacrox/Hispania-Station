@@ -1,0 +1,31 @@
+# SPDX-FileCopyrightText: 2025 Capibara Station Contributors
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Capibara Economy: ATM Machine Circuit Board
+# Used in Machine construction graph to build ATM machines.
+
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: CapibaraATMMachineCircuitboard
+  name: ATM machine board
+  description: A machine printed circuit board for an ATM.
+  components:
+  - type: MachineBoard
+    prototype: CapibaraATM
+    stackRequirements:
+      Steel: 5
+      Cable: 5
+      Glass: 2
+
+# Lathe recipe to print the ATM board at a circuit imprinter
+- type: latheRecipe
+  parent: [ BaseCircuitboardRecipe, BaseServiceMachineRecipeCategory ]
+  id: CapibaraATMMachineCircuitboard
+  icon: { sprite: _Capibara/Structures/Machines/atm/atm.rsi, state: icon }
+  result: CapibaraATMMachineCircuitboard
+
+# Recipe pack so the circuit imprinter can print Capibara boards
+- type: latheRecipePack
+  id: CapibaraBoardsStatic
+  recipes:
+  - CapibaraATMMachineCircuitboard

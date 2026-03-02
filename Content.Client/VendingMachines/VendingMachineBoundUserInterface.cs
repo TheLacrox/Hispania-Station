@@ -26,7 +26,7 @@
 
 using Content.Client.UserInterface.Controls;
 using Content.Client.VendingMachines.UI;
-using Content.Shared._Hispania.Economy.Components;
+using Content.Shared._Capibara.Economy.Components;
 using Content.Shared.Inventory;
 using Content.Shared.PDA;
 using Content.Shared.VendingMachines;
@@ -66,7 +66,7 @@ namespace Content.Client.VendingMachines
             var system = EntMan.System<VendingMachineSystem>();
             _cachedInventory = system.GetAllInventory(Owner);
 
-            // Hispania: pass price data before populating
+            // Capibara: pass price data before populating
             UpdatePriceData();
             _menu?.Populate(_cachedInventory, enabled);
         }
@@ -78,13 +78,13 @@ namespace Content.Client.VendingMachines
             var system = EntMan.System<VendingMachineSystem>();
             _cachedInventory = system.GetAllInventory(Owner);
 
-            // Hispania: update price data
+            // Capibara: update price data
             UpdatePriceData();
             _menu?.UpdateAmounts(_cachedInventory, enabled);
         }
 
         /// <summary>
-        /// Hispania: Check if this vendor has prices and pass them to the menu.
+        /// Capibara: Check if this vendor has prices and pass them to the menu.
         /// </summary>
         private void UpdatePriceData()
         {
