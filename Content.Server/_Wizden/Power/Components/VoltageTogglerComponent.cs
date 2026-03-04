@@ -20,8 +20,7 @@ public sealed partial class VoltageTogglerComponent : Component
     /// <summary>
     /// Index of the currently selected setting.
     /// </summary>
-    [DataField]
-    [AutoNetworkedField]
+    [DataField, ViewVariables(VVAccess.ReadWrite)]
     public int SelectedVoltageLevel;
 }
 

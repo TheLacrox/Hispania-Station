@@ -155,8 +155,7 @@ public sealed partial class BorgSystem
         ent.Comp1.NextDisable = _timing.CurTime + ent.Comp1.DisableDelay;
     }
 
-    // Wizden xenoborg port: made public for XenoborgSystem.OnCoreDestroyed
-    public void Destroy(Entity<BorgTransponderComponent?> ent)
+    private void Destroy(Entity<BorgTransponderComponent?> ent)
     {
         if (!Resolve(ent, ref ent.Comp))
             return;

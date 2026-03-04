@@ -7,8 +7,6 @@
   description: A sentient machine that can produce Xenoborgs. Without this the Xenoborgs are doomed.
   components:
   - type: InputMover # needs this to pilot the mothership
-  - type: BlockMovement
-    blockInteraction: false
   - type: Appearance
   - type: WiresVisuals
   - type: Damageable
@@ -95,6 +93,7 @@
   - type: SurveillanceCameraSpeaker
   - type: SurveillanceCameraMonitor
   - type: RoboticsConsole
+    allowBorgControl: false
     radioChannel: Xenoborg
   - type: DeviceNetwork
     deviceNetId: Wireless
@@ -175,6 +174,7 @@
     disableExplosionRecursion: true
     canBeStripped: false
   - type: BorgChassis
+    canOpenSelfUi: true
     maxModules: 2
     hasMindState: core-e
     noMindState: core-e

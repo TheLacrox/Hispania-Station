@@ -4,12 +4,14 @@
 using Content.Server._Wizden.GameTicking.Rules;
 using Content.Server._Wizden.GameTicking.Rules.Components;
 using Content.Server.Antag;
-using Content.Server.Silicons.Borgs;
 using Content.Shared.Destructible;
 using Content.Shared.Mind;
 using Content.Shared.Mind.Components;
+using Content.Shared.Movement.Components;
+using Content.Shared.Popups;
 using Content.Shared.Roles;
 using Content.Shared.Silicons.Borgs.Components;
+using Content.Shared.Trigger.Systems;
 using Content.Shared.Xenoborgs.Components;
 using Robust.Shared.Player;
 
@@ -18,8 +20,9 @@ namespace Content.Server._Wizden.Xenoborgs;
 public sealed partial class XenoborgSystem : EntitySystem
 {
     [Dependency] private readonly AntagSelectionSystem _antag = default!;
-    [Dependency] private readonly BorgSystem _borg = default!;
+    [Dependency] private readonly SharedPopupSystem _popup = default!;
     [Dependency] private readonly SharedRoleSystem _roles = default!;
+    [Dependency] private readonly TriggerSystem _trigger = default!;
     [Dependency] private readonly XenoborgsRuleSystem _xenoborgsRule = default!;
 
     private static readonly Color XenoborgBriefingColor = Color.BlueViolet;
@@ -68,14 +71,17 @@ public sealed partial class XenoborgSystem : EntitySystem
         if (xenoborgsRuleQuery.MoveNext(out var xenoborgsRuleEnt, out var xenoborgsRuleComp))
             _xenoborgsRule.SendMothershipDeathAnnouncement((xenoborgsRuleEnt, xenoborgsRuleComp));
 
-        // explode all xenoborgs
+        // explode all xenoborgs (inline, skipping emag check — xenoborgs always explode)
         var xenoborgQuery = AllEntityQuery<XenoborgComponent, BorgTransponderComponent>(); // paused xenoborgs still explode
         while (xenoborgQuery.MoveNext(out var xenoborgEnt, out _, out var transponder))
         {
             if (HasComp<MothershipCoreComponent>(xenoborgEnt))
                 continue;
 
-            _borg.Destroy((xenoborgEnt, (BorgTransponderComponent?) transponder));
+            var message = Loc.GetString(transponder.DestroyingPopup, ("name", Name(xenoborgEnt)));
+            _popup.PopupEntity(message, xenoborgEnt);
+            _trigger.ActivateTimerTrigger(xenoborgEnt);
+            RemComp<InputMoverComponent>(xenoborgEnt);
         }
     }
 

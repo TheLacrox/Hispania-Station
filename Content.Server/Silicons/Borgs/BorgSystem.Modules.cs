@@ -209,6 +209,54 @@ public sealed partial class BorgSystem
             return;
 
         var xform = Transform(chassis);
+
+        // Hispania: xenoborg port — new Hands format (supports empty hand slots for pickup)
+        if (component.Hands.Count > 0)
+        {
+            foreach (var borgHand in component.Hands)
+            {
+                var handId = $"{uid}-hand{component.HandCounter}";
+                component.HandCounter++;
+                _hands.AddHand((chassis, hands), handId, borgHand.Hand);
+
+                if (borgHand.Item is { } itemProto)
+                {
+                    EntityUid item;
+
+                    if (!component.ItemsCreated)
+                    {
+                        item = Spawn(itemProto, xform.Coordinates);
+                    }
+                    else
+                    {
+                        item = component.ProvidedContainer.ContainedEntities
+                            .FirstOrDefault(ent => Prototype(ent)?.ID == itemProto.Id);
+                        if (!item.IsValid())
+                            continue;
+
+                        _container.Remove(item, component.ProvidedContainer, force: true);
+                    }
+
+                    if (!item.IsValid())
+                        continue;
+
+                    _hands.DoPickup(chassis, handId, item, hands);
+                    if (!borgHand.ForceRemovable)
+                        EnsureComp<UnremoveableComponent>(item);
+                    component.ProvidedItems.Add(handId, item);
+                }
+                else
+                {
+                    // Empty hand for free pickup — track for cleanup
+                    component.EmptyHandIds.Add(handId);
+                }
+            }
+
+            component.ItemsCreated = true;
+            return;
+        }
+
+        // Legacy Items format
         foreach (var itemProto in component.Items)
         {
             EntityUid item;
@@ -263,6 +311,13 @@ public sealed partial class BorgSystem
                 _hands.RemoveHand(chassis, hand);
             }
             component.ProvidedItems.Clear();
+
+            // Hispania: xenoborg port — also remove empty hands on termination
+            foreach (var handId in component.EmptyHandIds)
+            {
+                _hands.RemoveHand(chassis, handId);
+            }
+            component.EmptyHandIds.Clear();
             return;
         }
 
@@ -276,6 +331,13 @@ public sealed partial class BorgSystem
             _hands.RemoveHand(chassis, handId);
         }
         component.ProvidedItems.Clear();
+
+        // Hispania: xenoborg port — remove empty hands (any held items are dropped by RemoveHand)
+        foreach (var handId in component.EmptyHandIds)
+        {
+            _hands.RemoveHand(chassis, handId);
+        }
+        component.EmptyHandIds.Clear();
     }
 
     /// <summary>

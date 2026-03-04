@@ -8,9 +8,11 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
-﻿using Robust.Shared.Containers;
+using Content.Shared.Hands.Components;
+using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Serialization;
 
 namespace Content.Shared.Silicons.Borgs.Components;
 
@@ -21,10 +23,18 @@ namespace Content.Shared.Silicons.Borgs.Components;
 public sealed partial class ItemBorgModuleComponent : Component
 {
     /// <summary>
-    /// The items that are provided.
+    /// The items that are provided (legacy format).
     /// </summary>
-    [DataField(required: true)]
+    [DataField]
     public List<EntProtoId> Items = new();
+
+    // Hispania: xenoborg port — new hands format for modules with empty hand slots
+    /// <summary>
+    /// The hands that are provided (new format, supports empty hands for pickup).
+    /// When non-empty, this takes priority over <see cref="Items"/>.
+    /// </summary>
+    [DataField]
+    public List<BorgHand> Hands = new();
 
     /// <summary>
     /// The entities from <see cref="Items"/> that were spawned.
@@ -32,8 +42,15 @@ public sealed partial class ItemBorgModuleComponent : Component
     [DataField("providedItems")]
     public SortedDictionary<string, EntityUid> ProvidedItems = new();
 
+    // Hispania: xenoborg port — tracks empty hand IDs for cleanup
     /// <summary>
-    /// A counter that ensures a unique
+    /// Hand IDs for empty hands provided by this module (for cleanup on unselect).
+    /// </summary>
+    [DataField]
+    public List<string> EmptyHandIds = new();
+
+    /// <summary>
+    /// A counter that ensures a unique hand ID.
     /// </summary>
     [DataField("handCounter")]
     public int HandCounter;
@@ -58,8 +75,45 @@ public sealed partial class ItemBorgModuleComponent : Component
     public string ProvidedContainerId = "provided_container";
 
     /// <summary>
-    /// Frontier: a module ID to check for equivalence // TODO: why not to make it automatically set itself to the prototype of the component's owner?
+    /// Frontier: a module ID to check for equivalence
     /// </summary>
     [DataField(required: true)]
     public string ModuleId = default!;
+}
+
+// Hispania: xenoborg port — BorgHand struct for new hands format
+/// <summary>
+/// A single hand provided by a borg module.
+/// </summary>
+[DataDefinition, Serializable, NetSerializable]
+public partial record struct BorgHand
+{
+    /// <summary>
+    /// The item to spawn in the hand, if any. Null means an empty hand for pickup.
+    /// </summary>
+    [DataField]
+    public EntProtoId? Item;
+
+    /// <summary>
+    /// The settings for the hand, including whitelist/blacklist.
+    /// </summary>
+    [DataField]
+    public Hand Hand = new();
+
+    /// <summary>
+    /// If true, the spawned item can be removed from the hand.
+    /// </summary>
+    [DataField]
+    public bool ForceRemovable = false;
+
+    public BorgHand()
+    {
+    }
+
+    public BorgHand(EntProtoId? item, Hand hand, bool forceRemovable = false)
+    {
+        Item = item;
+        Hand = hand;
+        ForceRemovable = forceRemovable;
+    }
 }

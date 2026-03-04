@@ -1275,14 +1275,36 @@
     - state: xenoborg_generic
     - state: icon-xenoborg-tools
   - type: ItemBorgModule
-    moduleId: MothershipBasic # This makes this version of xenoborgs technically a backport which is so accursed.
-    items:
-    - DoorRemoteXenoborg
-    - MMI
-    - PowerCellHigh
-    - XenoborgModuleBasic
-    - HandheldGPSBasic
-    - MaterialBag
+    moduleId: MothershipBasic
+    hands:
+    - item: DoorRemoteXenoborg
+    - hand:
+        emptyRepresentative: PositronicBrain
+        whitelist:
+          components:
+          - Brain
+          - BorgBrain
+    - hand:
+        emptyRepresentative: BorgModuleTool
+        whitelist:
+          components:
+          - BorgModule
+    - hand:
+        emptyRepresentative: MaterialXenoborgCrystal1
+        whitelist:
+          tags:
+          - XenoborgCrystal
+    - hand:
+        emptyRepresentative: SheetSteel1
+        whitelist:
+          components:
+          - Material
+    - hand:
+        emptyRepresentative: PowerCellMedium
+        whitelist:
+          components:
+          - PowerCell
+    - {}  # free hand for general pickup
   - type: BorgModuleIcon
     icon: { sprite: Interface/Actions/actions_borg.rsi, state: syndicate-martyr-module }
 - type: Tag

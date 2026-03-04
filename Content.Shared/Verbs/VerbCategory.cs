@@ -124,7 +124,5 @@ namespace Content.Shared.Verbs
         public static readonly VerbCategory Switch = new("verb-categories-switch", "/Textures/Interface/VerbIcons/group.svg.192dpi.png");
         // Einstein Engines - Interaction Verbs
         public static readonly VerbCategory Interaction = new("verb-categories-interaction", null);
-        // Wizden xenoborg port: voltage level verb for xenoborg extractor
-        public static readonly VerbCategory VoltageLevel = new("verb-categories-voltage-level", null);
     }
 }

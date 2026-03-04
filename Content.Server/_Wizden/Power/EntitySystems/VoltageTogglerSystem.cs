@@ -10,6 +10,8 @@ namespace Content.Server._Wizden.Power.EntitySystems;
 
 public sealed class VoltageTogglerSystem : EntitySystem
 {
+    private static readonly VerbCategory VoltageLevel = new("verb-categories-voltage-level", null);
+
     public override void Initialize()
     {
         base.Initialize();
@@ -30,14 +32,12 @@ public sealed class VoltageTogglerSystem : EntitySystem
             var verb = new Verb
             {
                 Priority = currIndex,
-                Category = VerbCategory.VoltageLevel,
+                Category = VoltageLevel,
                 Disabled = entity.Comp.SelectedVoltageLevel == currIndex,
                 Text = Loc.GetString(setting.Name),
                 Act = () =>
                 {
                     entity.Comp.SelectedVoltageLevel = currIndex;
-                    Dirty(entity);
-
                     ChangeVoltage(entity, setting);
                 }
             };
@@ -48,13 +48,11 @@ public sealed class VoltageTogglerSystem : EntitySystem
 
     private void ChangeVoltage(Entity<VoltageTogglerComponent> entity, VoltageSetting setting)
     {
-        // Note: Hispania's Node.NodeGroupID has a private setter,
-        // so we skip runtime node group switching. The power consumer
-        // voltage and draw rate changes still apply.
-        if (TryComp<PowerConsumerComponent>(entity, out var powerConsumerComp))
+        // Hispania: We can't switch node groups at runtime (private setter),
+        // so we change the charge rate on PowerNetworkBattery instead.
+        if (TryComp<PowerNetworkBatteryComponent>(entity, out var netBattery))
         {
-            powerConsumerComp.Voltage = setting.Voltage;
-            powerConsumerComp.DrawRate = setting.Wattage;
+            netBattery.MaxChargeRate = setting.Wattage;
         }
     }
 }

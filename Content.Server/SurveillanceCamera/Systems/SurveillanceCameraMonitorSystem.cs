@@ -156,8 +156,8 @@ public sealed class SurveillanceCameraMonitorSystem : EntitySystem
         {
             if (monitor.KnownMobileCameras.Count > 0)
             {
-                // Ensure LastHeartbeatSent is incremented even when no active camera is being watched,
-                // otherwise SendHeartbeat always returns early (LastHeartbeatSent < HeartbeatDelay).
+                // Hispania: xenoborg port — ensure LastHeartbeatSent is incremented even when no active
+                // camera is being watched, otherwise SendHeartbeat always returns early.
                 if (!HasComp<ActiveSurveillanceCameraMonitorComponent>(uid))
                     monitor.LastHeartbeatSent += frameTime;
 

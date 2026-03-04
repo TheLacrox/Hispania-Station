@@ -12,7 +12,7 @@ using Content.Server.Antag;
 using Content.Server.Spawners.Components;
 using Content.Shared.Whitelist;
 using Robust.Shared.Map;
-using GridSpawnComp = Content.Server.Spawners.Components.GridSpawnPointWhitelistComponent;
+using GridSpawnComp = Content.Server.Spawners.Components.GridSpawnPointWhitelistComponent; // Hispania: xenoborg port
 
 namespace Content.Server.GameTicking.Rules;
 
@@ -75,7 +75,7 @@ public sealed class RuleGridsSystem : GameRuleSystem<RuleGridsComponent>
             if (_whitelist.IsWhitelistFail(ent.Comp.SpawnerWhitelist, uid))
                 continue;
 
-            // Check per-spawn-point whitelist/blacklist against the entity being spawned.
+            // Hispania: xenoborg port — check per-spawn-point whitelist/blacklist against the entity being spawned
             if (args.Entity is {} spawnedEntity && TryComp<GridSpawnComp>(uid, out var gridWhitelist))
             {
                 if (_whitelist.IsWhitelistFail(gridWhitelist.Whitelist, spawnedEntity))

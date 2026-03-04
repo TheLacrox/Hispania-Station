@@ -63,7 +63,7 @@
     nodes:
       input:
         !type:CableDeviceNode
-        nodeGroupID: Apc
+        nodeGroupID: HVPower
   - type: LightningTarget
     priority: 1
   - type: Electrified
@@ -79,11 +79,23 @@
     netsync: false
   - type: ExaminableBattery
   - type: BatteryCharger
-    voltage: Apc
-    node: input
+    voltage: High
   - type: PowerNetworkBattery
-    maxChargeRate: 16000 # 16kW - ~125 seconds to spawn one crystal
+    maxChargeRate: 16000 # Hispania: default low voltage setting
     maxSupply: 0
+    supplyRampTolerance: 0
+    supplyRampRate: 0
+  - type: VoltageToggler
+    settings:
+    - voltage: High
+      wattage: 16000 # 16kW - 125 seconds to spawn one
+      name: power-voltage-low
+    - voltage: High
+      wattage: 50000 # 50kW - 40 seconds to spawn one
+      name: power-voltage-medium
+    - voltage: High
+      wattage: 200000 # 200kW - 10 seconds to spawn one
+      name: power-voltage-high
   - type: SpawnOnBatteryLevel
     prototype: MaterialXenoborgCrystal1
     charge: 2000000 # 2MJ
