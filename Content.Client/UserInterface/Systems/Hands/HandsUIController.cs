@@ -37,6 +37,7 @@ using Robust.Client.Player;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controllers;
 using Robust.Shared.Input;
+using Robust.Shared.Map;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 using Content.Shared._NF.Interaction.Components;
@@ -54,6 +55,8 @@ public sealed class HandsUIController : UIController, IOnStateEntered<GameplaySt
     private readonly List<HandsContainer> _handsContainers = new();
     private readonly Dictionary<string, int> _handContainerIndices = new();
     private readonly Dictionary<string, HandButton> _handLookup = new();
+    // Hispania: xenoborg port — dummy entities for empty hand placeholder icons
+    private readonly Dictionary<string, EntityUid> _placeholderEntities = new();
     private HandsComponent? _playerHandsComponent;
     private HandButton? _activeHand;
 
@@ -99,7 +102,11 @@ public sealed class HandsUIController : UIController, IOnStateEntered<GameplaySt
     {
         if (entity.Owner != _player.LocalEntity)
             return;
-        AddHand(name, location);
+        var button = AddHand(name, location);
+
+        // Hispania: xenoborg port — set up placeholder for dynamically added hands
+        if (_handsSystem.TryGetHand(entity.AsNullable(), name, out var hand))
+            SetupPlaceholder(name, hand.Value, button);
     }
 
     private void OnRemoveHand(Entity<HandsComponent> entity, string name)
@@ -150,6 +157,13 @@ public sealed class HandsUIController : UIController, IOnStateEntered<GameplaySt
         _handLookup.Clear();
         _playerHandsComponent = null;
 
+        // Hispania: xenoborg port — clean up placeholder dummy entities
+        foreach (var ent in _placeholderEntities.Values)
+        {
+            _entities.QueueDeleteEntity(ent);
+        }
+        _placeholderEntities.Clear();
+
         foreach (var container in _handsContainers)
         {
             container.Clear();
@@ -166,6 +180,9 @@ public sealed class HandsUIController : UIController, IOnStateEntered<GameplaySt
         foreach (var (name, hand) in handsComp.Comp.Hands)
         {
             var handButton = AddHand(name, hand.Location);
+
+            // Hispania: xenoborg port — set placeholder icon for whitelisted empty hands
+            SetupPlaceholder(name, hand, handButton);
 
             if (_handsSystem.TryGetHeldItem(handsComp.AsNullable(), name, out var held) &&
                 _entities.TryGetComponent(held, out VirtualItemComponent? virt))
@@ -185,6 +202,9 @@ public sealed class HandsUIController : UIController, IOnStateEntered<GameplaySt
                 handButton.SetEntity(held);
                 handButton.Blocked = false;
             }
+
+            // Hispania: update placeholder visibility after entity is set
+            handButton.UpdatePlaceholderVisibility();
         }
 
         if (handsComp.Comp.ActiveHandId == null)
@@ -243,6 +263,8 @@ public sealed class HandsUIController : UIController, IOnStateEntered<GameplaySt
             hand.Blocked = false;
         }
 
+        hand.UpdatePlaceholderVisibility(); // Hispania: hide placeholder when item held
+
         UpdateHandStatus(hand, entity);
     }
 
@@ -253,7 +275,19 @@ public sealed class HandsUIController : UIController, IOnStateEntered<GameplaySt
             return;
 
         hand.SetEntity(null);
+        hand.UpdatePlaceholderVisibility(); // Hispania: show placeholder when hand empty
         UpdateHandStatus(hand, null);
+    }
+
+    // Hispania: xenoborg port — spawn a dummy entity for the hand placeholder icon
+    private void SetupPlaceholder(string handName, Hand hand, HandButton button)
+    {
+        if (hand.EmptyRepresentative == null)
+            return;
+
+        var dummy = _entities.SpawnEntity(hand.EmptyRepresentative, MapCoordinates.Nullspace);
+        _placeholderEntities[handName] = dummy;
+        button.SetPlaceholder(dummy);
     }
 
     private HandsContainer GetFirstAvailableContainer()
@@ -426,6 +460,13 @@ public sealed class HandsUIController : UIController, IOnStateEntered<GameplaySt
             _statusHandLeft = null;
         if (_statusHandRight == handButton)
             _statusHandRight = null;
+
+        // Hispania: xenoborg port — clean up placeholder entity
+        if (_placeholderEntities.TryGetValue(handName, out var placeholderEnt))
+        {
+            _entities.QueueDeleteEntity(placeholderEnt);
+            _placeholderEntities.Remove(handName);
+        }
 
         _handLookup.Remove(handName);
         handButton.Orphan();

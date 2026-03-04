@@ -89,6 +89,13 @@ public sealed partial class BorgChassisComponent : Component
 
     [DataField]
     public ProtoId<AlertPrototype> NoBatteryAlert = "BorgBatteryNone";
+
+    // Hispania: xenoborg port — allows mothership core to open its own lathe UI
+    /// <summary>
+    /// If the entity can open own UI.
+    /// </summary>
+    [DataField]
+    public bool CanOpenSelfUi;
 }
 
 [Serializable, NetSerializable]

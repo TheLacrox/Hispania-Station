@@ -109,8 +109,8 @@ public abstract partial class SharedBorgSystem : EntitySystem
 
     private void OnUIOpenAttempt(EntityUid uid, BorgChassisComponent component, ActivatableUIOpenAttemptEvent args)
     {
-        // borgs can't view their own ui
-        if (args.User == uid)
+        // Hispania: xenoborg port — allow self-UI if CanOpenSelfUi is set (e.g. mothership core lathe)
+        if (args.User == uid && !component.CanOpenSelfUi)
             args.Cancel();
     }
 

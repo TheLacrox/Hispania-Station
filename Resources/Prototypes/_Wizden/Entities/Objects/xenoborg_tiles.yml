@@ -1,0 +1,14 @@
+# Xenoborg floor tile item - ported from Wizden SS14
+- type: entity
+  id: FloorTileItemXenoborg
+  parent: FloorTileItemBase
+  name: xenoborg floor
+  components:
+  - type: Sprite
+    state: xenoborg-floor
+  - type: FloorTile
+    outputs:
+    - Plating
+    - FloorXenoborg
+  - type: Stack
+    stackType: FloorTileXenoborg

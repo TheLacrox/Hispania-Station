@@ -621,6 +621,7 @@
   save: false
   abstract: true
   components:
+  - type: Xenoborg
   - type: RandomMetadata
     nameSegments:
     - NamesXenoborg

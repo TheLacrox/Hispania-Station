@@ -1,0 +1,26 @@
+// SPDX-FileCopyrightText: 2025 space-wizards contributors
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Shared.Roles;
+using Robust.Shared.Prototypes;
+
+namespace Content.Server._Wizden.Antag.Components;
+
+/// <summary>
+/// Selects and spawns one prototype from a list for each antag prototype selected by the <see cref="Content.Server.Antag.AntagSelectionSystem"/>
+/// </summary>
+[RegisterComponent]
+public sealed partial class AntagMultipleRoleSpawnerComponent : Component
+{
+    /// <summary>
+    ///     antag prototype -> list of possible entities to spawn for that antag prototype. Will choose from the list randomly once with replacement unless <see cref="PickAndTake"/> is set to true
+    /// </summary>
+    [DataField]
+    public Dictionary<ProtoId<AntagPrototype>, List<EntProtoId>> AntagRoleToPrototypes;
+
+    /// <summary>
+    ///     Should you remove ent prototypes from the list after spawning one.
+    /// </summary>
+    [DataField]
+    public bool PickAndTake;
+}

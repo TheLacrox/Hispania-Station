@@ -1789,6 +1789,18 @@
   id: WriteIgnoreStamps
 
 - type: Tag
+  id: MothershipCoreGhostrole
+
+- type: Tag
+  id: MothershipPinpointerPiece
+
+- type: Tag
+  id: XenoborgCrystal
+
+- type: Tag
+  id: XenoborgGhostrole
+
+- type: Tag
   id: XenoborgModuleEngi
 
 - type: Tag

@@ -610,6 +610,9 @@
         {
             "name": "uranium-marble-inhand-right",
             "directions": 4
+        },
+        {
+            "name": "xenoborg-floor"
         }
     ]
 }

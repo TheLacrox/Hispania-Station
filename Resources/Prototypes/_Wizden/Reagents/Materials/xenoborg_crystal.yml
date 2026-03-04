@@ -1,0 +1,8 @@
+- type: material
+  id: XenoborgCrystal
+  stackEntity: MaterialXenoborgCrystal1
+  name: materials-xenoborg-crystal
+  unit: materials-unit-piece
+  icon: { sprite: Objects/Materials/xenoborg_crystal.rsi, state: crystal-1 }
+  color: "#3d94ff"
+  price: 2

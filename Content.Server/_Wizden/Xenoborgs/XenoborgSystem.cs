@@ -1,0 +1,106 @@
+// SPDX-FileCopyrightText: 2025 space-wizards contributors
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+using Content.Server._Wizden.GameTicking.Rules;
+using Content.Server._Wizden.GameTicking.Rules.Components;
+using Content.Server.Antag;
+using Content.Shared.Destructible;
+using Content.Shared.Mind;
+using Content.Shared.Mind.Components;
+using Content.Shared.Movement.Components;
+using Content.Shared.Popups;
+using Content.Shared.Roles;
+using Content.Shared.Silicons.Borgs.Components;
+using Content.Shared.Trigger.Systems;
+using Content.Shared.Xenoborgs.Components;
+using Robust.Shared.Player;
+
+namespace Content.Server._Wizden.Xenoborgs;
+
+public sealed partial class XenoborgSystem : EntitySystem
+{
+    [Dependency] private readonly AntagSelectionSystem _antag = default!;
+    [Dependency] private readonly SharedPopupSystem _popup = default!;
+    [Dependency] private readonly SharedRoleSystem _roles = default!;
+    [Dependency] private readonly TriggerSystem _trigger = default!;
+    [Dependency] private readonly XenoborgsRuleSystem _xenoborgsRule = default!;
+
+    private static readonly Color XenoborgBriefingColor = Color.BlueViolet;
+
+    public override void Initialize()
+    {
+        base.Initialize();
+        SubscribeLocalEvent<XenoborgComponent, DestructionEventArgs>(OnXenoborgDestroyed);
+        SubscribeLocalEvent<MothershipCoreComponent, DestructionEventArgs>(OnCoreDestroyed);
+
+        SubscribeLocalEvent<XenoborgComponent, MindAddedMessage>(OnXenoborgMindAdded);
+        SubscribeLocalEvent<XenoborgComponent, MindRemovedMessage>(OnXenoborgMindRemoved);
+    }
+
+    private void OnXenoborgDestroyed(EntityUid uid, XenoborgComponent component, DestructionEventArgs args)
+    {
+        // if a xenoborg is destroyed, it will check to see if it was the last one
+        var xenoborgQuery = AllEntityQuery<XenoborgComponent>(); // paused xenoborgs still count
+        while (xenoborgQuery.MoveNext(out var xenoborg, out _))
+        {
+            if (xenoborg != uid)
+                return;
+        }
+
+        var mothershipCoreQuery = AllEntityQuery<MothershipCoreComponent>(); // paused mothership cores still count
+        var mothershipCoreAlive = mothershipCoreQuery.MoveNext(out _, out _);
+
+        var xenoborgsRuleQuery = EntityQueryEnumerator<XenoborgsRuleComponent>();
+        if (xenoborgsRuleQuery.MoveNext(out var xenoborgsRuleEnt, out var xenoborgsRuleComp))
+            _xenoborgsRule.SendXenoborgDeathAnnouncement((xenoborgsRuleEnt, xenoborgsRuleComp), mothershipCoreAlive);
+    }
+
+    private void OnCoreDestroyed(EntityUid ent, MothershipCoreComponent component, DestructionEventArgs args)
+    {
+        // if a mothership core is destroyed, it will see if there are any others
+        var mothershipCoreQuery = AllEntityQuery<MothershipCoreComponent>(); // paused mothership cores still count
+        while (mothershipCoreQuery.MoveNext(out var mothershipCoreEnt, out _))
+        {
+            // if it finds a mothership core that is different from the one just destroyed,
+            // it doesn't explode the xenoborgs
+            if (mothershipCoreEnt != ent)
+                return;
+        }
+
+        var xenoborgsRuleQuery = EntityQueryEnumerator<XenoborgsRuleComponent>();
+        if (xenoborgsRuleQuery.MoveNext(out var xenoborgsRuleEnt, out var xenoborgsRuleComp))
+            _xenoborgsRule.SendMothershipDeathAnnouncement((xenoborgsRuleEnt, xenoborgsRuleComp));
+
+        // explode all xenoborgs (inline, skipping emag check — xenoborgs always explode)
+        var xenoborgQuery = AllEntityQuery<XenoborgComponent, BorgTransponderComponent>(); // paused xenoborgs still explode
+        while (xenoborgQuery.MoveNext(out var xenoborgEnt, out _, out var transponder))
+        {
+            if (HasComp<MothershipCoreComponent>(xenoborgEnt))
+                continue;
+
+            var message = Loc.GetString(transponder.DestroyingPopup, ("name", Name(xenoborgEnt)));
+            _popup.PopupEntity(message, xenoborgEnt);
+            _trigger.ActivateTimerTrigger(xenoborgEnt);
+            RemComp<InputMoverComponent>(xenoborgEnt);
+        }
+    }
+
+    private void OnXenoborgMindAdded(EntityUid ent, XenoborgComponent comp, MindAddedMessage args)
+    {
+        _roles.MindAddRole(args.Mind, comp.MindRole, silent: true);
+
+        if (!TryComp<ActorComponent>(ent, out var actorComp))
+            return;
+
+        _antag.SendBriefing(actorComp.PlayerSession,
+            Loc.GetString(comp.BriefingText),
+            XenoborgBriefingColor,
+            comp.BriefingSound
+        );
+    }
+
+    private void OnXenoborgMindRemoved(EntityUid ent, XenoborgComponent comp, MindRemovedMessage args)
+    {
+        _roles.MindRemoveRole(new Entity<MindComponent?>(args.Mind, args.Mind), comp.MindRole);
+    }
+}

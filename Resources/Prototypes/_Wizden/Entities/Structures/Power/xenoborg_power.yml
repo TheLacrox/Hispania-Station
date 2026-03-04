@@ -1,0 +1,20 @@
+# Xenoborg power structures - ported from Wizden SS14
+- type: entity
+  parent: BaseAPC
+  id: APCXenoborg
+  suffix: Basic, 50kJ, Xenoborg
+  components:
+  - type: Battery
+    maxCharge: 50000
+    startingCharge: 50000
+  - type: AccessReader
+    access: [["Xenoborg"]]
+
+- type: entity
+  parent: BorgCharger
+  id: BorgChargerXenoborg
+  name: xenoborg recharging station
+  description: A stationary charger for xenoborgs. Feels claustrophobic.
+  components:
+  - type: Sprite
+    sprite: Structures/Power/xenoborg_charger.rsi

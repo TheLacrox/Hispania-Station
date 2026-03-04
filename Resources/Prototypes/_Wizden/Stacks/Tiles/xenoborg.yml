@@ -1,0 +1,6 @@
+# Xenoborg tile stack - ported from Wizden SS14
+- type: stack
+  parent: BaseTileStack
+  id: FloorTileXenoborg
+  name: stack-xenoborg
+  spawn: FloorTileItemXenoborg

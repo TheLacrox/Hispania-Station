@@ -2110,6 +2110,10 @@
                     0.25
                 ]
             ]
+        },
+        {
+            "name": "xenorobot",
+            "directions": 4
         }
     ]
 }
