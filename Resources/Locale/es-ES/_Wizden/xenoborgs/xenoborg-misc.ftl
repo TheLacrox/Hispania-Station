@@ -36,3 +36,6 @@ roles-antag-mothership-core-objective = Usa tus xenoborgs para crear aún más x
 
 roles-antag-xenoborg-name = Xenoborg
 roles-antag-xenoborg-objective = Ayuda a la nave nodriza a crear más xenoborgs.
+
+# Tiles
+tiles-xenoborg-floor = baldosa xenoborg
