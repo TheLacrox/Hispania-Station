@@ -152,6 +152,13 @@
     channels:
     - Mothership
     - Xenoborg
+  - type: LanguageKnowledge # Einstein Engines - Languages
+    speaks:
+    - TauCetiBasic
+    - RobotTalk
+    understands:
+    - TauCetiBasic
+    - RobotTalk
   - type: Xenoborg
     mindRole: MindRoleMothershipCore
     briefingText: mothership-welcome

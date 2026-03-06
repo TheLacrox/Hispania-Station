@@ -155,6 +155,10 @@ Current custom features:
 - **Economy** — Bank accounts on ID cards, ATM machines, salary payroll system, vending machine pricing, salary management console (HOP/Captain)
 - **Station Objectives** — Cooperative crew objectives with a 30-minute deadline that freezes salaries if unmet
 
+### Other Fork Content
+
+The repo also includes `_FarHorizons/` directories (a separate fork's content) with features like fission generators, machine linking, and research systems. These follow the same isolation pattern as `_Capibara/` but are not Capibara-specific code.
+
 ## Code Style
 
 Enforced via `.editorconfig`:
