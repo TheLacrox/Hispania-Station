@@ -340,6 +340,7 @@
     - NewsReaderCartridge
     - WantedListCartridge
     - NanoChatCartridge # DeltaV
+    - NanoGigsCartridge # Capibara
 
 - type: entity
   parent: BasePDA
@@ -355,6 +356,7 @@
       - NewsReaderCartridge
       - MedTekCartridge
       - NanoChatCartridge # DeltaV
+      - NanoGigsCartridge # Capibara
 
 - type: entity
   parent: BasePDA
@@ -672,6 +674,7 @@
     - AstroNavCartridge
     - MailMetricsCartridge
     - NanoChatCartridge # DeltaV
+    - NanoGigsCartridge # Capibara
 
 - type: entity
   parent: BasePDA
@@ -718,6 +721,7 @@
       - NewsReaderCartridge
       - AstroNavCartridge
       - NanoChatCartridge # DeltaV
+      - NanoGigsCartridge # Capibara
 
 - type: entity
   parent: BasePDA
@@ -1069,6 +1073,7 @@
     - WantedListCartridge
     - LogProbeCartridge
     - NanoChatCartridge # DeltaV
+    - NanoGigsCartridge # Capibara
 
 - type: entity
   parent: BaseSecurityPDA
@@ -1142,6 +1147,7 @@
       - LogProbeCartridge
       - AstroNavCartridge
       - NanoChatCartridge # DeltaV
+      - NanoGigsCartridge # Capibara
 
 - type: entity
   parent: CentcomPDA
@@ -1170,6 +1176,7 @@
       - MedTekCartridge
       - AstroNavCartridge
       - NanoChatCartridge # DeltaV
+      - NanoGigsCartridge # Capibara
   - type: Tag #  Ignore Chameleon tags
     tags:
     - DoorBumpOpener
@@ -1325,6 +1332,7 @@
       - LogProbeCartridge
       - AstroNavCartridge
       - NanoChatCartridge # DeltaV
+      - NanoGigsCartridge # Capibara
 
 - type: entity
   parent: ERTLeaderPDA
@@ -1495,6 +1503,7 @@
     - WantedListCartridge
     - LogProbeCartridge
     - NanoChatCartridge # DeltaV
+    - NanoGigsCartridge # Capibara
 
 - type: entity
   parent: BaseMedicalPDA
@@ -1524,6 +1533,7 @@
     - WantedListCartridge
     - MedTekCartridge
     - NanoChatCartridge # DeltaV
+    - NanoGigsCartridge # Capibara
 
 - type: entity
   parent: ClownPDA

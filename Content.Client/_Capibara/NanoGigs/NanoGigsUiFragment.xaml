@@ -20,16 +20,6 @@
             </BoxContainer>
         </controls:StripeBack>
 
-        <!-- Error message -->
-        <PanelContainer Name="ErrorPanel" Visible="False" Margin="4 2">
-            <PanelContainer.PanelOverride>
-                <gfx:StyleBoxFlat BackgroundColor="#20cc3333" ContentMarginLeftOverride="6"
-                                  ContentMarginRightOverride="6" ContentMarginTopOverride="3"
-                                  ContentMarginBottomOverride="3" />
-            </PanelContainer.PanelOverride>
-            <Label Name="ErrorLabel" StyleClasses="LabelSubText" />
-        </PanelContainer>
-
         <!-- Tab container -->
         <TabContainer Name="Tabs" HorizontalExpand="True" VerticalExpand="True">
 
@@ -108,49 +98,83 @@
 
             <!-- Tab 3: Post Job -->
             <BoxContainer Name="PostJobTab" Orientation="Vertical" HorizontalExpand="True"
-                          VerticalExpand="True" Margin="6">
+                          VerticalExpand="True">
 
-                <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="0 2 0 2">
-                    <Label Text="{Loc 'nanogigs-ui-post-title-label'}" StyleClasses="LabelSubText"
-                           HorizontalExpand="True" />
-                    <Label Name="TitleCounter" StyleClasses="LabelSubText" />
-                </BoxContainer>
-                <LineEdit Name="TitleInput" HorizontalExpand="True"
-                          PlaceHolder="{Loc 'nanogigs-ui-post-title-placeholder'}" />
-
-                <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="0 6 0 2">
-                    <Label Text="{Loc 'nanogigs-ui-post-description-label'}" StyleClasses="LabelSubText"
-                           HorizontalExpand="True" />
-                    <Label Name="DescriptionCounter" StyleClasses="LabelSubText" />
-                </BoxContainer>
-                <LineEdit Name="DescriptionInput" HorizontalExpand="True"
-                          PlaceHolder="{Loc 'nanogigs-ui-post-description-placeholder'}" />
-
-                <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="0 6 0 2">
-                    <Label Text="{Loc 'nanogigs-ui-post-location-label'}" StyleClasses="LabelSubText"
-                           HorizontalExpand="True" />
-                    <Label Name="LocationCounter" StyleClasses="LabelSubText" />
-                </BoxContainer>
-                <LineEdit Name="LocationInput" HorizontalExpand="True"
-                          PlaceHolder="{Loc 'nanogigs-ui-post-location-placeholder'}" />
-
-                <Label Text="{Loc 'nanogigs-ui-post-pay-label'}" StyleClasses="LabelSubText"
-                       Margin="0 6 0 2" />
-                <SpinBox Name="PayInput" HorizontalExpand="True" />
-
-                <PanelContainer Margin="0 6 0 0">
+                <!-- No-ID overlay -->
+                <PanelContainer Name="NoIdOverlay" HorizontalExpand="True" VerticalExpand="True"
+                                Visible="False">
                     <PanelContainer.PanelOverride>
-                        <gfx:StyleBoxFlat BackgroundColor="#252525d9" ContentMarginLeftOverride="6"
-                                          ContentMarginRightOverride="6" ContentMarginTopOverride="4"
-                                          ContentMarginBottomOverride="4" />
+                        <gfx:StyleBoxFlat BackgroundColor="#1a1a2e" />
                     </PanelContainer.PanelOverride>
-                    <Label Text="{Loc 'nanogigs-ui-escrow-note'}" StyleClasses="LabelSubText" />
+                    <BoxContainer Orientation="Vertical" HorizontalAlignment="Center"
+                                  VerticalAlignment="Center">
+                        <Label Text="{Loc 'nanogigs-ui-no-id-message'}" StyleClasses="LabelSubText"
+                               HorizontalAlignment="Center" />
+                    </BoxContainer>
                 </PanelContainer>
 
-                <Control VerticalExpand="True" />
+                <!-- Post form content -->
+                <BoxContainer Name="PostFormContent" Orientation="Vertical" HorizontalExpand="True"
+                              VerticalExpand="True" Margin="6">
 
-                <Button Name="PostButton" Text="{Loc 'nanogigs-ui-post-button'}"
-                        HorizontalExpand="True" Margin="0 4 0 0" />
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="0 2 0 2">
+                        <Label Text="{Loc 'nanogigs-ui-post-title-label'}" StyleClasses="LabelSubText"
+                               HorizontalExpand="True" />
+                        <Label Name="TitleCounter" StyleClasses="LabelSubText" />
+                    </BoxContainer>
+                    <LineEdit Name="TitleInput" HorizontalExpand="True"
+                              PlaceHolder="{Loc 'nanogigs-ui-post-title-placeholder'}" />
+
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="0 6 0 2">
+                        <Label Text="{Loc 'nanogigs-ui-post-description-label'}" StyleClasses="LabelSubText"
+                               HorizontalExpand="True" />
+                        <Label Name="DescriptionCounter" StyleClasses="LabelSubText" />
+                    </BoxContainer>
+                    <LineEdit Name="DescriptionInput" HorizontalExpand="True"
+                              PlaceHolder="{Loc 'nanogigs-ui-post-description-placeholder'}" />
+
+                    <BoxContainer Orientation="Horizontal" HorizontalExpand="True" Margin="0 6 0 2">
+                        <Label Text="{Loc 'nanogigs-ui-post-location-label'}" StyleClasses="LabelSubText"
+                               HorizontalExpand="True" />
+                        <Label Name="LocationCounter" StyleClasses="LabelSubText" />
+                    </BoxContainer>
+                    <LineEdit Name="LocationInput" HorizontalExpand="True"
+                              PlaceHolder="{Loc 'nanogigs-ui-post-location-placeholder'}" />
+
+                    <Label Text="{Loc 'nanogigs-ui-post-pay-label'}" StyleClasses="LabelSubText"
+                           Margin="0 6 0 2" />
+                    <SpinBox Name="PayInput" HorizontalExpand="True" />
+
+                    <PanelContainer Margin="0 6 0 0">
+                        <PanelContainer.PanelOverride>
+                            <gfx:StyleBoxFlat BackgroundColor="#252525d9" ContentMarginLeftOverride="6"
+                                              ContentMarginRightOverride="6" ContentMarginTopOverride="4"
+                                              ContentMarginBottomOverride="4" />
+                        </PanelContainer.PanelOverride>
+                        <Label Text="{Loc 'nanogigs-ui-escrow-note'}" StyleClasses="LabelSubText" />
+                    </PanelContainer>
+
+                    <Control VerticalExpand="True" />
+
+                    <Button Name="PostButton" Text="{Loc 'nanogigs-ui-post-button'}"
+                            HorizontalExpand="True" Margin="0 4 0 0" />
+                </BoxContainer>
+
+                <!-- Post result screen (success or error) -->
+                <PanelContainer Name="PostResultOverlay" HorizontalExpand="True" VerticalExpand="True"
+                                Visible="False">
+                    <PanelContainer.PanelOverride>
+                        <gfx:StyleBoxFlat BackgroundColor="#1a1a2e" />
+                    </PanelContainer.PanelOverride>
+                    <BoxContainer Orientation="Vertical" HorizontalAlignment="Center"
+                                  VerticalAlignment="Center">
+                        <Label Name="PostResultLabel" StyleClasses="LabelHeading"
+                               HorizontalAlignment="Center" Margin="0 0 0 12" />
+                        <Button Name="PostResultButton"
+                                HorizontalAlignment="Center" />
+                    </BoxContainer>
+                </PanelContainer>
+
             </BoxContainer>
 
         </TabContainer>

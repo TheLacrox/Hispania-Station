@@ -48,6 +48,12 @@ nanogigs-notify-paid = Recibiste {$pay} Spesos por '{$title}'
 nanogigs-notify-cancelled = El trabajo '{$title}' fue cancelado por el publicador.
 nanogigs-notify-abandoned = {$taker} abandono tu trabajo '{$title}'
 
+# UI - Overlays
+nanogigs-ui-error-dismiss = Aceptar
+nanogigs-ui-no-id-message = No se encontró tarjeta de ID. Inserta tu ID en el PDA para publicar trabajos.
+nanogigs-ui-post-success = ¡Trabajo publicado exitosamente!
+nanogigs-ui-post-success-dismiss = Ver Mis Trabajos
+
 # Errores
 nanogigs-error-no-id = No se encontro tarjeta de ID. Inserta tu ID en el PDA.
 nanogigs-error-invalid-title = El titulo debe tener entre 1 y 50 caracteres.

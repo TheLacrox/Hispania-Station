@@ -207,6 +207,7 @@
     - MedTekCartridge
     - AstroNavCartridge
     - NanoChatCartridge # DeltaV
+    - NanoGigsCartridge # Capibara
 
 - type: entity
   parent: NavyCaptainPDA
@@ -281,6 +282,7 @@
     - NotekeeperCartridge
     - NanoTaskCartridge
     - NanoChatCartridge # DeltaV
+    - NanoGigsCartridge # Capibara
 
 - type: entity
   parent: BaseMedicalPDA

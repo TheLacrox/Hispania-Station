@@ -38,35 +38,27 @@ public sealed class NanoGigsCartridgeSystem : EntitySystem
         if (args is not NanoGigsUiMessageEvent message)
             return;
 
-        switch (message.Payload)
+        var success = message.Payload switch
         {
-            case NanoGigsPostJob post:
-                HandlePostJob(ent, message.Actor, post);
-                break;
-            case NanoGigsAcceptJob accept:
-                HandleAcceptJob(ent, message.Actor, accept);
-                break;
-            case NanoGigsFinishJob finish:
-                HandleFinishJob(ent, message.Actor, finish);
-                break;
-            case NanoGigsCancelJob cancel:
-                HandleCancelJob(ent, message.Actor, cancel);
-                break;
-            case NanoGigsToggleAlerts:
-                ent.Comp.AlertsEnabled = !ent.Comp.AlertsEnabled;
-                break;
-        }
+            NanoGigsPostJob post => HandlePostJob(ent, message.Actor, post),
+            NanoGigsAcceptJob accept => HandleAcceptJob(ent, message.Actor, accept),
+            NanoGigsFinishJob finish => HandleFinishJob(ent, message.Actor, finish),
+            NanoGigsCancelJob cancel => HandleCancelJob(ent, message.Actor, cancel),
+            NanoGigsToggleAlerts => HandleToggleAlerts(ent),
+            _ => false,
+        };
 
-        UpdateAllUIs(ent);
+        if (success)
+            UpdateAllUIs(ent);
     }
 
-    private void HandlePostJob(EntityUid cartridge, EntityUid actor, NanoGigsPostJob post)
+    private bool HandlePostJob(EntityUid cartridge, EntityUid actor, NanoGigsPostJob post)
     {
         var idCard = _bank.GetIdCardFromPlayer(actor);
         if (idCard == null)
         {
             SendError(cartridge, Loc.GetString("nanogigs-error-no-id"));
-            return;
+            return false;
         }
 
         // Validate inputs
@@ -77,42 +69,42 @@ public sealed class NanoGigsCartridgeSystem : EntitySystem
         if (string.IsNullOrEmpty(title) || title.Length > MaxTitleLength)
         {
             SendError(cartridge, Loc.GetString("nanogigs-error-invalid-title"));
-            return;
+            return false;
         }
 
         if (description.Length > MaxDescriptionLength)
         {
             SendError(cartridge, Loc.GetString("nanogigs-error-invalid-description"));
-            return;
+            return false;
         }
 
         if (location.Length > MaxLocationLength)
         {
             SendError(cartridge, Loc.GetString("nanogigs-error-invalid-location"));
-            return;
+            return false;
         }
 
         if (post.Pay <= 0)
         {
             SendError(cartridge, Loc.GetString("nanogigs-error-invalid-pay"));
-            return;
+            return false;
         }
 
         // Escrow: withdraw pay from poster
         if (!_bank.TryWithdraw(idCard.Value, post.Pay, out _))
         {
             SendError(cartridge, Loc.GetString("nanogigs-error-insufficient-funds"));
-            return;
+            return false;
         }
 
         if (!TryComp<BankAccountComponent>(idCard.Value, out var bankAccount))
-            return;
+            return false;
 
         var posterName = TryComp<IdCardComponent>(idCard.Value, out var card) ? card.FullName ?? "Unknown" : "Unknown";
 
         var board = GetOrCreateBoard(cartridge);
         if (board == null)
-            return;
+            return false;
 
         var listing = new NanoGigListing(
             board.NextGigId++,
@@ -127,33 +119,34 @@ public sealed class NanoGigsCartridgeSystem : EntitySystem
 
         // Notify users with alerts enabled
         NotifyNewJob(listing, bankAccount.AccountId);
+        return true;
     }
 
-    private void HandleAcceptJob(EntityUid cartridge, EntityUid actor, NanoGigsAcceptJob accept)
+    private bool HandleAcceptJob(EntityUid cartridge, EntityUid actor, NanoGigsAcceptJob accept)
     {
         var idCard = _bank.GetIdCardFromPlayer(actor);
         if (idCard == null)
         {
             SendError(cartridge, Loc.GetString("nanogigs-error-no-id"));
-            return;
+            return false;
         }
 
         if (!TryComp<BankAccountComponent>(idCard.Value, out var bankAccount))
-            return;
+            return false;
 
         var board = GetOrCreateBoard(cartridge);
         if (board == null)
-            return;
+            return false;
 
         var job = board.Jobs.Find(j => j.GigId == accept.GigId);
         if (job == null || job.Status != NanoGigStatus.Available)
-            return;
+            return false;
 
         // Can't accept your own job
         if (job.PosterAccountId == bankAccount.AccountId)
         {
             SendError(cartridge, Loc.GetString("nanogigs-error-own-job"));
-            return;
+            return false;
         }
 
         var takerName = TryComp<IdCardComponent>(idCard.Value, out var card) ? card.FullName ?? "Unknown" : "Unknown";
@@ -171,28 +164,29 @@ public sealed class NanoGigsCartridgeSystem : EntitySystem
         NotifyByAccountId(cartridge, job.PosterAccountId,
             Loc.GetString("nanogigs-program-name"),
             Loc.GetString("nanogigs-notify-accepted", ("taker", displayName), ("title", job.Title)));
+        return true;
     }
 
-    private void HandleFinishJob(EntityUid cartridge, EntityUid actor, NanoGigsFinishJob finish)
+    private bool HandleFinishJob(EntityUid cartridge, EntityUid actor, NanoGigsFinishJob finish)
     {
         var idCard = _bank.GetIdCardFromPlayer(actor);
         if (idCard == null)
-            return;
+            return false;
 
         if (!TryComp<BankAccountComponent>(idCard.Value, out var bankAccount))
-            return;
+            return false;
 
         var board = GetOrCreateBoard(cartridge);
         if (board == null)
-            return;
+            return false;
 
         var job = board.Jobs.Find(j => j.GigId == finish.GigId);
         if (job == null || job.Status != NanoGigStatus.Accepted)
-            return;
+            return false;
 
         // Only poster can finish
         if (job.PosterAccountId != bankAccount.AccountId)
-            return;
+            return false;
 
         // Pay the taker by finding their ID card
         if (job.TakerAccountId != null)
@@ -210,24 +204,25 @@ public sealed class NanoGigsCartridgeSystem : EntitySystem
         }
 
         board.Jobs.Remove(job);
+        return true;
     }
 
-    private void HandleCancelJob(EntityUid cartridge, EntityUid actor, NanoGigsCancelJob cancel)
+    private bool HandleCancelJob(EntityUid cartridge, EntityUid actor, NanoGigsCancelJob cancel)
     {
         var idCard = _bank.GetIdCardFromPlayer(actor);
         if (idCard == null)
-            return;
+            return false;
 
         if (!TryComp<BankAccountComponent>(idCard.Value, out var bankAccount))
-            return;
+            return false;
 
         var board = GetOrCreateBoard(cartridge);
         if (board == null)
-            return;
+            return false;
 
         var job = board.Jobs.Find(j => j.GigId == cancel.GigId);
         if (job == null)
-            return;
+            return false;
 
         if (job.PosterAccountId == bankAccount.AccountId)
         {
@@ -245,8 +240,10 @@ public sealed class NanoGigsCartridgeSystem : EntitySystem
             }
 
             board.Jobs.Remove(job);
+            return true;
         }
-        else if (job.TakerAccountId == bankAccount.AccountId && job.Status == NanoGigStatus.Accepted)
+
+        if (job.TakerAccountId == bankAccount.AccountId && job.Status == NanoGigStatus.Accepted)
         {
             // Taker abandoning
             var takerName = job.TakerName ?? "Someone";
@@ -258,7 +255,16 @@ public sealed class NanoGigsCartridgeSystem : EntitySystem
             NotifyByAccountId(cartridge, job.PosterAccountId,
                 Loc.GetString("nanogigs-program-name"),
                 Loc.GetString("nanogigs-notify-abandoned", ("taker", takerName), ("title", job.Title)));
+            return true;
         }
+
+        return false;
+    }
+
+    private bool HandleToggleAlerts(Entity<NanoGigsCartridgeComponent> ent)
+    {
+        ent.Comp.AlertsEnabled = !ent.Comp.AlertsEnabled;
+        return true;
     }
 
     private StationGigBoardComponent? GetOrCreateBoard(EntityUid cartridge)
@@ -370,9 +376,12 @@ public sealed class NanoGigsCartridgeSystem : EntitySystem
         var viewerAccountId = 0;
         var viewerBalance = 0;
         var alertsEnabled = false;
+        var hasIdCard = false;
 
         if (TryComp<PdaComponent>(loaderUid, out var pda) && pda.ContainedId != null)
         {
+            hasIdCard = true;
+
             if (TryComp<BankAccountComponent>(pda.ContainedId.Value, out var bank))
             {
                 viewerAccountId = bank.AccountId;
@@ -399,6 +408,6 @@ public sealed class NanoGigsCartridgeSystem : EntitySystem
             jobs = board.Jobs;
         }
 
-        return new NanoGigsUiState(jobs, viewerAccountId, viewerBalance, alertsEnabled, error);
+        return new NanoGigsUiState(jobs, viewerAccountId, viewerBalance, alertsEnabled, hasIdCard, error);
     }
 }

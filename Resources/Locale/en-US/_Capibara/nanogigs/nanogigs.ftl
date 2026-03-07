@@ -48,6 +48,12 @@ nanogigs-notify-paid = You received {$pay} Spesos for '{$title}'
 nanogigs-notify-cancelled = The job '{$title}' was cancelled by the poster.
 nanogigs-notify-abandoned = {$taker} abandoned your job '{$title}'
 
+# UI - Overlays
+nanogigs-ui-error-dismiss = Accept
+nanogigs-ui-no-id-message = No ID card found. Insert your ID into the PDA to post jobs.
+nanogigs-ui-post-success = Job posted successfully!
+nanogigs-ui-post-success-dismiss = View My Jobs
+
 # Errors
 nanogigs-error-no-id = No ID card found. Insert your ID into the PDA.
 nanogigs-error-invalid-title = Title must be 1-50 characters.

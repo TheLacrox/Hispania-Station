@@ -56,14 +56,16 @@ public sealed class NanoGigsUiState : BoundUserInterfaceState
     public readonly int ViewerAccountId;
     public readonly int ViewerBalance;
     public readonly bool AlertsEnabled;
+    public readonly bool HasIdCard;
     public readonly string? ErrorMessage;
 
-    public NanoGigsUiState(List<NanoGigListing> jobs, int viewerAccountId, int viewerBalance, bool alertsEnabled, string? errorMessage = null)
+    public NanoGigsUiState(List<NanoGigListing> jobs, int viewerAccountId, int viewerBalance, bool alertsEnabled, bool hasIdCard, string? errorMessage = null)
     {
         Jobs = jobs;
         ViewerAccountId = viewerAccountId;
         ViewerBalance = viewerBalance;
         AlertsEnabled = alertsEnabled;
+        HasIdCard = hasIdCard;
         ErrorMessage = errorMessage;
     }
 }

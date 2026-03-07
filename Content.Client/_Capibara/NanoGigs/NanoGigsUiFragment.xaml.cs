@@ -40,21 +40,25 @@ public sealed partial class NanoGigsUiFragment : BoxContainer
             var location = LocationInput.Text.Trim();
             var pay = PayInput.Value;
 
-            if (string.IsNullOrEmpty(title) || pay <= 0)
+            // Client-side validation
+            string? clientError = null;
+            if (string.IsNullOrEmpty(title) || title.Length > MaxTitle)
+                clientError = Loc.GetString("nanogigs-error-invalid-title");
+            else if (description.Length > MaxDescription)
+                clientError = Loc.GetString("nanogigs-error-invalid-description");
+            else if (location.Length > MaxLocation)
+                clientError = Loc.GetString("nanogigs-error-invalid-location");
+            else if (pay <= 0)
+                clientError = Loc.GetString("nanogigs-error-invalid-pay");
+
+            if (clientError != null)
+            {
+                ShowPostResult(false, clientError);
                 return;
+            }
 
+            _waitingForPostResult = true;
             OnPostJob?.Invoke(title, description, location, pay);
-
-            TitleInput.Text = "";
-            DescriptionInput.Text = "";
-            LocationInput.Text = "";
-            PayInput.Value = 50;
-            UpdateCounter(TitleCounter, 0, MaxTitle);
-            UpdateCounter(DescriptionCounter, 0, MaxDescription);
-            UpdateCounter(LocationCounter, 0, MaxLocation);
-
-            // Switch to My Jobs tab
-            Tabs.CurrentTab = 1;
         };
 
         AbandonButton.OnPressed += _ =>
@@ -64,6 +68,24 @@ public sealed partial class NanoGigsUiFragment : BoxContainer
         };
 
         AlertsButton.OnToggled += _ => OnToggleAlerts?.Invoke();
+
+        Tabs.OnTabChanged += tab =>
+        {
+            // Leaving Post Job tab while result is showing — reset to form
+            if (tab != 2 && PostResultOverlay.Visible)
+            {
+                PostResultOverlay.Visible = false;
+                PostFormContent.Visible = true;
+            }
+        };
+
+        PostResultButton.OnPressed += _ =>
+        {
+            PostResultOverlay.Visible = false;
+            PostFormContent.Visible = true;
+            if (_lastPostSuccess)
+                Tabs.CurrentTab = 1; // Go to My Jobs on success
+        };
 
         // Character limits — clamp input and update counters
         TitleInput.OnTextChanged += _ => ClampAndCount(TitleInput, TitleCounter, MaxTitle);
@@ -96,6 +118,8 @@ public sealed partial class NanoGigsUiFragment : BoxContainer
     }
 
     private int? _activeJobId;
+    private bool _waitingForPostResult;
+    private bool _lastPostSuccess;
 
     public void UpdateState(NanoGigsUiState state)
     {
@@ -107,16 +131,23 @@ public sealed partial class NanoGigsUiFragment : BoxContainer
             : Loc.GetString("nanogigs-ui-alerts-off");
         AlertsLabel.Modulate = state.AlertsEnabled ? Color.FromHex("#3dd425") : Color.FromHex("#888888");
 
-        // Error
-        if (!string.IsNullOrEmpty(state.ErrorMessage))
+        // Post Job tab — show one of: NoIdOverlay, PostResultOverlay, PostFormContent
+        if (!state.HasIdCard)
         {
-            ErrorPanel.Visible = true;
-            ErrorLabel.Text = state.ErrorMessage;
-            ErrorLabel.Modulate = Color.FromHex("#e93d58");
+            NoIdOverlay.Visible = true;
+            PostFormContent.Visible = false;
+            PostResultOverlay.Visible = false;
+        }
+        else if (_waitingForPostResult)
+        {
+            _waitingForPostResult = false;
+            ShowPostResult(string.IsNullOrEmpty(state.ErrorMessage), state.ErrorMessage);
         }
         else
         {
-            ErrorPanel.Visible = false;
+            NoIdOverlay.Visible = false;
+            PostFormContent.Visible = true;
+            PostResultOverlay.Visible = false;
         }
 
         // Check if viewer has an active job as taker
@@ -141,6 +172,37 @@ public sealed partial class NanoGigsUiFragment : BoxContainer
 
         // My Jobs tab
         PopulateMyJobs(state);
+    }
+
+    private void ShowPostResult(bool success, string? errorMessage = null)
+    {
+        if (success)
+        {
+            _lastPostSuccess = true;
+            TitleInput.Text = "";
+            DescriptionInput.Text = "";
+            LocationInput.Text = "";
+            PayInput.Value = 50;
+            UpdateCounter(TitleCounter, 0, MaxTitle);
+            UpdateCounter(DescriptionCounter, 0, MaxDescription);
+            UpdateCounter(LocationCounter, 0, MaxLocation);
+
+            PostResultLabel.Text = Loc.GetString("nanogigs-ui-post-success");
+            PostResultLabel.Modulate = Color.FromHex("#3dd425");
+            PostResultButton.Text = Loc.GetString("nanogigs-ui-post-success-dismiss");
+        }
+        else
+        {
+            _lastPostSuccess = false;
+            PostResultLabel.Text = errorMessage ?? "";
+            PostResultLabel.Modulate = Color.FromHex("#e93d58");
+            PostResultButton.Text = Loc.GetString("nanogigs-ui-error-dismiss");
+        }
+
+        NoIdOverlay.Visible = false;
+        PostFormContent.Visible = false;
+        PostResultOverlay.Visible = true;
+        Tabs.CurrentTab = 2;
     }
 
     private void PopulateActiveJob(NanoGigListing job)
