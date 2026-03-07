@@ -259,4 +259,4 @@ guide-entry-capibara-economy = Economía
 guide-entry-capibara-economy-atm = Cajero Automático (ATM)
 guide-entry-capibara-economy-salary-console = Consola de Gestión de Salarios
 guide-entry-capibara-economy-objectives = Objetivos de Estación y Salarios
-guide-entry-capibara-economy-nanogigs = NanoGigs
+guide-entry-capibara-economy-nanogigs = NanoTrabajos
