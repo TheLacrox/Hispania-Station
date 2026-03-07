@@ -1,0 +1,14 @@
+# Capibara - Shadow Monarch standalone preset for testing
+- type: gamePreset
+  id: ShadowMonarch
+  alias:
+  - ShadowMonarch
+  - shadow
+  name: shadow-monarch-title
+  showInVote: false
+  description: shadow-monarch-preset-description
+  rules:
+  - ShadowMonarchRule
+  - BasicStationEventScheduler
+  - BasicRoundstartVariation
+  - SubGamemodesRule

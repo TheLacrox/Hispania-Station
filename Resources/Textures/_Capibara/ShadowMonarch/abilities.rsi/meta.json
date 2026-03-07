@@ -1,0 +1,38 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Created for Capibara Station",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "extraction"
+        },
+        {
+            "name": "extract_tank"
+        },
+        {
+            "name": "extract_mage"
+        },
+        {
+            "name": "step"
+        },
+        {
+            "name": "exchange"
+        },
+        {
+            "name": "hide"
+        },
+        {
+            "name": "summon"
+        },
+        {
+            "name": "domain"
+        },
+        {
+            "name": "ascend"
+        }
+    ]
+}

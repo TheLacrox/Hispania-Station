@@ -1,0 +1,13 @@
+# Capibara - Shadow Monarch faction
+- type: npcFaction
+  id: ShadowMonarch
+  hostile:
+  - NanoTrasen
+  - Syndicate
+  - Zombie
+  - Revolutionary
+  - AllHostile
+  - Xeno
+  - Dragon
+  - PetsNT
+  - Lavafauna

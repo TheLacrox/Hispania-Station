@@ -1,0 +1,168 @@
+# Capibara - Shadow Monarch actions
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowExtractSoldier
+  name: action-shadow-extract-soldier
+  description: action-shadow-extract-soldier-desc
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    useDelay: 10
+    icon:
+      sprite: _Capibara/ShadowMonarch/abilities.rsi
+      state: extraction
+  - type: TargetAction
+    range: 1.5
+    interactOnMiss: false
+  - type: EntityTargetAction
+    canTargetSelf: false
+    event: !type:ShadowExtractSoldierEvent {}
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowExtractTank
+  name: action-shadow-extract-tank
+  description: action-shadow-extract-tank-desc
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    useDelay: 10
+    icon:
+      sprite: _Capibara/ShadowMonarch/abilities.rsi
+      state: extract_tank
+  - type: TargetAction
+    range: 1.5
+    interactOnMiss: false
+  - type: EntityTargetAction
+    canTargetSelf: false
+    event: !type:ShadowExtractTankEvent {}
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowExtractMage
+  name: action-shadow-extract-mage
+  description: action-shadow-extract-mage-desc
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    useDelay: 10
+    icon:
+      sprite: _Capibara/ShadowMonarch/abilities.rsi
+      state: extract_mage
+  - type: TargetAction
+    range: 1.5
+    interactOnMiss: false
+  - type: EntityTargetAction
+    canTargetSelf: false
+    event: !type:ShadowExtractMageEvent {}
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowStep
+  name: action-shadow-step
+  description: action-shadow-step-desc
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    useDelay: 20
+    icon:
+      sprite: _Capibara/ShadowMonarch/abilities.rsi
+      state: step
+  - type: TargetAction
+    range: 6
+    interactOnMiss: false
+  - type: WorldTargetAction
+    event: !type:ShadowStepEvent {}
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowExchange
+  name: action-shadow-exchange
+  description: action-shadow-exchange-desc
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    useDelay: 30
+    icon:
+      sprite: _Capibara/ShadowMonarch/abilities.rsi
+      state: exchange
+  - type: TargetAction
+    range: 20
+    interactOnMiss: false
+  - type: EntityTargetAction
+    canTargetSelf: false
+    event: !type:ShadowExchangeEvent {}
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowHide
+  name: action-shadow-hide
+  description: action-shadow-hide-desc
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Capibara/ShadowMonarch/abilities.rsi
+      state: hide
+  - type: TargetAction
+    range: 3
+    interactOnMiss: false
+  - type: EntityTargetAction
+    canTargetSelf: false
+    event: !type:ShadowHideEvent {}
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowSummon
+  name: action-shadow-summon
+  description: action-shadow-summon-desc
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    useDelay: 30
+    icon:
+      sprite: _Capibara/ShadowMonarch/abilities.rsi
+      state: summon
+  - type: InstantAction
+    event: !type:ShadowSummonEvent {}
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowDomain
+  name: action-shadow-domain
+  description: action-shadow-domain-desc
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    useDelay: 60
+    icon:
+      sprite: _Capibara/ShadowMonarch/abilities.rsi
+      state: domain
+  - type: InstantAction
+    event: !type:ShadowDomainEvent {}
+
+- type: entity
+  parent: BaseAction
+  id: ActionShadowAscend
+  name: action-shadow-ascend
+  description: action-shadow-ascend-desc
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Action
+    itemIconStyle: NoItem
+    icon:
+      sprite: _Capibara/ShadowMonarch/abilities.rsi
+      state: ascend
+  - type: InstantAction
+    event: !type:ShadowMonarchAscendEvent {}
+  - type: ConfirmableAction
+    popup: shadow-monarch-ascend-confirm

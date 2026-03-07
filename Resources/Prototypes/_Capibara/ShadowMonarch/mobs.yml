@@ -1,0 +1,263 @@
+# Capibara - Shadow Monarch mobs
+
+# Shadow Soldier - balanced type (60HP, Slash 12 + Cold 3)
+- type: entity
+  id: MobShadowSoldier
+  parent: [ BaseMob, MobCombat ]
+  name: shadow-monarch-soldier-entity-name
+  description: shadow-monarch-soldier-entity-desc
+  components:
+  - type: ShadowSoldier
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+    blackboard:
+      NavClimb: !type:Bool
+        true
+      NavSmash: !type:Bool
+        true
+  - type: NpcFactionMember
+    factions:
+    - ShadowMonarch
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 4.5
+    baseSprintSpeed: 4.5
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _Capibara/ShadowMonarch/Mobs/shadow_soldier.rsi
+    layers:
+      - state: shadow_soldier
+  - type: MeleeWeapon
+    altDisarm: false
+    angle: 0
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 12
+        Cold: 3
+  - type: MobState
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      60: Dead
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 60
+        mask:
+          - MobMask
+        layer:
+          - MobLayer
+  - type: Damageable
+    damageContainer: Biological
+  - type: Pullable
+  - type: ZombieImmune
+  - type: CombatMode
+    isInCombatMode: true
+  - type: PointLight
+    radius: 2
+    energy: 1.5
+    color: "#4B0082"
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 60
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+
+# Shadow Tank - tanky type (120HP, Slash 8, slow)
+- type: entity
+  id: MobShadowTank
+  parent: [ BaseMob, MobCombat ]
+  name: shadow-monarch-tank-entity-name
+  description: shadow-monarch-tank-entity-desc
+  components:
+  - type: ShadowSoldier
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+    blackboard:
+      NavClimb: !type:Bool
+        true
+      NavSmash: !type:Bool
+        true
+  - type: NpcFactionMember
+    factions:
+    - ShadowMonarch
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3.15
+    baseSprintSpeed: 3.15
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _Capibara/ShadowMonarch/Mobs/shadow_tank.rsi
+    layers:
+      - state: shadow_tank
+  - type: MeleeWeapon
+    altDisarm: false
+    angle: 0
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 8
+  - type: MobState
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      120: Dead
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.40
+        density: 80
+        mask:
+          - MobMask
+        layer:
+          - MobLayer
+  - type: Damageable
+    damageContainer: Biological
+  - type: Pullable
+  - type: ZombieImmune
+  - type: CombatMode
+    isInCombatMode: true
+  - type: PointLight
+    radius: 2
+    energy: 1.5
+    color: "#4B0082"
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 120
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+
+# Shadow Mage - ranged type (40HP, ranged shadow bolt, fragile)
+- type: entity
+  id: MobShadowMage
+  parent: [ BaseMob, MobCombat ]
+  name: shadow-monarch-mage-entity-name
+  description: shadow-monarch-mage-entity-desc
+  components:
+  - type: ShadowSoldier
+  - type: HTN
+    rootTask:
+      task: SimpleRangedHostileCompound
+    blackboard:
+      NavClimb: !type:Bool
+        true
+      NavSmash: !type:Bool
+        true
+  - type: NpcFactionMember
+    factions:
+    - ShadowMonarch
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 4.5
+    baseSprintSpeed: 4.5
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _Capibara/ShadowMonarch/Mobs/shadow_mage.rsi
+    layers:
+      - state: shadow_mage
+  - type: MeleeWeapon
+    altDisarm: false
+    angle: 0
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 5
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 2
+  - type: BasicEntityAmmoProvider
+    proto: BulletShadowBolt
+    capacity: 1
+    count: 1
+  - type: Gun
+    fireRate: 0.5
+    useKey: false
+    selectedMode: FullAuto
+    availableModes:
+    - FullAuto
+    soundGunshot: /Audio/Effects/Lightning/lightningbolt.ogg
+  - type: MobState
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      40: Dead
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 50
+        mask:
+          - MobMask
+        layer:
+          - MobLayer
+  - type: Damageable
+    damageContainer: Biological
+  - type: Pullable
+  - type: ZombieImmune
+  - type: CombatMode
+    isInCombatMode: true
+  - type: PointLight
+    radius: 2
+    energy: 1.5
+    color: "#6A0DAD"
+  - type: Destructible
+    thresholds:
+      - trigger:
+          !type:DamageTrigger
+          damage: 40
+        behaviors:
+          - !type:DoActsBehavior
+            acts: [ "Destruction" ]
+
+# Shadow Bolt projectile (Mage ranged attack)
+- type: entity
+  id: BulletShadowBolt
+  name: shadow bolt
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    noRot: false
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: bullet
+      shader: unshaded
+      color: "#4B0082"
+  - type: PointLight
+    radius: 1.5
+    energy: 2
+    color: "#4B0082"
+  - type: Projectile
+    damage:
+      types:
+        Cold: 8
+        Shock: 4
+
+# Domain darkness effect entity
+- type: entity
+  id: ShadowDomainEffect
+  name: shadow domain
+  description: An oppressive zone of darkness.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: ShadowDomain
+  - type: Transform
+    anchored: true
+  - type: PointLight
+    radius: 5
+    energy: -10
+    color: "#1a001a"
+  - type: TimedDespawn
+    lifetime: 15

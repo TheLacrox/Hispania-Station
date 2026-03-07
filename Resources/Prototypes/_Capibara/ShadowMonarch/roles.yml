@@ -1,0 +1,32 @@
+# Capibara - Shadow Monarch roles
+
+- type: antag
+  id: ShadowMonarch
+  name: roles-antag-shadow-monarch-name
+  antagonist: true
+  setPreference: true
+  objective: roles-antag-shadow-monarch-description
+  requirements:
+  - !type:OverallPlaytimeRequirement
+    time: 36000 # 10 hours
+
+# Monarch mind role entity
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleShadowMonarch
+  name: Shadow Monarch Role
+  components:
+  - type: MindRole
+    antagPrototype: ShadowMonarch
+    exclusiveAntag: true
+  - type: ShadowMonarchRole
+
+# Shadow soldier ghost role mind role entity
+- type: entity
+  parent: BaseMindRoleAntag
+  id: MindRoleShadowSoldier
+  name: Shadow Soldier Role
+  components:
+  - type: MindRole
+    antagPrototype: ShadowMonarch
+  - type: ShadowSoldierRole

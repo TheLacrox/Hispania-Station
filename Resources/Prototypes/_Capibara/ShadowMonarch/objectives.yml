@@ -1,0 +1,14 @@
+# Capibara - Shadow Monarch objectives
+
+- type: entity
+  parent: BaseCodeObjective
+  id: ShadowMonarchAscendObjective
+  description: objective-shadow-monarch-ascend-desc
+  components:
+  - type: Objective
+    issuer: objective-issuer-shadow-monarch
+    unique: true
+    difficulty: 3
+    icon:
+      sprite: _Capibara/ShadowMonarch/objectives.rsi
+      state: ascend

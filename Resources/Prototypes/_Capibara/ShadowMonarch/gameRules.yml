@@ -1,0 +1,27 @@
+# Capibara - Shadow Monarch game rule
+
+- type: entity
+  parent: BaseGameRule
+  id: ShadowMonarchRule
+  components:
+  - type: ShadowMonarchRule
+  - type: GameRule
+    minPlayers: 15
+  - type: AntagSelection
+    definitions:
+    - prefRoles: [ ShadowMonarch ]
+      max: 1
+      playerRatio: 30
+      chaosScore: 400
+      blacklist:
+        components:
+        - CommandStaff
+        - AntagImmune
+      mindRoles:
+      - MindRoleShadowMonarch
+  - type: AntagObjectives
+    objectives:
+    - ShadowMonarchAscendObjective
+  - type: Tag
+    tags:
+      - RoundstartAntag
