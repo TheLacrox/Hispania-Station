@@ -259,3 +259,4 @@ guide-entry-capibara-economy = Economy
 guide-entry-capibara-economy-atm = ATM
 guide-entry-capibara-economy-salary-console = Salary Management Console
 guide-entry-capibara-economy-objectives = Station Objectives & Salaries
+guide-entry-capibara-economy-nanogigs = NanoGigs

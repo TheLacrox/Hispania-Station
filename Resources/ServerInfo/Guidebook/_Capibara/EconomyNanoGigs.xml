@@ -1,0 +1,52 @@
+<!--
+SPDX-FileCopyrightText: 2025 Capibara Station Contributors
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<Document>
+# NanoGigs
+
+NanoGigs es una aplicación del [color=cyan]PDA[/color] que permite a los tripulantes publicar y aceptar [color=#FFD700]trabajos pagados[/color]. Funciona como una economía de trabajos temporales dentro de la estación — publica una tarea, ofrece un pago, y alguien la completará por ti.
+
+## Cómo Acceder
+
+NanoGigs viene [color=#3dd425]preinstalado[/color] en todos los PDAs. Abre tu PDA y selecciona el programa NanoGigs (icono de maletín verde).
+
+## Publicar un Trabajo
+
+1. Ve a la pestaña [color=cyan]"Post Job"[/color].
+2. Escribe un título, descripción, ubicación y el pago en Spesos.
+3. Pulsa [color=cyan]"Post Job"[/color].
+
+[color=#ef973c]Importante:[/color] Al publicar, el pago se retira automáticamente de tu cuenta como [color=#FFD700]depósito de garantía[/color]. El dinero queda en custodia hasta que el trabajo se complete o lo canceles.
+
+## Aceptar un Trabajo
+
+1. Ve a la pestaña [color=cyan]"Job Board"[/color] para ver los trabajos disponibles.
+2. Pulsa [color=#3dd425]"Accept"[/color] en el trabajo que quieras tomar.
+3. Tu vista cambiará a mostrar los detalles del trabajo activo.
+
+[color=#ef973c]Nota:[/color] Solo puedes tener [color=cyan]un trabajo activo[/color] a la vez. Complétalo o abandónalo antes de aceptar otro.
+
+## Gestionar tus Trabajos
+
+En la pestaña [color=cyan]"My Jobs"[/color] puedes ver todos los trabajos que has publicado:
+
+- [color=cyan]Trabajo disponible:[/color] Puedes cancelarlo y recuperar tu depósito.
+- [color=#ef973c]Trabajo aceptado:[/color] Muestra quién lo tomó. Puedes pulsar [color=#3dd425]"Finish & Pay"[/color] para completarlo y transferir el pago al trabajador, o [color=#e93d58]"Cancel"[/color] para cancelarlo (se te devuelve el dinero y se notifica al trabajador).
+
+## Notificaciones
+
+Pulsa el botón [color=cyan]"Notifications OFF"[/color] en la barra superior para activar las alertas. Cuando estén activadas ([color=#3dd425]"Notifications ON"[/color]), recibirás una notificación en tu PDA cada vez que alguien publique un nuevo trabajo.
+
+También recibirás notificaciones automáticas cuando:
+- Alguien acepta tu trabajo publicado.
+- El publicador completa o cancela un trabajo que tomaste.
+- Un trabajador abandona tu trabajo.
+
+## Flujo de Dinero
+
+1. [color=#FFD700]Publicar:[/color] El pago se retira de tu cuenta (depósito de garantía).
+2. [color=#FFD700]Completar:[/color] El publicador pulsa "Finish & Pay" → el dinero se deposita en la cuenta del trabajador.
+3. [color=#FFD700]Cancelar:[/color] Si el publicador cancela → el dinero se devuelve al publicador.
+</Document>

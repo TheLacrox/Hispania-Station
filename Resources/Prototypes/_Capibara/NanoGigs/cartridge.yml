@@ -1,0 +1,17 @@
+- type: entity
+  parent: BaseItem
+  id: NanoGigsCartridge
+  name: nanogigs cartridge
+  description: A program for posting and accepting paid jobs.
+  components:
+  - type: Sprite
+    sprite: Objects/Devices/cartridge.rsi
+    state: cart-y
+  - type: UIFragment
+    ui: !type:NanoGigsUi
+  - type: Cartridge
+    programName: nanogigs-program-name
+    icon:
+      sprite: _Capibara/Interface/program_icons.rsi
+      state: nanogigs
+  - type: NanoGigsCartridge

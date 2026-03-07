@@ -259,6 +259,7 @@
       - NanoTaskCartridge
       - NewsReaderCartridge
       - NanoChatCartridge # DeltaV
+      - NanoGigsCartridge # Capibara
     cartridgeSlot:
       priority: -1
       name: device-pda-slot-component-slot-name-cartridge

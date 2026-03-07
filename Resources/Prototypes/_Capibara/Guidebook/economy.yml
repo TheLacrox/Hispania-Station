@@ -9,6 +9,7 @@
   - CapibaraEconomyATM
   - CapibaraEconomySalaryConsole
   - CapibaraEconomyObjectives
+  - CapibaraEconomyNanoGigs
 
 - type: guideEntry
   id: CapibaraEconomyATM
@@ -24,3 +25,8 @@
   id: CapibaraEconomyObjectives
   name: guide-entry-capibara-economy-objectives
   text: "/ServerInfo/Guidebook/_Capibara/EconomyObjectives.xml"
+
+- type: guideEntry
+  id: CapibaraEconomyNanoGigs
+  name: guide-entry-capibara-economy-nanogigs
+  text: "/ServerInfo/Guidebook/_Capibara/EconomyNanoGigs.xml"
