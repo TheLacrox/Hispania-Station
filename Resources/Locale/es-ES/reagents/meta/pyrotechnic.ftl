@@ -8,23 +8,23 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-reagent-name-thermite = termita
+reagent-name-thermite = thermite
 reagent-desc-thermite = Una mezcla que se vuelve extremadamente caliente al encenderse.
 
 reagent-name-napalm = napalm
 reagent-desc-napalm = Es solo un poco inflamable.
 
-reagent-name-phlogiston = flogisto
+reagent-name-phlogiston = phlogiston
 reagent-desc-phlogiston = Te prende fuego y te hace arder.
 
-reagent-name-chlorine-trifluoride = trifluoruro de cloro
+reagent-name-chlorine-trifluoride = chlorine trifluoride
 reagent-desc-chlorine-trifluoride = Realmente, REALMENTE no quieres que esto se acerque a ti.
 
-reagent-name-foaming-agent = agente espumante
+reagent-name-foaming-agent = foaming agent
 reagent-desc-foaming-agent = Genera espuma como la necesaria en las granadas de espuma metálica.
 
-reagent-name-welding-fuel = combustible de soldadura
+reagent-name-welding-fuel = welding fuel
 reagent-desc-welding-fuel = Utilizado por los soldadores para soldar.
 
-reagent-name-fluorosurfactant = fluorosurfactante
+reagent-name-fluorosurfactant = fluorosurfactant
 reagent-desc-fluorosurfactant = Un ácido sulfónico perfluorado que forma espuma al mezclarse con agua.

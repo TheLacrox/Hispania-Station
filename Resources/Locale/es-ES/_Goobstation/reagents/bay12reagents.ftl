@@ -10,5 +10,5 @@ reagent-desc-milk-choco = Una bebida de leche con sabor a chocolate.
 reagent-name-tramadol = tramadol
 reagent-desc-tramadol = Un potente analgésico de combate. No tomar con alcohol.
 
-reagent-name-oxycodone = oxicodona
+reagent-name-oxycodone = oxycodone
 reagent-desc-oxycodone = Un analgésico muy potente que básicamente adormece todo el dolor, pero tiene una sobredosis brutal. No tomar con alcohol.

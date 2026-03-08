@@ -5,14 +5,14 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-reagent-name-minerssalve = minerslavina
+reagent-name-minerssalve = minerslavine
 reagent-desc-minerssalve = Una potente mezcla de estimulantes destinada al uso de los mineros de Lavaland.
 
-reagent-name-luxurium = luxurio
+reagent-name-luxurium = luxurium
 reagent-desc-luxurium = Una malévola mezcla ideada por los mejores científicos de Nanotrasen que resulta perjudicial fuera de baja presión, reduciendo la efectividad del bolígrafo de minería de lujo cuando se usa fuera de su entorno previsto.
 
-reagent-name-vitrium-froth = espuma de vitrio
+reagent-name-vitrium-froth = vitrium Froth
 reagent-desc-vitrium-froth = Una pasta burbujeante que cura las heridas de la piel.
 
-reagent-name-seraka-extract = extracto de seraka
+reagent-name-seraka-extract = seraka Extract
 reagent-desc-seraka-extract = Un aceite de color intenso presente en pequeñas cantidades en los hongos Seraka. Actúa como un eficaz agente coagulante, pero tiene un umbral de sobredosis bajo.

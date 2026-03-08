@@ -6,14 +6,14 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-reagent-name-potash = potasa
+reagent-name-potash = potash
 reagent-desc-potash = Potasio en forma soluble en agua, originalmente creado empapando y hirviendo ceniza de madera. Se usa principalmente como fertilizante para plantas.
 
-reagent-name-saltpeter = salitre
+reagent-name-saltpeter = saltpeter
 reagent-desc-saltpeter = Una potente fuente de nutrición para plantas, pero también se usa como oxidante en la creación de pólvora negra.
 
-reagent-name-blackpowder = pólvora negra
+reagent-name-blackpowder = black powder
 reagent-desc-blackpowder = Un explosivo primitivo pero potente. ¡Explota cuando se calienta a 474K!
 
-reagent-name-cryostylane = criostilano
+reagent-name-cryostylane = cryostylane
 reagent-desc-cryostylane = Un químico útil que consume oxígeno o yodo para enfriar la solución en la que se encuentra.
