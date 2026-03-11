@@ -26,7 +26,7 @@ ent-ClothingHandsGlovesLeather = guantes de cuero de botánica
     .desc = Estos guantes de cuero protegen contra espinas, púas y otros objetos dañinos de origen floral. También son bastante cálidos.
 
 ent-ClothingHandsGlovesPowerglove = guantes de poder
-    .desc = ¡Ahora estoy jugando con poder! Espera... están apagados. #Use "¡Ahora estoy jugando con poder! ¡BAM!" for when they're turned on
+    .desc = ¡Ahora estoy jugando con poder! Espera... están apagados.
 
 ent-ClothingHandsGlovesRobohands = robomanos
     .desc = ¡Bip bip borp!

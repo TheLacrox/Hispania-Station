@@ -77,7 +77,7 @@ ent-ClothingHeadHatOutlawHat = sombrero de forajido
     .desc = Un sombrero que te hace parecer que llevas una pistola con muescas, numeradas del uno al veinte.
 
 ent-ClothingHeadHatWitch1 = sombrero de bruja
-    .desc = Un tocado de aspecto extraño. Te dan ganas de lanzar bolas de fuego. # Goob edit
+    .desc = Un tocado de aspecto extraño. Te dan ganas de lanzar bolas de fuego.
 
 ent-ClothingHeadHatPaper = sombrero de papel
     .desc = Un sombrero hecho de papel.
@@ -122,7 +122,7 @@ ent-ClothingHeadHatWarden = gorra del alguacil
     .desc = Este sombrero enfatiza que tú eres LA LEY.
 
 ent-ClothingHeadHatWitch = sombrero de bruja
-    .desc = Un tocado de aspecto extraño. Te dan ganas de lanzar bolas de fuego. # Goob edit
+    .desc = Un tocado de aspecto extraño. Te dan ganas de lanzar bolas de fuego.
 
 ent-ClothingHeadHatWizardFake = sombrero de mago falso
     .desc = Tiene escrito "BRUHO" en llamativas lentejuelas. Viene con una barba genial.

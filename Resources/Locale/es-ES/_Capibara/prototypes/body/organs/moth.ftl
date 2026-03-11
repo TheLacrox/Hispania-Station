@@ -1,1 +1,1 @@
-ent-OrganMothStomach = estómago de polilla # Shitmed
+ent-OrganMothStomach = estómago de polilla

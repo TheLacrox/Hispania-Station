@@ -355,7 +355,7 @@ ent-SignBiohazardMed = señal de peligro biológico
 ent-SignRadiationMed = señal de radiación
     .desc = Una señal que indica un peligro de radiación ionizante.
 
-ent-SignFlammableMed = señal de inflamable #when flammable component is done, this sign needs it
+ent-SignFlammableMed = señal de inflamable
     .desc = Una señal que indica materiales inflamables.
 
 ent-SignLaserMed = señal de láser

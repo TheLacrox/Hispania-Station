@@ -11,10 +11,10 @@ ent-MechDurand = Durand
     .desc = Un exotraje de combate lento pero resistente que es especialmente temible en espacios reducidos gracias a sus puñetazos. ¡Los xenos lo odian!
 
 ent-MechMarauder = Marauder
-    .desc = Parece que todos estamos salvados. # Mech del ERT
+    .desc = Parece que todos estamos salvados.
 
 ent-MechSeraph = Seraph
-    .desc = Eso es lo último que verás. # Mech del Escuadrón de la Muerte
+    .desc = Eso es lo último que verás.
 
 ent-MechGygaxSyndie = Gygax Oscuro
     .desc = Un Gygax modificado usado para propósitos nefastos. En la parte trasera de la placa de armadura hay una inscripción: "Cybersun Inc."

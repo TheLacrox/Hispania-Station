@@ -8,11 +8,11 @@ ent-BulletDebug = bang, ded bullet
 
 ent-CartridgeDebug = bang, ded cartridge
 
-ent-MeleeDebugGib = goob stick gibber # Goobstation edit
+ent-MeleeDebugGib = goob stick gibber
     .desc = golpea fuerte eh
 
-ent-MeleeDebug100 = goob stick 100dmg # Goobstation edit
+ent-MeleeDebug100 = goob stick 100dmg
     .desc = golpea fuerte eh
 
-ent-MeleeDebug200 = goob stick 200dmg # Goobstation edit
+ent-MeleeDebug200 = goob stick 200dmg
     .desc = golpea fuerte eh

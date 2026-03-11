@@ -1,4 +1,4 @@
-ent-BaseBigBox = caja de cartón #it's still just a box
+ent-BaseBigBox = caja de cartón
     .desc = ¿Eh? Solo una caja...
 
 ent-GhostBox = caja fantasma

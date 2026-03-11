@@ -1,5 +1,5 @@
 ent-AdvancedCombatMedipen = medipen de combate avanzado
-    .desc = Un medipen avanzado de un solo uso que contiene sustancias extraídas de bestias eldritch. # sangre de dragón espacial obtenida éticamente
+    .desc = Un medipen avanzado de un solo uso que contiene sustancias extraídas de bestias eldritch.
 
 ent-MedkitBSO = botiquín médico táctico
     .desc = Contiene todo lo que necesitas para recuperar a una persona rápidamente.

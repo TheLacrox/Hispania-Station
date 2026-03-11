@@ -9,17 +9,17 @@ ent-CartridgeRocketSingularityBuster = granada propulsada anti-singularidad
 
 ent-BaseGrenade = granada base
 
-ent-GrenadeBaton = granada antidisturbios (40mm) # Goobstation
+ent-GrenadeBaton = granada antidisturbios (40mm)
 
-ent-GrenadeBlast = granada explosiva (40mm) # Goobstation
+ent-GrenadeBlast = granada explosiva (40mm)
 
-ent-GrenadeFlash = granada de destello (40mm) # Goobstation
+ent-GrenadeFlash = granada de destello (40mm)
 
-ent-GrenadeFrag = granada de fragmentación (40mm) # Goobstation
+ent-GrenadeFrag = granada de fragmentación (40mm)
 
 ent-GrenadeCleanade = ronda de granada limpiadora
 
-ent-GrenadeEMP = granada EMP (40mm) # Goobstation
+ent-GrenadeEMP = granada EMP (40mm)
 
 ent-BaseCannonBall = bala de cañón base
 

@@ -20,4 +20,4 @@ ent-ClothingUniformJumpsuitChiefEngineerNT = mono de jefe de ingeniería
     .desc = Se suele bromear que el puesto de Jefe de Ingeniería en un sector de combate es al que ascienden los ingenieros realmente competentes en logística. Buena suerte.
 
 ent-ClothingUniformJumpsuitChiefEngineerSyndie = mono de jefe de ingeniería del Syndicate
-    .desc = Un mono de aspecto maligno con chaleco reflectante y camiseta interior roja. #TODO: Write a better description for this once Ship vs. Ship is real and actual player habits begin forming
+    .desc = Un mono de aspecto maligno con chaleco reflectante y camiseta interior roja.

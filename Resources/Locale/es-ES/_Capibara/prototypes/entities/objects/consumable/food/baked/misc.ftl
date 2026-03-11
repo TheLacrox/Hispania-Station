@@ -16,7 +16,7 @@ ent-FoodBakedMuffinChocolate = muffin de chocolate
 ent-FoodBakedMuffinBanana = muffin de banana
     .desc = Un delicioso y esponjoso muffin de banana.
 
-ent-FoodBakedBunHoney = bollo de miel #TODO honey
+ent-FoodBakedBunHoney = bollo de miel
     .desc = Un bollo pegajoso de pastelería glaseado con miel.
 
 ent-FoodBakedBunHotX = bollo de cruz caliente

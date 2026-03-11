@@ -7,8 +7,8 @@ ent-WeaponWandPolymorphMonkey = varita de polimorfismo en mono
 ent-WeaponWandFireball = varita de bola de fuego
     .desc = ¡Grandes bolas de fuego!
 
-ent-WeaponWandLocker = bastón del casillero # Goob edit
-    .desc = Un artefacto que expulsa pernos encapsulantes, para incapacitar a tu enemigo. # Goob edit
+ent-WeaponWandLocker = bastón del casillero
+    .desc = Un artefacto que expulsa pernos encapsulantes, para incapacitar a tu enemigo.
 
 ent-WeaponWandDeath = varita mágica de muerte instantánea
     .desc = Solo los mejores y más brillantes del equipo de I+D de los Space Wizards trabajaron juntos para crear esta belleza.

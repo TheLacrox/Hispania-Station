@@ -1,4 +1,4 @@
-ent-RifleBulletEnergyGunLethal = disparo de energía para rifle #sí es el proyectil X-01 modificado para uso de rifle-Creatorbot
+ent-RifleBulletEnergyGunLethal = disparo de energía para rifle
     .desc = Si puedes ver esto, probablemente estés muerto.
 
 ent-RifleBulletEnergyGunIon = disparo iónico para rifle
@@ -7,8 +7,8 @@ ent-RifleBulletEnergyGunIon = disparo iónico para rifle
 ent-RifleBulletEnergyGunDisabler = disparo deshabilitador para rifle
     .desc = Si puedes ver esto, probablemente estés muerto.
 
-ent-RifleBulletEnergyGunAsh = disparo de energía incinerador #vaya cosa
+ent-RifleBulletEnergyGunAsh = disparo de energía incinerador
     .desc = Si puedes ver esto, probablemente estés muerto.
 
-ent-RifleBulletEnergyGunOverchargeLethal = disparo de energía para rifle sobrealimentado #proyectil asesino de nukies parte uh perdí la cuenta
+ent-RifleBulletEnergyGunOverchargeLethal = disparo de energía para rifle sobrealimentado
     .desc = Si puedes ver esto, probablemente estés muerto.

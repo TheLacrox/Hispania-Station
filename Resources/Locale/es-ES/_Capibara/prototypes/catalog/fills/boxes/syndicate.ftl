@@ -2,7 +2,7 @@ ent-ElectricalDisruptionKit = kit de disrupción eléctrica
     .desc = Una caja de cartón para guardar cosas.
 
 ent-ChemicalSynthesisKit = kit de síntesis química
-    .desc = Un kit inicial para el aspirante a químico; incluye notablemente una carga química y temporizador, una jeringa de hyperzine y dos viales de vestine para todas tus necesidades criminales. # Goobstation
+    .desc = Un kit inicial para el aspirante a químico; incluye notablemente una carga química y temporizador, una jeringa de hyperzine y dos viales de vestine para todas tus necesidades criminales.
 
 ent-ThrowingKnivesKit = kit de cuchillos arrojadizos
     .desc = Un juego de 4 cuchillos arrojadizos de la marca del sindicato, perfectos para clavar en el cuerpo de tus víctimas.

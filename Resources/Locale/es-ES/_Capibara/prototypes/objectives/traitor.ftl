@@ -1,5 +1,5 @@
 ent-EscapeShuttleObjective = Escapar a centcomm con vida y sin restricciones.
-    .desc = Uno de nuestros agentes encubiertos te informará cuando llegues a la lanzadera de evacuación. No aparezcas esposado. # Goobstation
+    .desc = Uno de nuestros agentes encubiertos te informará cuando llegues a la lanzadera de evacuación. No aparezcas esposado.
 
 ent-DieObjective = Morir una muerte gloriosa
     .desc = Muere.

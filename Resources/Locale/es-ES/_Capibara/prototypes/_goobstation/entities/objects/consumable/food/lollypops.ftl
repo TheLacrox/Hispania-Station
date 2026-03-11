@@ -2,7 +2,7 @@ ent-FoodSnackLollypopWrappedBaseSyndicate = piruleta del Syndicate envuelta
     .desc = Una piruleta probablemente peligrosa rellena de químicos. Todavía está en el envoltorio.
 
 ent-FoodSnackLollypopBaseSyndicate = piruleta
-    .desc = Una piruleta de toda la vida. Esta te da mala espina. # La única forma de diferenciarlas. Lee las descripciones.
+    .desc = Una piruleta de toda la vida. Esta te da mala espina.
 
 ent-FoodSnackLollypopWrappedBaseNanotrasen = piruleta de NanoTrasen envuelta
     .desc = Una piruleta probablemente cara. Todavía está en su envoltorio dorado.
@@ -137,7 +137,7 @@ ent-FoodSnackLollypopWrappedSyndicate = piruleta del Syndicate envuelta
     .desc = Fabricada por Donk co, perfecta para almacenar químicos discretamente.
 
 ent-FoodSnackLollypopSyndicate = piruleta
-    .desc = Una piruleta de toda la vida. Esta te da mala espina. # La única forma de diferenciarlas. ¡Lee las descripciones!
+    .desc = Una piruleta de toda la vida. Esta te da mala espina.
 
 ent-FoodSnackLollypopWrappedLexorin = piruleta del Syndicate envuelta
     .desc = Una piruleta que contiene lexorin. Parece completamente normal sin el envoltorio.

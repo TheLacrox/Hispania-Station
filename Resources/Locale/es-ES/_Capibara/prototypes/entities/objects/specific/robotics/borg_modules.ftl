@@ -87,7 +87,7 @@ ent-BorgModuleSyndicateWeapon = módulo de borg de arma
     .desc = Una pieza tecnológica que da nuevas habilidades a los cyborgs.
 
 ent-BorgModuleOperative = módulo de borg operativo
-    .desc = Un módulo que viene con un par de tenazas de rescate del Syndicate, un Emag, un rompedor de accesos y un localizador del Syndicate. # Goobstation
+    .desc = Un módulo que viene con un par de tenazas de rescate del Syndicate, un Emag, un rompedor de accesos y un localizador del Syndicate.
 
 ent-BorgModuleEsword = módulo de borg de espada de energía
     .desc = Un módulo que viene con una espada de energía doble.

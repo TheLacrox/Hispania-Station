@@ -29,10 +29,10 @@ ent-ClothingOuterArmorHeavyRed = traje de armadura pesada rojo
     .desc = Un traje fuertemente blindado con acentos rojos que protege contra daño excesivo.
 
 ent-ClothingOuterArmorMagusblue = armadura de magus azul
-    .desc = Un traje blindado azul que proporciona buena protección. No cuenta como túnica de mago. # Goob edit
+    .desc = Un traje blindado azul que proporciona buena protección. No cuenta como túnica de mago.
 
 ent-ClothingOuterArmorMagusred = armadura de magus rojo
-    .desc = Un traje blindado rojo que proporciona buena protección. No cuenta como túnica de mago. # Goob edit
+    .desc = Un traje blindado rojo que proporciona buena protección. No cuenta como túnica de mago.
 
 ent-ClothingOuterArmorCaptainCarapace = caparazón del capitán
     .desc = Una coraza blindada que proporciona protección ofreciendo al mismo tiempo máxima movilidad y flexibilidad. Solo se entrega a los mejores de la estación.

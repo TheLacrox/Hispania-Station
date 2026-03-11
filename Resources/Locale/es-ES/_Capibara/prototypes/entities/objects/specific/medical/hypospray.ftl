@@ -14,16 +14,16 @@ ent-ChemicalMedipen = medipen químico
     .desc = Un inyector estéril para administración rápida de medicamentos a pacientes. Este no se puede recargar.
 
 ent-EmergencyMedipen = medipen de emergencia
-    .desc = Una forma rápida y segura de curar daños menores, detener el sangrado y estabilizar pacientes para personal sin conocimientos médicos avanzados. # goobstation
+    .desc = Una forma rápida y segura de curar daños menores, detener el sangrado y estabilizar pacientes para personal sin conocimientos médicos avanzados.
 
 ent-AntiPoisonMedipen = autoinyector antiveneno
     .desc = Una dosis rápida de antitóxico. Causa estrés extremo cuando se mezcla con otros medicamentos.
 
 ent-BruteAutoInjector = autoinyector de traumatismos
-    .desc = Una dosis rápida de bicaridina, ácido salicílico, ácido tranexámico y tramadol, diseñado para aplicaciones de combate. Se desaconseja encarecidamente el uso múltiple. # goobstation
+    .desc = Una dosis rápida de bicaridina, ácido salicílico, ácido tranexámico y tramadol, diseñado para aplicaciones de combate. Se desaconseja encarecidamente el uso múltiple.
 
 ent-BurnAutoInjector = autoinyector de quemaduras
-    .desc = Una dosis rápida de oxandrolona, leporazina y tramadol, diseñado para aplicaciones de combate. # goobstation
+    .desc = Una dosis rápida de oxandrolona, leporazina y tramadol, diseñado para aplicaciones de combate.
 
 ent-RadAutoInjector = autoinyector de radiación
     .desc = Una dosis rápida de antiradioactividad. Contiene arithrazina y bicaridina.
@@ -32,13 +32,13 @@ ent-PunctAutoInjector = autoinyector de puncturasa
     .desc = Una dosis rápida de puncturasa y ácido tranexámico, diseñado para aplicaciones de combate.
 
 ent-PyraAutoInjector = autoinyector de pirazina
-    .desc = Una dosis rápida de pirazina y oxandrolona, diseñado para aplicaciones de combate. # goobstation
+    .desc = Una dosis rápida de pirazina y oxandrolona, diseñado para aplicaciones de combate.
 
 ent-AirlossAutoInjector = autoinyector de pérdida de aire
     .desc = Una dosis rápida de solución salina y dexalín plus, diseñado para reactivar a alguien rápidamente.
 
-ent-SpaceMedipen = medipen de estabilización ambiental # goobstation
-    .desc = Contiene una mezcla de químicos que te protegerá temporalmente de entornos de baja presión y estabiliza tu temperatura corporal. # goobstation
+ent-SpaceMedipen = medipen de estabilización ambiental
+    .desc = Contiene una mezcla de químicos que te protegerá temporalmente de entornos de baja presión y estabiliza tu temperatura corporal.
 
 ent-Stimpack = inyector de hiperzina
     .desc = Contiene suficiente hiperzina para tener el efecto del químico durante 30 segundos. Úsalo cuando estés seguro de que estás listo para pelear.

@@ -77,7 +77,7 @@ ent-DrinkTonicWaterBottleFull = botella de agua tónica
 ent-DrinkWaterBottleFull = botella de agua
     .desc = Agua limpia simple de origen desconocido. Crees que quizás no quieres saberlo.
 
-ent-DrinkBeerBottleFull = botella de cerveza # beer it is. coffee. beer? coff-ee? be-er? c-o... b-e
+ent-DrinkBeerBottleFull = botella de cerveza
     .desc = Una bebida alcohólica elaborada con granos malteados, lúpulo, levadura y agua.
 
 ent-DrinkAleBottleFull = botella de Magm-Ale

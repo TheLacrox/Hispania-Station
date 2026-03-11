@@ -19,13 +19,13 @@ ent-MobGlockroach = cucaracha armada
 ent-MobMothroach = mothroach
     .desc = Este es el adorable subproducto de múltiples intentos de mezclar genéticamente polillas con cucarachas.
 
-ent-MobDuckMallard = pato ánade real #Cuac
+ent-MobDuckMallard = pato ánade real
     .desc = ¡Un adorable ánade real, es suave y esponjoso!
 
-ent-MobDuckWhite = pato blanco #Cuac
+ent-MobDuckWhite = pato blanco
     .desc = ¡Un adorable pato blanco, es suave y esponjoso!
 
-ent-MobDuckBrown = pato marrón #Cuac
+ent-MobDuckBrown = pato marrón
     .desc = ¡Un adorable pato marrón, es suave y esponjoso!
 
 ent-MobButterfly = mariposa
@@ -79,7 +79,7 @@ ent-MobMouseDead = ratón
 ent-MobMouseCancer = ratón canceroso
     .desc = Tóxico. ¡Chillido!
 
-ent-MobLizard = lagarto #Weh
+ent-MobLizard = lagarto
     .desc = Un dragón inofensivo.
 
 ent-MobSlug = babosa

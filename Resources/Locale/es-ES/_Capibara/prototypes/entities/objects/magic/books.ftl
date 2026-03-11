@@ -19,4 +19,4 @@ ent-KnockSpellbook = knock spellbook
 
 ent-FireballSpellbook = fireball spellbook
 
-ent-ScrollRunes = scroll of traps # Goob edit
+ent-ScrollRunes = scroll of traps

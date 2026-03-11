@@ -33,7 +33,7 @@ ent-GrenadeToy = granada de broma
 ent-BulletGrenadeToy = granada de broma
     .desc = ¡Si puedes ver esto, probablemente estés muerto!
 
-ent-WeaponLauncherTaiwanPond = taiwan pond # we ball
+ent-WeaponLauncherTaiwanPond = taiwan pond
     .desc = PLOP.
 
 ent-PlushieSamantha = peluche de jane blueshield

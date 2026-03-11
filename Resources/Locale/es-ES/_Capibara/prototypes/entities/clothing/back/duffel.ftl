@@ -52,5 +52,5 @@ ent-ClothingBackpackDuffelSyndicate = bolsa de viaje del sindicato
 ent-ClothingBackpackDuffelHolding = bolsa de viaje de almacenamiento
     .desc = Una bolsa de viaje que se abre en un bolsillo localizado de bluespace.
 
-ent-ClothingBackpackDuffelCBURN = bolsa de viaje de contención biológica # Goobstation
+ent-ClothingBackpackDuffelCBURN = bolsa de viaje de contención biológica
     .desc = Una bolsa de viaje que contiene una variedad de equipo de contención biológica.

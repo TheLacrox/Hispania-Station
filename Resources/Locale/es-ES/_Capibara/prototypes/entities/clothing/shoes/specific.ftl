@@ -28,7 +28,7 @@ ent-ClothingShoesWizard = zapatos de mago
 ent-ClothingShoesChameleon = zapatos negros
     .desc = Elegantes zapatos negros.
 
-ent-ClothingShoesChameleonNoSlips = zapatos negros #actual name and description in uplink_catalog.yml
+ent-ClothingShoesChameleonNoSlips = zapatos negros
     .desc = Elegantes zapatos negros.
 
 ent-ClothingShoesJester = zapatos de bufón

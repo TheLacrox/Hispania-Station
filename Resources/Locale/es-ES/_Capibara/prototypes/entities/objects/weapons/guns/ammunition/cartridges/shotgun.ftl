@@ -1,18 +1,18 @@
-ent-BaseShellShotgun = cartucho (12 Gauge) # Goobstation
+ent-BaseShellShotgun = cartucho (12 Gauge)
 
-ent-ShellShotgunBeanbag = cartucho (12 Gauge antidisturbios) # Goobstation
+ent-ShellShotgunBeanbag = cartucho (12 Gauge antidisturbios)
 
-ent-ShellShotgunSlug = cartucho (12 Gauge slug) # Goobstation
+ent-ShellShotgunSlug = cartucho (12 Gauge slug)
 
-ent-ShellShotgunFlare = cartucho (12 Gauge bengala) # Goobstation
+ent-ShellShotgunFlare = cartucho (12 Gauge bengala)
 
-ent-ShellShotgun = cartucho (12 Gauge) # Goobstation
+ent-ShellShotgun = cartucho (12 Gauge)
 
-ent-ShellShotgunIncendiary = cartucho (12 Gauge incendiario) # Goobstation
+ent-ShellShotgunIncendiary = cartucho (12 Gauge incendiario)
 
-ent-ShellShotgunPractice = cartucho (12 Gauge de práctica) # Goobstation
+ent-ShellShotgunPractice = cartucho (12 Gauge de práctica)
 
-ent-ShellTranquilizer = cartucho (12 Gauge tranquilizante) # Goobstation
+ent-ShellTranquilizer = cartucho (12 Gauge tranquilizante)
 
 ent-ShellShotgunImprovised = cartucho de escopeta improvisado
     .desc = Un cartucho de escopeta casero que dispara dolorosos fragmentos de vidrio. La dispersión es tan amplia que no daría ni a la pared de un granero.

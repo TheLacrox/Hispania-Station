@@ -10,8 +10,8 @@ ent-ClothingOuterSuitEmergency = traje EVA de emergencia
 ent-ClothingOuterHardsuitEVAPrisoner = traje EVA de prisionero
     .desc = Un traje espacial ligero para prisioneros que los protege del vacío del espacio durante emergencias.
 
-ent-ClothingOuterHardsuitAncientEVA = traje espacial NTSRA #Nanotrasen Space Research Association
+ent-ClothingOuterHardsuitAncientEVA = traje espacial NTSRA
     .desc = Un antiguo traje espacial, diseñado por la rama NTSRA de CentComm. Está muy finamente confeccionado, lo que permite mayor movilidad que la mayoría de los trajes espaciales modernos.
 
-ent-ClothingOuterHardsuitVoidParamed = traje duro de paramédico # Goob edit - it has high pressure protection and resistances, call it a hardsuit
-    .desc = Un traje duro hecho para paramédicos. # Goob edit
+ent-ClothingOuterHardsuitVoidParamed = traje duro de paramédico
+    .desc = Un traje duro hecho para paramédicos.

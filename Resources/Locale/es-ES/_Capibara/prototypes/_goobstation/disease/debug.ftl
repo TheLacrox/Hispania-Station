@@ -5,7 +5,7 @@ ent-DiseaseBehaviorSpreadDebug = propagación de depuración
     .desc = La plaga.
 
 ent-DiseaseBehaviorForceSpreadDebug = propagación omega
-    .desc = Los mundos se pudrirán. # [x] sufficiently edgy description
+    .desc = Los mundos se pudrirán.
 
 ent-DiseaseBehaviorTurboBlunt = veneno
     .desc = Causa mucho daño por impacto con el tiempo.

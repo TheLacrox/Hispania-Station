@@ -41,7 +41,7 @@ ent-ClothingNeckCloakTrans = capa de vampiro
     .desc = Usada por los vampiros de alto rango de la Sociedad Transilvana de Vampiros.
 
 ent-ClothingNeckCloakGoliathCloak = capa goliath
-    .desc = Una capa hecha de la piel de la fauna resiliente de un planeta lejano. #Goobstation
+    .desc = Una capa hecha de la piel de la fauna resiliente de un planeta lejano.
 
 ent-ClothingNeckCloakPirateCap = capa del capitán pirata
     .desc = Una atractiva capa pirata negra, con motivo de calavera incluido.
@@ -58,7 +58,7 @@ ent-ClothingNeckCloakAce = capa del piloto
 ent-ClothingNeckCloakAro = capa de hombre lobo
     .desc = Esta capa les hace saber a los demás que eres un lobo solitario.
 
-ent-ClothingNeckCloakAroace = capa del aeropiloto # thank you happyman442 this was the best name idea ever
+ent-ClothingNeckCloakAroace = capa del aeropiloto
     .desc = Capa otorgada a los mejores pilotos de Nanotrasen en planetas con atmósferas habitables.
 
 ent-ClothingNeckCloakBi = capa venenosa

@@ -38,7 +38,7 @@ ent-ValyrianStandardTranslator = traductor de Valyriense Estándar
     .desc = Traduce el habla entre Valyriense Estándar y Tau-Ceti Básico. ¡Para hablar con las Harpías!
 
 ent-AzazibaTranslator = traductor de Azaziba
-    .desc = Traduce el habla entre Unathi y Azaziba. ¡Para que los Unathi hablen la forma arcaica de su lengua nativa! # Solo para administradores, este objeto no es obtenible por razones de trasfondo.
+    .desc = Traduce el habla entre Unathi y Azaziba. ¡Para que los Unathi hablen la forma arcaica de su lengua nativa!
 
 ent-ChittinTranslator = traductor de Chittin
     .desc = Traduce el habla entre Chittin y Tau-Ceti Básico. ¡Para hablar con los Chitínidos!

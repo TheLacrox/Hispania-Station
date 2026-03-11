@@ -17,7 +17,7 @@ ent-ClothingEyesGlassesDeathsquad = gafas del comandante central
     .desc = Orgullo. Soberbia. Ira. No es un pecado si tienes razón.
 
 ent-ClothingEyesGlassesCentComm = gafas de mando central
-    .desc = Un par de gafas diseñadas para el personal de mando central. No es nada personal. # *teleports behind you*, Nothing personnel, kid.
+    .desc = Un par de gafas diseñadas para el personal de mando central. No es nada personal.
 
 ent-ClothingEyesGlassesCentCommNoThermal = gafas de mando central
     .desc = Un par de gafas diseñadas para el personal de mando central. Viene con más funciones de las que podrías imaginar.

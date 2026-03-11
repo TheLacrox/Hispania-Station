@@ -4,7 +4,7 @@ ent-SpeedLoaderMagnum = cargador rápido (.45 magnum)
     .desc = Diseñado para recargar rápidamente un revólver vacío, cabe hasta seis rondas. Diseñado para munición cinética de uso general.
 
 ent-SpeedLoaderMagnumEmpty = cargador rápido (.45 magnum cualquiera)
-    .desc = Diseñado para recargar rápidamente un revólver vacío, cabe hasta seis rondas para el gran hierro en tu cadera. #Big Iron reference (duh)
+    .desc = Diseñado para recargar rápidamente un revólver vacío, cabe hasta seis rondas para el gran hierro en tu cadera.
 
 ent-SpeedLoaderMagnumIncendiary = cargador rápido (.45 magnum incendiario)
     .desc = Diseñado para recargar rápidamente un revólver vacío, cabe hasta seis rondas. Diseñado para munición incendiaria auto-ignitable.

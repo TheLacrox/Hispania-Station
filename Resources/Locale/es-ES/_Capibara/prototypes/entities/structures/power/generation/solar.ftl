@@ -19,7 +19,7 @@ ent-SolarPanelUraniumBroken = panel solar de uranio
     .desc = Un panel solar de uranio roto.
 
 ent-SolarAssembly = ensamblaje solar
-    .desc = Un ensamblaje solar. Inserta vidrio para construir un panel solar. # Goobstation
+    .desc = Un ensamblaje solar. Inserta vidrio para construir un panel solar.
 
 ent-SolarTracker = rastreador solar
     .desc = Un rastreador solar. Rastrea la estrella más cercana.

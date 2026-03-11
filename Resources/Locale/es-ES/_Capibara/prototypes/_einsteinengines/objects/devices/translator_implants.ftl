@@ -32,7 +32,7 @@ ent-ValyrianStandardTranslatorImplant = implante traductor de valyriense estánd
     .desc = Un implante que da la habilidad de entender y hablar Valyriense Estándar. ¡Pip!
 
 ent-AzazibaTranslatorImplant = implante traductor de azaziba
-    .desc = Un implante que da la habilidad de entender y hablar Azaziba. # Solo para administradores, este objeto no es obtenible por razones de trasfondo.
+    .desc = Un implante que da la habilidad de entender y hablar Azaziba.
 
 ent-ChittinTranslatorImplant = implante traductor de chittin
     .desc = Un implante que da la habilidad de entender y hablar Chittin.

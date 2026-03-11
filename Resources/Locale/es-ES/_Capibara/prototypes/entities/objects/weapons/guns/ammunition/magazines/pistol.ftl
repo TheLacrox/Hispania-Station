@@ -12,19 +12,19 @@ ent-MagazinePistolSubMachineGunTopMountedEmpty = cargador WT550 (.35 auto montaj
     .desc = Cargador no convencional de 30 rondas de alimentación superior para el SMG WT550.
 
 ent-MagazinePistol = cargador de pistola (.35 auto)
-    .desc = Cargador de pila simple de 12 rondas para pistolas. Diseñado para munición cinética de uso general. #goobstation
+    .desc = Cargador de pila simple de 12 rondas para pistolas. Diseñado para munición cinética de uso general.
 
 ent-MagazinePistolEmpty = cargador de pistola (.35 auto cualquiera)
-    .desc = Cargador de pila simple de 12 rondas para pistolas. #goobstation
+    .desc = Cargador de pila simple de 12 rondas para pistolas.
 
 ent-MagazinePistolIncendiary = cargador de pistola (.35 auto incendiario)
-    .desc = Cargador de pila simple de 12 rondas para pistolas. Diseñado para munición incendiaria auto-ignitable. #goobstation
+    .desc = Cargador de pila simple de 12 rondas para pistolas. Diseñado para munición incendiaria auto-ignitable.
 
 ent-MagazinePistolPractice = cargador de pistola (.35 auto de práctica)
-    .desc = Cargador de pila simple de 12 rondas para pistolas. Diseñado para munición de tiza inofensiva. #goobstation
+    .desc = Cargador de pila simple de 12 rondas para pistolas. Diseñado para munición de tiza inofensiva.
 
 ent-MagazinePistolUranium = cargador de pistola (.35 auto de uranio)
-    .desc = Cargador de pila simple de 12 rondas para pistolas. Diseñado para munición exótica de núcleo de uranio. #goobstation
+    .desc = Cargador de pila simple de 12 rondas para pistolas. Diseñado para munición exótica de núcleo de uranio.
 
 ent-MagazinePistolHighCapacityEmpty = cargador de pistola ametralladora (.35 auto cualquiera)
 

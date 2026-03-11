@@ -1,7 +1,7 @@
 ent-BaseReactorFuelRod = barra de combustible
     .desc = Una barra de combustible para un reactor nuclear.
 
-ent-CerenkiteReactorFuelRod = barra de combustible de cerenkita # These are your basic, semi-harmless fuel rods
+ent-CerenkiteReactorFuelRod = barra de combustible de cerenkita
     .desc = Una barra de combustible para un reactor nuclear.
 
 ent-UraniumReactorFuelRod = barra de combustible de uranio

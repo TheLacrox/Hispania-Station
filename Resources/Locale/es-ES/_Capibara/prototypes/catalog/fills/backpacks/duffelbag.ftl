@@ -5,13 +5,13 @@ ent-ClothingBackpackDuffelSyndicateFilledMedical = bolsa de cirugía del sindica
     .desc = Una bolsa grande que contiene un conjunto completo de herramientas quirúrgicas.
 
 ent-ClothingBackpackDuffelSyndicateFilledShotgun = paquete Bulldog
-    .desc = "Compacto y letal: contiene la popular escopeta Bulldog, un tambor de slugs del 12 y cuatro tambores de perdigones del 12." #, y unas gafas de imagen térmica.
+    .desc = "Compacto y letal: contiene la popular escopeta Bulldog, un tambor de slugs del 12 y cuatro tambores de perdigones del 12."
 
 ent-ClothingBackpackDuffelSyndicateFilledSMG = paquete C-20r
-    .desc = "El fiel de siempre: el clásico subfusil C-20r, junto con tres cargadores." #, y un silenciador.
+    .desc = "El fiel de siempre: el clásico subfusil C-20r, junto con tres cargadores."
 
-ent-ClothingBackpackDuffelSyndicateFilledRifle = paquete Estoc # goob
-    .desc = "Para tiroteos a media distancia, el Estoc. Con tres cargadores incluidos." # goob
+ent-ClothingBackpackDuffelSyndicateFilledRifle = paquete Estoc
+    .desc = "Para tiroteos a media distancia, el Estoc. Con tres cargadores incluidos."
 
 ent-ClothingBackpackDuffelSyndicateFilledRevolver = paquete Python
     .desc = Entra en acción con un Magnum Python completamente cargado, junto con dos cargadores de velocidad.

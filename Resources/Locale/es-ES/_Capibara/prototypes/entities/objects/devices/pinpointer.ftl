@@ -10,7 +10,7 @@ ent-PinpointerSyndicateNuclear = localizador del Syndicate
 ent-PinpointerUniversal = localizador universal
     .desc = Un dispositivo de rastreo de mano que se sincroniza con cualquier entidad física cuando está apagado. Mantenlo vertical para conservar la precisión.
 
-ent-PinpointerStation = localizador del servidor de investigación  # Goob edit
+ent-PinpointerStation = localizador del servidor de investigación
     .desc = Un dispositivo de rastreo de mano que apunta hacia cualquier servidor de investigación cercano.
 
 ent-PinpointerMothership = localizador del núcleo

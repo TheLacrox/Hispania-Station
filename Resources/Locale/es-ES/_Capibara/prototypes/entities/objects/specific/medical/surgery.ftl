@@ -8,7 +8,7 @@ ent-Scalpel = bisturí
     .desc = Una herramienta quirúrgica usada para hacer incisiones en carne.
 
 ent-ScalpelShiv = cuchillo improvisado
-    .desc = Un trozo puntiagudo de vidrio, afilado hasta el filo y envuelto en cinta adhesiva para hacer un mango. # Could become a decent tool or weapon with right tool mods.
+    .desc = Un trozo puntiagudo de vidrio, afilado hasta el filo y envuelto en cinta adhesiva para hacer un mango.
 
 ent-ScalpelAdvanced = bisturí avanzado
     .desc = Hecho de materiales más caros, más afilado y generalmente más fiable.
@@ -26,7 +26,7 @@ ent-Saw = sierra de metal
     .desc = Para cortar madera y otros objetos en pedazos. O serrar huesos, en caso de emergencia.
 
 ent-SawImprov = choppa
-    .desc = Una malvada hoja serrada hecha de lo que sea punzante y desagradable que hayas podido encontrar. # It would make a pretty decent weapon, given there are more space for some tool mods too.
+    .desc = Una malvada hoja serrada hecha de lo que sea punzante y desagradable que hayas podido encontrar.
 
 ent-SawElectric = sierra circular
     .desc = Para corte de alta potencia.

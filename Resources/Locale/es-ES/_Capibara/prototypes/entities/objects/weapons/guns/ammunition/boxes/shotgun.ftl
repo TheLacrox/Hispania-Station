@@ -1,15 +1,15 @@
-ent-BoxBeanbag = caja de munición (12 Gauge porrazo) # Goob edit
+ent-BoxBeanbag = caja de munición (12 Gauge porrazo)
 
-ent-BoxLethalshot = caja de munición (12 Gauge perdigones) # Goob edit
+ent-BoxLethalshot = caja de munición (12 Gauge perdigones)
 
-ent-BoxShotgunSlug = caja de munición (12 Gauge posta) # Goob edit
+ent-BoxShotgunSlug = caja de munición (12 Gauge posta)
 
-ent-BoxShotgunFlare = caja de munición (12 Gauge bengala) # Goob edit
+ent-BoxShotgunFlare = caja de munición (12 Gauge bengala)
 
-ent-BoxShotgunIncendiary = caja de munición (12 Gauge incendiaria) # Goob edit
+ent-BoxShotgunIncendiary = caja de munición (12 Gauge incendiaria)
 
-ent-BoxShotgunUranium = caja de munición (12 Gauge uranio) # Goob edit
+ent-BoxShotgunUranium = caja de munición (12 Gauge uranio)
 
-ent-BoxShotgunPractice = caja de munición (12 Gauge práctica) # Goob edit
+ent-BoxShotgunPractice = caja de munición (12 Gauge práctica)
 
-ent-BoxShellTranquilizer = caja de munición (12 Gauge tranquilizante) # Goob edit
+ent-BoxShellTranquilizer = caja de munición (12 Gauge tranquilizante)

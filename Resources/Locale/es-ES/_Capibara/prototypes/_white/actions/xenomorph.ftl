@@ -28,5 +28,5 @@ ent-ActionJumpXenomorph = Saltar
 ent-ActionTransferPlasma = Transferir plasma (50)
     .desc = Pasa plasma a tu aliado.
 
-ent-ActionXenomorphPromotion = Ascender a Pretoriano (500) # Goobstation
-    .desc = Asciende directamente a un xenomorfo al rango de Pretoriano. # Goobstation
+ent-ActionXenomorphPromotion = Ascender a Pretoriano (500)
+    .desc = Asciende directamente a un xenomorfo al rango de Pretoriano.

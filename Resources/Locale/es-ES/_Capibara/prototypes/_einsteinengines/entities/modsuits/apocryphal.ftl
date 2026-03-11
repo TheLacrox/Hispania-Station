@@ -4,7 +4,7 @@ ent-ClothingModsuitApocryphal = unidad de control del modtraje Apócrifo
 ent-ClothingModsuitGauntletsApocryphal = guanteletes del modtraje Apócrifo
     .desc = Un par de guanteletes fabricados para el modtraje Apócrifo.
 
-ent-ClothingModsuitHelmetApocryphal = casco del modtraje Apócrifo # Goob edit
+ent-ClothingModsuitHelmetApocryphal = casco del modtraje Apócrifo
     .desc = Un casco de última generación diseñado por NanoTrasen para el modtraje Apócrifo. Incluye un HUD integrado.
 
 ent-ClothingModsuitChestplateApocryphal = peto del modtraje Apócrifo

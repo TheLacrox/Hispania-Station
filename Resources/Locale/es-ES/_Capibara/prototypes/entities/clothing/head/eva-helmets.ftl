@@ -8,7 +8,7 @@ ent-ClothingHeadHelmetSyndicate = casco EVA del Syndicate
     .desc = Un casco EVA simple y con estilo. Diseñado para el máximo badassery espacial con humildad.
 
 ent-ClothingHeadHelmetCosmonaut = casco de cosmonauta
-    .desc = Diseño antiguo, pero fabricación avanzada. #Description here originally started with " A deceptively well armored space helmet." Potentially had armor values in SS13 that weren't brought over?
+    .desc = Diseño antiguo, pero fabricación avanzada.
 
 ent-ClothingHeadHelmetVoidParamed = casco de vacío de paramédico
     .desc = Un casco de vacío diseñado para paramédicos.

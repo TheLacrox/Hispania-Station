@@ -23,4 +23,4 @@ ent-ClothingModsuitResearchDirector = unidad de control del modtraje minerva del
     .desc = Una unidad de módulo de control de hardsuit modular para resistir otra bomba de lanzadera.
 
 ent-ClothingModsuitCaptain = unidad de control del modtraje magnate del capitán
-    .desc = Un modtraje acorazado incrustado de gemas, pulido como un espejo y absolutamente MAGNATE. El líquido refrigerante es sangre de dragón rebajada con Dr. Gibb. Esto no es nada para ti, tío. # goob edit - grammar
+    .desc = Un modtraje acorazado incrustado de gemas, pulido como un espejo y absolutamente MAGNATE. El líquido refrigerante es sangre de dragón rebajada con Dr. Gibb. Esto no es nada para ti, tío.

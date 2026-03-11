@@ -1,4 +1,4 @@
-ent-OrganVoxLungs = pulmones de vox # Shitmed
+ent-OrganVoxLungs = pulmones de vox
     .desc = Los pulmones azules y anaerobios de un vox; inhalan nitrógeno para respirar. Cualquier forma de oxígeno gaseoso es letalmente tóxica si se inhala.
 
 ent-OrganVoxStomach = estómago

@@ -14,7 +14,7 @@ ent-ArrythmicKnife = cuchillo arrítmico
     .desc = Dicen que el miedo es el verdadero asesino de la mente, pero apuñalarlos en la cabeza también funciona. Te ralentiza y acelera aleatoriamente.
 
 ent-MonkStaff = bastón del monje
-    .desc = Un largo bastón alto hecho de madera pulida. Usado tradicionalmente en antiguas artes marciales de la Tierra, ahora se usa para acosar al payaso. #esto debería poder parar eventualmente.
+    .desc = Un largo bastón alto hecho de madera pulida. Usado tradicionalmente en antiguas artes marciales de la Tierra, ahora se usa para acosar al payaso.
 
 ent-AtheistFedora = Fedora del Ateo
     .desc = El ala del sombrero es tan afilada como tu ingenio. Lanzárselo a alguien duele casi tanto como refutar la existencia de Dios.

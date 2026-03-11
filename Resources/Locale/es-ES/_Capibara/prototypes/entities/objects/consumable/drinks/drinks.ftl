@@ -4,7 +4,7 @@ ent-DrinkGlass = vaso metamórfico
 ent-DrinkGlassCoupeShaped = copa coupe
     .desc = Una clásica copa coupe de cuello delgado, el ícono de las etiquetas frágiles en las cajas de todo el galaxia.
 
-ent-DrinkTeapot = tetera  # corta y rechoncha
+ent-DrinkTeapot = tetera
     .desc = Una elegante tetera. Simplemente rezuma clase.
 
 ent-DrinkWaterJug = jarra de agua

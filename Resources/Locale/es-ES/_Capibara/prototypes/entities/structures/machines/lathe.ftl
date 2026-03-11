@@ -25,7 +25,7 @@ ent-Biofabricator = fabricadora de biocubos
     .desc = Produce cubos de animales usando biomasa.
 
 ent-SecurityTechFab = fabricadora técnica de seguridad
-    .desc = Imprime equipos y placas de circuitos para uso del personal de seguridad. #Goobstation - Circuitboards description
+    .desc = Imprime equipos y placas de circuitos para uso del personal de seguridad.
 
 ent-AmmoTechFab = fabricadora técnica de munición
     .desc = Imprime el mínimo de balas que cualquier ejército o armería con presupuesto podría necesitar. Nada extravagante.

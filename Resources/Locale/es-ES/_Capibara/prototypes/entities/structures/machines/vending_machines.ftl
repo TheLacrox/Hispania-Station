@@ -71,7 +71,7 @@ ent-VendingMachineEngivend = Engi-Vend
     .desc = Expendedora de herramientas de repuesto. ¿Qué? ¿Esperabas alguna descripción ingeniosa?
 
 ent-VendingMachineMedical = NanoMed Plus
-    .desc = Es un dispensador de medicamentos médicos. ¡Solo sustancias naturales! (Y sillas de ruedas, ¿por qué no?) # Goobstation
+    .desc = Es un dispensador de medicamentos médicos. ¡Solo sustancias naturales! (Y sillas de ruedas, ¿por qué no?)
 
 ent-VendingMachineNutri = NutriMax
     .desc = Una máquina expendedora con sustancias nutritivas para plantas y herramientas botánicas.

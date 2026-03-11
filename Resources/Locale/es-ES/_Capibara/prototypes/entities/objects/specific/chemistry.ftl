@@ -26,10 +26,10 @@ ent-SyringeBluespace = jeringa de bluespace
     .desc = Inyección con tecnología avanzada de bluespace.
 
 ent-SyringeCryostasis = jeringa de criostasis
-    .desc = Una jeringa mejorada usada para contener químicos o soluciones sin reacciones. # Goobstation - buffing cryo syringe cause its currently pointless and buffing bluespace syringe to make it more useful.
+    .desc = Una jeringa mejorada usada para contener químicos o soluciones sin reacciones.
 
 ent-Pill = pastilla
     .desc = No es un supositorio.
 
 ent-PillCanister = bote de pastillas
-    .desc = Contiene hasta 15 pastillas. # Goobstation
+    .desc = Contiene hasta 15 pastillas.

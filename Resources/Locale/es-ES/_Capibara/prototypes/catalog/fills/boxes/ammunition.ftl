@@ -1,11 +1,11 @@
 ent-BoxMagazine = caja de cargadores
     .desc = Una caja llena de cargadores.
 
-ent-BoxMagazinePistolCaselessRifle = caja de cargadores de 9,5 mm HP # Goob edit
-    .desc = Una caja llena de cargadores de magnum sin vaina de 9,5 mm de punta hueca. # Goob edit
+ent-BoxMagazinePistolCaselessRifle = caja de cargadores de 9,5 mm HP
+    .desc = Una caja llena de cargadores de magnum sin vaina de 9,5 mm de punta hueca.
 
-ent-BoxMagazinePistolCaselessRiflePractice = caja de cargadores de 9,5 mm (práctica) # Goob edit
-    .desc = Una caja llena de cargadores de práctica de magnum sin vaina de 9,5 mm. # Goob edit
+ent-BoxMagazinePistolCaselessRiflePractice = caja de cargadores de 9,5 mm (práctica)
+    .desc = Una caja llena de cargadores de práctica de magnum sin vaina de 9,5 mm.
 
 ent-BoxMagazineLightRifle = caja de cargadores de rifle .30
     .desc = Una caja llena de cargadores de rifle .30.

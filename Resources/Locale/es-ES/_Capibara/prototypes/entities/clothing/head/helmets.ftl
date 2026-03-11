@@ -32,7 +32,7 @@ ent-ClothingHeadHelmetThunderdome = casco del Thunderdome
     .desc = ¡Que comience la batalla!
 
 ent-ClothingHeadHelmetWizardHelm = yelmo de mago
-    .desc = Un casco de aspecto extraño que sin duda pertenece a un verdadero mago. No cuenta como sombrero de mago. # Goob edit
+    .desc = Un casco de aspecto extraño que sin duda pertenece a un verdadero mago. No cuenta como sombrero de mago.
 
 ent-ClothingHeadHelmetFire = casco de bombero
     .desc = El mejor amigo de un técnico de atmosféricos. Proporciona algo de resistencia al calor y queda genial.

@@ -1,4 +1,4 @@
-ent-WeaponShotgunAntelope = Antelope # Referencia a la Saiga-12 (saiga es un género de antílopes)
+ent-WeaponShotgunAntelope = Antelope
     .desc = Una escopeta de cargador diseñada para neutralizar amenazas y mantener a raya a los criminales con fuerza abrumadora. Carga desde cargadores de tambor calibre 12.
 
 ent-WeaponShotgunCombat = Bojevic

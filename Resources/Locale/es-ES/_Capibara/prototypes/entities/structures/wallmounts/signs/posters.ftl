@@ -278,7 +278,7 @@ ent-PosterLegitPDAAd = PDA Ad
     .desc = Un póster que anuncia el último PDA de los proveedores de Nanotrasen.
 
 ent-PosterLegitEnlist = Enlist
-    .desc = "¡Alístate hoy en las reservas de ERT de Nanotrasen!" # Goobstation - There's no such thing as a deathsquad.
+    .desc = "¡Alístate hoy en las reservas de ERT de Nanotrasen!"
 
 ent-PosterLegitNanomichiAd = Nanomichi Ad
     .desc = Un póster que anuncia casetes de audio de la marca Nanomichi.

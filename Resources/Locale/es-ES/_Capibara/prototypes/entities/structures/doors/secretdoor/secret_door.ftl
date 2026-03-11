@@ -1,4 +1,4 @@
-ent-BaseSecretDoor = pared sólida # No meta
+ent-BaseSecretDoor = pared sólida
     .desc = Mantiene el aire adentro y la marea gris afuera.
 
 ent-BaseSecretDoorAssembly = ensamblaje de puerta secreta

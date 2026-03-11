@@ -7,11 +7,11 @@ ent-ClothingEyesGlassesGarOrange = gafas gar naranja
 ent-ClothingEyesGlassesGarGiga = gafas gar giga
     .desc = Evolucionamos más allá de la persona que éramos un minuto antes. Poco a poco avanzamos con cada giro. ¡Así es como funciona un taladro!
 
-ent-ClothingEyesGlassesMeson = gafas de mesón # goobstation - they're called MESONS!!!!
+ent-ClothingEyesGlassesMeson = gafas de mesón
     .desc = Gafas con lentes verdes que usan un polímero propietario que protege los ojos de todo tipo de daño ocular.
 
 ent-ClothingEyesGlasses = gafas
-    .desc = Al inspeccionarlas más de cerca, te das cuenta de que estas lentes en realidad están hechas de plástico. # Goobstation
+    .desc = Al inspeccionarlas más de cerca, te das cuenta de que estas lentes en realidad están hechas de plástico.
 
 ent-ClothingEyesGlassesJensen = gafas jensen
     .desc = Un par de gafas plegables con lentes amarillas. No las pediste.

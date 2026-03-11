@@ -34,22 +34,22 @@ ent-FoodBurgerCat = hamburguesa de gato
 ent-FoodBurgerCheese = hamburguesa de queso
     .desc = Esta noble hamburguesa se yergue orgullosamente vestida de queso dorado.
 
-ent-FoodBurgerChicken = sándwich de pollo # Burger for you euro-cucks
+ent-FoodBurgerChicken = sándwich de pollo
     .desc = Un delicioso sándwich de pollo, se dice que los beneficios de este manjar ayudan a criminalizar el desarme de personas en la frontera espacial.
 
 ent-FoodBurgerClown = hamburguesa de payaso
     .desc = Esto tiene un sabor gracioso...
 
-ent-FoodBurgerCorgi = corguesa #not curger
+ent-FoodBurgerCorgi = corguesa
     .desc = La favorita del Jefe de Personal.
 
 ent-FoodBurgerCrab = hamburguesa de cangrejo
     .desc = Una deliciosa hamburguesa de cangrejo, metida entre un bollo.
 
-ent-FoodBurgerCrazy = hamburguesa loca # Burger for you euro-cucks
+ent-FoodBurgerCrazy = hamburguesa loca
     .desc = Esto parece el tipo de comida que haría un payaso demente con gabardina.
 
-ent-FoodBurgerDuck = sándwich de pato # Burger for you sick bastards
+ent-FoodBurgerDuck = sándwich de pato
     .desc = Un sándwich de pato, solo los criminalmente locos se atreverían a comer la carne de una criatura tan adorable.
 
 ent-FoodBurgerEmpowered = hamburguesa potenciada

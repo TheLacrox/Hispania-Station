@@ -47,7 +47,7 @@ ent-ClothingOuterWizard = túnicas de mago
     .desc = Una bizarra túnica azul incrustada de gemas que irradia energías mágicas.
 
 ent-ClothingOuterWizardRed = túnicas de mago rojo
-    .desc = Una bizarra túnica roja incrustada de gemas que irradia energías mágicas. # Goob edit
+    .desc = Una bizarra túnica roja incrustada de gemas que irradia energías mágicas.
 
 ent-ClothingOuterSkub = traje skub
     .desc = "Skub" está escrito toscamente en el exterior de este traje cilíndrico.

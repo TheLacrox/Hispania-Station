@@ -1,8 +1,8 @@
-ent-BaseMagazineBoxCaselessRifle = caja de munición (9,5mm HP) # Goob edit
+ent-BaseMagazineBoxCaselessRifle = caja de munición (9,5mm HP)
 
-ent-MagazineBoxCaselessRifle10x24 = caja de munición (9,5mm HP) # Goob edit
+ent-MagazineBoxCaselessRifle10x24 = caja de munición (9,5mm HP)
 
-ent-MagazineBoxCaselessRifleBig = caja de munición (9,5mm HP) # Goob edit
+ent-MagazineBoxCaselessRifleBig = caja de munición (9,5mm HP)
 
 ent-MagazineBoxCaselessRifle = caja de munición (9,5mm HP)
     .desc = Una caja de cartón de cartuchos sin vaina de 9,5mm. Destinada a contener munición cinética de propósito general.

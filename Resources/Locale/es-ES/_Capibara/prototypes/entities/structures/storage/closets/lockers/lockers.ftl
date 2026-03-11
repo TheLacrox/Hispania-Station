@@ -7,8 +7,8 @@ ent-LockerSteel = taquilla segura
 ent-LockerQuarterMaster = taquilla del intendente
     .desc = Una unidad de almacenamiento estándar de Nanotrasen.
 
-ent-LockerSalvageSpecialist = taquilla del especialista en salvamento # Lavaland Change
-    .desc = Contiene equipo útil para la exploración espacial. # Lavaland Change
+ent-LockerSalvageSpecialist = taquilla del especialista en salvamento
+    .desc = Contiene equipo útil para la exploración espacial.
 
 ent-LockerShaftMiner = taquilla del minero de pozos
     .desc = Contiene equipo útil para la exploración planetaria.

@@ -1,11 +1,11 @@
-ent-BaseMagazineShotgun = tambor de munición (cartuchos 12 Gauge) # Goobstation
+ent-BaseMagazineShotgun = tambor de munición (cartuchos 12 Gauge)
 
-ent-MagazineShotgunEmpty = tambor de munición (12 Gauge cualquiera) # Goobstation
+ent-MagazineShotgunEmpty = tambor de munición (12 Gauge cualquiera)
 
-ent-MagazineShotgun = tambor de munición (12 Gauge perdigones) # Goobstation
+ent-MagazineShotgun = tambor de munición (12 Gauge perdigones)
 
-ent-MagazineShotgunBeanbag = tambor de munición (12 Gauge antidisturbios) # Goobstation
+ent-MagazineShotgunBeanbag = tambor de munición (12 Gauge antidisturbios)
 
-ent-MagazineShotgunSlug = tambor de munición (12 Gauge slug) # Goobstation
+ent-MagazineShotgunSlug = tambor de munición (12 Gauge slug)
 
-ent-MagazineShotgunIncendiary = tambor de munición (12 Gauge incendiario) # Goobstation
+ent-MagazineShotgunIncendiary = tambor de munición (12 Gauge incendiario)

@@ -11,7 +11,7 @@ ent-SandBattlemap = mapa de batalla de arena
     .desc = Un mapa de batalla para empezar tus épicos episodios en la playa. ¡Piezas no incluidas!
 
 ent-SnowBattlemap = mapa de batalla de nieve
-    .desc = Un mapa de batalla para tu gélida exploración. ¡Piezas no incluidas! # if this isn't funny enough i can remove it
+    .desc = Un mapa de batalla para tu gélida exploración. ¡Piezas no incluidas!
 
 ent-ShipBattlemap = mapa de batalla de nave
     .desc = Un mapa de batalla para empezar tu épica exploración espacial. ¡Piezas no incluidas!
