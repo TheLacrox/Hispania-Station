@@ -683,6 +683,8 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         comp.VoicePrototypeId = voicePrototypeId;
         humanoid.BarkVoice = voicePrototypeId;
         Dirty(uid, comp);
+
+        EnsureComp<Content.Shared._Capibara.TTS.TextToSpeechComponent>(uid); // Capibara - TTS
     }
     #endregion
     // Goob Station - Barks End

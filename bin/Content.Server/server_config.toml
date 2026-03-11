@@ -33,7 +33,7 @@ enabled = true
 
 [game]
 hostname = "MyServer"
-lobbyenabled = false
+lobbyenabled = true
 
 [console]
 # If this is true, people connecting from this machine (loopback)
@@ -87,6 +87,11 @@ hub_urls = "https://hub.spacestation14.com/"
 # Optional in any case and automatically set if hosting a client ZIP.
 # This hash is an example only.
 # build = "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+
+[tts]
+# Capibara - TTS
+enabled = true
+connection_string = "127.0.0.1:6380"
 
 [auth]
 # Authentication (accounts):

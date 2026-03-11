@@ -195,6 +195,7 @@ using Content.Shared.Administration.Managers;
 using Content.Shared.Chat;
 using Content.Shared.Kitchen;
 using Content.Shared.Players.PlayTimeTracking;
+using Content.Server._Capibara.TTS; // Capibara - TTS
 using Content.Shared.Players.RateLimiting;
 
 namespace Content.Server.IoC
@@ -246,6 +247,7 @@ namespace Content.Server.IoC
             IoCManager.Register<CVarControlManager>();
             IoCManager.Register<LastRolledAntagManager>(); // Goobstation - antag pity
             IoCManager.Register<LinkAccountManager>(); // RMC - Patreon
+            IoCManager.Register<ITTSClient, TTSClient>(); // Capibara - TTS
         }
     }
 }

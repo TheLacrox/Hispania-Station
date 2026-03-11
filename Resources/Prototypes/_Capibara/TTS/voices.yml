@@ -1,0 +1,191 @@
+# Capibara - TTS Voice Prototypes
+# Each voice maps to a distinct edge-tts / piper voice in the TTS worker.
+# Voices are named by accent/origin for variety.
+
+# Male voices
+- type: ttsVoice
+  id: VoiceMaleAlvaro
+  name: Álvaro (España)
+  sex: Male
+
+- type: ttsVoice
+  id: VoiceMaleJorge
+  name: Jorge (México)
+  sex: Male
+
+- type: ttsVoice
+  id: VoiceMaleTomas
+  name: Tomás (Argentina)
+  sex: Male
+
+- type: ttsVoice
+  id: VoiceMaleGonzalo
+  name: Gonzalo (Colombia)
+  sex: Male
+
+- type: ttsVoice
+  id: VoiceMaleLorenzo
+  name: Lorenzo (Chile)
+  sex: Male
+
+- type: ttsVoice
+  id: VoiceMaleCarlos
+  name: Carlos (Honduras)
+  sex: Male
+
+- type: ttsVoice
+  id: VoiceMaleEmilio
+  name: Emilio (Rep. Dominicana)
+  sex: Male
+
+- type: ttsVoice
+  id: VoiceMaleAlex
+  name: Alex (Perú)
+  sex: Male
+
+- type: ttsVoice
+  id: VoiceMaleAlonso
+  name: Alonso (EEUU)
+  sex: Male
+
+- type: ttsVoice
+  id: VoiceMaleManuel
+  name: Manuel (Cuba)
+  sex: Male
+
+- type: ttsVoice
+  id: VoiceMaleMarcelo
+  name: Marcelo (Bolivia)
+  sex: Male
+
+- type: ttsVoice
+  id: VoiceMaleVictor
+  name: Víctor (Puerto Rico)
+  sex: Male
+
+- type: ttsVoice
+  id: VoiceMaleSebastian
+  name: Sebastián (Venezuela)
+  sex: Male
+
+- type: ttsVoice
+  id: VoiceMaleMateo
+  name: Mateo (Uruguay)
+  sex: Male
+
+- type: ttsVoice
+  id: VoiceMaleRodrigo
+  name: Rodrigo (El Salvador)
+  sex: Male
+
+# Female voices
+- type: ttsVoice
+  id: VoiceFemaleElvira
+  name: Elvira (España)
+  sex: Female
+
+- type: ttsVoice
+  id: VoiceFemaleDalia
+  name: Dalia (México)
+  sex: Female
+
+- type: ttsVoice
+  id: VoiceFemaleElena
+  name: Elena (Argentina)
+  sex: Female
+
+- type: ttsVoice
+  id: VoiceFemaleSalome
+  name: Salomé (Colombia)
+  sex: Female
+
+- type: ttsVoice
+  id: VoiceFemaleCatalina
+  name: Catalina (Chile)
+  sex: Female
+
+- type: ttsVoice
+  id: VoiceFemaleKarla
+  name: Karla (Honduras)
+  sex: Female
+
+- type: ttsVoice
+  id: VoiceFemaleRamona
+  name: Ramona (Rep. Dominicana)
+  sex: Female
+
+- type: ttsVoice
+  id: VoiceFemaleCamila
+  name: Camila (Perú)
+  sex: Female
+
+- type: ttsVoice
+  id: VoiceFemalePaloma
+  name: Paloma (EEUU)
+  sex: Female
+
+- type: ttsVoice
+  id: VoiceFemaleSofia
+  name: Sofía (Bolivia)
+  sex: Female
+
+- type: ttsVoice
+  id: VoiceFemaleXimena
+  name: Ximena (España)
+  sex: Female
+
+- type: ttsVoice
+  id: VoiceFemaleAndrea
+  name: Andrea (Ecuador)
+  sex: Female
+
+- type: ttsVoice
+  id: VoiceFemalePaola
+  name: Paola (Venezuela)
+  sex: Female
+
+- type: ttsVoice
+  id: VoiceFemaleValentina
+  name: Valentina (Uruguay)
+  sex: Female
+
+- type: ttsVoice
+  id: VoiceFemaleKarina
+  name: Karina (Puerto Rico)
+  sex: Female
+
+# Unsexed / neutral voices
+- type: ttsVoice
+  id: VoiceNeutralMaria
+  name: María (Costa Rica)
+  sex: Unsexed
+
+- type: ttsVoice
+  id: VoiceNeutralJuan
+  name: Juan (Costa Rica)
+  sex: Unsexed
+
+# Silicon voices
+- type: ttsVoice
+  id: VoiceSiliconJavier
+  name: Silicon Javier
+  sex: Unsexed
+  silicon: true
+
+- type: ttsVoice
+  id: VoiceSiliconTeresa
+  name: Silicon Teresa
+  sex: Unsexed
+  silicon: true
+
+- type: ttsVoice
+  id: VoiceSiliconFederico
+  name: Silicon Federico
+  sex: Unsexed
+  silicon: true
+
+- type: ttsVoice
+  id: VoiceSiliconYolanda
+  name: Silicon Yolanda
+  sex: Unsexed
+  silicon: true

@@ -1,0 +1,22 @@
+<!-- SPDX-FileCopyrightText: 2025 Capibara Station Contributors -->
+<!-- SPDX-License-Identifier: AGPL-3.0-or-later -->
+
+<DefaultWindow xmlns="https://spacestation14.io"
+               xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+               Title="{Loc 'tts-popup-title'}"
+               SetSize="450 250"
+               Resizable="False">
+    <BoxContainer Orientation="Vertical" Margin="15" SeparationOverride="12">
+        <RichTextLabel Name="MessageLabel" />
+        <BoxContainer Orientation="Horizontal" HorizontalAlignment="Center" SeparationOverride="20"
+                      Margin="0 10 0 0">
+            <Button Name="EnableButton"
+                    Text="{Loc 'tts-popup-enable'}"
+                    MinWidth="150"
+                    StyleClasses="ButtonColorGreen" />
+            <Button Name="DisableButton"
+                    Text="{Loc 'tts-popup-disable'}"
+                    MinWidth="150" />
+        </BoxContainer>
+    </BoxContainer>
+</DefaultWindow>

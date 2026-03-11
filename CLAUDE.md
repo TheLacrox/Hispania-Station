@@ -110,6 +110,10 @@ Sometimes you need to hook into existing upstream systems. These edits create me
 | `Resources/Prototypes/game_presets.yml` | Add `StationObjectivesRule` to game presets | Medium (frequently edited) |
 | `Resources/Prototypes/Guidebook/station.yml` | Add `CapibaraEconomy` to guidebook tree | Low (append to list) |
 | `Resources/Locale/{en-US,es-ES}/guidebook/guides.ftl` | Add economy guidebook entry names | Low (append to end) |
+| `Content.Server/Content.Server.csproj` | Add `StackExchange.Redis` NuGet package for TTS | Low |
+| `Directory.Packages.props` | Add `StackExchange.Redis` version for central package management | Low (append) |
+| `Content.Server/IoC/ServerContentIoC.cs` | Register `ITTSClient` / `TTSClient` for TTS | Low (append) |
+| `Content.Server/Entry/EntryPoint.cs` | Initialize and shutdown `ITTSClient` for TTS | Low (append) |
 
 **Rules for upstream edits:**
 
@@ -154,6 +158,7 @@ Current custom features:
 
 - **Economy** — Bank accounts on ID cards, ATM machines, salary payroll system, vending machine pricing, salary management console (HOP/Captain)
 - **Station Objectives** — Cooperative crew objectives with a 30-minute deadline that freezes salaries if unmet
+- **TTS (Text-to-Speech)** — Converts in-game speech to audio via external TTS service over Redis. Server hooks `EntitySpokeEvent`, streams OGG audio chunks to PVS clients. Requires Redis + TTS worker (see `docker-compose.yml`). CVars: `tts.enabled`, `tts.connection_string`
 
 ### Other Fork Content
 

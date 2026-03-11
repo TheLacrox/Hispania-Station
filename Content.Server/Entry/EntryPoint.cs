@@ -134,6 +134,7 @@
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
+using Content.Server._Capibara.TTS; // Capibara - TTS
 using Content.Server._Goobstation.Antag;
 using Content.Server.Acz;
 using Content.Server.Administration;
@@ -185,6 +186,7 @@ namespace Content.Server.Entry
         private IWatchlistWebhookManager _watchlistWebhookManager = default!;
         private IConnectionManager? _connectionManager;
         private LastRolledAntagManager? _lastAntagManager; // Goobstation
+        private ITTSClient? _ttsClient; // Capibara - TTS
 
         /// <inheritdoc />
         public override void Init()
@@ -255,6 +257,8 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<PlayerRateLimitManager>().Initialize();
                 _lastAntagManager = IoCManager.Resolve<LastRolledAntagManager>(); // Goobstation
                 _lastAntagManager.Initialize(); // Goobstation
+                _ttsClient = IoCManager.Resolve<ITTSClient>(); // Capibara - TTS
+                _ttsClient.Initialize(); // Capibara - TTS
             }
         }
 
@@ -319,6 +323,7 @@ namespace Content.Server.Entry
 
         protected override void Dispose(bool disposing)
         {
+            _ttsClient?.Shutdown(); // Capibara - TTS
             _playTimeTracking?.Shutdown();
             _dbManager?.Shutdown();
             IoCManager.Resolve<ServerApi>().Shutdown();
