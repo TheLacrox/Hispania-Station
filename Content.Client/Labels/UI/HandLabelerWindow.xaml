@@ -9,11 +9,33 @@ SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 SPDX-License-Identifier: MIT
 -->
 
+<!-- Capibara - Starlight port: saved labels UI -->
 <DefaultWindow xmlns="https://spacestation14.io"
             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-            Title="{Loc 'hand-labeler-ui-header'}">
+            xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
+            Title="{Loc 'hand-labeler-ui-header'}"
+            SetWidth="400"
+            SetHeight="400">
     <BoxContainer Orientation="Vertical" SeparationOverride="4" MinWidth="150">
         <Label Name="CurrentTextLabel" Text="{Loc 'hand-labeler-current-text-label'}" />
         <LineEdit Name="LabelLineEdit" />
+        <!-- Reset / Clear buttons -->
+        <BoxContainer Orientation="Horizontal" SeparationOverride="4">
+            <Button Name="ResetButton" Text="{Loc 'hand-labeler-ui-reset-label-text'}" HorizontalExpand="True" />
+            <Button Name="ClearButton" Text="{Loc 'hand-labeler-ui-clear-label-text'}" HorizontalExpand="True" />
+        </BoxContainer>
+        <!-- Saved labels section -->
+        <Label Name="SavedLabelsLabel" Text="{Loc 'hand-labeler-saved-labels'}" />
+        <PanelContainer VerticalExpand="True" HorizontalExpand="True">
+            <PanelContainer.PanelOverride>
+                <gfx:StyleBoxFlat BackgroundColor="#1B1B1E" />
+            </PanelContainer.PanelOverride>
+            <ItemList Name="SavedLabelsList" VerticalExpand="True" HorizontalExpand="True" />
+        </PanelContainer>
+        <!-- Save / Delete buttons -->
+        <BoxContainer Orientation="Horizontal" SeparationOverride="4">
+            <Button Name="SaveLabelButton" Text="{Loc 'hand-labeler-save-label-text'}" HorizontalExpand="True" />
+            <Button Name="DeleteLabelButton" Text="{Loc 'hand-labeler-delete-label-text'}" HorizontalExpand="True" />
+        </BoxContainer>
     </BoxContainer>
 </DefaultWindow>

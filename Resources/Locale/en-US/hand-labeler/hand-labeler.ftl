@@ -24,3 +24,11 @@ hand-labeler-has-label = This object has a label on it, which reads '{$label}'
 # Verb text
 hand-labeler-remove-label-text = Remove label
 hand-labeler-add-label-text = Apply label
+
+# Capibara - Starlight port: saved labels
+hand-labeler-saved-labels = Saved Labels:
+hand-labeler-save-label-text = Save Label
+hand-labeler-delete-label-text = Delete Label
+hand-labeler-delete-mode-text = Deleting...
+hand-labeler-ui-clear-label-text = Clear
+hand-labeler-ui-reset-label-text = Reset

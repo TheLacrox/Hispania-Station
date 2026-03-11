@@ -49,7 +49,17 @@ namespace Content.Client.Labels.UI
             }
 
             _window.OnLabelChanged += OnLabelChanged;
+            // Capibara - Starlight port: saved labels selection
+            _window.OnLabelSelected += OnLabelSelected;
             Reload();
+            _window.SetInitialLabelState();
+        }
+
+        // Capibara - Starlight port: handle saved label selection
+        private void OnLabelSelected(string label)
+        {
+            _window?.SetCurrentLabel(label);
+            SendPredictedMessage(new HandLabelerLabelChangedMessage(label));
         }
 
         private void OnLabelChanged(string newLabel)
