@@ -230,6 +230,12 @@
         {
             "name": "base-stripes-inhand-right",
             "directions": 4
+        },
+        {
+            "name": "centcomm"
+        },
+        {
+            "name": "icon-ert"
         }
     ]
 }

@@ -1,0 +1,54 @@
+# SPDX-FileCopyrightText: 2025 DevilStation Contributors
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Base CentComm module (tag override)
+- type: entity
+  id: BaseBorgModuleCentComm
+  parent: BaseBorgModule
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - BorgModuleCentComm
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: base-icon-inhand-left
+        color: "#9DD993"
+      - state: base-module-inhand-left
+        color: "#378631"
+      - state: base-part-inhand-left
+      - state: base-stripes-inhand-left
+        color: "#404040"
+      right:
+      - state: base-icon-inhand-right
+        color: "#9DD993"
+      - state: base-module-inhand-right
+        color: "#378631"
+      - state: base-part-inhand-right
+      - state: base-stripes-inhand-right
+        color: "#404040"
+
+# ERT cyborg module — weapons and tools loadout
+- type: entity
+  parent: [ BaseBorgModuleCentComm, BaseProviderBorgModule, BaseCentcommContraband ]
+  id: BorgModuleERT
+  name: ERT cyborg module
+  description: A weapons module that comes with several tools for a ERT Cyborg.
+  components:
+  - type: Sprite
+    layers:
+    - state: centcomm
+    - state: icon-ert
+  - type: ItemBorgModule
+    moduleId: ERT
+    items:
+    - WeaponAdvancedLaser
+    - Flash
+    - StunBatonBorg
+    - JawsOfLife
+    - WelderExperimental
+    - MiningDrillDiamond
+    - SelfRechargingFireExtinguisher
+  - type: BorgModuleIcon
+    icon: { sprite: Interface/Actions/actions_borg.rsi, state: ert-module }

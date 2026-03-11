@@ -1,0 +1,16 @@
+# SPDX-FileCopyrightText: 2025 DevilStation Contributors
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Self-recharging stun baton for ERT cyborg module
+- type: entity
+  id: StunBatonBorg
+  parent: Stunbaton
+  name: recharging cyborg baton
+  description: A stun baton designed for cyborg use. Slowly recharges its battery over time.
+  components:
+  - type: Battery
+    maxCharge: 750
+    startingCharge: 750
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 20

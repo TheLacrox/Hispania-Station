@@ -1,0 +1,42 @@
+# SPDX-FileCopyrightText: 2025 DevilStation Contributors
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Space Jesus — admeme entity
+- type: startingGear
+  id: SpaceJesusGear
+  equipment:
+    head: ClothingHeadHatHolyWatermelon
+    jumpsuit: ClothingUniformSkirtTidal
+    shoes: ClothingShoesWizard
+
+- type: entity
+  name: Space Jesus
+  parent: MobHuman
+  id: MobSpaceJesus
+  description: HOLY SHIT IS THAT JESUS CHRIST???
+  components:
+  - type: Stamina
+    critThreshold: 500
+  - type: NightVision
+    color: "#FFFFFF"
+    activateSound: null
+    deactivateSound: null
+  - type: ThermalVision
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      1000: Critical
+      2000: Dead
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Effects/holy.ogg
+    animation: WeaponArcPunch
+    damage:
+      types:
+        Heat: 100
+        Structural: 10000
+  - type: Loadout
+    prototypes: [SpaceJesusGear]
+  - type: InputMover
+  - type: MobMover
+  - type: BibleUser

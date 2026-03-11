@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2025 DevilStation Contributors
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# Ported from imp-station-14 — tidal robes for Space Jesus
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformSkirtTidal
+  name: tidal robes
+  description: It's very comfortable, for just being a square of cloth.
+  components:
+  - type: Sprite
+    sprite: _DevilStation/Clothing/Uniforms/tidalrobe.rsi
+  - type: Clothing
+    sprite: _DevilStation/Clothing/Uniforms/tidalrobe.rsi

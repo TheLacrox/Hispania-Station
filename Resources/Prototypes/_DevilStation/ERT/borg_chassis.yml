@@ -1,0 +1,146 @@
+# SPDX-FileCopyrightText: 2025 DevilStation Contributors
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+# ERT Cyborg Chassis — admin-spawnable, tanky borg with CentComm lawset
+- type: entity
+  id: BorgChassisERT
+  parent: BaseBorgChassisNotIonStormable
+  name: ERT cyborg
+  description: A man-machine hybrid that's sent into high-intensity operations. You have a feeling you shouldn't try to fight this one.
+  components:
+  - type: Reactive
+    groups:
+      Acidic: [ Touch ]
+  - type: DamageOnHighSpeedImpact
+    damage:
+      types:
+        Blunt: 5
+    soundHit:
+      collection: MetalThud
+  - type: CombatMode
+  - type: NoSlip
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 300
+        mask:
+        - MobMask
+        layer:
+        - MobLayer
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3
+    baseSprintSpeed: 5
+  - type: BorgTransponder
+    name: ERT cyborg
+    sprite:
+      sprite: Mobs/Silicon/chassis.rsi
+      state: ERT
+  - type: Sprite
+    layers:
+    - state: ERT
+    - state: ERT_e
+      map: ["enum.BorgVisualLayers.Light"]
+      shader: unshaded
+      visible: false
+    - state: ERT_l
+      shader: unshaded
+      map: ["light"]
+      visible: false
+  - type: BorgChassis
+    maxModules: 3
+    hasMindState: ERT_e
+    noMindState: ERT_e_r
+    moduleWhitelist:
+      tags:
+      - BorgModuleGeneric
+      - BorgModuleSyndicate
+  - type: FlashImmunity
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      150: Critical
+      250: Dead
+    stateAlertDict:
+      Alive: BorgHealth
+      Critical: BorgCrit
+      Dead: BorgDead
+    showOverlays: false
+    allowRevives: true
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 190
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          path: /Audio/Machines/warning_buzzer.ogg
+          params:
+            volume: 5
+    - trigger:
+        !type:DamageTrigger
+        damage: 750
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+      - !type:EmptyContainersBehaviour
+        containers:
+        - borg_brain
+        - cell_slot
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Common
+    - Science
+    - CentCom
+    - Security
+    - Command
+  - type: ActiveRadio
+    channels:
+    - Common
+    - Science
+    - CentCom
+    - Security
+    - Command
+  - type: ZombieImmune
+  - type: Repairable
+    doAfterDelay: 10
+  - type: ContainerFill
+    containers:
+      borg_brain:
+      - MMIFilled
+      borg_module:
+      - BorgModuleERT
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+        startingItem: PowerCellHyper
+  - type: SiliconLawProvider
+    laws: CentCommLawset
+  - type: RandomMetadata
+    nameSegments:
+    - NamesBorg
+  - type: NpcFactionMember
+    factions:
+    - NanoTrasen
+  - type: Access
+    enabled: false
+    groups:
+    - AllAccess
+    tags:
+    - Borg
+    - CentralCommand
+  - type: AccessReader
+    access: [["Command"], ["Research"]]
+  - type: ShowJobIcons
+  - type: InteractionPopup
+    interactSuccessString: petting-success-generic-cyborg
+    interactFailureString: petting-failure-generic-cyborg
+    interactSuccessSound:
+      path: /Audio/Ambience/Objects/periodic_beep.ogg
