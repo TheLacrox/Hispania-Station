@@ -142,7 +142,7 @@
     price: 100
   - type: BlockWeather
   - type: SoundBlocker # Trauma
-    soundBlockPercent: 0.25
+    soundBlockPercent: 0.4
 
 - type: entity
   parent: Window

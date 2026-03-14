@@ -88,7 +88,7 @@
     allowedVerbs:
     - KnockOn
   - type: SoundBlocker # Trauma
-    soundBlockPercent: 0.35
+    soundBlockPercent: 0.5
 
 - type: entity
   parent: BaseMaterialDoor

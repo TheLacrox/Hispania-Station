@@ -230,7 +230,7 @@
     messages: WindowMessages
   # </Goobstation>
   - type: SoundBlocker # Trauma
-    soundBlockPercent: 0.65
+    soundBlockPercent: 0.8
 
 - type: entity
   abstract: true
