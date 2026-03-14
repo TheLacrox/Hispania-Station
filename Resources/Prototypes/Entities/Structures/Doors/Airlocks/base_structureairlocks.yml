@@ -276,6 +276,8 @@
     - KnockOn
   - type: WeldingSparksAnimation # Goobstation
     startingOffset: 0, 0.5
+  - type: SoundBlocker # Trauma
+    soundBlockPercent: 0.3
   placement:
     mode: SnapgridCenter
 

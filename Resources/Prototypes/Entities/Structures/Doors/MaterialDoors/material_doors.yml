@@ -87,6 +87,8 @@
   - type: InteractionVerbs # EE: Interaction Verbs
     allowedVerbs:
     - KnockOn
+  - type: SoundBlocker # Trauma
+    soundBlockPercent: 0.35
 
 - type: entity
   parent: BaseMaterialDoor
